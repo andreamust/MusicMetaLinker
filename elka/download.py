@@ -2,13 +2,12 @@
 Script for downloading the dump from the MusicBrainz database.
 """
 
-import argparse
-import os
-import sys
-from urllib import request, error
-import tqdm
-import tarfile
 import logging
+import os
+import tarfile
+from urllib import request, error
+
+import tqdm
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -53,9 +52,13 @@ class MBDownload:
                     except request.HTTPError as e:
                         raise error from e
         self.output_dir = output_dir
+        self.file_name = 'mbdump.tar.bz2'
 
     def _get_latest_dump(self, file_name='mbdump.tar.bz2'):
         """Gets the latest dump from the MusicBrainz database."""
+
+        self.file_name = file_name
+
         try:
             logger.info('Getting the latest dump from MusicBrainz...')
             # get latest dump
@@ -80,9 +83,9 @@ class MBDownload:
             with DownloadProgressBar(unit='B',
                                      unit_scale=True,
                                      miniters=1,
-                                     desc='Downloading MusicBrainz dump') as dpb:
+                                     desc='Downloading MusicBrainz') as dpb:
                 request.urlretrieve(download_url,
-                                    self.output_dir,
+                                    self.output_dir + self.file_name,
                                     reporthook=dpb.update_to)
             logger.info('Download finished.')
 
@@ -111,5 +114,5 @@ if __name__ == '__main__':
     # except DownloadError as e:
     #     print('Download failed.', file=sys.stderr)
 
-    mb_download = MBDownload(None, 'data/dump.tar.bz2')
+    mb_download = MBDownload(None, 'data/')
     download_path = mb_download.download()
