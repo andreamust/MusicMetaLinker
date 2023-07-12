@@ -7,11 +7,14 @@ import os
 import sys
 from urllib import request, error
 import tqdm
+import tarfile
+
 
 class DownloadProgressBar(tqdm.tqdm):
     """
-    Code taken from https://stackoverflow.com/questions/15644964/python-progress-bar-and-downloads
+    Class for displaying the progress bar while downloading the dump from the
     """
+
     def update_to(self, chunk_id=1, max_chunk_size=1, total_size=None):
         if total_size is not None:
             self.total = total_size
@@ -76,6 +79,11 @@ class MBDownload:
                                     self.output_dir,
                                     reporthook=dpb.update_to)
             print('Download completed.')
+            # extract the dump
+            print('Extracting the dump...')
+            tar = tarfile.open(self.output_dir, 'r:bz2')
+            tar.extractall(self.output_dir)
+            tar.close()
         except Exception as e:
             raise error from e
 
