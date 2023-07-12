@@ -8,6 +8,10 @@ import sys
 from urllib import request, error
 import tqdm
 import tarfile
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 
 class DownloadProgressBar(tqdm.tqdm):
@@ -35,17 +39,17 @@ class MBDownload:
             try:
                 request.urlopen(self.url_server_1)
                 self.url = self.url_server_1
-                print('Using the first server.')
+                logger.info('Using the first server.')
             except request.HTTPError:
                 try:
                     request.urlopen(self.url_server_2)
                     self.url = self.url_server_2
-                    print('Using the second server.')
+                    logger.info('Using the second server.')
                 except request.HTTPError:
                     try:
                         request.urlopen(self.url_server_3)
                         self.url = self.url_server_3
-                        print('Using the third server.')
+                        logger.info('Using the third server.')
                     except request.HTTPError as e:
                         raise error from e
         self.output_dir = output_dir
@@ -53,7 +57,7 @@ class MBDownload:
     def _get_latest_dump(self, file_name='mbdump.tar.bz2'):
         """Gets the latest dump from the MusicBrainz database."""
         try:
-            print('Getting the latest dump from the MusicBrainz database...')
+            logger.info('Getting the latest dump from MusicBrainz...')
             # get latest dump
             latest_response = request.urlopen(self.url + 'LATEST')
             latest_dump = latest_response.read().decode('utf-8').strip()
@@ -61,6 +65,7 @@ class MBDownload:
             return self.url + latest_dump + '/' + file_name
 
         except Exception as e:
+            logger.error('Getting the latest dump failed.')
             raise error from e
 
     def download(self):
@@ -68,7 +73,8 @@ class MBDownload:
         download_url = self._get_latest_dump()
 
         try:
-            print('Downloading the dump from the MusicBrainz database...')
+            logger.info('Downloading the dump from MusicBrainz...')
+            # download the dump
             if not os.path.exists(self.output_dir):
                 os.makedirs(self.output_dir)
             with DownloadProgressBar(unit='B',
@@ -78,13 +84,16 @@ class MBDownload:
                 request.urlretrieve(download_url,
                                     self.output_dir,
                                     reporthook=dpb.update_to)
-            print('Download completed.')
+            logger.info('Download finished.')
+
             # extract the dump
-            print('Extracting the dump...')
+            logger.info('Extracting the dump...')
             tar = tarfile.open(self.output_dir, 'r:bz2')
             tar.extractall(self.output_dir)
             tar.close()
+            logger.info('Extraction finished.')
         except Exception as e:
+            logger.error('Download failed.')
             raise error from e
 
 
