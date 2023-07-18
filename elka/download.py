@@ -91,8 +91,8 @@ class MBDownload:
 
             # extract the dump
             logger.info('Extracting the dump...')
-            tar = tarfile.open(self.output_dir, 'r:bz2')
-            tar.extractall(self.output_dir)
+            tar = tarfile.open(self.output_dir + self.file_name, 'r:bz2')
+            tar.extractall(self.output_dir + 'extracted')
             tar.close()
             logger.info('Extraction finished.')
         except Exception as e:
@@ -114,5 +114,5 @@ if __name__ == '__main__':
     # except DownloadError as e:
     #     print('Download failed.', file=sys.stderr)
 
-    mb_download = MBDownload(None, 'data/')
+    mb_download = MBDownload(None, '../data/')
     download_path = mb_download.download()
