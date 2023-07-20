@@ -2,8 +2,10 @@
 Script for downloading the dump from the MusicBrainz database.
 """
 
+import argparse
 import logging
 import os
+import sys
 import tarfile
 from urllib import request, error
 
@@ -101,18 +103,15 @@ class MBDownload:
 
 
 if __name__ == '__main__':
-    # parser = argparse.ArgumentParser(
-    #     description='Download the dump from the MusicBrainz database.')
-    # parser.add_argument('-u', '--url',
-    #                     help='URL of the dump from the MusicBrainz database.')
-    # parser.add_argument('-o', '--output_dir', help='Output directory.')
-    # args = parser.parse_args()
-    #
-    # try:
-    #     mb_download = MBDownload(args.url, args.output_dir)
-    #     mb_download.download()
-    # except DownloadError as e:
-    #     print('Download failed.', file=sys.stderr)
+    parser = argparse.ArgumentParser(
+        description='Download the dump from the MusicBrainz database.')
+    parser.add_argument('-u', '--url',
+                        help='URL of the dump from the MusicBrainz database.')
+    parser.add_argument('-o', '--output_dir', help='Output directory.')
+    args = parser.parse_args()
 
-    mb_download = MBDownload(None, '../data/')
-    download_path = mb_download.download()
+    try:
+        mb_download = MBDownload(args.url, args.output_dir)
+        mb_download.download()
+    except Exception as e:
+        print('Download failed.', file=sys.stderr)
