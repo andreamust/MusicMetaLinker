@@ -1,14 +1,20 @@
-import spacy
+"""Script for extracting relevant information from the JAMS files that
+will be used for aligning the data with the MusicBrainz database.
+"""
 
-nlp = spacy.load('en_core_web_lg')
+import argparse
+import logging
+import os
+import sys
+from pathlib import Path
 
-if __name__ == '__main__':
-    # try spacy entity recognizer
-    nlp.add_pipe("entityLinker", last=True)
-    doc = nlp(u'Rolling Stones')
+import tqdm
 
-    # returns all entities in the whole document
-    all_linked_entities = doc._.linkedEntities
-    # iterates over sentences and prints linked entities
-    for sent in doc.sents:
-        sent._.linkedEntities.pretty_print()
+from elka import utils
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+def extract_jams(jams_file: Path, output_dir: Path) -> None:
+    pass
