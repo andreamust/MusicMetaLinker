@@ -75,6 +75,8 @@ class MBDownload:
         """Downloads the dump from the MusicBrainz database."""
         download_url = self._get_latest_dump()
 
+        compressed_file = self.output_dir + self.file_name
+
         try:
             logger.info('Downloading the dump from MusicBrainz...')
             # download the dump
@@ -85,13 +87,13 @@ class MBDownload:
                                      miniters=1,
                                      desc='Downloading MusicBrainz') as dpb:
                 request.urlretrieve(download_url,
-                                    self.output_dir + self.file_name,
+                                    compressed_file,
                                     reporthook=dpb.update_to)
             logger.info('Download finished.')
 
             # extract the dump
             logger.info('Extracting the dump...')
-            tar = tarfile.open(self.output_dir, 'r:bz2')
+            tar = tarfile.open(compressed_file, 'r:bz2')
             tar.extractall(self.output_dir)
             tar.close()
             logger.info('Extraction finished.')
