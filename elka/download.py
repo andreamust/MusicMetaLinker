@@ -167,7 +167,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     try:
-        mb_download = MBDownload(args.url, args.output_dir)
+        mb_download = MBDownload(args.url, args.output_dir, args.clean)
         mb_download.download()
     except error as e:
         print('Download failed.', file=sys.stderr)
