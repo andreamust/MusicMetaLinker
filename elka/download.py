@@ -1,10 +1,12 @@
 """
 Script for downloading the dump from the MusicBrainz database.
 """
-
+import argparse
 import logging
 import os
+import sys
 import tarfile
+from pathlib import Path
 from urllib import request, error
 
 import tqdm
@@ -31,8 +33,31 @@ class MBDownload:
     url_server_2 = 'https://ftp.osuosl.org/pub/musicbrainz/data/fullexport/'
     url_server_3 = 'https://mirrors.dotsrc.org/MusicBrainz/data/fullexport/'
 
-    def __init__(self, url, output_dir):
-        """Initializes the class."""
+    def __init__(self, url: None | str,
+                 output_dir: str | Path,
+                 clean: bool) -> None:
+        """
+        Initializes the class.
+
+        Parameters
+        ----------
+        url : str | None
+            URL of the dump from the MusicBrainz database. If not specified,
+            the first server that responds is used.
+        output_dir : str
+            Output directory where the dump will be downloaded.
+        clean : bool
+            If True, the compressed data will be removed after extraction.
+
+        Raises
+        ------
+        urllib.error.HTTPError
+            If the specified URL is not valid.
+
+        Returns
+        -------
+        None
+        """
         # if no preferred server is specified, use the first one that responds
         if url is None:
             try:
@@ -54,8 +79,25 @@ class MBDownload:
         self.output_dir = output_dir
         self.file_name = 'mbdump.tar.bz2'
 
-    def _get_latest_dump(self, file_name='mbdump.tar.bz2'):
-        """Gets the latest dump from the MusicBrainz database."""
+    def _get_latest_dump(self, file_name: str = 'mbdump.tar.bz2') -> str:
+        """
+        Gets the latest dump from the MusicBrainz database.
+
+        Parameters
+        ----------
+        file_name : str
+            Name of the dump file.
+
+        Raises
+        ------
+        urllib.error.HTTPError
+            If the specified URL is not valid.
+
+        Returns
+        -------
+        str
+            URL of the latest dump.
+        """
 
         self.file_name = file_name
 
@@ -72,7 +114,18 @@ class MBDownload:
             raise error from e
 
     def download(self):
-        """Downloads the dump from the MusicBrainz database."""
+        """
+        Downloads the dump from the MusicBrainz database.
+
+        Raises
+        ------
+        urllib.error.HTTPError
+            If the specified URL is not valid.
+
+        Returns
+        -------
+        None
+        """
         download_url = self._get_latest_dump()
 
         compressed_file = self.output_dir + self.file_name
@@ -103,18 +156,18 @@ class MBDownload:
 
 
 if __name__ == '__main__':
-    # parser = argparse.ArgumentParser(
-    #     description='Download the dump from the MusicBrainz database.')
-    # parser.add_argument('-u', '--url',
-    #                     help='URL of the dump from the MusicBrainz database.')
-    # parser.add_argument('-o', '--output_dir', help='Output directory.')
-    # args = parser.parse_args()
-    #
-    # try:
-    #     mb_download = MBDownload(args.url, args.output_dir)
-    #     mb_download.download()
-    # except DownloadError as e:
-    #     print('Download failed.', file=sys.stderr)
+    parser = argparse.ArgumentParser(
+        description='Download the dump from the MusicBrainz database.')
+    parser.add_argument('-u', '--url',
+                        help='URL of the dump from the MusicBrainz database.')
+    parser.add_argument('-o', '--output_dir', help='Output directory.')
+    parser.add_argument('-c', '--clean', action='store_true',
+                        help='If True, the compressed data will be removed '
+                             'after extraction.')
+    args = parser.parse_args()
 
-    mb_download = MBDownload(None, 'data/')
-    download_path = mb_download.download()
+    try:
+        mb_download = MBDownload(args.url, args.output_dir)
+        mb_download.download()
+    except error as e:
+        print('Download failed.', file=sys.stderr)
