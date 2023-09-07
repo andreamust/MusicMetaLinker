@@ -92,6 +92,56 @@ class DeezerAlign:
             raise ValueError(f"Track {self.track} not found on Deezer")
         return [res for res in results][:limit]
 
+    def _filter_duration(
+        self, results: list[deezer.resources.Track], duration_threshold: int
+    ) -> list[deezer.resources.Track]:
+        """
+        Filter results based on the duration of the track.
+        Parameters
+        ----------
+        results : list[deezer.resources.Track]
+            List of Track objects, each of which contains the data of a track.
+        duration_threshold : int
+            Threshold for the duration difference between the best match and
+            the provided duration. If the difference is greater than the
+            threshold, an error is raised.
+        Returns
+        -------
+        list[deezer.resources.Track]
+            List of Track objects, each of which contains the data of a track,
+            filtered by duration. Only tracks with a duration within the
+            threshold are returned.
+        """
+        if self.duration is None or self.strict is False:
+            return results
+
+        return [
+            res
+            for res in results
+            if abs(res.duration - self.duration) <= duration_threshold
+        ]
+
+    def _filter_track_number(
+        self, results: list[deezer.resources.Track]
+    ) -> list[deezer.resources.Track]:
+        """
+        Filter results based on the track number of the track.
+        Parameters
+        ----------
+        results : list[deezer.resources.Track]
+            List of Track objects, each of which contains the data of a track.
+        Returns
+        -------
+        list[deezer.resources.Track]
+            List of Track objects, each of which contains the data of a track,
+            filtered by track number. Only tracks with a track number matching
+            the provided one are returned.
+        """
+        if self.track_number is None or self.strict is False:
+            return results
+
+        return [res for res in results if res.track_position == self.track_number]
+
     def best_match(self, duration_threshold: int = 3) -> deezer.resources.Track:
         """
         Return the best match for the track.
@@ -111,37 +161,19 @@ class DeezerAlign:
         """
         if self.duration is None and self.track_number is None:
             return self._get_data(limit=1)[0]
-        if self.duration is None and self.track_number is not None:
-            return self._get_data(limit=1)[0]
-        if self.duration is not None and self.track_number is None:
-            return self._get_data(limit=1)[0]
 
-        # if duration exists, get all results
+        # if duration or track number exist, get all results
         results = self._get_data()
-        durations = [res.duration for res in results]
-        idx = durations.index(min(durations, key=lambda x: abs(x - self.duration)))
+        # filter results by duration
+        results = self._filter_duration(results, duration_threshold)
+        # filter results by track number
+        results = self._filter_track_number(results)
 
-        # check if the duration of the best match is close enough to the
-        # provided duration in strict mode is greater than the threshold,
-        # raise an error
-        if self.strict and self.duration:
-            if abs(results[idx].duration - self.duration) > duration_threshold:
-                raise ValueError(
-                    "No match found. "
-                    f"Closest match: {results[idx].title} by "
-                    f"{results[idx].artist.name}"
-                )
-            valid_results = [
-                res
-                for res in results
-                if abs(res.duration - self.duration) <= duration_threshold
-            ]
-            if self.strict and self.track_number:
-                if results[idx].track_position != self.track_number:
-                    raise ValueError(
-                        "No match found. "
-                        f"Closest match: {results[idx].title} by {results[idx].artist.name}"
-                    )
+        # get all durations of the filtered results
+        durations = [res.duration for res in results]
+
+        # get the closest duration to the provided one
+        idx = durations.index(min(durations, key=lambda x: abs(x - self.duration)))
 
         return results[idx]
 
@@ -163,7 +195,7 @@ class DeezerAlign:
         int
             Duration of the best match in seconds.
         """
-        return self.best_match()["duration"]
+        return self.best_match().duration
 
     def get_id(self) -> int:
         """
@@ -173,7 +205,7 @@ class DeezerAlign:
         int
             Deezer ID of the best match.
         """
-        return self.best_match()["id"]
+        return self.best_match().id
 
     def get_preview(self) -> str:
         """
@@ -182,28 +214,48 @@ class DeezerAlign:
             -------
             str
                 Deezer preview of the best match.
-            """
-        return self.best_match()["preview"]
+        """
+        return self.best_match().preview
 
-    def get_artist(self) -> str:
+    def get_artist(self) -> deezer.resources.Artist:
         """
             Return the Deezer artist of the best match.
             Returns
             -------
-            str
+            deezer.resources.Artist
                 Deezer artist of the best match.
-            """
-        return self.best_match()["artist"]["name"]
+        """
+        return self.best_match().artist
 
-    def get_album(self) -> str:
+    def get_artist_name(self) -> str:
+        """
+            Return the Deezer artist name of the best match.
+            Returns
+            -------
+            str
+                Deezer artist name of the best match.
+        """
+        return self.get_artist().name
+
+    def get_album(self) -> deezer.resources.Album:
         """
             Return the Deezer album of the best match.
             Returns
             -------
-            str
+            deezer.resources.Album
                 Deezer album of the best match.
-            """
-        return self.best_match()["album"]["title"]
+        """
+        return self.best_match().album
+
+    def get_album_title(self) -> str:
+        """
+            Return the Deezer album title of the best match.
+            Returns
+            -------
+            str
+                Deezer album title of the best match.
+        """
+        return self.get_album().title
 
     def get_track(self) -> str:
         """
@@ -212,38 +264,59 @@ class DeezerAlign:
             -------
             str
                 Deezer track of the best match.
-            """
-        return self.best_match()["title"]
+        """
+        return self.best_match().title_short
 
-    def get_rank(self) -> str:
+    def get_rank(self) -> int:
         """
             Return the Deezer rank of the best match.
             Returns
             -------
-            str
+            int
                 Deezer rank of the best match.
-            """
-        return self.best_match()["rank"]
+        """
+        return self.best_match().rank
 
-    def get_track_number(self) -> str:
+    def get_track_number(self) -> int:
         """
             Return the Deezer track number of the best match.
             Returns
             -------
-            str
+            int
                 Deezer track number of the best match.
-            """
-        return self.best_match()["track_number"]
+        """
+        return self.best_match().track_position
+
+    def get_release_date(self) -> str:
+        """
+            Return the Deezer release date of the best match.
+            Returns
+            -------
+            str
+                Deezer release date of the best match.
+        """
+        return self.best_match().release_date.strftime("%d/%m/%Y")
+
+    def get_bpm(self) -> float:
+        """
+            Return the Deezer bpm of the best match.
+            Returns
+            -------
+            float
+                Deezer bpm of the best match.
+        """
+        return self.best_match().bpm
 
 
 if __name__ == "__main__":
     # test the DeezerAlign class
     deezer_align = DeezerAlign(
-        artist="The Beatles",
-        album="With the Beatles",
+        artist="",
+        album="",
         track="I Wanna Be Your Man",
-        duration=119.973,
+        duration=118.973,
         strict=True,
+        track_number=11,
     )
     print(deezer_align.best_match())
     print(deezer_align.get_link())
@@ -251,7 +324,11 @@ if __name__ == "__main__":
     print(deezer_align.get_id())
     print(deezer_align.get_preview())
     print(deezer_align.get_artist())
+    print(deezer_align.get_artist_name())
     print(deezer_align.get_album())
+    print(deezer_align.get_album_title())
     print(deezer_align.get_track())
     print(deezer_align.get_rank())
-    # print(deezer_align.get_track_number())
+    print(deezer_align.get_track_number())
+    print(deezer_align.get_release_date())
+    print(deezer_align.get_bpm())
