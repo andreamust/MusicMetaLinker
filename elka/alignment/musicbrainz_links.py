@@ -86,6 +86,7 @@ class MusicBrainzAlign:
             id=self.mbid,
             includes=["artists", "releases", "isrcs", "discids", "url-rels"],
             release_status=["official"],
+            release_type=["album"],
         )
         return mbid_results
 
@@ -230,6 +231,18 @@ class MusicBrainzAlign:
         """
         return self.get_best_match["release-list"][0]["date"]
 
+    def get_track_number(self) -> int:
+        """
+        Searches for the track in the MusicBrainz database.
+        Returns
+        -------
+        irsc_list : int
+            Dictionary containing the search results.
+        """
+        return self.get_best_match["release-list"][0]["medium-list"][0]["track-list"][
+            0
+        ]["number"]
+
 
 if __name__ == "__main__":
     # test the class
@@ -252,3 +265,4 @@ if __name__ == "__main__":
     print(mb_align.get_mbid())
     print(mb_align.get_isrc())
     print(mb_align.get_release_date())
+    print(mb_align.get_track_number())

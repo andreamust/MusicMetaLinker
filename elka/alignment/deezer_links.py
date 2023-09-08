@@ -60,13 +60,6 @@ class DeezerAlign:
         ValueError
             If no parameters are passed.
         """
-        if artist is None and album is None and track is None:
-            raise ValueError(
-                "No parameters passed. "
-                "Please specify at least one parameter among the "
-                "following: artist, album, track."
-            )
-
         self.artist = artist
         self.album = album
         self.track = track
@@ -78,7 +71,6 @@ class DeezerAlign:
         self.strict = strict
         self.fuzzy = False if fuzzy is True else True
 
-        print(self.isrc)
         # connect to Deezer API
         self.deezer_client = deezer.Client()
 
@@ -212,10 +204,9 @@ class DeezerAlign:
         # if duration or track number exist, get all results
         results = self._get_data()
 
-        print('results', results)
         # if isrc is specified, get the track with the given isrc
         results = self._get_track_by_isrc(results)
-        print('results_2', results)
+
         if len(results) == 1:
             return results[0]
         # filter results by duration
@@ -365,21 +356,21 @@ class DeezerAlign:
         """
         return self.best_match().bpm
 
-    def get_isrc(self) -> str:
+    def get_isrc(self) -> list[str]:
         """
             Return the Deezer isrc of the best match.
             Returns
             -------
-            str
+            list[str]
                 Deezer isrc of the best match.
         """
-        return self.best_match().isrc
+        return [self.best_match().isrc]
 
 
 if __name__ == "__main__":
     # test the DeezerAlign class
     deezer_align = DeezerAlign(
-        artist=None,
+        artist='Louis Armstrong and His Hot Five',
         album=None,
         track='Hotter than that',
         duration=None,
