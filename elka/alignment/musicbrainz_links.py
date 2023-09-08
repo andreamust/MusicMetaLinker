@@ -59,7 +59,7 @@ class MusicBrainzAlign:
 
         mb.set_useragent("elka", "0.1", "https://elka.com")
 
-    def _search_by_isrc(self):
+    def _search_by_isrc(self) -> dict:
         """
         Searches for the track in the MusicBrainz database by ISRC code.
         Returns
@@ -67,9 +67,14 @@ class MusicBrainzAlign:
         search_results : dict
             Dictionary containing the search results.
         """
-        return mb.get_recordings_by_isrc(isrc=self.isrc)
+        isrc_result = mb.get_recordings_by_isrc(
+            isrc=self.isrc,
+            includes=["artists", "releases", "isrcs", "discids", "url-rels"],
+            release_status=["official"],
+        )
+        return isrc_result
 
-    def _search_by_mbid(self):
+    def _search_by_mbid(self) -> dict:
         """
         Searches for the track in the MusicBrainz database by MBID.
         Returns
@@ -77,7 +82,12 @@ class MusicBrainzAlign:
         search_results : dict
             Dictionary containing the search results.
         """
-        return mb.get_recording_by_id(id=self.mbid)
+        mbid_results = mb.get_recording_by_id(
+            id=self.mbid,
+            includes=["artists", "releases", "isrcs", "discids", "url-rels"],
+            release_status=["official"],
+        )
+        return mbid_results
 
     def _search(self):
         """
@@ -139,10 +149,11 @@ class MusicBrainzAlign:
             Dictionary containing the search results.
         """
         results = self.get_recording()
-        if len(results) == 0:
-            return None
-        else:
+        if isinstance(results, list) and len(results) > 0:
             return results[0]
+        elif isinstance(results, dict):
+            return results["recording"]
+        return None
 
     def get_track(self):
         """
@@ -228,8 +239,8 @@ if __name__ == "__main__":
         album="",
         track="Hotter Than That",
         track_number=None,
-        mbid="8fbdddb7-a518-46b3-9a2c-e0193669e002",
         duration=181.49,
+        mbid="5478f78d-3cbc-4940-ab18-c605dd67b236",
         strict=True,
     )
     search_results = mb_align.get_recording()
