@@ -13,8 +13,8 @@ as Spotify, YouTube, etc.
 """
 import musicbrainzngs.musicbrainz
 
-from deezer_links import DeezerAlign
-from musicbrainz_links import MusicBrainzAlign
+from .deezer_links import DeezerAlign
+from .musicbrainz_links import MusicBrainzAlign
 
 
 class Align:

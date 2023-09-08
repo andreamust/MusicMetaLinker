@@ -17,7 +17,7 @@ class JAMSProcessor:
     used for aligning the data with the external resources, as well as for
     writing them in a new JAMS file.
     """
-    def __init__(self, jams_file: Path, output_dir: Path) -> None:
+    def __init__(self, jams_file: Path) -> None:
         """
         Initializes the class by taking the path to the JAMS file and the output
         directory where the extracted information will be saved.
@@ -25,16 +25,11 @@ class JAMSProcessor:
         ----------
         jams_file : Path
             Path to the JAMS file.
-        output_dir : Path
-            Path to the output directory.
         Returns
         -------
         None
         """
         self.jams_file = jams_file
-        self.output_dir = output_dir
-        if not self.output_dir.exists():
-            self.output_dir.mkdir(parents=True)
         # Load the JAMS file
         self.jams = jams.JAMS.loads(jams_file.read_text())
         # Create a new JAMS file
@@ -51,40 +46,62 @@ class JAMSProcessor:
         self.album_name = self.metadata.release
         self.duration = self.metadata.duration
         self.identifiers = self.metadata.identifiers
+        self.jams_version = self.metadata.jams_version
         self.musicbrainz_id = None
         if 'musicbrainz' in self.metadata.identifiers.keys():
             self.musicbrainz_id = self.metadata.identifiers['musicbrainz']
 
         # get individual sandbox
         self.type = self.sandbox['type']
+        self.genre = self.sandbox['genre']
         self.track_number = self.sandbox.track_number
         self.release_year = self.sandbox.release_year
-        self.composers = 'and'.join(self.sandbox.composers)
-        self.performers = 'and'.join(self.sandbox.performers)
+        self.composers = self.sandbox.composers
+        self.performers = self.sandbox.performers
         if not self.artist_name:
             if self.type == 'score':
-                self.artist_name = self.composers
+                self.artist_name = 'and'.join(self.composers)
             elif self.type == 'audio':
-                self.artist_name = self.performers
+                self.artist_name = 'and'.join(self.performers)
 
-    def write_jams(self) -> None:
+    def write_jams(self, output_path: Path) -> None:
         """
         Writes the extracted information in a new JAMS file.
         """
+        if not output_path.exists():
+            output_path.mkdir(parents=True)
+        new_metadata = jams.FileMetadata(
+            title=self.track_name,
+            artist=self.artist_name,
+            release=self.album_name,
+            duration=self.duration,
+            identifiers=self.identifiers,
+            jams_version=self.jams_version,
+        )
+
+        new_sandbox = jams.Sandbox(
+            type=self.type,
+            genre=self.genre,
+            track_number=self.track_number,
+            release_year=self.release_year,
+            composers=self.composers,
+            performers=self.performers,
+        )
+
         # add the metadata
-        self.jams_new.file_metadata = self.metadata
+        self.jams_new.file_metadata = new_metadata
         # add the sandbox
         self.jams_new.sandbox = self.sandbox
         # add the annotations
         self.jams_new.annotations.append(self.jams.annotations[0])
         # write the JAMS file
-        self.jams_new.save(self.output_dir / self.jams_file.name)
+        self.jams_new.save(str(output_path / self.jams_file.name))
 
 
 if __name__ == '__main__':
     # test the class
     jams_file = Path('../partitions/isophonics/choco/jams/isophonics_77.jams')
     output_dir = Path('../partitions/isophonics/choco/jams_aligned/')
-    jams_process = JAMSProcessor(jams_file, output_dir)
+    jams_process = JAMSProcessor(jams_file)
     print(jams_process.track_name)
 
