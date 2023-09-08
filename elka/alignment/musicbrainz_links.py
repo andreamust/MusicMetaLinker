@@ -123,7 +123,7 @@ class MusicBrainzAlign:
         """
         return [res for res in results if "isrc-list" in res.keys()]
 
-    def get_recording(self):
+    def get_recording(self) -> dict:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -140,7 +140,7 @@ class MusicBrainzAlign:
             return self._filter_search_results(preliminary_results)
 
     @property
-    def get_best_match(self):
+    def get_best_match(self) -> dict | None:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -155,52 +155,52 @@ class MusicBrainzAlign:
             return results["recording"]
         return None
 
-    def get_track(self):
+    def get_track(self) -> str:
         """
         Searches for the track in the MusicBrainz database.
         Returns
         -------
-        search_results : dict
+        search_results : str
             Dictionary containing the search results.
         """
         return self.get_best_match["title"]
 
-    def get_artist(self):
+    def get_artist(self) -> str:
         """
         Searches for the track in the MusicBrainz database.
         Returns
         -------
-        search_results : dict
+        search_results : str
             Dictionary containing the search results.
         """
         return self.get_best_match["artist-credit-phrase"]
 
-    def get_album(self):
+    def get_album(self) -> str:
         """
         Searches for the track in the MusicBrainz database.
         Returns
         -------
-        search_results : dict
+        search_results : str
             Dictionary containing the search results.
         """
         return self.get_best_match["release-list"][0]["title"]
 
-    def get_duration(self):
+    def get_duration(self) -> float:
         """
         Searches for the track in the MusicBrainz database.
         Returns
         -------
-        search_results : dict
+        search_results : float
             Dictionary containing the search results.
         """
         return int(self.get_best_match["length"]) / 1000
 
-    def get_mbid(self):
+    def get_mbid(self) -> str:
         """
         Searches for the track in the MusicBrainz database.
         Returns
         -------
-        search_results : dict
+        search_results : str
             Dictionary containing the search results.
         """
         return self.get_best_match["id"]
@@ -210,7 +210,7 @@ class MusicBrainzAlign:
         Searches for the track in the MusicBrainz database.
         Returns
         -------
-        irsc_list : list
+        irsc_list : list[str]
             Dictionary containing the search results.
         None
             If no ISRC code is found.
@@ -225,7 +225,7 @@ class MusicBrainzAlign:
         Searches for the track in the MusicBrainz database.
         Returns
         -------
-        irsc_list : list
+        irsc_list : str
             Dictionary containing the search results.
         """
         return self.get_best_match["release-list"][0]["date"]
