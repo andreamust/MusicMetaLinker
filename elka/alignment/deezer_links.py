@@ -1,7 +1,17 @@
 """
 Scripts for linking tracks to Deezer IDs using the Deezer API and their
 search functionalities.
+The script searches for correspondences in the Deezer database given the
+title, artist and album of the track.
+- If an ISRC is provided, the best match is the one with the same ISRC.
+- If a duration is provided, the best match is the one with the closest
+duration to the provided one.
+- If a track number is provided, the best match is the one with the same
+track number.
+- Otherwise, the best match is the first result returned by
+the Deezer API.
 """
+
 import time
 
 import deezer
@@ -376,17 +386,17 @@ if __name__ == "__main__":
         isrc='USSM10003868',
     )
     print(deezer_align.best_match())
-    # print(deezer_align.get_isrc())
-    # print(deezer_align.get_link())
-    # print(deezer_align.get_duration())
-    # print(deezer_align.get_id())
-    # print(deezer_align.get_preview())
-    # print(deezer_align.get_artist())
-    # print(deezer_align.get_artist_name())
-    # print(deezer_align.get_album())
-    # print(deezer_align.get_album_title())
-    # print(deezer_align.get_track())
-    # print(deezer_align.get_rank())
-    # print(deezer_align.get_track_number())
-    # print(deezer_align.get_release_date())
-    # print(deezer_align.get_bpm())
+    print(deezer_align.get_isrc())
+    print(deezer_align.get_link())
+    print(deezer_align.get_duration())
+    print(deezer_align.get_id())
+    print(deezer_align.get_preview())
+    print(deezer_align.get_artist())
+    print(deezer_align.get_artist_name())
+    print(deezer_align.get_album())
+    print(deezer_align.get_album_title())
+    print(deezer_align.get_track())
+    print(deezer_align.get_rank())
+    print(deezer_align.get_track_number())
+    print(deezer_align.get_release_date())
+    print(deezer_align.get_bpm())
