@@ -29,7 +29,7 @@ class DeezerAlign:
         track: str = None,
         track_number: int = None,
         duration: float = None,
-        isrc: str = None,
+        isrc: str | list = None,
         strict: bool = False,
         fuzzy: bool = True,
     ):
@@ -46,8 +46,8 @@ class DeezerAlign:
             Track number.
         duration : float
             Duration of the track in seconds.
-        isrc : str
-            ISRC identifier of the track.
+        isrc : str | list
+            ISRC identifiers of the track.
         strict : bool
             If True, raises an error if the input data do not correspond to any
             track on Deezer. If False, returns the best match.
@@ -72,6 +72,8 @@ class DeezerAlign:
         self.track = track
         self.track_number = track_number
         self.duration = duration
+        if isinstance(isrc, str):
+            self.isrc = [isrc]
         self.isrc = isrc
         self.strict = strict
         self.fuzzy = False if fuzzy is True else True
@@ -180,7 +182,7 @@ class DeezerAlign:
 
         filtered = []
         for res in results:
-            if res.isrc == self.isrc:
+            if res.isrc in self.isrc:
                 filtered.append(res)
                 break
             time.sleep(sleep)
@@ -383,7 +385,7 @@ if __name__ == "__main__":
         duration=None,
         strict=True,
         track_number=None,
-        isrc='USSM10003868',
+        isrc=['USSM10003868'],
     )
     print(deezer_align.best_match())
     print(deezer_align.get_isrc())
