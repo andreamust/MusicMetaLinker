@@ -9,11 +9,6 @@ import deezer
 class DeezerAlign:
     """
     Search for a track on Deezer and return its data.
-    So far, the class supports the following methods:
-        - get_data
-        - get_link
-        - get_duration
-        - get_id
     """
 
     def __init__(
@@ -86,8 +81,12 @@ class DeezerAlign:
             If the track is not found.
         """
         results = self.deezer_client.search(
-            track=self.track, artist=self.artist, album=self.album, strict=self.fuzzy,
+            track=self.track,
+            artist=self.artist,
+            album=self.album,
+            strict=self.fuzzy,
         )
+
         if len(results) == 0:
             raise ValueError(f"Track {self.track} not found on Deezer")
         return [res for res in results][:limit]
