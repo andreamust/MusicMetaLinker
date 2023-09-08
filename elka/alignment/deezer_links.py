@@ -2,6 +2,7 @@
 Scripts for linking tracks to Deezer IDs using the Deezer API and their
 search functionalities.
 """
+import time
 
 import deezer
 
@@ -18,6 +19,7 @@ class DeezerAlign:
         track: str = None,
         track_number: int = None,
         duration: float = None,
+        isrc: str = None,
         strict: bool = False,
         fuzzy: bool = True,
     ):
@@ -34,6 +36,8 @@ class DeezerAlign:
             Track number.
         duration : float
             Duration of the track in seconds.
+        isrc : str
+            ISRC identifier of the track.
         strict : bool
             If True, raises an error if the input data do not correspond to any
             track on Deezer. If False, returns the best match.
@@ -58,9 +62,11 @@ class DeezerAlign:
         self.track = track
         self.track_number = track_number
         self.duration = duration
+        self.isrc = isrc
         self.strict = strict
         self.fuzzy = False if fuzzy is True else True
 
+        print(self.isrc)
         # connect to Deezer API
         self.deezer_client = deezer.Client()
 
@@ -141,6 +147,36 @@ class DeezerAlign:
 
         return [res for res in results if res.track_position == self.track_number]
 
+    def _get_track_by_isrc(self,
+                           results: list[deezer.resources.Track]
+    ) -> list[deezer.resources.Track]:
+        """
+        Filters the results taking only tracks with the given ISRC.
+        Parameters
+        ----------
+        results : list[deezer.resources.Track]
+            List of Track objects, each of which contains the data of a track.
+        Returns
+        -------
+        dict
+            Dictionary containing the data of the track.
+        """
+        if self.isrc is None:
+            return results
+
+        sleep = 0
+        if len(results) > 30:
+            sleep = 0.5
+
+        filtered = []
+        for res in results:
+            if res.isrc == self.isrc:
+                filtered.append(res)
+                break
+            time.sleep(sleep)
+
+        return filtered
+
     def best_match(self, duration_threshold: int = 3) -> deezer.resources.Track:
         """
         Return the best match for the track.
@@ -158,23 +194,34 @@ class DeezerAlign:
         dict
             Dictionary containing the data of the best match.
         """
-        if self.duration is None and self.track_number is None:
+        if not self.duration and not self.track_number and not self.isrc:
             return self._get_data(limit=1)[0]
 
         # if duration or track number exist, get all results
         results = self._get_data()
+
+        print('results', results)
+        # if isrc is specified, get the track with the given isrc
+        results = self._get_track_by_isrc(results)
+        print('results_2', results)
+        if len(results) == 1:
+            return results[0]
         # filter results by duration
         results = self._filter_duration(results, duration_threshold)
         # filter results by track number
         results = self._filter_track_number(results)
 
-        # get all durations of the filtered results
-        durations = [res.duration for res in results]
+        # if duration is specified, get the closest duration
+        if self.duration:
+            # get all durations of the filtered results
+            durations = [res.duration for res in results]
 
-        # get the closest duration to the provided one
-        idx = durations.index(min(durations, key=lambda x: abs(x - self.duration)))
+            # get the closest duration to the provided one
+            idx = durations.index(min(durations,
+                                      key=lambda x: abs(x - self.duration)))
+            return results[idx]
 
-        return results[idx]
+        return results[0] if len(results) > 0 else None
 
     def get_link(self) -> str:
         """
@@ -306,28 +353,40 @@ class DeezerAlign:
         """
         return self.best_match().bpm
 
+    def get_isrc(self) -> str:
+        """
+            Return the Deezer isrc of the best match.
+            Returns
+            -------
+            str
+                Deezer isrc of the best match.
+        """
+        return self.best_match().isrc
+
 
 if __name__ == "__main__":
     # test the DeezerAlign class
     deezer_align = DeezerAlign(
-        artist="",
-        album="",
-        track="I Wanna Be Your Man",
-        duration=118.973,
+        artist=None,
+        album=None,
+        track='Hotter than that',
+        duration=None,
         strict=True,
-        track_number=11,
+        track_number=None,
+        isrc='USSM10003868',
     )
     print(deezer_align.best_match())
-    print(deezer_align.get_link())
-    print(deezer_align.get_duration())
-    print(deezer_align.get_id())
-    print(deezer_align.get_preview())
-    print(deezer_align.get_artist())
-    print(deezer_align.get_artist_name())
-    print(deezer_align.get_album())
-    print(deezer_align.get_album_title())
-    print(deezer_align.get_track())
-    print(deezer_align.get_rank())
-    print(deezer_align.get_track_number())
-    print(deezer_align.get_release_date())
-    print(deezer_align.get_bpm())
+    # print(deezer_align.get_isrc())
+    # print(deezer_align.get_link())
+    # print(deezer_align.get_duration())
+    # print(deezer_align.get_id())
+    # print(deezer_align.get_preview())
+    # print(deezer_align.get_artist())
+    # print(deezer_align.get_artist_name())
+    # print(deezer_align.get_album())
+    # print(deezer_align.get_album_title())
+    # print(deezer_align.get_track())
+    # print(deezer_align.get_rank())
+    # print(deezer_align.get_track_number())
+    # print(deezer_align.get_release_date())
+    # print(deezer_align.get_bpm())
