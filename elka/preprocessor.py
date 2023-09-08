@@ -2,16 +2,10 @@
 will be used for aligning the data with the MusicBrainz database.
 """
 
-import argparse
 import logging
-import os
-import sys
 from pathlib import Path
 
 import jams
-import tqdm
-
-from elka import utils
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
