@@ -6,7 +6,7 @@ from the JAMS files.
 import musicbrainzngs as mb
 
 
-class MusiBrainzAlign:
+class MusicBrainzAlign:
     """
     Class for creating links between MusicBrainz given the extracted information
     from the JAMS files.
@@ -222,20 +222,14 @@ class MusiBrainzAlign:
 
 if __name__ == "__main__":
     # test the class
-    artist = "Louis Armstrong and His Hot Five"
-    album = ""
-    track = "Hotter Than That"
-    track_number = None
-    mbid = "8fbdddb7-a518-46b3-9a2c-e0193669e002"
-    duration = 181.49
-    strict = False
 
-    mb_align = MusiBrainzAlign(
-        artist=artist,
-        album=album,
-        track=track,
-        track_number=track_number,
-        duration=duration,
+    mb_align = MusicBrainzAlign(
+        artist="Louis Armstrong and His Hot Five",
+        album="",
+        track="Hotter Than That",
+        track_number=None,
+        mbid="8fbdddb7-a518-46b3-9a2c-e0193669e002",
+        duration=181.49,
         strict=True,
     )
     search_results = mb_align.get_recording()
