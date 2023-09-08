@@ -11,10 +11,248 @@ The scripts are based on the following libraries:
 The library will be expanded in the future to support more repositories, such
 as Spotify, YouTube, etc.
 """
+import musicbrainzngs.musicbrainz
 
-from .deezer_links import DeezerAlign
+from deezer_links import DeezerAlign
+from musicbrainz_links import MusicBrainzAlign
 
-__all__ = ["DeezerAlign"]
+
+class Align:
+    """
+    Class for creating links between the audio partitions and the external
+    resources.
+    So far, the following repositories are supported:
+        - MusicBrainz
+        - Deezer
+    """
+
+    def __init__(self,
+                mbid: str = None,
+                artist: str = None,
+                album: str = None,
+                track: str = None,
+                track_number: int = None,
+                duration: float = None,
+                isrc: str | list = None,
+                strict: bool = False,
+                ):
+        """
+        Initializes the class by taking the metadata of the track and the
+        parameters for the search.
+        Parameters
+        ----------
+        mbid : str
+            MusicBrainz ID.
+        artist : str
+            Artist name.
+        album : str
+            Album name.
+        track : str
+            Track name.
+        track_number : int
+            Track number.
+        duration : float
+            Track duration.
+        isrc : str | list
+            ISRC code.
+        strict : bool
+            Whether to use strict search or not.
+        Returns
+        -------
+        None
+        """
+        self.mbid = mbid
+        self.artist = artist
+        self.album = album
+        self.track = track
+        self.track_number = track_number
+        self.duration = duration
+        self.isrc = isrc
+        self.strict = strict
+
+        if isinstance(self.isrc, str):
+            self.isrc = [self.isrc]
+
+        self.mb_link = MusicBrainzAlign(
+            mbid=self.mbid,
+            artist=self.artist,
+            album=self.album,
+            track=self.track,
+            track_number=self.track_number,
+            duration=self.duration,
+            isrc=self.isrc,
+            strict=self.strict,
+        )
+
+        # check that the MusicBrainz ID is valid
+        if self.mbid:
+            try:
+                self.isrc = self.mb_link.get_isrc()
+                self.track = self.mb_link.get_track() if not self.track else self.track
+                self.artist = self.mb_link.get_artist() if not self.artist else self.artist
+            except musicbrainzngs.musicbrainz.ResponseError:
+                self.mbid = None
+
+        self.dz_link = DeezerAlign(
+            artist=self.artist,
+            album=self.album,
+            track=self.track,
+            track_number=self.track_number,
+            duration=self.duration,
+            isrc=self.isrc,
+            strict=False,
+        )
+
+    def get_artist(self) -> str:
+        """
+        Returns the artist name.
+        Returns
+        -------
+        str
+            Artist name.
+        """
+        if self.artist:
+            return self.artist
+        elif self.mbid:
+            return self.mb_link.get_artist()
+        return self.dz_link.get_artist()
+
+    def get_album(self) -> str:
+        """
+        Returns the album name.
+        Returns
+        -------
+        str
+            Album name.
+        """
+        if self.album:
+            return self.album
+        elif self.mbid:
+            return self.mb_link.get_album()
+        return self.dz_link.get_album()
+
+    def get_track(self) -> str:
+        """
+        Returns the track name.
+        Returns
+        -------
+        str
+            Track name.
+        """
+        if self.track:
+            return self.track
+        elif self.mbid:
+            return self.mb_link.get_track()
+        return self.dz_link.get_track()
+
+    def get_track_number(self) -> int:
+        """
+        Returns the track number.
+        Returns
+        -------
+        int
+            Track number.
+        """
+        if self.track_number:
+            return self.track_number
+        return self.dz_link.get_track_number()
+
+    def get_duration(self) -> float:
+        """
+        Returns the track duration.
+        Returns
+        -------
+        float
+            Track duration.
+        """
+        if self.duration:
+            return self.duration
+        elif self.mbid:
+            return self.mb_link.get_duration()
+        return self.dz_link.get_duration()
+
+    def get_isrc(self) -> list[str]:
+        """
+        Returns the ISRC code.
+        Returns
+        -------
+        list[str]
+            ISRC codes.
+        """
+        if self.isrc:
+            return self.isrc
+        elif self.mbid:
+            return self.mb_link.get_isrc()
+        return self.dz_link.get_isrc()
+
+    def get_release_date(self) -> str:
+        """
+        Returns the release date.
+        Returns
+        -------
+        str
+            Release date.
+        """
+        if self.mbid:
+            return self.mb_link.get_release_date()
+        return self.dz_link.get_release_date()
+
+    def get_mbid(self) -> str:
+        """
+        Returns the MusicBrainz ID.
+        Returns
+        -------
+        str
+            MusicBrainz ID.
+        """
+        if self.mbid:
+            return self.mbid
+        return self.mb_link.get_mbid()
+
+    def get_deezer_id(self) -> int:
+        """
+        Returns the Deezer ID.
+        Returns
+        -------
+        int
+            Deezer ID.
+        """
+        return self.dz_link.get_id()
+
+    def get_deezer_link(self) -> str:
+        """
+        Returns the Deezer link.
+        Returns
+        -------
+        str
+            Deezer link.
+        """
+        return self.dz_link.get_link()
+
+
+if __name__ == '__main__':
+    # test the class
+    aligner = Align(
+        mbid="5478f78d-3cbc-4940-ab18-c605dd67b236",
+        artist='Louis Armstrong',
+        album=None,
+        track=None,
+        track_number=None,
+        duration=None,
+        isrc=None,
+        strict=True,
+    )
+    print(aligner.get_artist())
+    print(aligner.get_album())
+    print(aligner.get_track())
+    print(aligner.get_track_number())
+    print(aligner.get_duration())
+    print(aligner.get_isrc())
+    print(aligner.get_release_date())
+    print(aligner.get_mbid())
+    print(aligner.get_deezer_id())
+    print(aligner.get_deezer_link())
+
 
 
 
