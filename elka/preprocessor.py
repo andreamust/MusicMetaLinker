@@ -53,7 +53,6 @@ class JAMSProcess:
         print(self.duration)
 
 
-
 if __name__ == '__main__':
     # test the class
     jams_file = Path('../partitions/isophonics/choco/jams/isophonics_77.jams')
