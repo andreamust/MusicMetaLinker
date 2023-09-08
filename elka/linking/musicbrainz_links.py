@@ -86,7 +86,7 @@ class MusicBrainzAlign:
             id=self.mbid,
             includes=["artists", "releases", "isrcs", "discids", "url-rels"],
             release_status=["official"],
-            release_type=["album"],
+            release_type=["album, single, ep"],
         )
         return mbid_results
 

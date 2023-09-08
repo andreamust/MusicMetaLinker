@@ -2,12 +2,7 @@
 Scripts for retrieving links of the audio partitions form the following
 repositories:
     - MusicBrainz
-    - AcousticBrainz
-    - Last.fm
-    - Discogs
-    - DBPedia
-    - WikiData
-    - YouTube
+    - Deezer
 
 Notes for the alignment:
 - Isophonics: has metadata and release, stored as audio_reference;
@@ -24,22 +19,30 @@ Notes for the alignment:
 - Weimar Jazz Database: contains MusicBrainz IDs.
 """
 
-import argparse
-import logging
-import os
-import sys
 from pathlib import Path
 
-import tqdm
+from linking import deezer_links, musicbrainz_links
+from preprocessor import JAMSProcessor
 
-from elka import utils
+import glob
+import os
 
-import musicbrainzngs
-
-musicbrainzngs.set_useragent("application", "0.01", "http://example.com")
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
+def retrieve_links(partitions_path: Path,
+                   save: bool = True,
+                   download: bool = False):
+    """
+    Iterates over the partitions and retrieves the links for each one of them.
+    Parameters
+    ----------
+    partitions_path : Path
+        Path to the partitions.
+    save : bool
+        Whether to save the retrieved information in a new JAMS file or not.
+    download : bool
+        Whether to download the audio files or not.
+    Returns
+    -------
+    None
+    """
 
 

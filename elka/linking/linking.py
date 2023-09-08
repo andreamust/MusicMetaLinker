@@ -26,16 +26,17 @@ class Align:
         - Deezer
     """
 
-    def __init__(self,
-                mbid: str = None,
-                artist: str = None,
-                album: str = None,
-                track: str = None,
-                track_number: int = None,
-                duration: float = None,
-                isrc: str | list = None,
-                strict: bool = False,
-                ):
+    def __init__(
+        self,
+        mbid: str = None,
+        artist: str = None,
+        album: str = None,
+        track: str = None,
+        track_number: int = None,
+        duration: float = None,
+        isrc: str | list = None,
+        strict: bool = False,
+    ):
         """
         Initializes the class by taking the metadata of the track and the
         parameters for the search.
@@ -89,7 +90,9 @@ class Align:
             try:
                 self.isrc = self.mb_link.get_isrc()
                 self.track = self.mb_link.get_track() if not self.track else self.track
-                self.artist = self.mb_link.get_artist() if not self.artist else self.artist
+                self.artist = (
+                    self.mb_link.get_artist() if not self.artist else self.artist
+                )
             except musicbrainzngs.musicbrainz.ResponseError:
                 self.mbid = None
 
@@ -230,11 +233,11 @@ class Align:
         return self.dz_link.get_link()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # test the class
     aligner = Align(
         mbid="5478f78d-3cbc-4940-ab18-c605dd67b236",
-        artist='Louis Armstrong',
+        artist="Louis Armstrong",
         album=None,
         track=None,
         track_number=None,
@@ -252,8 +255,3 @@ if __name__ == '__main__':
     print(aligner.get_mbid())
     print(aligner.get_deezer_id())
     print(aligner.get_deezer_link())
-
-
-
-
-

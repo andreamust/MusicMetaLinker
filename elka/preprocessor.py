@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-class JAMSProcess:
+class JAMSProcessor:
     """
     Class for extracting relevant information from the JAMS files that will be
     used for aligning the data with the external resources, as well as for
@@ -42,20 +42,49 @@ class JAMSProcess:
 
         # get the metadata
         self.metadata = self.jams.file_metadata
+        # get the sandbox
+        self.sandbox = self.jams.sandbox
+
+        # get individual metadata
         self.track_name = self.metadata.title
         self.artist_name = self.metadata.artist
         self.album_name = self.metadata.release
         self.duration = self.metadata.duration
+        self.identifiers = self.metadata.identifiers
+        self.musicbrainz_id = None
+        if 'musicbrainz' in self.metadata.identifiers.keys():
+            self.musicbrainz_id = self.metadata.identifiers['musicbrainz']
 
-        print(self.track_name)
-        print(self.artist_name)
-        print(self.album_name)
-        print(self.duration)
+        # get individual sandbox
+        self.type = self.sandbox['type']
+        self.track_number = self.sandbox.track_number
+        self.release_year = self.sandbox.release_year
+        self.composers = 'and'.join(self.sandbox.composers)
+        self.performers = 'and'.join(self.sandbox.performers)
+        if not self.artist_name:
+            if self.type == 'score':
+                self.artist_name = self.composers
+            elif self.type == 'audio':
+                self.artist_name = self.performers
+
+    def write_jams(self) -> None:
+        """
+        Writes the extracted information in a new JAMS file.
+        """
+        # add the metadata
+        self.jams_new.file_metadata = self.metadata
+        # add the sandbox
+        self.jams_new.sandbox = self.sandbox
+        # add the annotations
+        self.jams_new.annotations.append(self.jams.annotations[0])
+        # write the JAMS file
+        self.jams_new.save(self.output_dir / self.jams_file.name)
 
 
 if __name__ == '__main__':
     # test the class
     jams_file = Path('../partitions/isophonics/choco/jams/isophonics_77.jams')
     output_dir = Path('../partitions/isophonics/choco/jams_aligned/')
-    jams_process = JAMSProcess(jams_file, output_dir)
+    jams_process = JAMSProcessor(jams_file, output_dir)
+    print(jams_process.track_name)
 
