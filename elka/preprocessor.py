@@ -5,6 +5,7 @@ will be used for aligning the data with the MusicBrainz database.
 import logging
 from pathlib import Path
 
+import namespaces
 import jams
 
 logging.basicConfig(level=logging.INFO)
@@ -99,7 +100,8 @@ class JAMSProcessor:
         # add the annotations
         self.jams_new.annotations.append(self.jams.annotations[0])
         # write the JAMS file
-        self.jams_new.save(str(output_path / self.jams_file.name))
+        self.jams_new.save(str(output_path / self.jams_file.name),
+                           strict=False)
 
 
 if __name__ == '__main__':
