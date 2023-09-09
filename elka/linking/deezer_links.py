@@ -84,7 +84,7 @@ class DeezerAlign:
             self.isrc,
         )
 
-    def _get_data(self, limit: int = None) -> list[deezer.resources.Track]:
+    def _get_data(self, limit: int = None) -> list[deezer.resources.Track] | None:
         """
         Search for a track on Deezer and return its data.
         Parameters
@@ -105,7 +105,7 @@ class DeezerAlign:
         )
 
         if len(results) == 0:
-            raise ValueError(f"Track {self.track} not found on Deezer")
+            return None
         return [res for res in results][:limit]
 
     def _filter_duration(
@@ -174,7 +174,7 @@ class DeezerAlign:
             except Exception:
                 continue
 
-    def best_match(self, duration_threshold: int = 3) -> deezer.resources.Track:
+    def best_match(self, duration_threshold: int = 3) -> deezer.resources.Track | None:
         """
         Return the best match for the track.
         If a duration is provided, the best match is the one with the closest
@@ -200,6 +200,9 @@ class DeezerAlign:
         # if duration or track number exist, get all results
         results = self._get_data()
 
+        if results is None:
+            return None
+
         if len(results) == 1:
             return results[0]
         # filter results by duration
@@ -218,7 +221,7 @@ class DeezerAlign:
 
         return results[0] if len(results) > 0 else None
 
-    def get_link(self) -> str:
+    def get_link(self) -> str | None:
         """
         Return the Deezer link of the best match.
         Returns
@@ -226,9 +229,12 @@ class DeezerAlign:
         str
             Deezer link of the best match.
         """
-        return self.best_match().link
+        try:
+            return self.best_match().link
+        except AttributeError:
+            return None
 
-    def get_duration(self) -> int:
+    def get_duration(self) -> int | None:
         """
         Return the duration of the best match.
         Returns
@@ -236,7 +242,10 @@ class DeezerAlign:
         int
             Duration of the best match in seconds.
         """
-        return self.best_match().duration
+        try:
+            return self.best_match().duration
+        except AttributeError:
+            return None
 
     def get_id(self) -> int:
         """
@@ -246,7 +255,10 @@ class DeezerAlign:
         int
             Deezer ID of the best match.
         """
-        return self.best_match().id
+        try:
+            return self.best_match().id
+        except AttributeError:
+            return None
 
     def get_preview(self) -> str:
         """
@@ -258,7 +270,7 @@ class DeezerAlign:
         """
         return self.best_match().preview
 
-    def get_artist(self) -> deezer.resources.Artist:
+    def get_artist(self) -> deezer.resources.Artist | None:
         """
             Return the Deezer artist of the best match.
             Returns
@@ -266,9 +278,12 @@ class DeezerAlign:
             deezer.resources.Artist
                 Deezer artist of the best match.
         """
-        return self.best_match().artist
+        try:
+            return self.best_match().artist
+        except AttributeError:
+            return None
 
-    def get_artist_name(self) -> str:
+    def get_artist_name(self) -> str | None:
         """
             Return the Deezer artist name of the best match.
             Returns
@@ -276,9 +291,12 @@ class DeezerAlign:
             str
                 Deezer artist name of the best match.
         """
-        return self.get_artist().name
+        try:
+            return self.get_artist().name
+        except AttributeError:
+            return None
 
-    def get_album(self) -> deezer.resources.Album:
+    def get_album(self) -> deezer.resources.Album | None:
         """
             Return the Deezer album of the best match.
             Returns
@@ -286,9 +304,12 @@ class DeezerAlign:
             deezer.resources.Album
                 Deezer album of the best match.
         """
-        return self.best_match().album
+        try:
+            return self.best_match().album
+        except AttributeError:
+            return None
 
-    def get_album_title(self) -> str:
+    def get_album_title(self) -> str | None:
         """
             Return the Deezer album title of the best match.
             Returns
@@ -296,9 +317,12 @@ class DeezerAlign:
             str
                 Deezer album title of the best match.
         """
-        return self.get_album().title
+        try:
+            return self.get_album().title
+        except AttributeError:
+            return None
 
-    def get_track(self) -> str:
+    def get_track(self) -> str | None:
         """
             Return the Deezer track of the best match.
             Returns
@@ -306,9 +330,12 @@ class DeezerAlign:
             str
                 Deezer track of the best match.
         """
-        return self.best_match().title_short
+        try:
+            return self.best_match().title_short
+        except AttributeError:
+            return None
 
-    def get_rank(self) -> int:
+    def get_rank(self) -> int | None:
         """
             Return the Deezer rank of the best match.
             Returns
@@ -316,7 +343,10 @@ class DeezerAlign:
             int
                 Deezer rank of the best match.
         """
-        return self.best_match().rank
+        try:
+            return self.best_match().rank
+        except AttributeError:
+            return None
 
     def get_track_number(self) -> int:
         """
@@ -326,9 +356,12 @@ class DeezerAlign:
             int
                 Deezer track number of the best match.
         """
-        return self.best_match().track_position
+        try:
+            return self.best_match().track_position
+        except AttributeError:
+            return None
 
-    def get_release_date(self) -> str:
+    def get_release_date(self) -> str | None:
         """
             Return the Deezer release date of the best match.
             Returns
@@ -336,9 +369,12 @@ class DeezerAlign:
             str
                 Deezer release date of the best match.
         """
-        return self.best_match().release_date.strftime("%d/%m/%Y")
+        try:
+            return self.best_match().release_date.strftime("%d/%m/%Y")
+        except AttributeError:
+            return None
 
-    def get_bpm(self) -> float:
+    def get_bpm(self) -> float | None:
         """
             Return the Deezer bpm of the best match.
             Returns
@@ -346,9 +382,12 @@ class DeezerAlign:
             float
                 Deezer bpm of the best match.
         """
-        return self.best_match().bpm
+        try:
+            return self.best_match().bpm
+        except AttributeError:
+            return None
 
-    def get_isrc(self) -> str:
+    def get_isrc(self) -> str | None:
         """
             Return the Deezer isrc of the best match.
             Returns
@@ -356,7 +395,10 @@ class DeezerAlign:
             str
                 Deezer isrc of the best match.
         """
-        return self.best_match().isrc
+        try:
+            return self.best_match().isrc
+        except AttributeError:
+            return None
 
 
 if __name__ == "__main__":

@@ -130,15 +130,21 @@ class Align:
         str
             Artist name.
         """
+        artist = None
+
         if self.artist:
             return self.artist
         elif self.mbid:
-            return self.mb_link.get_artist()
-        else:
-            try:
-                return self.yt_link.get_youtube_artist()
-            except ValueError:
-                return self.dz_link.get_artist()
+            artist = self.mb_link.get_artist()
+
+        # check iteratively on all the implemented platforms
+        if artist is None:
+            artist = self.dz_link.get_artist()
+            if artist is None:
+                artist = self.mb_link.get_artist()
+                if artist is None:
+                    artist = self.yt_link.get_youtube_artist()
+        return artist
 
     def get_album(self) -> str:
         """
@@ -148,15 +154,21 @@ class Align:
         str
             Album name.
         """
+        album = None
+
         if self.album:
             return self.album
         elif self.mbid:
-            return self.mb_link.get_album()
-        else:
-            try:
-                return self.yt_link.get_youtube_album()
-            except ValueError:
-                return self.dz_link.get_album()
+            album = self.mb_link.get_album()
+
+        # check iteratively on all the implemented platforms
+        if album is None:
+            album = self.dz_link.get_album()
+            if album is None:
+                album = self.mb_link.get_album()
+                if album is None:
+                    album = self.yt_link.get_youtube_album()
+        return album
 
     def get_track(self) -> str:
         """
@@ -166,15 +178,21 @@ class Align:
         str
             Track name.
         """
+        track = None
+
         if self.track:
             return self.track
         elif self.mbid:
-            return self.mb_link.get_track()
-        else:
-            try:
-                return self.yt_link.get_youtube_title()
-            except ValueError:
-                return self.dz_link.get_track()
+            track = self.mb_link.get_track()
+
+        # check iteratively on all the implemented platforms
+        if track is None:
+            track = self.dz_link.get_track()
+            if track is None:
+                track = self.mb_link.get_track()
+                if track is None:
+                    track = self.yt_link.get_youtube_title()
+        return track
 
     def get_track_number(self) -> int | None:
         """
@@ -184,12 +202,19 @@ class Align:
         int
             Track number.
         """
+        track_number = None
+
         if self.track_number:
             return self.track_number
-        try:
-            return self.dz_link.get_track_number()
-        except ValueError:
-            return None
+        if self.mbid:
+            track_number = self.mb_link.get_track_number()
+
+        # check iteratively on all the implemented platforms
+        if track_number is None:
+            track_number = self.dz_link.get_track_number()
+            if track_number is None:
+                track_number = self.mb_link.get_track_number()
+        return track_number
 
     def get_duration(self) -> float:
         """
@@ -199,18 +224,21 @@ class Align:
         float
             Track duration.
         """
+        duration = None
+
         if self.duration:
             return self.duration
         elif self.mbid:
-            try:
-                return self.mb_link.get_duration()
-            except Exception:
-                pass
-        else:
-            try:
-                return self.yt_link.get_youtube_duration()
-            except ValueError:
-                return self.dz_link.get_duration()
+            duration = self.mb_link.get_duration()
+
+        # check iteratively on all the implemented platforms
+        if duration is None:
+            duration = self.dz_link.get_duration()
+            if duration is None:
+                duration = self.mb_link.get_duration()
+                if duration is None:
+                    duration = self.yt_link.get_youtube_duration()
+        return duration
 
     def get_isrc(self) -> list[str] | None:
         """
@@ -220,18 +248,17 @@ class Align:
         list[str]
             ISRC codes.
         """
+        isrc = None
+
         if self.isrc:
             return self.isrc
         elif self.mbid:
-            try:
-                return self.mb_link.get_isrc()
-            except Exception:
-                return None
-        else:
-            try:
-                return [self.dz_link.get_isrc()]
-            except ValueError:
-                return None
+            isrc = self.mb_link.get_isrc()
+
+        # check on deezer
+        if isrc is None:
+            isrc = self.dz_link.get_isrc()
+        return isrc
 
     def get_release_date(self) -> str:
         """
@@ -243,10 +270,7 @@ class Align:
         """
         if self.mbid:
             return self.mb_link.get_release_date()
-        try:
-            return self.dz_link.get_release_date()
-        except ValueError:
-            return None
+        return self.dz_link.get_release_date()
 
     def get_mbid(self) -> str | None:
         """
@@ -258,10 +282,7 @@ class Align:
         """
         if self.mbid:
             return self.mbid
-        try:
-            return self.mb_link.get_mbid()
-        except Exception:
-            return None
+        return self.mb_link.get_mbid()
 
     def get_deezer_id(self) -> int | None:
         """
@@ -271,10 +292,7 @@ class Align:
         int
             Deezer ID.
         """
-        try:
-            return self.dz_link.get_id()
-        except ValueError:
-            return None
+        return self.dz_link.get_id()
 
     def get_deezer_link(self) -> str | None:
         """
@@ -284,10 +302,7 @@ class Align:
         str
             Deezer link.
         """
-        try:
-            return self.dz_link.get_link()
-        except ValueError:
-            return None
+        return self.dz_link.get_link()
 
     def get_youtube_link(self) -> str | None:
         """
@@ -297,10 +312,7 @@ class Align:
         str
             YouTube link.
         """
-        try:
-            return self.yt_link.get_youtube_link()
-        except ValueError:
-            return None
+        return self.yt_link.get_youtube_link()
 
     def get_bpm(self) -> float | None:
         """
@@ -310,10 +322,7 @@ class Align:
         float
             BPM.
         """
-        try:
-            return self.dz_link.get_bpm()
-        except ValueError:
-            return None
+        return self.dz_link.get_bpm()
 
     def get_acousticbrainz_link(self) -> str | None:
         """
@@ -323,31 +332,30 @@ class Align:
         str
             AcousticBrainz link.
         """
-        if self.mbid:
-            return acousticbrainz_link(self.mbid)
-        return None
+        return acousticbrainz_link(self.mbid)
 
 
 if __name__ == "__main__":
     # test the class
     aligner = Align(
-        mbid="5478f78d-3cbc-4940-ab18-c605dd67b236",
-        artist="Louis Armstrong",
-        album=None,
-        track=None,
+        artist="Charlie Parker",
+        album="Boss Bird Disc 1",
+        track="Billie's Bounce",
         track_number=None,
         duration=None,
         isrc=None,
-        strict=True,
+        strict=False,
     )
-    print(aligner.get_artist())
-    print(aligner.get_album())
-    print(aligner.get_track())
-    print(aligner.get_track_number())
-    print(aligner.get_duration())
-    print(aligner.get_isrc())
-    print(aligner.get_release_date())
-    print(aligner.get_mbid())
-    print(aligner.get_deezer_id())
-    print(aligner.get_deezer_link())
-    print(aligner.get_youtube_link())
+    print("Artist:", aligner.get_artist())
+    print("Album:", aligner.get_album())
+    print("Track:", aligner.get_track())
+    print("Track number:", aligner.get_track_number())
+    print("Duration:", aligner.get_duration())
+    print("ISRC:", aligner.get_isrc())
+    print("Release date:", aligner.get_release_date())
+    print("MusicBrainz ID:", aligner.get_mbid())
+    print("Deezer ID:", aligner.get_deezer_id())
+    print("Deezer link:", aligner.get_deezer_link())
+    print("YouTube link:", aligner.get_youtube_link())
+    print("BPM:", aligner.get_bpm())
+    print("AcousticBrainz link:", aligner.get_acousticbrainz_link())

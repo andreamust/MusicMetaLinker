@@ -156,7 +156,7 @@ class MusicBrainzAlign:
             return results["recording"]
         return None
 
-    def get_track(self) -> str:
+    def get_track(self) -> str | None:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -164,9 +164,12 @@ class MusicBrainzAlign:
         search_results : str
             Dictionary containing the search results.
         """
-        return self.get_best_match["title"]
+        try:
+            return self.get_best_match["title"]
+        except TypeError:
+            return None
 
-    def get_artist(self) -> str:
+    def get_artist(self) -> str | None:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -174,9 +177,12 @@ class MusicBrainzAlign:
         search_results : str
             Dictionary containing the search results.
         """
-        return self.get_best_match["artist-credit-phrase"]
+        try:
+            return self.get_best_match["artist-credit-phrase"]
+        except TypeError:
+            return None
 
-    def get_album(self) -> str:
+    def get_album(self) -> str | None:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -184,9 +190,12 @@ class MusicBrainzAlign:
         search_results : str
             Dictionary containing the search results.
         """
-        return self.get_best_match["release-list"][0]["title"]
+        try:
+            return self.get_best_match["release-list"][0]["title"]
+        except TypeError:
+            return None
 
-    def get_duration(self) -> float:
+    def get_duration(self) -> float | None:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -194,9 +203,12 @@ class MusicBrainzAlign:
         search_results : float
             Dictionary containing the search results.
         """
-        return int(self.get_best_match["length"]) / 1000
+        try:
+            return float(self.get_best_match["length"]) / 1000
+        except TypeError:
+            return None
 
-    def get_mbid(self) -> str:
+    def get_mbid(self) -> str | None:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -204,7 +216,10 @@ class MusicBrainzAlign:
         search_results : str
             Dictionary containing the search results.
         """
-        return self.get_best_match["id"]
+        try:
+            return self.get_best_match["id"]
+        except TypeError:
+            return None
 
     def get_isrc(self) -> list[str] | None:
         """
@@ -218,10 +233,10 @@ class MusicBrainzAlign:
         """
         try:
             return self.get_best_match["isrc-list"]
-        except KeyError:
+        except TypeError:
             return None
 
-    def get_release_date(self) -> str:
+    def get_release_date(self) -> str | None:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -229,9 +244,12 @@ class MusicBrainzAlign:
         irsc_list : str
             Dictionary containing the search results.
         """
-        return self.get_best_match["release-list"][0]["date"]
+        try:
+            return self.get_best_match["release-list"][0]["date"]
+        except TypeError:
+            return None
 
-    def get_track_number(self) -> int:
+    def get_track_number(self) -> int | None:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -239,9 +257,11 @@ class MusicBrainzAlign:
         irsc_list : int
             Dictionary containing the search results.
         """
-        return self.get_best_match["release-list"][0]["medium-list"][0]["track-list"][
-            0
-        ]["number"]
+        try:
+            return self.get_best_match["release-list"][0]["medium-list"][0][
+                "track-list"][0]["number"]
+        except TypeError:
+            return None
 
 
 if __name__ == "__main__":
@@ -254,7 +274,7 @@ if __name__ == "__main__":
         track_number=None,
         duration=181.49,
         mbid="5478f78d-3cbc-4940-ab18-c605dd67b236",
-        strict=True,
+        strict=False,
     )
     search_results = mb_align.get_recording()
     print(mb_align.get_best_match)

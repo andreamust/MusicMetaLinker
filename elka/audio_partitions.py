@@ -57,7 +57,7 @@ def retrieve_links(partitions_path: Path,
         df_list = []
 
         # partition/choco/jams_converted if exists else partition/choco/jams
-        jams_converted = partition / "choco" / "jams_converted"
+        jams_converted = partition / "choco" / "jams-converted"
         if jams_converted.exists():
             jams_path = jams_converted
         else:
@@ -82,7 +82,7 @@ def retrieve_links(partitions_path: Path,
                 track=jams_process.track_name,
                 track_number=jams_process.track_number,
                 duration=jams_process.duration,
-                strict=True,
+                strict=False,
             )
             track_name = linker.get_track()
             artist_name = linker.get_artist()
