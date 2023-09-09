@@ -60,8 +60,8 @@ class DeezerAlign:
         """
         self.artist = artist
         self.album = album
-        # if not strict and " " in self.album:
-        #     self.album = " ".join(self.album.split(" ")[:2])
+        if not strict and " " in self.album:
+            self.album = " ".join(self.album.split(" ")[:2])
         self.track = track
         self.track_number = track_number
         self.duration = duration

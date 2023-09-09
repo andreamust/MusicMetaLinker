@@ -51,6 +51,8 @@ class YouTubeAlign:
         self.isrc = isrc
         self.strict = strict
 
+        print(f"Searching for {self.artist} - {self.track} on YouTube Music")
+
         self.yt = YTMusic()
 
     def _search(self) -> list:
@@ -184,7 +186,7 @@ class YouTubeAlign:
         """
         best_match = self.get_best_match()
         if best_match:
-            return best_match['duration_seconds']
+            return best_match["duration_seconds"]
         return None
 
     def get_youtube_release_date(self) -> str | None:

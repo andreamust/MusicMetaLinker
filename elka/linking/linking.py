@@ -15,9 +15,9 @@ as Spotify, YouTube, etc.
 """
 import musicbrainzngs.musicbrainz
 
-from deezer_links import DeezerAlign
-from musicbrainz_links import MusicBrainzAlign
-from youtube_links import YouTubeAlign
+from .deezer_links import DeezerAlign
+from .musicbrainz_links import MusicBrainzAlign
+from .youtube_links import YouTubeAlign
 
 
 class Align:
@@ -174,7 +174,7 @@ class Align:
             except ValueError:
                 return self.dz_link.get_track()
 
-    def get_track_number(self) -> int:
+    def get_track_number(self) -> int | None:
         """
         Returns the track number.
         Returns
@@ -184,7 +184,10 @@ class Align:
         """
         if self.track_number:
             return self.track_number
-        return self.dz_link.get_track_number()
+        try:
+            return self.dz_link.get_track_number()
+        except ValueError:
+            return None
 
     def get_duration(self) -> float:
         """
@@ -197,14 +200,17 @@ class Align:
         if self.duration:
             return self.duration
         elif self.mbid:
-            return self.mb_link.get_duration()
+            try:
+                return self.mb_link.get_duration()
+            except Exception:
+                pass
         else:
             try:
                 return self.yt_link.get_youtube_duration()
             except ValueError:
                 return self.dz_link.get_duration()
 
-    def get_isrc(self) -> list[str]:
+    def get_isrc(self) -> list[str] | None:
         """
         Returns the ISRC code.
         Returns
@@ -215,8 +221,15 @@ class Align:
         if self.isrc:
             return self.isrc
         elif self.mbid:
-            return self.mb_link.get_isrc()
-        return [self.dz_link.get_isrc()]
+            try:
+                return self.mb_link.get_isrc()
+            except Exception:
+                return None
+        else:
+            try:
+                return [self.dz_link.get_isrc()]
+            except ValueError:
+                return None
 
     def get_release_date(self) -> str:
         """
@@ -233,7 +246,7 @@ class Align:
         except ValueError:
             return None
 
-    def get_mbid(self) -> str:
+    def get_mbid(self) -> str | None:
         """
         Returns the MusicBrainz ID.
         Returns
@@ -243,7 +256,10 @@ class Align:
         """
         if self.mbid:
             return self.mbid
-        return self.mb_link.get_mbid()
+        try:
+            return self.mb_link.get_mbid()
+        except Exception:
+            return None
 
     def get_deezer_id(self) -> int | None:
         """

@@ -58,7 +58,9 @@ class JAMSProcessor:
         self.release_year = self.sandbox.release_year
         self.composers = self.sandbox.composers
         self.performers = self.sandbox.performers
-        self.tuning = self.sandbox.tuning
+        self.tuning = None
+        if 'tuning' in self.sandbox.keys():
+            self.tuning = self.sandbox.tuning
         if not self.artist_name:
             if self.type == 'score':
                 self.artist_name = 'and'.join(self.composers)
