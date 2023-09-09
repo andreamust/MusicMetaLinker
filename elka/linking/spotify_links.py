@@ -25,7 +25,7 @@ def get_isrc(spotify_id: str) -> str | None:
     client_credentials_manager = SpotifyClientCredentials()
 
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
-    track = sp.track(spotify_id)
+    track = sp.track(str(spotify_id))
     try:
         return track["external_ids"]["isrc"]
     except spotipy.exceptions.SpotifyException:
