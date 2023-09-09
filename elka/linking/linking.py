@@ -163,7 +163,7 @@ class Align:
 
         # check iteratively on all the implemented platforms
         if album is None:
-            album = self.dz_link.get_album()
+            album = self.dz_link.get_album_title()
             if album is None:
                 album = self.mb_link.get_album()
                 if album is None:
@@ -338,9 +338,9 @@ class Align:
 if __name__ == "__main__":
     # test the class
     aligner = Align(
-        artist="Charlie Parker",
-        album="Boss Bird Disc 1",
-        track="Billie's Bounce",
+        artist="Benny Goodman",
+        album=None,
+        track="Handful of Keys",
         track_number=None,
         duration=None,
         isrc=None,
