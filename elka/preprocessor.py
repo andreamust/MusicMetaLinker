@@ -58,6 +58,7 @@ class JAMSProcessor:
         self.release_year = self.sandbox.release_year
         self.composers = self.sandbox.composers
         self.performers = self.sandbox.performers
+        self.tuning = self.sandbox.tuning
         if not self.artist_name:
             if self.type == 'score':
                 self.artist_name = 'and'.join(self.composers)
@@ -86,12 +87,13 @@ class JAMSProcessor:
             release_year=self.release_year,
             composers=self.composers,
             performers=self.performers,
+            tuning=self.tuning,
         )
 
         # add the metadata
         self.jams_new.file_metadata = new_metadata
         # add the sandbox
-        self.jams_new.sandbox = self.sandbox
+        self.jams_new.sandbox = new_sandbox
         # add the annotations
         self.jams_new.annotations.append(self.jams.annotations[0])
         # write the JAMS file
@@ -104,4 +106,3 @@ if __name__ == '__main__':
     output_dir = Path('../partitions/isophonics/choco/jams_aligned/')
     jams_process = JAMSProcessor(jams_file)
     print(jams_process.track_name)
-
