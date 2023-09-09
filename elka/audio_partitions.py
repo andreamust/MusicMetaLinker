@@ -3,6 +3,8 @@ Scripts for retrieving links of the audio partitions form the following
 repositories:
     - MusicBrainz
     - Deezer
+    - YouTube Music
+    - AcouticBrainz
 
 Notes for the alignment:
 - Isophonics: has metadata and release, stored as audio_reference;
@@ -15,7 +17,7 @@ Notes for the alignment:
     file.
 - Robbie Williams: has release name;
 - Uspop2002: has release name and track number;
-- RWC-Pop: contacted the curator, awaiting response;
+- RWC-Pop: available at MTG;
 - Weimar Jazz Database: contains MusicBrainz IDs.
 """
 
@@ -50,6 +52,11 @@ def retrieve_links(partitions_path: Path,
     for partition in partitions_path.iterdir():
         if partition.name == "isophonics":
             print(f"Processing partition {partition.name}")
+            # initialize a Pandas dataframe
+            df = pd.DataFrame(columns=['jams_file', 'track_name', 'artist_name',
+                                        'album_name', 'track_number', 'duration',
+                                        'release_year', 'musicbrainz', 'isrc',
+                                        'deezer', 'deezer_url', 'youtube_url'])
             # open partition/choco/jams_converted if exists else partition/choco/jams
             jams_converted = partition / "choco" / "jams_converted"
             if jams_converted.exists():
@@ -95,22 +102,27 @@ def retrieve_links(partitions_path: Path,
                 jams_process.identifiers = {**original_identifiers, **links}
 
                 # store information in a dataframe
-                df = pd.DataFrame([jams_file.name, track_name, artist_name,
-                                   album_name, track_number, duration,
-                                   release_year, links['musicbrainz'],
-                                   links['isrc'], links['deezer'],
-                                   links['deezer_url'], links['youtube_url']])
-                df = df.T
-                df.columns = ['jams_file', 'track_name', 'artist_name',
-                                'album_name', 'track_number', 'duration',
-                                'release_year', 'musicbrainz', 'isrc',
-                                'deezer', 'deezer_url', 'youtube_url']
-                # save the dataframe
-                log_downloaded_data(df, partition / "choco" / "links.csv")
+                df = df.append({'jams_file': jams_file.name,
+                                'track_name': track_name,
+                                'artist_name': artist_name,
+                                'album_name': album_name,
+                                'track_number': track_number,
+                                'duration': duration,
+                                'release_year': release_year,
+                                'musicbrainz': linker.get_mbid(),
+                                'isrc': linker.get_isrc(),
+                                'deezer_id': linker.get_deezer_id(),
+                                'deezer_url': linker.get_deezer_link(),
+                                'youtube_url': linker.get_youtube_link(),
+                                'acousticbrainz': linker.get_acousticbrainz_link(),
+                                }, ignore_index=True)
 
                 if save:
                     save_path = jams_path.parents[1] / "choco" / "jams_aligned"
                     jams_process.write_jams(save_path)
+
+            # save the dataframe
+            log_downloaded_data(df, partition / "choco" / "links.csv")
 
 
 if __name__ == "__main__":

@@ -4,6 +4,7 @@ repositories:
     - MusicBrainz
     - Deezer
     - YouTube Music
+    - AcousticBrainz
 
 The scripts are based on the following libraries:
     - musicbrainzngs
@@ -15,6 +16,7 @@ as Spotify, YouTube, etc.
 """
 import musicbrainzngs.musicbrainz
 
+from .acousticbrainz_links import acousticbrainz_link
 from .deezer_links import DeezerAlign
 from .musicbrainz_links import MusicBrainzAlign
 from .youtube_links import YouTubeAlign
@@ -299,6 +301,31 @@ class Align:
             return self.yt_link.get_youtube_link()
         except ValueError:
             return None
+
+    def get_bpm(self) -> float | None:
+        """
+        Returns the BPM.
+        Returns
+        -------
+        float
+            BPM.
+        """
+        try:
+            return self.dz_link.get_bpm()
+        except ValueError:
+            return None
+
+    def get_acousticbrainz_link(self) -> str | None:
+        """
+        Returns the AcousticBrainz link.
+        Returns
+        -------
+        str
+            AcousticBrainz link.
+        """
+        if self.mbid:
+            return acousticbrainz_link(self.mbid)
+        return None
 
 
 if __name__ == "__main__":
