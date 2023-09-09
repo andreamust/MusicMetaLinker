@@ -2,12 +2,13 @@
 Scripts for retrieving the ISRC code from a Spotify ID.
 """
 import os
+import elka.constants as constants
 
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
-os.environ['SPOTIPY_CLIENT_ID'] = "9a23546dfb4c44399cdc5487958290dd"
-os.environ['SPOTIPY_CLIENT_SECRET'] = "ec82edf304b34434965137da5e4b7eea"
+os.environ['SPOTIPY_CLIENT_ID'] = constants.SPOTIFY_CLIENT_ID
+os.environ['SPOTIPY_CLIENT_SECRET'] = constants.SPOTIFY_CLIENT_SECRET
 
 
 def get_isrc(spotify_id: str) -> str | None:
