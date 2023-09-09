@@ -348,6 +348,16 @@ class DeezerAlign:
         """
         return self.best_match().bpm
 
+    def get_isrc(self) -> str:
+        """
+            Return the Deezer isrc of the best match.
+            Returns
+            -------
+            str
+                Deezer isrc of the best match.
+        """
+        return self.best_match().isrc
+
 
 if __name__ == "__main__":
     # test the DeezerAlign class

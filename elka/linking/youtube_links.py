@@ -174,7 +174,7 @@ class YouTubeAlign:
             return f"{best_match['album']['name']}"
         return None
 
-    def get_youtube_duration(self) -> str | None:
+    def get_youtube_duration(self) -> int | None:
         """
         Returns the YouTube duration in seconds for the best match.
         Returns
@@ -184,7 +184,7 @@ class YouTubeAlign:
         """
         best_match = self.get_best_match()
         if best_match:
-            return f"{best_match['duration']}"
+            return best_match['duration_seconds']
         return None
 
     def get_youtube_release_date(self) -> str | None:

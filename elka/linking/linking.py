@@ -3,18 +3,21 @@ Scripts for retrieving links of the audio partitions form the following
 repositories:
     - MusicBrainz
     - Deezer
+    - YouTube Music
 
 The scripts are based on the following libraries:
     - musicbrainzngs
     - deezer-python
+    - youtube-search-python
 
 The library will be expanded in the future to support more repositories, such
 as Spotify, YouTube, etc.
 """
 import musicbrainzngs.musicbrainz
 
-from .deezer_links import DeezerAlign
-from .musicbrainz_links import MusicBrainzAlign
+from deezer_links import DeezerAlign
+from musicbrainz_links import MusicBrainzAlign
+from youtube_links import YouTubeAlign
 
 
 class Align:
@@ -24,6 +27,7 @@ class Align:
     So far, the following repositories are supported:
         - MusicBrainz
         - Deezer
+        - YouTube Music
     """
 
     def __init__(
@@ -106,6 +110,16 @@ class Align:
             strict=False,
         )
 
+        self.yt_link = YouTubeAlign(
+            artist=self.artist,
+            album=self.album,
+            track=self.track,
+            track_number=self.track_number,
+            duration=self.duration,
+            isrc=self.isrc,
+            strict=False,
+        )
+
     def get_artist(self) -> str:
         """
         Returns the artist name.
@@ -118,7 +132,11 @@ class Align:
             return self.artist
         elif self.mbid:
             return self.mb_link.get_artist()
-        return self.dz_link.get_artist()
+        else:
+            try:
+                return self.yt_link.get_youtube_artist()
+            except ValueError:
+                return self.dz_link.get_artist()
 
     def get_album(self) -> str:
         """
@@ -132,7 +150,11 @@ class Align:
             return self.album
         elif self.mbid:
             return self.mb_link.get_album()
-        return self.dz_link.get_album()
+        else:
+            try:
+                return self.yt_link.get_youtube_album()
+            except ValueError:
+                return self.dz_link.get_album()
 
     def get_track(self) -> str:
         """
@@ -146,7 +168,11 @@ class Align:
             return self.track
         elif self.mbid:
             return self.mb_link.get_track()
-        return self.dz_link.get_track()
+        else:
+            try:
+                return self.yt_link.get_youtube_title()
+            except ValueError:
+                return self.dz_link.get_track()
 
     def get_track_number(self) -> int:
         """
@@ -172,7 +198,11 @@ class Align:
             return self.duration
         elif self.mbid:
             return self.mb_link.get_duration()
-        return self.dz_link.get_duration()
+        else:
+            try:
+                return self.yt_link.get_youtube_duration()
+            except ValueError:
+                return self.dz_link.get_duration()
 
     def get_isrc(self) -> list[str]:
         """
@@ -186,7 +216,7 @@ class Align:
             return self.isrc
         elif self.mbid:
             return self.mb_link.get_isrc()
-        return self.dz_link.get_isrc()
+        return [self.dz_link.get_isrc()]
 
     def get_release_date(self) -> str:
         """
@@ -198,7 +228,10 @@ class Align:
         """
         if self.mbid:
             return self.mb_link.get_release_date()
-        return self.dz_link.get_release_date()
+        try:
+            return self.dz_link.get_release_date()
+        except ValueError:
+            return None
 
     def get_mbid(self) -> str:
         """
@@ -212,7 +245,7 @@ class Align:
             return self.mbid
         return self.mb_link.get_mbid()
 
-    def get_deezer_id(self) -> int:
+    def get_deezer_id(self) -> int | None:
         """
         Returns the Deezer ID.
         Returns
@@ -220,9 +253,12 @@ class Align:
         int
             Deezer ID.
         """
-        return self.dz_link.get_id()
+        try:
+            return self.dz_link.get_id()
+        except ValueError:
+            return None
 
-    def get_deezer_link(self) -> str:
+    def get_deezer_link(self) -> str | None:
         """
         Returns the Deezer link.
         Returns
@@ -230,7 +266,23 @@ class Align:
         str
             Deezer link.
         """
-        return self.dz_link.get_link()
+        try:
+            return self.dz_link.get_link()
+        except ValueError:
+            return None
+
+    def get_youtube_link(self) -> str | None:
+        """
+        Returns the YouTube link.
+        Returns
+        -------
+        str
+            YouTube link.
+        """
+        try:
+            return self.yt_link.get_youtube_link()
+        except ValueError:
+            return None
 
 
 if __name__ == "__main__":
@@ -255,3 +307,4 @@ if __name__ == "__main__":
     print(aligner.get_mbid())
     print(aligner.get_deezer_id())
     print(aligner.get_deezer_link())
+    print(aligner.get_youtube_link())
