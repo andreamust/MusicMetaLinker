@@ -105,7 +105,7 @@ class YouTubeAlign:
         # search for the track
         results = self._search()
         # filter the results
-        results = self._filter_duration(results, 2)
+        # results = self._filter_duration(results, 10)
         # return the best match
         if results:
             return results[0]
@@ -206,11 +206,10 @@ class YouTubeAlign:
 if __name__ == "__main__":
     # test the class
     yt = YouTubeAlign(
-        track="The Way You Look Tonight",
-        artist="Frank Sinatra",
-        album="The Columbia Years (1943-1952) The Complete Recordings",
-        track_number=1,
-        duration=160,
+        track="Baby Won't You Please Come Home",
+        artist="Henry Allen",
+        album="The Cradle Of Jazz",
+        duration=89,
     )
     print(yt.get_youtube_link())
     print(yt.get_youtube_id())
