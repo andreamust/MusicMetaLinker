@@ -24,11 +24,11 @@ Notes for the alignment:
 from pathlib import Path
 
 import pandas as pd
-
-from utils import log_downloaded_data
-
+from partitions_map import AUDIO_PARTITIONS
+from clean_partitions import clean_billboard
 from linking import linking
 from preprocessor import JAMSProcessor
+from utils import log_downloaded_data
 
 
 def retrieve_links(partitions_path: Path,
@@ -50,79 +50,88 @@ def retrieve_links(partitions_path: Path,
     """
     # iterate over the partitions
     for partition in partitions_path.iterdir():
-        if partition.name == "isophonics":
-            print(f"Processing partition {partition.name}")
-            # initialize a Pandas dataframe
-            df = pd.DataFrame(columns=['jams_file', 'track_name', 'artist_name',
-                                        'album_name', 'track_number', 'duration',
-                                        'release_year', 'musicbrainz', 'isrc',
-                                        'deezer', 'deezer_url', 'youtube_url'])
-            # open partition/choco/jams_converted if exists else partition/choco/jams
-            jams_converted = partition / "choco" / "jams_converted"
-            if jams_converted.exists():
-                jams_path = jams_converted
-            else:
-                jams_path = partition / "choco" / "jams"
-            # iterate over the JAMS files
-            for jams_file in jams_path.glob("*.jams"):
-                print(f"Processing JAMS file {jams_file.name}")
-                # process the JAMS file
-                jams_process = JAMSProcessor(jams_file)
-                # retrieve the links
-                linker = linking.Align(
-                    artist=jams_process.artist_name,
-                    album=jams_process.album_name,
-                    track=jams_process.track_name,
-                    track_number=jams_process.track_number,
-                    duration=jams_process.duration,
-                    strict=True,
-                )
-                track_name = linker.get_track()
-                artist_name = linker.get_artist()
-                album_name = linker.get_album()
-                track_number = linker.get_track_number()
-                duration = linker.get_duration()
-                release_year = linker.get_release_date()
-                # get the identifiers
-                original_identifiers = jams_process.identifiers
-                links = {'musicbrainz': linker.get_mbid(),
-                         'isrc': linker.get_isrc(),
-                         'deezer': linker.get_deezer_id(),
-                         'deezer_url': linker.get_deezer_link(),
-                         'youtube_url': linker.get_youtube_link(),
-                         }
+        if partition.name not in AUDIO_PARTITIONS:
+            continue
+        print(f"Processing partition {partition.name}")
+        # initialize data to be stored in a dataframe
+        df_list = []
 
-                # add retrieved information to the JAMS file
-                jams_process.track_name = track_name
-                jams_process.artist_name = artist_name
-                jams_process.album_name = album_name
-                jams_process.track_number = track_number
-                jams_process.duration = duration
-                jams_process.release_year = release_year
-                jams_process.identifiers = {**original_identifiers, **links}
+        # partition/choco/jams_converted if exists else partition/choco/jams
+        jams_converted = partition / "choco" / "jams_converted"
+        if jams_converted.exists():
+            jams_path = jams_converted
+        else:
+            jams_path = partition / "choco" / "jams"
+        # iterate over the JAMS files
+        for jams_file in jams_path.glob("*.jams"):
+            print(f"Processing JAMS file {jams_file.name}")
+            # process the JAMS file
+            jams_process = JAMSProcessor(jams_file)
 
-                # store information in a dataframe
-                df = df.append({'jams_file': jams_file.name,
-                                'track_name': track_name,
-                                'artist_name': artist_name,
-                                'album_name': album_name,
-                                'track_number': track_number,
-                                'duration': duration,
-                                'release_year': release_year,
-                                'musicbrainz': linker.get_mbid(),
-                                'isrc': linker.get_isrc(),
-                                'deezer_id': linker.get_deezer_id(),
-                                'deezer_url': linker.get_deezer_link(),
-                                'youtube_url': linker.get_youtube_link(),
-                                'acousticbrainz': linker.get_acousticbrainz_link(),
-                                }, ignore_index=True)
+            isrc, spotify_id = None, None
+            # if partition is billboard, retrieve missing metadata
+            if partition.name == "billboard":
+                track_title = jams_process.track_name
+                artist_name = jams_process.artist_name
+                spotify_id, isrc = clean_billboard.clean_billboard(track_title,
+                                                                   artist_name)
+            # retrieve the links
+            linker = linking.Align(
+                artist=jams_process.artist_name,
+                album=jams_process.album_name,
+                track=jams_process.track_name,
+                track_number=jams_process.track_number,
+                duration=jams_process.duration,
+                strict=True,
+            )
+            track_name = linker.get_track()
+            artist_name = linker.get_artist()
+            album_name = linker.get_album()
+            track_number = linker.get_track_number()
+            duration = linker.get_duration()
+            release_year = linker.get_release_date()
+            # get the identifiers
+            original_identifiers = jams_process.identifiers
+            links = {'musicbrainz': linker.get_mbid(),
+                     'isrc': linker.get_isrc() if isrc is None else isrc,
+                     'deezer': linker.get_deezer_id(),
+                     'deezer_url': linker.get_deezer_link(),
+                     'youtube_url': linker.get_youtube_link(),
+                     'spotify_id': spotify_id,
+                     }
 
-                if save:
-                    save_path = jams_path.parents[1] / "choco" / "jams_aligned"
-                    jams_process.write_jams(save_path)
+            # add retrieved information to the JAMS file
+            jams_process.track_name = track_name
+            jams_process.artist_name = artist_name
+            jams_process.album_name = album_name
+            jams_process.track_number = track_number
+            jams_process.duration = duration
+            jams_process.release_year = release_year
+            jams_process.identifiers = {**original_identifiers, **links}
 
-            # save the dataframe
-            log_downloaded_data(df, partition / "choco" / "links.csv")
+            # store information in a dataframe
+            df_list.append({'jams_file': jams_file.name,
+                            'track_name': track_name,
+                            'artist_name': artist_name,
+                            'album_name': album_name,
+                            'track_number': track_number,
+                            'duration': duration,
+                            'release_year': release_year,
+                            'musicbrainz': linker.get_mbid(),
+                            'isrc': linker.get_isrc(),
+                            'deezer_id': linker.get_deezer_id(),
+                            'deezer_url': linker.get_deezer_link(),
+                            'youtube_url': linker.get_youtube_link(),
+                            'acousticbrainz': linker.get_acousticbrainz_link(),
+                            })
+
+            if save:
+                save_path = jams_path.parents[1] / "choco" / "jams_aligned"
+                jams_process.write_jams(save_path)
+
+        # save the dataframe
+        df = pd.DataFrame(df_list, index=None)
+        log_downloaded_data(df, partition / "choco" / "linking.csv")
 
 
 if __name__ == "__main__":
