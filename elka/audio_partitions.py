@@ -128,7 +128,7 @@ def retrieve_links(partitions_path: Path,
                             })
 
             if save:
-                save_path = jams_path.parents[1] / "choco" / "jams_aligned"
+                save_path = jams_path.parent / "jams_aligned"
                 jams_process.write_jams(save_path)
 
         # save the dataframe
