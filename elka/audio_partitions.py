@@ -60,6 +60,8 @@ def retrieve_links(partitions_path: Path,
         jams_converted = partition / "choco" / "jams-converted"
         if jams_converted.exists():
             jams_path = jams_converted
+        elif partition.name == "schubert-winterreise":
+            jams_path = partition / "choco" / "audio" / "jams-converted"
         else:
             jams_path = partition / "choco" / "jams"
         # iterate over the JAMS files

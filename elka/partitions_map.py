@@ -6,7 +6,7 @@ AUDIO_PARTITIONS = [
     "billboard",
     "isophonics",
     "jaah",
-    "casd",
+    "chordify",
     "schubert-winterreise",
     "robbie-williams",
     "uspop2002",
