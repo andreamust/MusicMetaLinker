@@ -2,7 +2,7 @@
 Scripts for retrieving the ISRC code from a Spotify ID.
 """
 import os
-import elka.constants as constants
+import elka.secrets as constants
 
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
