@@ -7,9 +7,11 @@ import pandas as pd
 
 from elka.linking.spotify_links import get_isrc
 
+BILLBOARD_PATH = "/Users/andreapoltronieri/PycharmProjects/ELKA/elka/audio_references/billboard_full_features.xlsx"
+
 
 def clean_billboard(track_title: str,
-                    artist_name: str):
+                    artist_name: str) -> tuple[str, str]:
     """
     Cleans the billboard data set by retrieving missing metadata from the full
     database dump.
@@ -28,7 +30,8 @@ def clean_billboard(track_title: str,
     spotify_id : str
         Spotify ID.
     """
-    full_db = pd.read_excel("../audio_references/billboard_full_features.xlsx")
+    spotify_id = None
+    full_db = pd.read_excel(BILLBOARD_PATH)
     # retrieve the track metadata
     track_metadata = full_db.loc[
         (full_db["Song"] == track_title) &
@@ -42,10 +45,10 @@ def clean_billboard(track_title: str,
             (full_db["Performer"] == track_title)
         ]
 
-    # get the spotify_track_id from the track_metadata
-    spotify_id = track_metadata["spotify_track_id"].values[0]
     # get the isrc from the track_metadata
     try:
+        # get the spotify_track_id from the track_metadata
+        spotify_id = track_metadata["spotify_track_id"].values[0]
         isrc = get_isrc(spotify_id)
     except Exception:
         isrc = None
