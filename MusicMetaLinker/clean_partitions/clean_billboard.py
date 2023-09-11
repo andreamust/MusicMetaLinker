@@ -5,9 +5,9 @@ database dump.
 
 import pandas as pd
 
-from elka.linking.spotify_links import get_isrc
+from MusicMetaLinker.linking.spotify_links import get_isrc
 
-BILLBOARD_PATH = "/Users/andreapoltronieri/PycharmProjects/ELKA/elka/audio_references/billboard_full_features.xlsx"
+BILLBOARD_PATH = "/Users/andreapoltronieri/PycharmProjects/ELKA/MusicMetaLinker/audio_references/billboard_full_features.xlsx"
 
 
 def clean_billboard(track_title: str,
