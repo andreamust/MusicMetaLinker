@@ -1161,13 +1161,13 @@
   "file_metadata": {
     "title": "Every Little Thing She Does Is Magic",
     "artist": "The Police",
-    "release": "Greatest Hits",
+    "release": "Un' Estate Fa",
     "duration": 261.242562358,
     "identifiers": {
       "musicbrainz": "260ed042-ce55-465e-8a40-afa91ed0a50b",
       "isrc": "GBAAM0201127",
-      "deezer": 7045684,
-      "deezer_url": "https://www.deezer.com/track/7045684",
+      "deezer": 2384889475,
+      "deezer_url": "https://www.deezer.com/track/2384889475",
       "youtube_url": "https://music.youtube.com/watch?v=VaPZDLfj4b0",
       "spotify_id": "44aTAUBF0g6sMkMNE8I5kd"
     },
@@ -1176,8 +1176,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "",
-    "track_number": 9,
-    "release_year": "28/09/1992",
+    "track_number": 49,
+    "release_year": "03/08/2023",
     "composers": [],
     "performers": [
       "The Police"

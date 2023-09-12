@@ -597,14 +597,14 @@
   "file_metadata": {
     "title": "Lovers Who Wander",
     "artist": "Dion",
-    "release": "Five Classic Albums (Presenting Dion and the Belmonts / Wish Upon a Star with Dion and the Belmonts / Runaround Sue / Alone with D",
+    "release": "The Best Of Laurie Records",
     "duration": 152.015034013,
     "identifiers": {
       "musicbrainz": null,
       "isrc": "USLA19300001",
-      "deezer": 2335551475,
-      "deezer_url": "https://www.deezer.com/track/2335551475",
-      "youtube_url": "https://music.youtube.com/watch?v=p6-HXW7BUwY",
+      "deezer": 121927790,
+      "deezer_url": "https://www.deezer.com/track/121927790",
+      "youtube_url": "https://music.youtube.com/watch?v=39-DT_djd_4",
       "spotify_id": "3ApktgPHkNDBWaZCWvOKjK"
     },
     "jams_version": "0.3.4"
@@ -612,8 +612,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "",
-    "track_number": 51,
-    "release_year": "04/11/2022",
+    "track_number": 10,
+    "release_year": "19/01/2015",
     "composers": [],
     "performers": [
       "Dion"
