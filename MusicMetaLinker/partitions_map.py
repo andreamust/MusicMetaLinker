@@ -5,7 +5,6 @@ Map of partitions, divided by score and audio.
 AUDIO_PARTITIONS = [
     "billboard",
     "isophonics",
-    "jaah",
     "chordify",
     "schubert-winterreise",
     "robbie-williams",
