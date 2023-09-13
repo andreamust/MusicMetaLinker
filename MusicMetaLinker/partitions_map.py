@@ -9,5 +9,17 @@ AUDIO_PARTITIONS = [
     "schubert-winterreise",
     "robbie-williams",
     "uspop2002",
-    "weimar"
+    "weimar",
+]
+
+SCORE_PARTITIONS = [
+    "biab-internet-corpus",
+    "ireal-pro",
+    "jazz-corpus",
+    "mozart-piano-sonatas",
+    "nottingham",
+    "real-book",
+    "uspop2002",
+    "when-in-rome",
+    "weimar",
 ]
