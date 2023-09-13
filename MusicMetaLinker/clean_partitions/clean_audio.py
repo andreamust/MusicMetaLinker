@@ -1,5 +1,5 @@
 """
-Scripts for cleaning the JAAH partition.
+Scripts for cleaning audio files.
 """
 
 from pathlib import Path
