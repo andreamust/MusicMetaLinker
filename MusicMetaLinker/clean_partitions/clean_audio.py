@@ -7,7 +7,9 @@ from pathlib import Path
 import pandas as pd
 
 
-def clean_audio(audio_files: Path, metadata_file: Path) -> None:
+def clean_audio(audio_files: Path,
+                metadata_file: Path,
+                csv_column: str) -> None:
     """
     Cleans the JAAH partition.
     Parameters
@@ -16,6 +18,8 @@ def clean_audio(audio_files: Path, metadata_file: Path) -> None:
         Path to the audio files.
     metadata_file : Path
         Path to the metadata file.
+    csv_column : str
+        Column name of the metadata file.
     Returns
     -------
     None
@@ -33,7 +37,7 @@ def clean_audio(audio_files: Path, metadata_file: Path) -> None:
         # get the metadata
         try:
             file_title = metadata.loc[
-                metadata["file_title"] == audio_file_name, "id"
+                metadata[csv_column] == audio_file_name, "id"
             ].values[0]
             # log the renaming data
             print(f"Renaming {audio_file_name} to {file_title}")
@@ -48,10 +52,12 @@ if __name__ == "__main__":
     clean_audio(
         Path("../../partitions/jaah/choco/audio"),
         Path("../../partitions/jaah/choco/meta.csv"),
+        "track_title",
     )
 
     # clean the schubert-winterreise partition
     clean_audio(
-        Path("../../partitions/schubert-winterreise/choco/audio"),
-        Path("../../partitions/schubert-winterreise/choco/meta.csv"),
+        Path("../../partitions/schubert-winterreise/row/audio_wav"),
+        Path("../../partitions/schubert-winterreise/choco/audio/meta.csv"),
+        "track_file",
     )
