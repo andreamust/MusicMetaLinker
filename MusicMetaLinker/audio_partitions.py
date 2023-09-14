@@ -24,16 +24,34 @@ Notes for the alignment:
 from pathlib import Path
 
 import pandas as pd
-from partitions_map import AUDIO_PARTITIONS, SCORE_PARTITIONS
+
 from clean_partitions import clean_billboard
 from linking import linking
+from partitions_map import AUDIO_PARTITIONS, SCORE_PARTITIONS
 from preprocessor import JAMSProcessor
 from utils import log_downloaded_data
 
 
+def complement_jams(linker: linking.Align,
+                    jams_process: JAMSProcessor) -> None:
+    """
+    Complements the JAMS file with the retrieved links.
+    Parameters
+    ----------
+    linker : linking.Align
+        Linker object.
+    jams_process : JAMSProcessor
+        JAMSProcessor object.
+    Returns
+    -------
+    None
+    """
+    pass
+
+
 def retrieve_links_audio(partitions_path: Path,
-                   save: bool = True,
-                   download: bool = False):
+                         save: bool = True,
+                         download: bool = False):
     """
     Iterates over the partitions and retrieves the links for each one of them.
     Parameters
@@ -95,10 +113,11 @@ def retrieve_links_audio(partitions_path: Path,
             # get the identifiers
             original_identifiers = jams_process.identifiers
             links = {'musicbrainz': linker.get_mbid(),
+                     'acousticbrainz': linker.get_acousticbrainz_link(),
                      'isrc': linker.get_isrc() if isrc is None else isrc,
-                     'deezer': linker.get_deezer_id(),
-                     'deezer_url': linker.get_deezer_link(),
-                     'youtube_url': linker.get_youtube_link(),
+                     'deezer_id': linker.get_deezer_id(),
+                     'deezer': linker.get_deezer_link(),
+                     'youtube': linker.get_youtube_link(),
                      'spotify_id': spotify_id,
                      }
 
@@ -119,12 +138,12 @@ def retrieve_links_audio(partitions_path: Path,
                             'track_number': track_number,
                             'duration': duration,
                             'release_year': release_year,
-                            'musicbrainz': linker.get_mbid(),
-                            'isrc': linker.get_isrc(),
-                            'deezer_id': linker.get_deezer_id(),
-                            'deezer_url': linker.get_deezer_link(),
-                            'youtube_url': linker.get_youtube_link(),
-                            'acousticbrainz': linker.get_acousticbrainz_link(),
+                            'musicbrainz': links['musicbrainz'],
+                            'isrc': links['isrc'],
+                            'deezer_id': links['deezer'],
+                            'deezer_url': links['deezer_url'],
+                            'youtube_url': links['youtube_url'],
+                            'acousticbrainz': links['acousticbrainz'],
                             })
 
             if save:
@@ -229,5 +248,5 @@ def retrieve_links_score(partitions_path: Path,
 
 
 if __name__ == "__main__":
-    #retrieve_links_audio(Path("../partitions"))
+    # retrieve_links_audio(Path("../partitions"))
     retrieve_links_score(Path("../partitions"))
