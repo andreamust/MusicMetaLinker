@@ -5,7 +5,7 @@ database dump.
 
 import pandas as pd
 
-from MusicMetaLinker.linking.spotify_links import get_isrc
+from linking.spotify_links import get_isrc
 
 BILLBOARD_PATH = "/Users/andreapoltronieri/PycharmProjects/ELKA/MusicMetaLinker/audio_references/billboard_full_features.xlsx"
 
