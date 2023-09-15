@@ -8,7 +8,7 @@ from partitions_map import AUDIO_PARTITIONS, SCORE_PARTITIONS
 
 
 def filter_partition(partition: Path,
-                     limit: str | None) -> tuple[str, Path]:
+                     limit: str | None) -> tuple[str, Path | None]:
     """
     Filter for the audio partitions.
     Parameters
@@ -28,14 +28,14 @@ def filter_partition(partition: Path,
     if partition.name in AUDIO_PARTITIONS:
         partition_type = "audio"
         if limit == "score":
-            pass
+            return partition_type, None
         elif partition.name == "schubert-winterreise":
             return (partition_type,
                     partition / "choco" / "audio" / "jams-converted")
     elif partition.name in SCORE_PARTITIONS:
         partition_type = "score"
         if limit == "audio":
-            pass
+            return partition_type, None
         if partition.name == "ireal-pro":
             return (partition_type,
                     partition / "choco" / "playlist" / "jams-converted")
