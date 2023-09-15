@@ -16,10 +16,12 @@ SCORE_PARTITIONS = [
     "biab-internet-corpus",
     "ireal-pro",
     "jazz-corpus",
+    "rock-corpus",
     "mozart-piano-sonatas",
     "nottingham",
     "real-book",
     "uspop2002",
     "when-in-rome",
     "weimar",
+    "wikifonia",
 ]
