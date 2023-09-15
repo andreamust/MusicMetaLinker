@@ -22,6 +22,7 @@ Notes for the alignment:
 """
 
 import logging
+import argparse
 from pathlib import Path
 
 import pandas as pd
@@ -73,8 +74,8 @@ def complement_jams(linker: linking.Align,
              'acousticbrainz': linker.get_acousticbrainz_link(),
              'isrc': linker.get_isrc() if isrc is None else isrc,
              'deezer_id': linker.get_deezer_id(),
-             'deezer': linker.get_deezer_link(),
-             'youtube': linker.get_youtube_link(),
+             'deezer_url': linker.get_deezer_link(),
+             'youtube_url': linker.get_youtube_link(),
              'spotify_id': spotify_id,
              }
 
@@ -97,10 +98,11 @@ def complement_jams(linker: linking.Align,
                     'release_year': release_year,
                     'musicbrainz': links['musicbrainz'],
                     'isrc': links['isrc'],
-                    'deezer_id': links['deezer'],
+                    'deezer_id': links['deezer_id'],
                     'deezer_url': links['deezer_url'],
                     'youtube_url': links['youtube_url'],
                     'acousticbrainz': links['acousticbrainz'],
+                    'spotify_id': links['spotify_id'],
                     })
 
     return df_list
@@ -131,6 +133,9 @@ def retrieve_links(partitions_path: Path,
         df_list = []
         # get the path to the JAMS files for the partition
         partition_type, jams_path = filter_partition(partition, limit=limit)
+        if jams_path is None or partition_type is None:
+            continue
+
         # iterate over the JAMS files
         for jams_file in jams_path.glob("*.jams"):
             # log track information
@@ -146,8 +151,6 @@ def retrieve_links(partitions_path: Path,
                 artist_name = jams_process.artist_name
                 spotify_id, isrc = clean_billboard.clean_billboard(track_title,
                                                                    artist_name)
-            elif partition.name == "schubert-winterreise":
-                pass
             # retrieve the links
             linker = linking.Align(
                 artist=jams_process.artist_name,
@@ -171,5 +174,27 @@ def retrieve_links(partitions_path: Path,
         log_downloaded_data(df, partition / "choco" / "linking.csv")
 
 
+def main():
+    """
+    Main function for retrieving the links.
+    """
+    parser = argparse.ArgumentParser(
+        description="Retrieve links for the partitions.",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+    )
+    parser.add_argument("partitions_path", type=Path,
+                        help="Path to the partitions.")
+    parser.add_argument("--save", action="store_true",
+                        help="Whether to save the retrieved information in a "
+                             "new JAMS file or not.")
+    parser.add_argument("--limit", type=str, default=None,
+                        help="Limit for the partition, accepts 'audio', "
+                             "'score' or None.",
+                        choices=["audio", "score"])
+    args = parser.parse_args()
+
+    retrieve_links(args.partitions_path, args.save, args.limit)
+
+
 if __name__ == "__main__":
-    retrieve_links(Path("../partitions"))
+    main()
