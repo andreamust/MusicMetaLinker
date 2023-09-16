@@ -38,7 +38,7 @@ def filter_partition(partition: Path,
             return partition_type, None
         if partition.name == "ireal-pro":
             return (partition_type,
-                    partition / "choco" / "playlist" / "jams-converted")
+                    partition / "choco" / "playlists" / "jams-converted")
 
     jams_path = partition / "choco" / "jams-converted"
     if jams_path.exists():
