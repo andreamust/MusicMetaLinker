@@ -15,7 +15,7 @@ AUDIO_PARTITIONS = [
 SCORE_PARTITIONS = [
     "biab-internet-corpus",
     "ireal-pro",
-    "jazz-corpus",
+    # "jazz-corpus",
     "rock-corpus",
     "mozart-piano-sonatas",
     "nottingham",
