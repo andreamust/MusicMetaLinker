@@ -145,17 +145,26 @@ def retrieve_links(partitions_path: Path,
 
             # get data from specific partitions
             isrc, spotify_id = None, None
-            # if partition is billboard, retrieve missing metadata
+
+            track_title = jams_process.track_name
+            artist_name = jams_process.artist_name
+            # filter partitions that have some peculiarities
             if partition.name == "billboard":
-                track_title = jams_process.track_name
-                artist_name = jams_process.artist_name
                 spotify_id, isrc = clean_billboard.clean_billboard(track_title,
                                                                    artist_name)
+            if partition.name == "biab-internet-corpus":
+                track_title = track_title.strip()
+                if ' - ' in track_title:
+                    track_title = track_title.split(' - ')[0]
+                    artist_name = artist_name.split(' - ')[1]
+                if '[' in track_title and ']' in track_title:
+                    track_title = track_title.split('[')[0]
+                    artist_name = artist_name.split('[')[1].strip(']')
             # retrieve the links
             linker = linking.Align(
-                artist=jams_process.artist_name,
+                artist=artist_name,
                 album=jams_process.album_name,
-                track=jams_process.track_name,
+                track=track_title,
                 track_number=jams_process.track_number,
                 duration=jams_process.duration if partition_type == "audio" else None,
                 strict=False,
@@ -164,6 +173,9 @@ def retrieve_links(partitions_path: Path,
             # complement the JAMS file with the retrieved links
             df_list = complement_jams(linker, jams_process, df_list, jams_file,
                                       isrc, spotify_id)
+
+            # save the JAMS file
+            jams_process.write_jams(jams_path.parent / "jams_aligned")
 
             if save:
                 save_path = jams_path.parent / "jams_aligned"
