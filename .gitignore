@@ -161,5 +161,6 @@ cython_debug/
 
 # exclude secrets.py which stores sensitive information
 secrets.py
-elka/secrets.py
-
+mml_secrets.py
+MusicMetaLinker/secrets.py
+MusicMetaLinker/mml_secrets.py
