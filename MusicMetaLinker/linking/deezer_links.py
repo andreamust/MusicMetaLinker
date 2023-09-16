@@ -174,7 +174,8 @@ class DeezerAlign:
             except Exception:
                 continue
 
-    def best_match(self, duration_threshold: int = 3) -> deezer.resources.Track | None:
+    def best_match(self,
+                   duration_threshold: int = 3) -> deezer.resources.Track | None:
         """
         Return the best match for the track.
         If a duration is provided, the best match is the one with the closest
@@ -192,7 +193,8 @@ class DeezerAlign:
             Dictionary containing the data of the best match.
         """
         if not self.duration and not self.track_number and not self.isrc:
-            return self._get_data(limit=1)[0]
+            result = self._get_data(limit=1)
+            return result[0] if result else None
 
         if self.isrc:
             return self._get_track_by_isrc()
