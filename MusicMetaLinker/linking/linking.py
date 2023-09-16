@@ -139,7 +139,7 @@ class Align:
 
         # check iteratively on all the implemented platforms
         if artist is None:
-            artist = self.dz_link.get_artist()
+            artist = self.dz_link.get_artist_name()
             if artist is None:
                 artist = self.mb_link.get_artist()
                 if artist is None:
