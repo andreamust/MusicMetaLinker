@@ -120,9 +120,10 @@ class YouTubeAlign:
             YouTube link.
         """
         best_match = self.get_best_match()
-        if best_match:
+        try:
             return f"https://music.youtube.com/watch?v={best_match['videoId']}"
-        return None
+        except [KeyError, TypeError]:
+            return None
 
     def get_youtube_id(self) -> str | None:
         """
@@ -133,9 +134,10 @@ class YouTubeAlign:
             YouTube link.
         """
         best_match = self.get_best_match()
-        if best_match:
+        try:
             return f"{best_match['videoId']}"
-        return None
+        except [KeyError, TypeError]:
+            return None
 
     def get_youtube_title(self) -> str | None:
         """
@@ -146,9 +148,10 @@ class YouTubeAlign:
             YouTube link.
         """
         best_match = self.get_best_match()
-        if best_match:
+        try:
             return f"{best_match['title']}"
-        return None
+        except [KeyError, TypeError]:
+            return None
 
     def get_youtube_artist(self) -> str | None:
         """
@@ -159,9 +162,10 @@ class YouTubeAlign:
             YouTube link.
         """
         best_match = self.get_best_match()
-        if best_match:
+        try:
             return f"{best_match['artists'][0]['name']}"
-        return None
+        except [KeyError, TypeError]:
+            return None
 
     def get_youtube_album(self) -> str | None:
         """
@@ -172,9 +176,10 @@ class YouTubeAlign:
             YouTube link.
         """
         best_match = self.get_best_match()
-        if best_match:
+        try:
             return f"{best_match['album']['name']}"
-        return None
+        except [KeyError, TypeError]:
+            return None
 
     def get_youtube_duration(self) -> int | None:
         """
@@ -185,9 +190,10 @@ class YouTubeAlign:
             YouTube link.
         """
         best_match = self.get_best_match()
-        if best_match:
+        try:
             return best_match["duration_seconds"]
-        return None
+        except [KeyError, TypeError]:
+            return None
 
     def get_youtube_release_date(self) -> str | None:
         """
@@ -198,9 +204,10 @@ class YouTubeAlign:
             YouTube link.
         """
         best_match = self.get_best_match()
-        if best_match:
+        try:
             return f"{best_match['year']}"
-        return None
+        except [KeyError, TypeError]:
+            return None
 
 
 if __name__ == "__main__":
