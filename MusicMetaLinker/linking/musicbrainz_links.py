@@ -166,7 +166,7 @@ class MusicBrainzAlign:
         """
         try:
             return self.get_best_match["title"]
-        except TypeError:
+        except (TypeError, KeyError):
             return None
 
     def get_artist(self) -> str | None:
@@ -179,7 +179,7 @@ class MusicBrainzAlign:
         """
         try:
             return self.get_best_match["artist-credit-phrase"]
-        except TypeError:
+        except (TypeError, KeyError):
             return None
 
     def get_album(self) -> str | None:
@@ -192,7 +192,7 @@ class MusicBrainzAlign:
         """
         try:
             return self.get_best_match["release-list"][0]["title"]
-        except TypeError:
+        except (TypeError, KeyError):
             return None
 
     def get_duration(self) -> float | None:
@@ -205,7 +205,7 @@ class MusicBrainzAlign:
         """
         try:
             return float(self.get_best_match["length"]) / 1000
-        except TypeError:
+        except (TypeError, KeyError):
             return None
 
     def get_mbid(self) -> str | None:
@@ -218,7 +218,7 @@ class MusicBrainzAlign:
         """
         try:
             return self.get_best_match["id"]
-        except TypeError:
+        except (TypeError, KeyError):
             return None
 
     def get_isrc(self) -> list[str] | None:
@@ -233,7 +233,7 @@ class MusicBrainzAlign:
         """
         try:
             return self.get_best_match["isrc-list"]
-        except TypeError:
+        except (TypeError, KeyError):
             return None
 
     def get_release_date(self) -> str | None:
@@ -246,7 +246,7 @@ class MusicBrainzAlign:
         """
         try:
             return self.get_best_match["release-list"][0]["date"]
-        except TypeError:
+        except (TypeError, KeyError):
             return None
 
     def get_track_number(self) -> int | None:
@@ -260,7 +260,7 @@ class MusicBrainzAlign:
         try:
             return self.get_best_match["release-list"][0]["medium-list"][0][
                 "track-list"][0]["number"]
-        except TypeError:
+        except (TypeError, KeyError):
             return None
 
 
