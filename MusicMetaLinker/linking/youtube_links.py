@@ -122,7 +122,7 @@ class YouTubeAlign:
         best_match = self.get_best_match()
         try:
             return f"https://music.youtube.com/watch?v={best_match['videoId']}"
-        except [KeyError, TypeError]:
+        except (KeyError, TypeError):
             return None
 
     def get_youtube_id(self) -> str | None:
@@ -136,7 +136,7 @@ class YouTubeAlign:
         best_match = self.get_best_match()
         try:
             return f"{best_match['videoId']}"
-        except [KeyError, TypeError]:
+        except (KeyError, TypeError):
             return None
 
     def get_youtube_title(self) -> str | None:
@@ -150,7 +150,7 @@ class YouTubeAlign:
         best_match = self.get_best_match()
         try:
             return f"{best_match['title']}"
-        except [KeyError, TypeError]:
+        except (KeyError, TypeError):
             return None
 
     def get_youtube_artist(self) -> str | None:
@@ -164,7 +164,7 @@ class YouTubeAlign:
         best_match = self.get_best_match()
         try:
             return f"{best_match['artists'][0]['name']}"
-        except [KeyError, TypeError]:
+        except (KeyError, TypeError):
             return None
 
     def get_youtube_album(self) -> str | None:
@@ -178,7 +178,7 @@ class YouTubeAlign:
         best_match = self.get_best_match()
         try:
             return f"{best_match['album']['name']}"
-        except [KeyError, TypeError]:
+        except (KeyError, TypeError):
             return None
 
     def get_youtube_duration(self) -> int | None:
@@ -192,7 +192,7 @@ class YouTubeAlign:
         best_match = self.get_best_match()
         try:
             return best_match["duration_seconds"]
-        except [KeyError, TypeError]:
+        except (KeyError, TypeError):
             return None
 
     def get_youtube_release_date(self) -> str | None:
@@ -206,7 +206,7 @@ class YouTubeAlign:
         best_match = self.get_best_match()
         try:
             return f"{best_match['year']}"
-        except [KeyError, TypeError]:
+        except (KeyError, TypeError):
             return None
 
 
