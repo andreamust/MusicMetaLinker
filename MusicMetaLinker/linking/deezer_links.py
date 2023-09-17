@@ -74,16 +74,6 @@ class DeezerAlign:
         # connect to Deezer API
         self.deezer_client = deezer.Client()
 
-        print(
-            "Deezer",
-            self.track,
-            self.artist,
-            self.album,
-            self.track_number,
-            self.duration,
-            self.isrc,
-        )
-
     def _get_data(self, limit: int = None) -> list[deezer.resources.Track] | None:
         """
         Search for a track on Deezer and return its data.
@@ -174,8 +164,7 @@ class DeezerAlign:
             except Exception:
                 continue
 
-    def best_match(self,
-                   duration_threshold: int = 3) -> deezer.resources.Track | None:
+    def best_match(self, duration_threshold: int = 3) -> deezer.resources.Track | None:
         """
         Return the best match for the track.
         If a duration is provided, the best match is the one with the closest
