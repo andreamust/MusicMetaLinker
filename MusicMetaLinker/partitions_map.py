@@ -4,8 +4,8 @@ Map of partitions, divided by score and audio.
 
 AUDIO_PARTITIONS = [
     "billboard",
-    "isophonics",
-    "chordify",
+    # "isophonics",
+    # "chordify",
     "schubert-winterreise",
     "robbie-williams",
     "uspop2002",
@@ -14,7 +14,7 @@ AUDIO_PARTITIONS = [
 
 SCORE_PARTITIONS = [
     "biab-internet-corpus",
-    "ireal-pro",
+    # "ireal-pro",
     # "jazz-corpus",
     "rock-corpus",
     "mozart-piano-sonatas",

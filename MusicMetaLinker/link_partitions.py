@@ -161,7 +161,10 @@ def retrieve_links(partitions_path: Path,
                     artist_name = artist_name.split(' - ')[1]
                 if '[' in track_title and ']' in track_title:
                     track_title = track_title.split('[')[0]
-                    artist_name = artist_name.split('[')[1].strip(']')
+                    try:
+                        artist_name = artist_name.split('[')[1].strip(']')
+                    except IndexError:
+                        artist_name = None
             # retrieve the links
             linker = linking.Align(
                 artist=artist_name,
