@@ -21,11 +21,12 @@ Notes for the alignment:
 - Weimar Jazz Database: contains MusicBrainz IDs.
 """
 
-import logging
 import argparse
+import logging
 from pathlib import Path
 
 import pandas as pd
+from tqdm import tqdm
 
 from clean_partitions import clean_billboard
 from filter_partitions import filter_partition
@@ -33,7 +34,8 @@ from linking import linking
 from preprocessor import JAMSProcessor
 from utils import log_downloaded_data
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('link_partitions')
+logging.getLogger("musicbrainzngs").setLevel(logging.ERROR)
 
 
 def complement_jams(linker: linking.Align,
@@ -126,7 +128,7 @@ def retrieve_links(partitions_path: Path,
     None
     """
     # iterate over the partitions
-    for partition in partitions_path.iterdir():
+    for partition in tqdm(partitions_path.iterdir()):
         # log partition information
         logger.info(f"Processing partition {partition.name}")
         # initialize data to be stored in a dataframe
@@ -137,7 +139,7 @@ def retrieve_links(partitions_path: Path,
             continue
 
         # iterate over the JAMS files
-        for jams_file in jams_path.glob("*.jams"):
+        for jams_file in tqdm(jams_path.glob("*.jams"), leave=False):
             # log track information
             logger.info(f"Processing JAMS file {jams_file.name}")
             # process the JAMS file
