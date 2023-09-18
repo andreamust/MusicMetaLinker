@@ -34,6 +34,8 @@ from linking import linking
 from preprocessor import JAMSProcessor
 from utils import log_downloaded_data
 
+logging.basicConfig(filename='./link_partitions.log', level=logging.DEBUG,
+                    format='%(asctime)s %(levelname)s %(name)s %(message)s')
 logger = logging.getLogger('link_partitions')
 logging.getLogger("musicbrainzngs").setLevel(logging.ERROR)
 
