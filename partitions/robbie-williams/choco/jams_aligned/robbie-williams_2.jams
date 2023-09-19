@@ -510,9 +510,10 @@
     "release": "Life Thru a Lens",
     "duration": 187.533311,
     "identifiers": {
-      "musicbrainz": "9b096306-7323-4c15-b9eb-57ce9141899e",
+      "musicbrainz": "4280d9aa-6bff-4912-aeb8-045198daef6e",
+      "acousticbrainz": null,
       "isrc": "GBAYE9701181",
-      "deezer": 2035264457,
+      "deezer_id": 2035264457,
       "deezer_url": "https://www.deezer.com/track/2035264457",
       "youtube_url": "https://music.youtube.com/watch?v=48OaCfP_Voo",
       "spotify_id": null

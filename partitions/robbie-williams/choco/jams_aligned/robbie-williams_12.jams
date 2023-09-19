@@ -738,9 +738,10 @@
     "release": "Escapology",
     "duration": 263.899615,
     "identifiers": {
-      "musicbrainz": "344a6d7a-3b4a-4d3a-b8b2-c84ebcbee019",
+      "musicbrainz": "b6c03326-9ce3-4c2f-b32d-d5839a1cf228",
+      "acousticbrainz": null,
       "isrc": "GBFFG0200002",
-      "deezer": 3098217,
+      "deezer_id": 3098217,
       "deezer_url": "https://www.deezer.com/track/3098217",
       "youtube_url": "https://music.youtube.com/watch?v=90cFGw5_nfU",
       "spotify_id": null

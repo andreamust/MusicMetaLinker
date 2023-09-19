@@ -3230,8 +3230,9 @@
       "youtube": "https://www.youtube.com/watch?v=RKeqXyY-9xA",
       "dataid_billboard": 1114,
       "musicbrainz": "b62c1ef9-8d2c-413b-88ed-83b54c10ac3d",
+      "acousticbrainz": null,
       "isrc": "USCN10100759",
-      "deezer": 3167207,
+      "deezer_id": 3167207,
       "deezer_url": "https://www.deezer.com/track/3167207",
       "youtube_url": "https://music.youtube.com/watch?v=Q8P_xTBpAcY",
       "spotify_id": null

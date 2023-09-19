@@ -3068,15 +3068,16 @@
   "file_metadata": {
     "title": "Waiting On A Friend",
     "artist": "The Rolling Stones",
-    "release": "1981 Best of by uDiscover",
+    "release": "Tattoo You (2009 Re-Mastered)",
     "duration": 266.797,
     "identifiers": {
       "youtube": "https://www.youtube.com/watch?v=MKLVmBOOqVU",
       "dataid_billboard": 332,
-      "musicbrainz": "8c02572a-4327-44a0-8931-e0cf21effa8d",
+      "musicbrainz": "41fbb4bc-9a89-4f65-9e55-19cf6298fb8b",
+      "acousticbrainz": null,
       "isrc": "GBUM70909484",
-      "deezer": 2340429745,
-      "deezer_url": "https://www.deezer.com/track/2340429745",
+      "deezer_id": 4125602,
+      "deezer_url": "https://www.deezer.com/track/4125602",
       "youtube_url": "https://music.youtube.com/watch?v=KUZ77IZxTME",
       "spotify_id": null
     },
@@ -3085,8 +3086,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "",
-    "track_number": 25,
-    "release_year": "01/07/2023",
+    "track_number": 11,
+    "release_year": "17/08/2009",
     "composers": [],
     "performers": [
       "The Rolling Stones"

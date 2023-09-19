@@ -643,8 +643,9 @@
     "duration": 134.733,
     "identifiers": {
       "musicbrainz": "59e4621f-455e-4e61-b9a4-7435901d6580",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601459",
-      "deezer": 116348386,
+      "deezer_id": 116348386,
       "deezer_url": "https://www.deezer.com/track/116348386",
       "youtube_url": "https://music.youtube.com/watch?v=no-nuFTHetE",
       "spotify_id": null

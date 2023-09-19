@@ -720,9 +720,10 @@
     "release": "Sgt. Pepper's Lonely Hearts Club Band",
     "duration": 157.093,
     "identifiers": {
-      "musicbrainz": "e8d26ac9-a9b3-49b8-9377-1d113932b2c8",
+      "musicbrainz": "3104ebd0-b591-445d-9b25-7842eb93453b",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601513",
-      "deezer": 116348682,
+      "deezer_id": 116348682,
       "deezer_url": "https://www.deezer.com/track/116348682",
       "youtube_url": "https://music.youtube.com/watch?v=bJVWZy4QOy0",
       "spotify_id": null

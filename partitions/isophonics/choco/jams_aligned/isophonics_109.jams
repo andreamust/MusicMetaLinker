@@ -618,9 +618,10 @@
     "release": "The Beatles CD1",
     "duration": 163.321,
     "identifiers": {
-      "musicbrainz": "f39867c7-7f6b-4d33-bc1d-88fa4b880cfb",
+      "musicbrainz": "fba7764a-12c0-4127-984a-006b8c21d36c",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601644",
-      "deezer": 116348192,
+      "deezer_id": 116348192,
       "deezer_url": "https://www.deezer.com/track/116348192",
       "youtube_url": "https://music.youtube.com/watch?v=0ArlUSVDQIw",
       "spotify_id": null

@@ -282,9 +282,10 @@
     "release": "Let It Be",
     "duration": 50.0,
     "identifiers": {
-      "musicbrainz": "2aad0e11-6d08-45eb-8021-9350ee24eebc",
+      "musicbrainz": "aae0b18d-4e5e-4856-817d-6252fe76f7c2",
+      "acousticbrainz": null,
       "isrc": "GBUM72006885",
-      "deezer": 1516275312,
+      "deezer_id": 1516275312,
       "deezer_url": "https://www.deezer.com/track/1516275312",
       "youtube_url": "https://music.youtube.com/watch?v=yoQfhZqou8g",
       "spotify_id": null

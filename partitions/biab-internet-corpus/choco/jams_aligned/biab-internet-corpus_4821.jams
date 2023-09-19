@@ -1,0 +1,94 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Bas de Haas",
+          "email": "bas@chordify.net"
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 0.95,
+        "corpus": "BiaB Internet Corpus",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 8.0,
+          "value": "G:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 6.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.3,
+          "duration": 2.0,
+          "value": "C:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "G:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Galway Bay",
+    "artist": "Giuseppe Millaci",
+    "release": "Double Portrait",
+    "duration": 148,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "BE8GB2303009",
+      "deezer_id": 2431199415,
+      "deezer_url": "https://www.deezer.com/track/2431199415",
+      "youtube_url": "https://music.youtube.com/watch?v=UFxe4UdqGl4",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 9,
+    "release_year": "15/09/2023",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

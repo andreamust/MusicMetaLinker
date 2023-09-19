@@ -1,0 +1,220 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Bas de Haas",
+          "email": "bas@chordify.net"
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 0.95,
+        "corpus": "BiaB Internet Corpus",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 2.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.3,
+          "duration": 2.0,
+          "value": "A:(b3,b5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 2.0,
+          "value": "D:(3,5,b7,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.3,
+          "duration": 2.0,
+          "value": "G:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 1.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 3.0,
+          "value": "G:(4,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 4.0,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 4.0,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 2.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.3,
+          "duration": 2.0,
+          "value": "Eb:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 2.0,
+          "value": "Ab:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.3,
+          "duration": 2.0,
+          "value": "G:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 4.0,
+          "value": "D:min(6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 4.0,
+          "value": "G:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "C:(3,5,6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "D:min(6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "G:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "C:(3,5,6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 4.0,
+          "value": "G:(4,5,b7)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Qui sas ?",
+    "artist": "\u041e\u043b\u0435\u0433 \u0421\u043a\u0440\u0438\u043f\u043a\u0430",
+    "release": "\u0412\u0456\u0434\u0440\u0430\u0434\u0430",
+    "duration": 201,
+    "identifiers": {
+      "musicbrainz": "3f6d3e67-fc79-4742-855a-7af0b1e814a1",
+      "acousticbrainz": null,
+      "isrc": "QMFMG1530960",
+      "deezer_id": 129630336,
+      "deezer_url": "https://www.deezer.com/track/129630336",
+      "youtube_url": "https://music.youtube.com/watch?v=RaBPXIw0rqs",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 9,
+    "release_year": "27/04/2004",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

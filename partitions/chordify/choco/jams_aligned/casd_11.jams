@@ -2930,8 +2930,9 @@
       "youtube": "https://www.youtube.com/watch?v=QGe1z8G-rRk",
       "dataid_billboard": 812,
       "musicbrainz": "1c35969a-abe4-4544-b009-add420005b3e",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=wnKc4zi0MLA",
       "spotify_id": null

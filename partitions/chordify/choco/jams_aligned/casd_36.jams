@@ -3740,10 +3740,11 @@
       "youtube": "https://www.youtube.com/watch?v=4LdUme7QZLY",
       "dataid_billboard": 1012,
       "musicbrainz": "f2b65338-8f65-4ccf-a2a1-6559d7b06752",
+      "acousticbrainz": null,
       "isrc": "USAM19100286",
-      "deezer": 18221389,
+      "deezer_id": 18221389,
       "deezer_url": "https://www.deezer.com/track/18221389",
-      "youtube_url": "https://music.youtube.com/watch?v=izDm772fGEE",
+      "youtube_url": "https://music.youtube.com/watch?v=LGpoKmqrLtw",
       "spotify_id": null
     },
     "jams_version": "0.3.0"

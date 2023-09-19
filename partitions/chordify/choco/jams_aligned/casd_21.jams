@@ -3062,8 +3062,9 @@
       "youtube": "https://www.youtube.com/watch?v=355Fk8drgZE",
       "dataid_billboard": 995,
       "musicbrainz": "fea1ae51-f79a-48ac-8a3b-44a764819cf7",
+      "acousticbrainz": null,
       "isrc": "USAT21205870",
-      "deezer": 740624782,
+      "deezer_id": 740624782,
       "deezer_url": "https://www.deezer.com/track/740624782",
       "youtube_url": "https://music.youtube.com/watch?v=fxf2y8Tl9Ts",
       "spotify_id": null

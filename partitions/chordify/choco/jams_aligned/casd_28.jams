@@ -3194,15 +3194,16 @@
   "file_metadata": {
     "title": "I Want A New Drug",
     "artist": "Huey Lewis",
-    "release": "Sports",
+    "release": "1984 Best of by uDiscover",
     "duration": 286.0,
     "identifiers": {
       "youtube": "https://www.youtube.com/watch?v=3ZwQRCkKxNE",
       "dataid_billboard": 430,
       "musicbrainz": "338eb331-c08a-422c-b45c-b4fdcad774e9",
+      "acousticbrainz": null,
       "isrc": "USCH39900066",
-      "deezer": 66878474,
-      "deezer_url": "https://www.deezer.com/track/66878474",
+      "deezer_id": 2340431835,
+      "deezer_url": "https://www.deezer.com/track/2340431835",
       "youtube_url": "https://music.youtube.com/watch?v=_nlMn9A-6LA",
       "spotify_id": null
     },
@@ -3211,8 +3212,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "",
-    "track_number": 4,
-    "release_year": "14/05/2013",
+    "track_number": 30,
+    "release_year": "01/07/2023",
     "composers": [],
     "performers": [
       "Huey Lewis"

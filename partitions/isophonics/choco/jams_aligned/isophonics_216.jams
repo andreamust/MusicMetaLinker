@@ -289,8 +289,9 @@
     "duration": 121.733,
     "identifiers": {
       "musicbrainz": "0329ed58-5252-4f1b-bc64-b37c4df5d024",
+      "acousticbrainz": null,
       "isrc": "GBUM72202562",
-      "deezer": 1988498497,
+      "deezer_id": 1988498497,
       "deezer_url": "https://www.deezer.com/track/1988498497",
       "youtube_url": "https://music.youtube.com/watch?v=sOUlbredoUM",
       "spotify_id": null

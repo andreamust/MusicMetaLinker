@@ -594,9 +594,10 @@
     "release": "Rubber Soul",
     "duration": 202.6,
     "identifiers": {
-      "musicbrainz": "f9f6a8db-d500-48a6-a2be-552ac0ed2628",
+      "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": "GBAYE0601481",
-      "deezer": 116348256,
+      "deezer_id": 116348256,
       "deezer_url": "https://www.deezer.com/track/116348256",
       "youtube_url": "https://music.youtube.com/watch?v=OsjTO0yZQjk",
       "spotify_id": null

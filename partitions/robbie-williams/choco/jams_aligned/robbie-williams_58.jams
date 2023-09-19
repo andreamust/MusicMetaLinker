@@ -547,8 +547,9 @@
     "duration": 258.738481,
     "identifiers": {
       "musicbrainz": "963d1b9a-4353-4c51-9c64-f61018b2df8a",
+      "acousticbrainz": null,
       "isrc": "GBAYK9800016",
-      "deezer": 3099004,
+      "deezer_id": 3099004,
       "deezer_url": "https://www.deezer.com/track/3099004",
       "youtube_url": "https://music.youtube.com/watch?v=wR-nPqBhZPo",
       "spotify_id": null

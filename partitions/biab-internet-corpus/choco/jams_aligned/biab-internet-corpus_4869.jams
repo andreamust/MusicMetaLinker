@@ -1,0 +1,166 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Bas de Haas",
+          "email": "bas@chordify.net"
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 0.95,
+        "corpus": "BiaB Internet Corpus",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 1.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2,
+          "duration": 3.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 1.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 3.0,
+          "value": "Bb:(3,5,6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "Bb:min(b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "Bb:min(6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "B:(3,5,6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "Bb:maj(7,9,#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "A:min(b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "Ab:(3,#5,7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 3.0,
+          "value": "Bb:(3,5,b7,#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 1.0,
+          "value": "Bb:(3,5,b7)/#4",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "Bb:(4,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 4.0,
+          "value": "Ab:maj/9",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "Gb:maj/#4",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 4.0,
+          "value": "F:(3,5,b7,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "Eb:(3,5,b7,#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "A:(3,#5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 4.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Modes",
+    "artist": "Relaxing Piano Crew",
+    "release": "\u30ab\u30af\u30c6\u30eb\u306b\u4f3c\u5408\u3046\u30b8\u30e3\u30ba\u30d4\u30a2\u30ce",
+    "duration": 125,
+    "identifiers": {
+      "musicbrainz": "44d7666a-43c1-4724-b238-c64b00b67b48",
+      "acousticbrainz": null,
+      "isrc": "JPN292333855",
+      "deezer_id": 2427819895,
+      "deezer_url": "https://www.deezer.com/track/2427819895",
+      "youtube_url": "https://music.youtube.com/watch?v=P2yoAvZ3AyU",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 5,
+    "release_year": "15/09/2023",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

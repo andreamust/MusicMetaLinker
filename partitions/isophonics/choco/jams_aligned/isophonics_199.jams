@@ -624,9 +624,10 @@
     "release": "A Hard Day's Night",
     "duration": 130.053,
     "identifiers": {
-      "musicbrainz": "e23e779f-4e47-4815-a045-739e5cee8ba7",
+      "musicbrainz": "681a7a2b-c816-4633-99f4-79625dce01e1",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601443",
-      "deezer": 116348436,
+      "deezer_id": 116348436,
       "deezer_url": "https://www.deezer.com/track/116348436",
       "youtube_url": "https://music.youtube.com/watch?v=GVub1QCUCGc",
       "spotify_id": null

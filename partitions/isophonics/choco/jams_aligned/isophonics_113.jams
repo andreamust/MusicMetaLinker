@@ -378,9 +378,10 @@
     "release": "Beatles for Sale",
     "duration": 143.867,
     "identifiers": {
-      "musicbrainz": "170f49f6-33d2-4fa9-bbec-1c22e72eba13",
+      "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": "GBAYE0601464",
-      "deezer": 116348396,
+      "deezer_id": 116348396,
       "deezer_url": "https://www.deezer.com/track/116348396",
       "youtube_url": "https://music.youtube.com/watch?v=wn7FiAdHcmw",
       "spotify_id": null

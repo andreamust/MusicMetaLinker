@@ -3458,15 +3458,16 @@
   "file_metadata": {
     "title": "Where The Streets Have No Name",
     "artist": "Pet Shop Boys",
-    "release": "Discography - Complete Singles Collection",
+    "release": "SMASH \u2013 The Singles 1985 \u2013 2020 (2023 Remaster)",
     "duration": 265.4,
     "identifiers": {
       "youtube": "https://www.youtube.com/watch?v=Jt2j79pca7c",
       "dataid_billboard": 382,
       "musicbrainz": null,
-      "isrc": "GBCEW9100001",
-      "deezer": 3122983,
-      "deezer_url": "https://www.deezer.com/track/3122983",
+      "acousticbrainz": null,
+      "isrc": "GBAYE2100048",
+      "deezer_id": 2210634507,
+      "deezer_url": "https://www.deezer.com/track/2210634507",
       "youtube_url": "https://music.youtube.com/watch?v=DZawzGN00pw",
       "spotify_id": null
     },
@@ -3476,7 +3477,7 @@
     "type": "audio",
     "genre": "",
     "track_number": 15,
-    "release_year": "04/11/1991",
+    "release_year": "16/06/2023",
     "composers": [],
     "performers": [
       "Pet Shop Boys"

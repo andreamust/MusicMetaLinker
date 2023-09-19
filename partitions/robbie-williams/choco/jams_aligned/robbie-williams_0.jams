@@ -679,9 +679,10 @@
     "duration": 236.266644,
     "identifiers": {
       "musicbrainz": "a5050dcc-1a13-405b-afb2-9904045a45bb",
+      "acousticbrainz": null,
       "isrc": "GBAYE9701185",
-      "deezer": 3087543,
-      "deezer_url": "https://www.deezer.com/track/3087543",
+      "deezer_id": 2035264527,
+      "deezer_url": "https://www.deezer.com/track/2035264527",
       "youtube_url": "https://music.youtube.com/watch?v=9sQfbICmcs8",
       "spotify_id": null
     },
@@ -691,7 +692,7 @@
     "type": "audio",
     "genre": "",
     "track_number": "09",
-    "release_year": "01/04/2004",
+    "release_year": "02/12/2022",
     "composers": [],
     "performers": [
       "Robbie Williams"

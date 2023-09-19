@@ -252,9 +252,10 @@
     "release": "Revolver",
     "duration": 181.2,
     "identifiers": {
-      "musicbrainz": "1acee813-e379-47c8-9995-3076b886b934",
+      "musicbrainz": "b604bf5c-aa0a-4be1-b4b6-13964dbdc2b2",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601496",
-      "deezer": 116348404,
+      "deezer_id": 116348404,
       "deezer_url": "https://www.deezer.com/track/116348404",
       "youtube_url": "https://music.youtube.com/watch?v=s1X-q7MweIc",
       "spotify_id": null

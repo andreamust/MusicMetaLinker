@@ -276,9 +276,10 @@
     "release": "With the Beatles",
     "duration": 156.733,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "62ebf874-f6ba-4df9-9a4a-944aebf1f07b",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601430",
-      "deezer": 116348708,
+      "deezer_id": 116348708,
       "deezer_url": "https://www.deezer.com/track/116348708",
       "youtube_url": "https://music.youtube.com/watch?v=v2Kk5IG2b8E",
       "spotify_id": null

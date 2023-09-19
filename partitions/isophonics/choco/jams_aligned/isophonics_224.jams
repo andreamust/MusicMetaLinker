@@ -312,11 +312,12 @@
     "release": "The Beatles CD2",
     "duration": 269.667,
     "identifiers": {
-      "musicbrainz": "94c813ee-25e5-4345-98bb-bc04f43f2318",
+      "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": "GBAYE0601666",
-      "deezer": 116348236,
+      "deezer_id": 116348236,
       "deezer_url": "https://www.deezer.com/track/116348236",
-      "youtube_url": "https://music.youtube.com/watch?v=QoK3HyIL0eo",
+      "youtube_url": "https://music.youtube.com/watch?v=Uk1hCSA89fc",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

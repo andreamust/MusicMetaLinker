@@ -822,9 +822,10 @@
     "release": "Greatest Hits I",
     "duration": 213.307,
     "identifiers": {
-      "musicbrainz": "d9bd6b39-6bbe-4b7d-ac23-b3b9707f5514",
+      "musicbrainz": "fd69655e-91e3-42d5-8cb5-27e3a3784067",
+      "acousticbrainz": null,
       "isrc": "GBUM71029615",
-      "deezer": 67503804,
+      "deezer_id": 67503804,
       "deezer_url": "https://www.deezer.com/track/67503804",
       "youtube_url": "https://music.youtube.com/watch?v=Dr0Gf6OzdBM",
       "spotify_id": null

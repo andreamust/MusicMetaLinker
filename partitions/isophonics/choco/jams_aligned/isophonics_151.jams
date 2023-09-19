@@ -492,9 +492,10 @@
     "release": "Help!",
     "duration": 140.44,
     "identifiers": {
-      "musicbrainz": "9dac44ee-5905-49ea-97f1-584d4ac7bcae",
+      "musicbrainz": "48445d4c-058e-42a0-aa9c-8b3add3a75fb",
+      "acousticbrainz": null,
       "isrc": "UKXN22072822",
-      "deezer": 1029262482,
+      "deezer_id": 1029262482,
       "deezer_url": "https://www.deezer.com/track/1029262482",
       "youtube_url": "https://music.youtube.com/watch?v=vqpEZuv29qE",
       "spotify_id": null

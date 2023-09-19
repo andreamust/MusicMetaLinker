@@ -516,9 +516,10 @@
     "release": "Magical Mystery Tour",
     "duration": 183.76,
     "identifiers": {
-      "musicbrainz": "b2217570-bbc5-48d2-a373-b8abc39b9dab",
+      "musicbrainz": "f661c0c4-70d2-4fb9-ad62-5007d8b01911",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601642",
-      "deezer": 116348298,
+      "deezer_id": 116348298,
       "deezer_url": "https://www.deezer.com/track/116348298",
       "youtube_url": "https://music.youtube.com/watch?v=i5m-sgtwFck",
       "spotify_id": null

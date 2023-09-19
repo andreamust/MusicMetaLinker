@@ -498,9 +498,10 @@
     "release": "Please Please Me",
     "duration": 125.733,
     "identifiers": {
-      "musicbrainz": "b9e23dfd-4534-40f5-9c1a-b88e367cb5ff",
+      "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=MA5DkiVKSlM",
       "spotify_id": null

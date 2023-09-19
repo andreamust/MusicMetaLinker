@@ -451,10 +451,11 @@
     "duration": 72.733,
     "identifiers": {
       "musicbrainz": "1a910833-4319-4282-903b-cbaad5a9dd55",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601701",
-      "deezer": 116348474,
+      "deezer_id": 116348474,
       "deezer_url": "https://www.deezer.com/track/116348474",
-      "youtube_url": "https://music.youtube.com/watch?v=a4Ujexj9YGs",
+      "youtube_url": "https://music.youtube.com/watch?v=Cb0dTdTeHMU",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

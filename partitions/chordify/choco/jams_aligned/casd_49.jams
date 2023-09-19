@@ -2348,10 +2348,11 @@
       "youtube": "https://www.youtube.com/watch?v=BjHSOzVU5j0",
       "dataid_billboard": 1212,
       "musicbrainz": "9426fc9d-1742-4fc5-a795-0015d96ef26a",
+      "acousticbrainz": null,
       "isrc": "ITDD81800218",
-      "deezer": 2191792017,
+      "deezer_id": 2191792017,
       "deezer_url": "https://www.deezer.com/track/2191792017",
-      "youtube_url": "https://music.youtube.com/watch?v=xOofyXdRn8M",
+      "youtube_url": "https://music.youtube.com/watch?v=0yu1Dnqq_9s",
       "spotify_id": null
     },
     "jams_version": "0.3.0"

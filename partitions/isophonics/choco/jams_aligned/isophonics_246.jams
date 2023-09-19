@@ -727,8 +727,9 @@
     "duration": 153.267,
     "identifiers": {
       "musicbrainz": "735027a3-d183-42a0-a691-7be6c166df2f",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601423",
-      "deezer": 116348340,
+      "deezer_id": 116348340,
       "deezer_url": "https://www.deezer.com/track/116348340",
       "youtube_url": "https://music.youtube.com/watch?v=2RicaUqd9Hg",
       "spotify_id": null

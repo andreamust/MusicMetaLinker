@@ -378,9 +378,10 @@
     "release": "Abbey Road",
     "duration": 139.827,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "8e927a1b-2e0d-4e54-b3d5-d03c13b2123a",
+      "acousticbrainz": null,
       "isrc": "GBAYE0601705",
-      "deezer": 116348482,
+      "deezer_id": 116348482,
       "deezer_url": "https://www.deezer.com/track/116348482",
       "youtube_url": "https://music.youtube.com/watch?v=12R4FzIhdoQ",
       "spotify_id": null
