@@ -372,9 +372,10 @@
     "release": "Hot August Night Disk 2",
     "duration": 293.0,
     "identifiers": {
-      "musicbrainz": "6d6dc1d7-b83b-497c-aa61-460e4a04209d",
+      "musicbrainz": "d0369f30-a747-4690-a7b3-8885d3b0d67e",
+      "acousticbrainz": null,
       "isrc": "USMC17201017",
-      "deezer": 549303252,
+      "deezer_id": 549303252,
       "deezer_url": "https://www.deezer.com/track/549303252",
       "youtube_url": "https://music.youtube.com/watch?v=9Mip_m6JUyc",
       "spotify_id": null

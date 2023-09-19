@@ -303,14 +303,15 @@
   "file_metadata": {
     "title": "T\u00e4uschung",
     "artist": "Hanns-Udo MullerandGerhard Husch",
-    "release": "An dich hab ich gedacht \u2013 Hannes Wader singt Schubert",
+    "release": "Gerhard H\u00fcsch Liederabend: Franz Schubert, Die Sch\u00f6ne M\u00fcllerin",
     "duration": 70.91,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=jqGFkcY_N98",
+      "youtube_url": "https://music.youtube.com/watch?v=7IpWj7L-lxA",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

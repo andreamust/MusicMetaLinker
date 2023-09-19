@@ -985,9 +985,10 @@
     "duration": 235.0,
     "identifiers": {
       "musicbrainz": "97217a18-9739-4807-bfa7-b506983840f8",
+      "acousticbrainz": null,
       "isrc": "USSM17700374",
-      "deezer": 2322682,
-      "deezer_url": "https://www.deezer.com/track/2322682",
+      "deezer_id": 974819,
+      "deezer_url": "https://www.deezer.com/track/974819",
       "youtube_url": "https://music.youtube.com/watch?v=ZQ_m236f_eM",
       "spotify_id": null
     },
@@ -997,7 +998,7 @@
     "type": "audio",
     "genre": "",
     "track_number": "06",
-    "release_year": "29/09/1977",
+    "release_year": "02/09/2009",
     "composers": [],
     "performers": [
       "Billy Joel"

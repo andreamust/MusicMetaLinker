@@ -624,9 +624,10 @@
     "release": "Live In Australia",
     "duration": 238.0,
     "identifiers": {
-      "musicbrainz": "6db75677-7342-4aa8-b012-36d0bba34f70",
+      "musicbrainz": "2b0c1bb5-115f-433f-b064-89f6e37512c6",
+      "acousticbrainz": null,
       "isrc": "GBALX8700005",
-      "deezer": 549582302,
+      "deezer_id": 549582302,
       "deezer_url": "https://www.deezer.com/track/549582302",
       "youtube_url": "https://music.youtube.com/watch?v=YtVgIVf6pko",
       "spotify_id": null

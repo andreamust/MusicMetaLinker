@@ -639,14 +639,15 @@
   "file_metadata": {
     "title": "R\u00fcckblick",
     "artist": "Hanns-Udo MullerandGerhard Husch",
-    "release": "Schubert: Die sch\u00f6ne M\u00fcllerin, D.795",
+    "release": "Gerhard H\u00fcsch Liederabend: Franz Schubert, Die Sch\u00f6ne M\u00fcllerin",
     "duration": 123.39,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=Qy8u63iDwRU",
+      "youtube_url": "https://music.youtube.com/watch?v=7IpWj7L-lxA",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

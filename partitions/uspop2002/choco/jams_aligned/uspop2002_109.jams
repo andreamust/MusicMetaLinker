@@ -691,8 +691,9 @@
     "duration": 236.0,
     "identifiers": {
       "musicbrainz": "cabac888-26ae-4cf4-9c5b-7b45a3de47f1",
+      "acousticbrainz": null,
       "isrc": "USGF19500403",
-      "deezer": 1194174562,
+      "deezer_id": 1194174562,
       "deezer_url": "https://www.deezer.com/track/1194174562",
       "youtube_url": "https://music.youtube.com/watch?v=p1VheMRX_iQ",
       "spotify_id": null

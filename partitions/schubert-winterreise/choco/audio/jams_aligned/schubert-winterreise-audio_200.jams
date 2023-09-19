@@ -351,14 +351,15 @@
   "file_metadata": {
     "title": "Irrlicht",
     "artist": "Ulrich EisenlohrandRoman Trekel",
-    "release": "Gitaa sp\u00fc\u00fcn",
+    "release": "Fang den Berg",
     "duration": 169.56,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=EgSH11vLOqU",
+      "youtube_url": "https://music.youtube.com/watch?v=-qcqGhHojGA",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

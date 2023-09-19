@@ -667,10 +667,11 @@
     "duration": 170.0,
     "identifiers": {
       "musicbrainz": "32f22ff9-4d46-41e2-b35d-a9138d6d311c",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=cbG7HEEPE1o",
+      "youtube_url": "https://music.youtube.com/watch?v=XxHS9lTUN4Y",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

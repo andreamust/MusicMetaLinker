@@ -1027,8 +1027,9 @@
     "duration": 235.0,
     "identifiers": {
       "musicbrainz": "a8b8f5ea-6d2b-40dd-abbd-49ed20a7d2cf",
+      "acousticbrainz": null,
       "isrc": "USMC10110539",
-      "deezer": 2314543,
+      "deezer_id": 2314543,
       "deezer_url": "https://www.deezer.com/track/2314543",
       "youtube_url": "https://music.youtube.com/watch?v=_APQB2-Um-I",
       "spotify_id": null

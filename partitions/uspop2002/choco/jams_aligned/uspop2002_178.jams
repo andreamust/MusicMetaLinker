@@ -468,9 +468,10 @@
     "release": "Live",
     "duration": 263.0,
     "identifiers": {
-      "musicbrainz": "ab6e8b83-56f7-4230-853d-216c9dca1f42",
+      "musicbrainz": "fde2cb0e-93de-4591-a4e5-ec1c6ec7de62",
+      "acousticbrainz": null,
       "isrc": "SEUM71400826",
-      "deezer": 84791781,
+      "deezer_id": 84791781,
       "deezer_url": "https://www.deezer.com/track/84791781",
       "youtube_url": "https://music.youtube.com/watch?v=vWMDgBD4Kvg",
       "spotify_id": null

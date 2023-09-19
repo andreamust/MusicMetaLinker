@@ -661,8 +661,9 @@
     "duration": 178.0,
     "identifiers": {
       "musicbrainz": "9494f1e5-af86-4cb5-8641-f817cca50759",
+      "acousticbrainz": null,
       "isrc": "USMO17282852",
-      "deezer": 2505663,
+      "deezer_id": 2505663,
       "deezer_url": "https://www.deezer.com/track/2505663",
       "youtube_url": "https://music.youtube.com/watch?v=SbenaOqv4yQ",
       "spotify_id": null

@@ -720,9 +720,10 @@
     "release": "Music Box",
     "duration": 259.0,
     "identifiers": {
-      "musicbrainz": "69c1fb4c-06f2-454e-90e3-7e59c259d9cb",
+      "musicbrainz": "c6c73248-8ca1-4ed4-8fa4-45cff9878687",
+      "acousticbrainz": null,
       "isrc": "USQX92304264",
-      "deezer": 2442224925,
+      "deezer_id": 2442224925,
       "deezer_url": "https://www.deezer.com/track/2442224925",
       "youtube_url": "https://music.youtube.com/watch?v=lZe8niZY7KA",
       "spotify_id": null

@@ -549,14 +549,15 @@
   "file_metadata": {
     "title": "Muth",
     "artist": "Gerald MooreandDietrich Fischer-Dieskau",
-    "release": "Brahms: Deutsche Volkslieder, WoO 33",
+    "release": "Schubert: Lieder",
     "duration": 85.66,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=ajG1EzcyGng",
+      "youtube_url": "https://music.youtube.com/watch?v=44Fe0LGm0DM",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

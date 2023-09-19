@@ -1,0 +1,168 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 1.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 1.0,
+          "value": "F:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 3.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.2,
+          "duration": 1.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 1.0,
+          "value": "Ab:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.2,
+          "duration": 1.0,
+          "value": "F:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 3.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.2,
+          "duration": 1.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 1.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.2,
+          "duration": 1.0,
+          "value": "F:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 1.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.2,
+          "duration": 1.0,
+          "value": "F:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "The Wild Colonial Boy",
+    "artist": "Irish Air adapted by Joseph M.Crofts and/or Francis MacNamara",
+    "release": "40 Years A-Rovin'",
+    "duration": 224,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=XIwIF8INmQE",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": null,
+    "release_year": null,
+    "composers": [
+      "Irish Air adapted by Joseph M.Crofts and/or Francis MacNamara"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

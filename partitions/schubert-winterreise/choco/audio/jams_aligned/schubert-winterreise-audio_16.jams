@@ -405,14 +405,15 @@
   "file_metadata": {
     "title": "Im Dorfe",
     "artist": "Hanns-Udo MullerandGerhard Husch",
-    "release": "Schubert: Winterreise, D.911",
+    "release": "Schubert: Die sch\u00f6ne M\u00fcllerin, D.795",
     "duration": 197.74,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=ktpo3WFMgKQ",
+      "youtube_url": "https://music.youtube.com/watch?v=Qy8u63iDwRU",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

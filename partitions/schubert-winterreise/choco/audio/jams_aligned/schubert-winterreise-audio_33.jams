@@ -447,14 +447,15 @@
   "file_metadata": {
     "title": "Rast",
     "artist": "Jeremy DenkandRandall Scarlata",
-    "release": "Chehal Leklib",
+    "release": "Zernar: la grande estasi dell'intagliatore",
     "duration": 180.92,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=GunA_jUSwKw",
+      "youtube_url": "https://music.youtube.com/watch?v=URZgDbNeMlw",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
