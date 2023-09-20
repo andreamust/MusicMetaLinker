@@ -1,0 +1,66 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Trevor de Clercq",
+          "email": "trevor.declercq@gmail.com"
+        },
+        "annotator": {
+          "name": "Trevor de Clercq"
+        },
+        "version": 2.1,
+        "corpus": "A Corpus Study of Rock Music",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_roman",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "G:i",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "California Love",
+    "artist": "2Pac",
+    "release": "Greatest Hits",
+    "duration": 285,
+    "identifiers": {
+      "musicbrainz": "4ea7a984-3952-459b-8f77-a0899debc99f",
+      "acousticbrainz": null,
+      "isrc": "USUG10702629",
+      "deezer_id": 87960517,
+      "deezer_url": "https://www.deezer.com/track/87960517",
+      "youtube_url": "https://music.youtube.com/watch?v=eD8lmkBCma4",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "rock",
+    "track_number": 6,
+    "release_year": "31/03/2009",
+    "composers": [],
+    "performers": [
+      "Dr. Dre and 2Pac"
+    ],
+    "tuning": null
+  }
+}

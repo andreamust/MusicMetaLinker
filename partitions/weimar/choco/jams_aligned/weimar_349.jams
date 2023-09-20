@@ -337,9 +337,10 @@
     "duration": 97.99285714285713,
     "identifiers": {
       "musicbrainz": "e369f0dd-600f-4d05-a2ed-3c6fb08171a2",
-      "isrc": "GBBMH1099801",
-      "deezer": 5554380,
-      "deezer_url": "https://www.deezer.com/track/5554380",
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=ZnkVRmDF0H4",
       "spotify_id": null
     },
@@ -348,8 +349,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "jazz",
-    "track_number": 1,
-    "release_year": "22/03/2010",
+    "track_number": "7",
+    "release_year": null,
     "composers": [
       "Dave Brubeck"
     ],

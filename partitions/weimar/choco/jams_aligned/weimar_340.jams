@@ -43,9 +43,10 @@
     "duration": 134.14285714285714,
     "identifiers": {
       "musicbrainz": "d58bbd22-77c3-4482-b4a0-90b3a7dd164f",
-      "isrc": "GBLGL1203887",
-      "deezer": 517530972,
-      "deezer_url": "https://www.deezer.com/track/517530972",
+      "acousticbrainz": null,
+      "isrc": "USAT20003905",
+      "deezer_id": 732643,
+      "deezer_url": "https://www.deezer.com/track/732643",
       "youtube_url": "https://music.youtube.com/watch?v=33bJNspfwww",
       "spotify_id": null
     },
@@ -55,7 +56,7 @@
     "type": "audio",
     "genre": "jazz",
     "track_number": 1,
-    "release_year": "01/01/2000",
+    "release_year": "06/02/2015",
     "composers": [
       "Coleman"
     ],

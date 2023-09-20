@@ -144,11 +144,12 @@
     "release": "College Music Sociecty Sourcebooks in American Music, Louis Armstrong, The Original Hot Five Recordings of Louis Armstrogn",
     "duration": 36.53514739229025,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "a7e7c7c0-8401-4297-8537-65b48c20691b",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=UrEfYHcnwv8",
+      "youtube_url": "https://music.youtube.com/watch?v=M4iwockz9aw",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
@@ -156,7 +157,7 @@
   "sandbox": {
     "type": "audio",
     "genre": "jazz",
-    "track_number": null,
+    "track_number": "14",
     "release_year": null,
     "composers": [
       "Beatrice Jones"

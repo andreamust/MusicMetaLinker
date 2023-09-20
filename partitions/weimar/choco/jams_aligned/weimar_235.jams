@@ -192,9 +192,10 @@
     "release": "College Music Sociecty Sourcebooks in American Music, Louis Armstrong, The Original Hot Five Recordings of Louis Armstrogn",
     "duration": 27.15714285714286,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "2aab71d5-49e6-486c-a84a-718137402bc3",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=xIZ3omCZNpE",
       "spotify_id": null

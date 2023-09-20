@@ -133,8 +133,9 @@
     "duration": 32.95918367346939,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": "FR67W1001483",
-      "deezer": 8073593,
+      "deezer_id": 8073593,
       "deezer_url": "https://www.deezer.com/track/8073593",
       "youtube_url": "https://music.youtube.com/watch?v=BioMv-t1C6Y",
       "spotify_id": null

@@ -336,9 +336,10 @@
     "release": "The Cradle Of Jazz -Sidney Bechet - Chant In The Night CD 2",
     "duration": 40.820680272108845,
     "identifiers": {
-      "musicbrainz": "4a6e18bf-1deb-4676-b6e9-5d09525fd9b4",
+      "musicbrainz": "3663b463-67b0-41f4-9cf5-76435c9aeef0",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
       "youtube_url": null,
       "spotify_id": null

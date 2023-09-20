@@ -313,8 +313,9 @@
     "duration": 109.0118820861678,
     "identifiers": {
       "musicbrainz": "4198844e-fd66-49aa-a037-0fab4e713e69",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=Ra_no-83E3s",
       "spotify_id": null

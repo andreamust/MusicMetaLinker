@@ -528,9 +528,10 @@
     "release": "Cookin' With The Miles Davis Quintet",
     "duration": 130.62027210884352,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "8a88fe10-de8c-4689-9401-e845e1f784d5",
+      "acousticbrainz": null,
       "isrc": "USA561268873",
-      "deezer": 58206191,
+      "deezer_id": 58206191,
       "deezer_url": "https://www.deezer.com/track/58206191",
       "youtube_url": "https://music.youtube.com/watch?v=EaBAfHs4Qc8",
       "spotify_id": null

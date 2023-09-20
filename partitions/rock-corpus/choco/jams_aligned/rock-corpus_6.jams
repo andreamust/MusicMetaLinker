@@ -1,0 +1,96 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Trevor de Clercq",
+          "email": "trevor.declercq@gmail.com"
+        },
+        "annotator": {
+          "name": "Trevor de Clercq"
+        },
+        "version": 2.1,
+        "corpus": "A Corpus Study of Rock Music",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_roman",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "Db:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "Db:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "Db:V",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "Db:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "Db:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "Db:V",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "Db:I",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "All Apologies",
+    "artist": "Nirvana",
+    "release": "MTV Unplugged In New York",
+    "duration": 263,
+    "identifiers": {
+      "musicbrainz": "087757a8-11b2-4193-9510-431d5ceabcb3",
+      "acousticbrainz": null,
+      "isrc": "USGF19972713",
+      "deezer_id": 1105745,
+      "deezer_url": "https://www.deezer.com/track/1105745",
+      "youtube_url": "https://music.youtube.com/watch?v=Ba_08WWIWV8",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "rock",
+    "track_number": 13,
+    "release_year": "27/10/1994",
+    "composers": [],
+    "performers": [
+      "Nirvana"
+    ],
+    "tuning": null
+  }
+}

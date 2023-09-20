@@ -235,8 +235,9 @@
     "duration": 58.022448979591836,
     "identifiers": {
       "musicbrainz": "0ce925dd-5c46-471f-ac09-518d32899b36",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=HpatVesS-Jg",
       "spotify_id": null

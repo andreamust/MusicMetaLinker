@@ -589,8 +589,9 @@
     "duration": 152.6310657596372,
     "identifiers": {
       "musicbrainz": "2d7d5164-0aca-4f39-b745-d1a4ef35c935",
+      "acousticbrainz": null,
       "isrc": "USSM10903563",
-      "deezer": 8237925,
+      "deezer_id": 8237925,
       "deezer_url": "https://www.deezer.com/track/8237925",
       "youtube_url": "https://music.youtube.com/watch?v=cwcmT_85Gbs",
       "spotify_id": null

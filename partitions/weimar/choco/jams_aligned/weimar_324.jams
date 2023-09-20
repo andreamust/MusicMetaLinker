@@ -409,10 +409,11 @@
     "duration": 105.82367346938776,
     "identifiers": {
       "musicbrainz": "0c0460d9-d7de-4fa5-82d1-ab6312970f64",
-      "isrc": "FR6V82084209",
-      "deezer": 96963756,
-      "deezer_url": "https://www.deezer.com/track/96963756",
-      "youtube_url": "https://music.youtube.com/watch?v=nNEDIgqaEa0",
+      "acousticbrainz": null,
+      "isrc": "FR14F5600360",
+      "deezer_id": 141173463,
+      "deezer_url": "https://www.deezer.com/track/141173463",
+      "youtube_url": "https://music.youtube.com/watch?v=vKPYccpiUPY",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
@@ -420,8 +421,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "jazz",
-    "track_number": 1,
-    "release_year": "14/01/2015",
+    "track_number": 5,
+    "release_year": "10/09/2007",
     "composers": [
       "John Coltrane"
     ],

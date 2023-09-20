@@ -300,11 +300,12 @@
     "release": "1956",
     "duration": 109.70657596371882,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "8b369b80-46f1-4029-97dd-c884d1ba3b09",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=PwL-CrFni1c",
+      "youtube_url": "https://music.youtube.com/watch?v=f7VU_eZt0PI",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

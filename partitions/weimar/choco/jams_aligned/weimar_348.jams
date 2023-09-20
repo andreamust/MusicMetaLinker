@@ -925,9 +925,10 @@
     "duration": 160.29387755102042,
     "identifiers": {
       "musicbrainz": null,
-      "isrc": "BEDO61503828",
-      "deezer": 105296872,
-      "deezer_url": "https://www.deezer.com/track/105296872",
+      "acousticbrainz": null,
+      "isrc": "FR10S1702134",
+      "deezer_id": 139257853,
+      "deezer_url": "https://www.deezer.com/track/139257853",
       "youtube_url": "https://music.youtube.com/watch?v=O5YpzNMhRDc",
       "spotify_id": null
     },
@@ -937,7 +938,7 @@
     "type": "audio",
     "genre": "jazz",
     "track_number": 3,
-    "release_year": "01/07/2015",
+    "release_year": "03/01/2017",
     "composers": [
       ""
     ],

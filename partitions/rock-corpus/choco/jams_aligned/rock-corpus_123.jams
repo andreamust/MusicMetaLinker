@@ -1,0 +1,262 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Trevor de Clercq",
+          "email": "trevor.declercq@gmail.com"
+        },
+        "annotator": {
+          "name": "Trevor de Clercq"
+        },
+        "version": 2.1,
+        "corpus": "A Corpus Study of Rock Music",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_roman",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 6.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 6.0,
+          "value": "E:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 6.0,
+          "value": "E:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 6.0,
+          "value": "E:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 6.0,
+          "value": "E:ii7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 6.0,
+          "value": "E:V",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 6.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 6.0,
+          "value": "E:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 6.0,
+          "value": "E:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 6.0,
+          "value": "E:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 6.0,
+          "value": "E:ii7",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 6.0,
+          "value": "E:V",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 9.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.4,
+          "duration": 3.0,
+          "value": "E:v",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 6.0,
+          "value": "E:I",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Norwegian Wood",
+    "artist": "Willie Lindo",
+    "release": "Songs of The Beatles Reggae Style",
+    "duration": 193,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "GBAJE7400421",
+      "deezer_id": 143042204,
+      "deezer_url": "https://www.deezer.com/track/143042204",
+      "youtube_url": "https://music.youtube.com/watch?v=Y_V6y1ZCg_8",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "rock",
+    "track_number": 27,
+    "release_year": "21/01/2003",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}
