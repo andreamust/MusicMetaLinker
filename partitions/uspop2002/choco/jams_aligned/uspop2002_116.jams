@@ -631,8 +631,9 @@
     "duration": 219.0,
     "identifiers": {
       "musicbrainz": "5314fe4f-2abc-463b-98a1-b5b6a8692456",
+      "acousticbrainz": null,
       "isrc": "GBARA9900030",
-      "deezer": 6824033,
+      "deezer_id": 6824033,
       "deezer_url": "https://www.deezer.com/track/6824033",
       "youtube_url": "https://music.youtube.com/watch?v=rjUkVorzkho",
       "spotify_id": null

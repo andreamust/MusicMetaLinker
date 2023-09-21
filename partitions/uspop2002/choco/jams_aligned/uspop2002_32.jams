@@ -343,9 +343,10 @@
     "duration": 126.0,
     "identifiers": {
       "musicbrainz": "f80dba44-c71e-404e-bf35-c9702aebab81",
-      "isrc": "DETT11798954",
-      "deezer": 1581477352,
-      "deezer_url": "https://www.deezer.com/track/1581477352",
+      "acousticbrainz": null,
+      "isrc": "QMFME1356957",
+      "deezer_id": 68559681,
+      "deezer_url": "https://www.deezer.com/track/68559681",
       "youtube_url": "https://music.youtube.com/watch?v=KrPDLxmfWPM",
       "spotify_id": null
     },
@@ -355,7 +356,7 @@
     "type": "audio",
     "genre": "",
     "track_number": "01",
-    "release_year": "10/12/2021",
+    "release_year": "13/06/2013",
     "composers": [],
     "performers": [
       "Beach Boys"

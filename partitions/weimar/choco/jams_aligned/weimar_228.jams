@@ -49,8 +49,9 @@
     "duration": 139.8653514739229,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": "USAT20002141",
-      "deezer": 671559,
+      "deezer_id": 671559,
       "deezer_url": "https://www.deezer.com/track/671559",
       "youtube_url": "https://music.youtube.com/watch?v=JQvc-Gkwhow",
       "spotify_id": null

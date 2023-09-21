@@ -103,9 +103,10 @@
     "duration": 60.89850340136054,
     "identifiers": {
       "musicbrainz": null,
-      "isrc": "DEU241071595",
-      "deezer": 12869857,
-      "deezer_url": "https://www.deezer.com/track/12869857",
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=RzNi1Mg8cfQ",
       "spotify_id": null
     },
@@ -114,8 +115,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "jazz",
-    "track_number": 12,
-    "release_year": "01/09/2005",
+    "track_number": null,
+    "release_year": null,
     "composers": [
       "Lester Young"
     ],

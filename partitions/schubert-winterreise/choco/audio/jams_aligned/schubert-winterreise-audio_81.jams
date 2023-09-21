@@ -451,10 +451,11 @@
     "duration": 188.71,
     "identifiers": {
       "musicbrainz": "8f93e65a-8b0c-4a8d-b361-5802b668a744",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=mLNqzgrpB0g",
+      "youtube_url": "https://music.youtube.com/watch?v=g9zmt_MewwA",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

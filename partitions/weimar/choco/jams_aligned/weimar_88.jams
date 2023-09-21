@@ -511,8 +511,9 @@
     "duration": 64.33102040816325,
     "identifiers": {
       "musicbrainz": "258cf6b1-406d-43c6-9f7e-479b7025c0be",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=hako_Gq_ATQ",
       "spotify_id": null

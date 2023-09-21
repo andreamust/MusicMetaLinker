@@ -753,14 +753,15 @@
   "file_metadata": {
     "title": "Erstarrung",
     "artist": "Hanns-Udo MullerandGerhard Husch",
-    "release": "Shree Hanuman Amirtvani",
+    "release": "Quartett '67",
     "duration": 178.61,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=A_gRxA-o3Rk",
+      "youtube_url": "https://music.youtube.com/watch?v=xTqREOVQO8s",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

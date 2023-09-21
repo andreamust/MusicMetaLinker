@@ -972,9 +972,10 @@
     "release": "Temple Of The Dog",
     "duration": 246.0,
     "identifiers": {
-      "musicbrainz": "0ebc6740-8d0c-46e5-a9e1-bab4898332ec",
+      "musicbrainz": "b37d83f7-e4c2-4a3e-b0f0-5d0dc89ed991",
+      "acousticbrainz": null,
       "isrc": "USUM71607186",
-      "deezer": 133112298,
+      "deezer_id": 133112298,
       "deezer_url": "https://www.deezer.com/track/133112298",
       "youtube_url": "https://music.youtube.com/watch?v=c3QX1zMGT3w",
       "spotify_id": null

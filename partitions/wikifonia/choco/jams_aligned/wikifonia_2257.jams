@@ -1,0 +1,168 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.3,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 3.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.2,
+          "duration": 5.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 3.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.2,
+          "duration": 5.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 3.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 3.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.2,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 0.5,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.15,
+          "duration": 0.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.2,
+          "duration": 1.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.3,
+          "duration": 1.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 1.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "The Solid Rock",
+    "artist": "William B. Bradbury",
+    "release": "Music From the Home Front",
+    "duration": 254.28,
+    "identifiers": {
+      "musicbrainz": "0559a5b8-f52a-4fe8-b10e-543c69c85f86",
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=UtoSBXDzg-E",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "8",
+    "release_year": null,
+    "composers": [
+      "William B. Bradbury"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

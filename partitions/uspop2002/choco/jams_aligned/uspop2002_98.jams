@@ -883,8 +883,9 @@
     "duration": 276.0,
     "identifiers": {
       "musicbrainz": "4f359f6a-2240-460b-9b4d-fb981d72441e",
+      "acousticbrainz": null,
       "isrc": "USRE11300314",
-      "deezer": 1933842237,
+      "deezer_id": 1933842237,
       "deezer_url": "https://www.deezer.com/track/1933842237",
       "youtube_url": "https://music.youtube.com/watch?v=CoOp12ayIVg",
       "spotify_id": null

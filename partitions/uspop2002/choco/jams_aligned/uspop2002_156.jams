@@ -1044,9 +1044,10 @@
     "release": "Two For The Show",
     "duration": 378.0,
     "identifiers": {
-      "musicbrainz": "fddcda7e-b78a-4b7a-ba55-72f4b1f1a19e",
+      "musicbrainz": "456e1d2b-6a41-4d3b-8bee-59d0ae2770a2",
+      "acousticbrainz": null,
       "isrc": "USSM19915163",
-      "deezer": 1343845242,
+      "deezer_id": 1343845242,
       "deezer_url": "https://www.deezer.com/track/1343845242",
       "youtube_url": "https://music.youtube.com/watch?v=a5NN4oXAeyA",
       "spotify_id": null

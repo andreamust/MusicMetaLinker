@@ -2125,8 +2125,9 @@
     "duration": 203.55473922902493,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": "USBN29500562",
-      "deezer": 3509445,
+      "deezer_id": 3509445,
       "deezer_url": "https://www.deezer.com/track/3509445",
       "youtube_url": "https://music.youtube.com/watch?v=U33FB-SIMwo",
       "spotify_id": null

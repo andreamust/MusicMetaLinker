@@ -1302,11 +1302,12 @@
     "release": "Concert In The Park Disc 1",
     "duration": 316.0,
     "identifiers": {
-      "musicbrainz": "63fd744b-20bd-4e0c-b49e-e196324413c0",
+      "musicbrainz": "32dbf2af-6399-426c-a99d-82ea53b4cf5f",
+      "acousticbrainz": null,
       "isrc": "USSM11002168",
-      "deezer": 6599388,
+      "deezer_id": 6599388,
       "deezer_url": "https://www.deezer.com/track/6599388",
-      "youtube_url": "https://music.youtube.com/watch?v=Ja-NlVR4fv8",
+      "youtube_url": "https://music.youtube.com/watch?v=m6_bpME_TpE",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

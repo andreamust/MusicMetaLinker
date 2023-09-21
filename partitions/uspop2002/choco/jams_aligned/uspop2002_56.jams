@@ -600,11 +600,12 @@
     "release": "Concert In The Park Disc 2",
     "duration": 344.0,
     "identifiers": {
-      "musicbrainz": "202be94a-44eb-412c-a0a5-b39d526ce077",
+      "musicbrainz": "0b26c4f0-a637-4ea9-b899-4c1494f89933",
+      "acousticbrainz": null,
       "isrc": "USSM11002190",
-      "deezer": 6599401,
+      "deezer_id": 6599401,
       "deezer_url": "https://www.deezer.com/track/6599401",
-      "youtube_url": "https://music.youtube.com/watch?v=m8irsoyJVE8",
+      "youtube_url": "https://music.youtube.com/watch?v=yBg83_jHW4k",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

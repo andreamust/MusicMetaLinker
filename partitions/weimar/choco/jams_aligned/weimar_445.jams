@@ -205,8 +205,9 @@
     "duration": 156.58009070294784,
     "identifiers": {
       "musicbrainz": "dde9ab7a-6cf1-4624-9b41-aa0e163dca16",
+      "acousticbrainz": null,
       "isrc": "USSM19922212",
-      "deezer": 1078734,
+      "deezer_id": 1078734,
       "deezer_url": "https://www.deezer.com/track/1078734",
       "youtube_url": "https://music.youtube.com/watch?v=JsVMXCirqto",
       "spotify_id": null

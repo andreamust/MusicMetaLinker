@@ -816,9 +816,10 @@
     "release": "Nine Lives",
     "duration": 205.0,
     "identifiers": {
-      "musicbrainz": "09d07f35-22d8-4813-a7e2-390f0abfd6ae",
+      "musicbrainz": "d07793f2-4d4c-4997-8815-a0a16aaed8cb",
+      "acousticbrainz": null,
       "isrc": "USSM19604341",
-      "deezer": 2058924237,
+      "deezer_id": 2058924237,
       "deezer_url": "https://www.deezer.com/track/2058924237",
       "youtube_url": "https://music.youtube.com/watch?v=aLxmov7oGHY",
       "spotify_id": null

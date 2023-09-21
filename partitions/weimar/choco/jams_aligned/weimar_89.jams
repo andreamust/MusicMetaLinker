@@ -445,10 +445,11 @@
     "duration": 100.70204081632653,
     "identifiers": {
       "musicbrainz": null,
-      "isrc": "USPR35512064",
-      "deezer": 542467102,
-      "deezer_url": "https://www.deezer.com/track/542467102",
-      "youtube_url": "https://music.youtube.com/watch?v=hmNBXvbC2cU",
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=S4_ADxh_5UY",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
@@ -456,8 +457,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "jazz",
-    "track_number": 6,
-    "release_year": "17/08/2018",
+    "track_number": null,
+    "release_year": null,
     "composers": [
       "Clifford Brown"
     ],

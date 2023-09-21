@@ -555,14 +555,15 @@
   "file_metadata": {
     "title": "Die Post",
     "artist": "Bert van den BrinkandThomas Oliemans",
-    "release": "Brahms: Romanzen aus Magelone & Regenlied-Zyklus (Brahms Songbook, Vol. 1)",
+    "release": "Schubert: Winterreise",
     "duration": 141.75,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=ST-bU_LNajI",
+      "youtube_url": "https://music.youtube.com/watch?v=2jPKb30ScVM",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

@@ -894,9 +894,10 @@
     "release": "Sweet Dreams Are Made Of This",
     "duration": 217.0,
     "identifiers": {
-      "musicbrainz": "41bbb83d-9710-44e2-9d58-f6bb66731d5a",
+      "musicbrainz": "ec31f75d-ec41-4856-8b6d-9e8ef9a68cbe",
+      "acousticbrainz": null,
       "isrc": "GBARL1800388",
-      "deezer": 475585752,
+      "deezer_id": 475585752,
       "deezer_url": "https://www.deezer.com/track/475585752",
       "youtube_url": "https://music.youtube.com/watch?v=i5_asj1BGFs",
       "spotify_id": null

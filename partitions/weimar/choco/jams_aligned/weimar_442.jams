@@ -60,9 +60,10 @@
     "release": "Stepping Stones: Live at the Village Vanguard",
     "duration": 29.365759637188205,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "293e7b3a-cdc7-4fe4-9c32-649d1675879e",
+      "acousticbrainz": null,
       "isrc": "USSM10503261",
-      "deezer": 571508,
+      "deezer_id": 571508,
       "deezer_url": "https://www.deezer.com/track/571508",
       "youtube_url": "https://music.youtube.com/watch?v=N1xBPl72u8A",
       "spotify_id": null

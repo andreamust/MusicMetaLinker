@@ -60,9 +60,10 @@
     "release": "Kind Of Blue",
     "duration": 105.25315192743764,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "73a2e5b3-e385-4e5e-b209-713d0ef0d5f6",
+      "acousticbrainz": null,
       "isrc": "FRS181234916",
-      "deezer": 143482566,
+      "deezer_id": 143482566,
       "deezer_url": "https://www.deezer.com/track/143482566",
       "youtube_url": "https://music.youtube.com/watch?v=KJEzFvXx3Xw",
       "spotify_id": null

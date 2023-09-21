@@ -186,9 +186,10 @@
     "release": "Let's Get Lost",
     "duration": 58.363174603174606,
     "identifiers": {
-      "musicbrainz": "6615eac8-1fc8-4143-aae4-ebf685258f4d",
+      "musicbrainz": "a1491ce4-3c6f-4870-9ab1-98bd51f0a621",
+      "acousticbrainz": null,
       "isrc": "USBN28900070",
-      "deezer": 3147915,
+      "deezer_id": 3147915,
       "deezer_url": "https://www.deezer.com/track/3147915",
       "youtube_url": "https://music.youtube.com/watch?v=IY32YgSJ8Cw",
       "spotify_id": null

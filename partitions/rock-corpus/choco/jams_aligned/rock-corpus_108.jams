@@ -1,0 +1,72 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Trevor de Clercq",
+          "email": "trevor.declercq@gmail.com"
+        },
+        "annotator": {
+          "name": "Trevor de Clercq"
+        },
+        "version": 2.1,
+        "corpus": "A Corpus Study of Rock Music",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_roman",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "D:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "D:I",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Loser",
+    "artist": "Tidiet",
+    "release": "Daily pt.76",
+    "duration": 227,
+    "identifiers": {
+      "musicbrainz": "7c54b55a-e2d3-4e52-aa40-097e752f4744",
+      "acousticbrainz": null,
+      "isrc": "QZYXP2391637",
+      "deezer_id": 2459865275,
+      "deezer_url": "https://www.deezer.com/track/2459865275",
+      "youtube_url": "https://music.youtube.com/watch?v=5Z1-5wNjMgs",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "rock",
+    "track_number": 14,
+    "release_year": "15/09/2023",
+    "composers": [],
+    "performers": [
+      "Beck"
+    ],
+    "tuning": null
+  }
+}

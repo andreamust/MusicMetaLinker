@@ -427,10 +427,11 @@
     "duration": 86.95306122448979,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=WDjinnV8rn0",
+      "youtube_url": "https://music.youtube.com/watch?v=HpatVesS-Jg",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

@@ -1417,10 +1417,11 @@
     "duration": 244.0,
     "identifiers": {
       "musicbrainz": "99b75401-cd5c-4678-998d-1c034c94ce24",
+      "acousticbrainz": null,
       "isrc": "USWB11403680",
-      "deezer": 97098410,
+      "deezer_id": 97098410,
       "deezer_url": "https://www.deezer.com/track/97098410",
-      "youtube_url": "https://music.youtube.com/watch?v=ggJI9dKBk48",
+      "youtube_url": "https://music.youtube.com/watch?v=bX9RMdcFQAw",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

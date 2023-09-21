@@ -283,9 +283,10 @@
     "duration": 114.56122448979592,
     "identifiers": {
       "musicbrainz": null,
-      "isrc": "QMDA71495994",
-      "deezer": 76186111,
-      "deezer_url": "https://www.deezer.com/track/76186111",
+      "acousticbrainz": null,
+      "isrc": "USB8U1064069",
+      "deezer_id": 82860968,
+      "deezer_url": "https://www.deezer.com/track/82860968",
       "youtube_url": "https://music.youtube.com/watch?v=HtIWM8tOsqs",
       "spotify_id": null
     },
@@ -294,8 +295,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "jazz",
-    "track_number": 14,
-    "release_year": "20/02/2014",
+    "track_number": 4,
+    "release_year": "24/09/2013",
     "composers": [
       "Eric Dolphy"
     ],

@@ -930,9 +930,10 @@
     "release": "Sparkle And Fade",
     "duration": 191.416,
     "identifiers": {
-      "musicbrainz": "842645e4-1522-4165-ae0f-562cf4c7ee13",
+      "musicbrainz": "6044c5fc-1396-4c48-9f80-a3a277273291",
+      "acousticbrainz": null,
       "isrc": "USCA29500185",
-      "deezer": 3131304,
+      "deezer_id": 3131304,
       "deezer_url": "https://www.deezer.com/track/3131304",
       "youtube_url": "https://music.youtube.com/watch?v=hwt9Yq6CVSY",
       "spotify_id": null

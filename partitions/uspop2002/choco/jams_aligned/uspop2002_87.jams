@@ -589,9 +589,10 @@
     "duration": 298.0,
     "identifiers": {
       "musicbrainz": "9ad4e4f4-6460-44f2-88ef-6d82e83a5b74",
-      "isrc": "USCH38400023",
-      "deezer": 353398321,
-      "deezer_url": "https://www.deezer.com/track/353398321",
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=seHlHzYpWBU",
       "spotify_id": null
     },
@@ -601,7 +602,7 @@
     "type": "audio",
     "genre": "",
     "track_number": "03",
-    "release_year": "18/11/2012",
+    "release_year": null,
     "composers": [],
     "performers": [
       "Billy Idol"

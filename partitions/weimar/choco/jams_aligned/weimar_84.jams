@@ -36,9 +36,10 @@
     "release": "Follow The Red Line: Live At The Village Vanguard",
     "duration": 192.61578231292515,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "37ba8ad4-ff27-4147-a8d7-bcc70e1f04d7",
+      "acousticbrainz": null,
       "isrc": "FRUM70700434",
-      "deezer": 952571,
+      "deezer_id": 952571,
       "deezer_url": "https://www.deezer.com/track/952571",
       "youtube_url": "https://music.youtube.com/watch?v=q5Pzl5HFLSk",
       "spotify_id": null

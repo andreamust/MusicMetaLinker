@@ -439,8 +439,9 @@
     "duration": 250.370227,
     "identifiers": {
       "musicbrainz": "f796913b-9413-4db3-b180-0bdf3b7e6e0f",
+      "acousticbrainz": null,
       "isrc": "GBAYK0000131",
-      "deezer": 3102422,
+      "deezer_id": 3102422,
       "deezer_url": "https://www.deezer.com/track/3102422",
       "youtube_url": "https://music.youtube.com/watch?v=iX_AN-bruNM",
       "spotify_id": null

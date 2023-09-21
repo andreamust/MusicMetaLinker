@@ -639,14 +639,15 @@
   "file_metadata": {
     "title": "R\u00fcckblick",
     "artist": "Charles SpencerandThomas Quasthoff",
-    "release": "Schubert: Winterreise",
+    "release": "Schumann Liederkreis",
     "duration": 129.71,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=lbm9WlBXgY0",
+      "youtube_url": "https://music.youtube.com/watch?v=ie0mDt5nP1Q",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

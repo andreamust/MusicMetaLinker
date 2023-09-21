@@ -829,10 +829,11 @@
     "duration": 238.0,
     "identifiers": {
       "musicbrainz": "52fde494-f1a1-4610-9c26-3b2c03593407",
+      "acousticbrainz": null,
       "isrc": "USRH10285535",
-      "deezer": 3667423,
+      "deezer_id": 3667423,
       "deezer_url": "https://www.deezer.com/track/3667423",
-      "youtube_url": "https://music.youtube.com/watch?v=OaOQdWyN67U",
+      "youtube_url": "https://music.youtube.com/watch?v=xrR8LT2LX_w",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

@@ -600,9 +600,10 @@
     "release": "Come Fly With Me",
     "duration": 212.0,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "d56cfc89-7384-488a-9801-a654dcd92bbc",
+      "acousticbrainz": null,
       "isrc": "USCA29800364",
-      "deezer": 3233593,
+      "deezer_id": 3233593,
       "deezer_url": "https://www.deezer.com/track/3233593",
       "youtube_url": "https://music.youtube.com/watch?v=VMDYd-j_Gas",
       "spotify_id": null

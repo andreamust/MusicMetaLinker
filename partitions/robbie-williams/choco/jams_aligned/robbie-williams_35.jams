@@ -463,8 +463,9 @@
     "duration": 274.026644,
     "identifiers": {
       "musicbrainz": "7f861e75-ed8e-4b48-b54e-a963d626d0d8",
+      "acousticbrainz": null,
       "isrc": "GBFFG0500013",
-      "deezer": 3119909,
+      "deezer_id": 3119909,
       "deezer_url": "https://www.deezer.com/track/3119909",
       "youtube_url": "https://music.youtube.com/watch?v=1irrZRE-Kig",
       "spotify_id": null

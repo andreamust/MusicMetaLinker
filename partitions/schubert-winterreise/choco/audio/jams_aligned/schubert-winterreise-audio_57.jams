@@ -447,14 +447,15 @@
   "file_metadata": {
     "title": "Rast",
     "artist": "Roger VignolesandThomas Allen",
-    "release": "My Father's Chapel - Peyote Prayer Songs",
+    "release": "Roger Waters The Wall",
     "duration": 195.13,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=nLvRcnjkR5M",
+      "youtube_url": "https://music.youtube.com/watch?v=_njg039k_N8",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

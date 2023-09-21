@@ -511,9 +511,10 @@
     "duration": 286.0,
     "identifiers": {
       "musicbrainz": "9b2e16ab-7b06-4d7e-b7a8-0f2230e8fcf0",
+      "acousticbrainz": null,
       "isrc": "USWB10807353",
-      "deezer": 3605491,
-      "deezer_url": "https://www.deezer.com/track/3605491",
+      "deezer_id": 2550772,
+      "deezer_url": "https://www.deezer.com/track/2550772",
       "youtube_url": "https://music.youtube.com/watch?v=sTolGDzE-KA",
       "spotify_id": null
     },
@@ -523,7 +524,7 @@
     "type": "audio",
     "genre": "",
     "track_number": "15",
-    "release_year": "19/05/2009",
+    "release_year": "24/11/2008",
     "composers": [],
     "performers": [
       "Rod Stewart"

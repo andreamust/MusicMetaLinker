@@ -265,10 +265,11 @@
     "duration": 29.807936507936503,
     "identifiers": {
       "musicbrainz": null,
-      "isrc": null,
-      "deezer": null,
-      "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=AIr8j8ltbfI",
+      "acousticbrainz": null,
+      "isrc": "DEU241068179",
+      "deezer_id": 12864667,
+      "deezer_url": "https://www.deezer.com/track/12864667",
+      "youtube_url": "https://music.youtube.com/watch?v=2ookNLYmccI",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
@@ -276,8 +277,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "jazz",
-    "track_number": null,
-    "release_year": null,
+    "track_number": 11,
+    "release_year": "11/12/2014",
     "composers": [
       "Lennie Tristano"
     ],

@@ -841,10 +841,11 @@
     "duration": 155.60272108843537,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=-tqbnViBLAw",
+      "youtube_url": "https://music.youtube.com/watch?v=TGrNo3fVi64",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

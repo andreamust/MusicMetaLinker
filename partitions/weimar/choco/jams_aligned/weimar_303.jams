@@ -618,9 +618,10 @@
     "release": "Tales from the Hudson",
     "duration": 153.8577097505669,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "429d6b02-4b51-434d-9419-d2cfcf102060",
+      "acousticbrainz": null,
       "isrc": "USGR19610137",
-      "deezer": 62347569,
+      "deezer_id": 62347569,
       "deezer_url": "https://www.deezer.com/track/62347569",
       "youtube_url": "https://music.youtube.com/watch?v=GQwbhtHh9RE",
       "spotify_id": null

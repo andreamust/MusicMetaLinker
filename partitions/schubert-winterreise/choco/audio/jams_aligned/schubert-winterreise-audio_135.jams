@@ -481,8 +481,9 @@
     "duration": 122.36,
     "identifiers": {
       "musicbrainz": "f8bc22f1-0c69-4175-a5f6-bfd0a0d47a5b",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=NelPeyrQNfE",
       "spotify_id": null

@@ -1032,9 +1032,10 @@
     "release": "Songs In The Key Of Life Disc 2",
     "duration": 394.0,
     "identifiers": {
-      "musicbrainz": "9df5a934-c598-40ae-9383-2fbe68c1e0fb",
+      "musicbrainz": "8186c4c4-3575-41b6-b9e6-2941d46acf26",
+      "acousticbrainz": null,
       "isrc": "USMO17682655",
-      "deezer": 676011672,
+      "deezer_id": 676011672,
       "deezer_url": "https://www.deezer.com/track/676011672",
       "youtube_url": "https://music.youtube.com/watch?v=oE56g61mW44",
       "spotify_id": null

@@ -559,10 +559,11 @@
     "duration": 110.23337868480725,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=hako_Gq_ATQ",
+      "youtube_url": "https://music.youtube.com/watch?v=150qFSOCyUA",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

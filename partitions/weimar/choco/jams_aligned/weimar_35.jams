@@ -709,10 +709,11 @@
     "duration": 137.88879818594103,
     "identifiers": {
       "musicbrainz": "16085e8b-d02a-4ebb-a306-72c4befef2df",
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=CHIWNDAwTqQ",
+      "youtube_url": "https://music.youtube.com/watch?v=PkWbYooFF4w",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

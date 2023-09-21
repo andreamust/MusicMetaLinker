@@ -555,14 +555,15 @@
   "file_metadata": {
     "title": "Die Post",
     "artist": "Ulrich EisenlohrandRoman Trekel",
-    "release": "Schubert: Lied Edition 33 - Part Songs, Vol. 2",
+    "release": "Schubert: Lied Edition  1 - Winterreise",
     "duration": 146.2,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=33svTyLKfZk",
+      "youtube_url": "https://music.youtube.com/watch?v=oica_dr-f2c",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

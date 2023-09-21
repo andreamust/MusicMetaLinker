@@ -447,14 +447,15 @@
   "file_metadata": {
     "title": "Rast",
     "artist": "Bert van den BrinkandThomas Oliemans",
-    "release": "Ghetto King",
+    "release": "Schubert: Winterreise",
     "duration": 202.79,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=nDbRBN9BWfc",
+      "youtube_url": "https://music.youtube.com/watch?v=2jPKb30ScVM",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

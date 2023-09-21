@@ -523,9 +523,10 @@
     "duration": 178.69351473922902,
     "identifiers": {
       "musicbrainz": null,
-      "isrc": "USAT20002214",
-      "deezer": 671504,
-      "deezer_url": "https://www.deezer.com/track/671504",
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=Dpj2aeX9pQI",
       "spotify_id": null
     },
@@ -534,8 +535,8 @@
   "sandbox": {
     "type": "audio",
     "genre": "jazz",
-    "track_number": 17,
-    "release_year": "15/08/1995",
+    "track_number": null,
+    "release_year": null,
     "composers": [
       "Coltrane"
     ],

@@ -555,14 +555,15 @@
   "file_metadata": {
     "title": "Die Post",
     "artist": "Jeremy DenkandRandall Scarlata",
-    "release": "Schubert: Winterreise",
+    "release": "Stoney (Deluxe)",
     "duration": 119.67,
     "identifiers": {
       "musicbrainz": null,
+      "acousticbrainz": null,
       "isrc": null,
-      "deezer": null,
+      "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=IH9xSKSibHc",
+      "youtube_url": "https://music.youtube.com/watch?v=3AUtk1wJJBc",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
