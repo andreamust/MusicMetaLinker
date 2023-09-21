@@ -44,6 +44,8 @@ class JAMSProcessor:
         # get individual metadata
         self.track_name = self.metadata.title
         self.artist_name = self.metadata.artist
+        if isinstance(self.artist_name, list):
+            self.artist_name = self.artist_name[0]
         self.album_name = self.metadata.release
         self.duration = self.metadata.duration
         self.identifiers = self.metadata.identifiers
