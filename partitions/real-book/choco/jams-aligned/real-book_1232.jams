@@ -1,0 +1,178 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 16.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 16.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 16.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 16.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 16.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 16.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 16.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 16.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 2.0,
+          "value": "Eb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.3,
+          "duration": 1.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.4,
+          "duration": 1.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 2.0,
+          "value": "Eb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.3,
+          "duration": 1.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.4,
+          "duration": 1.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 16.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 41.1,
+          "duration": 16.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 45.1,
+          "duration": 16.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 49.1,
+          "duration": 16.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 53.1,
+          "duration": 16.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Speedo",
+    "artist": "The Cadillacs",
+    "release": "The Cadillacs Meet The Orioles",
+    "duration": 139,
+    "identifiers": {
+      "musicbrainz": "2fad8ee4-3186-48d5-9bbe-58714b5d58a9",
+      "acousticbrainz": null,
+      "isrc": "USRH10300789",
+      "deezer_id": 745815,
+      "deezer_url": "https://www.deezer.com/track/745815",
+      "youtube_url": "https://music.youtube.com/watch?v=K76GIn5gcgA",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 1,
+    "release_year": "24/01/2006",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}
