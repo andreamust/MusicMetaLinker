@@ -24,28 +24,59 @@ from .youtube_links import YouTubeAlign
 
 class Align:
     """
-    Class for creating links between the audio partitions and the external
-    resources.
-    So far, the following repositories are supported:
-        - MusicBrainz
-        - Deezer
-        - YouTube Music
+    A class that aligns metadata of a track and parameters for search.
+
+    Attributes
+    ----------
+    mbid_track : str
+        MusicBrainz ID of the track.
+    mbid_release : str
+        MusicBrainz ID of the release.
+    artist : str
+        Artist name.
+    album : str
+        Album name.
+    track : str
+        Track name.
+    track_number : int
+        Track number.
+    duration : float
+        Track duration.
+    isrc : str | list
+        ISRC code.
+    strict : bool
+        Whether to use strict search or not.
+
+    Methods
+    -------
+    get_artist() -> str:
+        Returns the artist name.
+    get_album() -> str:
+        Returns the album name.
+    get_track() -> str:
+        Returns the track name.
+    get_track_number() -> int | None:
+        Returns the track number.
+    get_duration() -> float:
+        Returns the track duration.
     """
 
     def __init__(
         self,
-        mbid: str = None,
-        artist: str = None,
-        album: str = None,
-        track: str = None,
-        track_number: int = None,
-        duration: float = None,
-        isrc: str | list = None,
+        mbid_track: str | None = None,
+        mbid_release: str | None = None,
+        artist: str | None = None,
+        album: str | None = None,
+        track: str | None = None,
+        track_number: int | None = None,
+        duration: float | None = None,
+        isrc: str | list | None = None,
         strict: bool = False,
     ):
         """
         Initializes the class by taking the metadata of the track and the
         parameters for the search.
+
         Parameters
         ----------
         mbid : str
@@ -64,11 +95,13 @@ class Align:
             ISRC code.
         strict : bool
             Whether to use strict search or not.
+
         Returns
         -------
         None
         """
-        self.mbid = mbid
+        self.mbid_track = mbid_track
+        self.mbid_release = mbid_release
         self.artist = artist
         self.album = album
         self.track = track
@@ -81,7 +114,8 @@ class Align:
             self.isrc = [self.isrc]
 
         self.mb_link = MusicBrainzAlign(
-            mbid=self.mbid,
+            mbid_track=self.mbid_track,
+            mbid_release=self.mbid_release,
             artist=self.artist,
             album=self.album,
             track=self.track,
@@ -122,9 +156,10 @@ class Align:
             strict=False,
         )
 
-    def get_artist(self) -> str:
+    def get_artist(self) -> str | None:
         """
         Returns the artist name.
+
         Returns
         -------
         str
@@ -146,9 +181,10 @@ class Align:
                     artist = self.yt_link.get_youtube_artist()
         return artist
 
-    def get_album(self) -> str:
+    def get_album(self) -> str | None:
         """
         Returns the album name.
+
         Returns
         -------
         str
@@ -170,9 +206,10 @@ class Align:
                     album = self.yt_link.get_youtube_album()
         return album
 
-    def get_track(self) -> str:
+    def get_track(self) -> str | None:
         """
         Returns the track name.
+
         Returns
         -------
         str
@@ -197,6 +234,7 @@ class Align:
     def get_track_number(self) -> int | None:
         """
         Returns the track number.
+
         Returns
         -------
         int
@@ -216,9 +254,10 @@ class Align:
                 track_number = self.mb_link.get_track_number()
         return track_number
 
-    def get_duration(self) -> float:
+    def get_duration(self) -> float | None:
         """
         Returns the track duration.
+
         Returns
         -------
         float
@@ -240,7 +279,7 @@ class Align:
                     duration = self.yt_link.get_youtube_duration()
         return duration
 
-    def get_isrc(self) -> list[str] | None:
+    def get_isrc(self) -> str | list[str] | None:
         """
         Returns the ISRC code.
         Returns
@@ -260,7 +299,7 @@ class Align:
             isrc = self.dz_link.get_isrc()
         return isrc
 
-    def get_release_date(self) -> str:
+    def get_release_date(self) -> str | None:
         """
         Returns the release date.
         Returns
@@ -332,7 +371,8 @@ class Align:
         str
             AcousticBrainz link.
         """
-        return acousticbrainz_link(self.mbid)
+        if self.mbid:
+            return acousticbrainz_link(self.mbid)
 
 
 if __name__ == "__main__":
