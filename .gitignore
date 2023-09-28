@@ -180,3 +180,6 @@ MusicMetaLinker/mml_secrets.py
 
 # exclude files called audio_files.csv
 audio_files.csv
+
+# exclude the idea folder
+.idea/
