@@ -12,12 +12,12 @@ class YouTubeAlign:
 
     def __init__(
         self,
-        track: str = None,
-        artist: str = None,
-        album: str = None,
-        track_number: int = None,
-        duration: float = None,
-        isrc: str = None,
+        track: str | None = None,
+        artist: str | None = None,
+        album: str | None = None,
+        track_number: int | None = None,
+        duration: float | None = None,
+        isrc: list | str | None = None,
         strict: bool = False,
     ) -> None:
         """
@@ -121,7 +121,7 @@ class YouTubeAlign:
         """
         best_match = self.get_best_match()
         try:
-            return f"https://music.youtube.com/watch?v={best_match['videoId']}"
+            return f"https://music.youtube.com/watch?v={best_match['videoId']}"  # type: ignore
         except (KeyError, TypeError):
             return None
 
@@ -135,7 +135,7 @@ class YouTubeAlign:
         """
         best_match = self.get_best_match()
         try:
-            return f"{best_match['videoId']}"
+            return f"{best_match['videoId']}"  # type: ignore
         except (KeyError, TypeError):
             return None
 
@@ -149,7 +149,7 @@ class YouTubeAlign:
         """
         best_match = self.get_best_match()
         try:
-            return f"{best_match['title']}"
+            return f"{best_match['title']}"  # type: ignore
         except (KeyError, TypeError):
             return None
 
@@ -163,7 +163,7 @@ class YouTubeAlign:
         """
         best_match = self.get_best_match()
         try:
-            return f"{best_match['artists'][0]['name']}"
+            return f"{best_match['artists'][0]['name']}"  # type: ignore
         except (KeyError, TypeError):
             return None
 
@@ -177,7 +177,7 @@ class YouTubeAlign:
         """
         best_match = self.get_best_match()
         try:
-            return f"{best_match['album']['name']}"
+            return f"{best_match['album']['name']}"  # type: ignore
         except (KeyError, TypeError):
             return None
 
@@ -191,7 +191,7 @@ class YouTubeAlign:
         """
         best_match = self.get_best_match()
         try:
-            return best_match["duration_seconds"]
+            return best_match["duration_seconds"]  # type: ignore
         except (KeyError, TypeError):
             return None
 
@@ -205,7 +205,7 @@ class YouTubeAlign:
         """
         best_match = self.get_best_match()
         try:
-            return f"{best_match['year']}"
+            return f"{best_match['year']}"  # type: ignore
         except (KeyError, TypeError):
             return None
 
