@@ -57,13 +57,13 @@ class JAMSProcessor:
         # get individual sandbox
         self.type = self.sandbox['type']
         self.genre = self.sandbox['genre']
-        self.track_number = self.sandbox.track_number
-        self.release_year = self.sandbox.release_year
-        self.composers = self.sandbox.composers
-        self.performers = self.sandbox.performers
+        self.track_number = self.sandbox.track_number  # type: ignore
+        self.release_year = self.sandbox.release_year  # type: ignore
+        self.composers = self.sandbox.composers  # type: ignore
+        self.performers = self.sandbox.performers  # type: ignore
         self.tuning = None
         if 'tuning' in self.sandbox.keys():
-            self.tuning = self.sandbox.tuning
+            self.tuning = self.sandbox.tuning  # type: ignore
         if not self.artist_name:
             if self.type == 'score':
                 self.artist_name = 'and'.join(self.composers)

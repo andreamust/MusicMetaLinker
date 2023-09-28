@@ -41,7 +41,7 @@ class MusicBrainzAlign:
             track: str | None = None,
             track_number: int | None = None,
             duration: float | None = None,
-            isrc: str | None = None,
+            isrc: list | str | None = None,
             strict: bool = False,
             ):
         
