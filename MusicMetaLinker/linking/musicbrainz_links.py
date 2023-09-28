@@ -6,7 +6,7 @@ from the JAMS files.
 import musicbrainzngs as mb
 
 
-class MusicBrainzLinker:
+class MusicBrainzAlign:
     """
     A class for linking music metadata to MusicBrainz database.
 
@@ -108,6 +108,7 @@ class MusicBrainzLinker:
             strict=self.strict,
             rid=self.mbid_release,
         )
+        
         if mbid_results['recording-list']:
             recording = mbid_results["recording-list"][0]
             release_list_ids = [release["id"] for release in recording["release-list"]]
@@ -300,18 +301,17 @@ class MusicBrainzLinker:
 if __name__ == "__main__":
     # test the class
 
-    mb_align = MusicBrainzLinker(
-        artist="Hanns-Udo Muller and Gerhard Husch",
+    mb_align = MusicBrainzAlign(
+        artist="Hanns-Udo Muller",
         album="",
         track="Einsamkeit",
         track_number=None,
         duration=None,
         mbid_track=None,
         mbid_release="9e2fcbe4-e7f3-45c2-b24e-eb304f261fa9",
-        strict=True,
+        strict=False,
     )
     search_results = mb_align.get_recording()
-    print(search_results)
     print(mb_align.get_track())
     print(mb_align.get_artist())
     print(mb_align.get_album())
