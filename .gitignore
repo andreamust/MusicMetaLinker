@@ -164,3 +164,19 @@ secrets.py
 mml_secrets.py
 MusicMetaLinker/secrets.py
 MusicMetaLinker/mml_secrets.py
+
+# exclude all audiofiles from any folder
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+*.opus
+*.wma
+*.aac
+*.aiff
+*.aif
+*.mp4
+
+# exclude files called audio_files.csv
+audio_files.csv
