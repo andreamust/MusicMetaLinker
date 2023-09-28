@@ -126,7 +126,7 @@ class Align:
         )
 
         # check that the MusicBrainz ID is valid
-        if self.mbid:
+        if self.mbid_track:
             try:
                 self.isrc = self.mb_link.get_isrc()
                 self.track = self.mb_link.get_track() if not self.track else self.track
@@ -134,7 +134,7 @@ class Align:
                     self.mb_link.get_artist() if not self.artist else self.artist
                 )
             except musicbrainzngs.musicbrainz.ResponseError:
-                self.mbid = None
+                self.mbid_track = None
 
         self.dz_link = DeezerAlign(
             artist=self.artist,
@@ -169,7 +169,7 @@ class Align:
 
         if self.artist:
             return self.artist
-        elif self.mbid:
+        elif self.mbid_track:
             artist = self.mb_link.get_artist()
 
         # check iteratively on all the implemented platforms
@@ -194,7 +194,7 @@ class Align:
 
         if self.album:
             return self.album
-        elif self.mbid:
+        elif self.mbid_track:
             album = self.mb_link.get_album()
 
         # check iteratively on all the implemented platforms
@@ -219,7 +219,7 @@ class Align:
 
         if self.track:
             return self.track
-        elif self.mbid:
+        elif self.mbid_track:
             track = self.mb_link.get_track()
 
         # check iteratively on all the implemented platforms
@@ -244,7 +244,7 @@ class Align:
 
         if self.track_number:
             return self.track_number
-        if self.mbid:
+        elif self.mbid_track:
             track_number = self.mb_link.get_track_number()
 
         # check iteratively on all the implemented platforms
@@ -267,7 +267,7 @@ class Align:
 
         if self.duration:
             return self.duration
-        elif self.mbid:
+        elif self.mbid_track:
             duration = self.mb_link.get_duration()
 
         # check iteratively on all the implemented platforms
@@ -291,7 +291,7 @@ class Align:
 
         if self.isrc:
             return self.isrc
-        elif self.mbid:
+        elif self.mbid_track:
             isrc = self.mb_link.get_isrc()
 
         # check on deezer
@@ -307,7 +307,7 @@ class Align:
         str
             Release date.
         """
-        if self.mbid:
+        if self.mbid_track:
             return self.mb_link.get_release_date()
         return self.dz_link.get_release_date()
 
@@ -319,8 +319,8 @@ class Align:
         str
             MusicBrainz ID.
         """
-        if self.mbid:
-            return self.mbid
+        if self.mbid_track:
+            return self.mbid_track
         return self.mb_link.get_mbid()
 
     def get_deezer_id(self) -> int | None:
@@ -371,8 +371,8 @@ class Align:
         str
             AcousticBrainz link.
         """
-        if self.mbid:
-            return acousticbrainz_link(self.mbid)
+        if self.mbid_track:
+            return acousticbrainz_link(self.mbid_track)
 
 
 if __name__ == "__main__":

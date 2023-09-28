@@ -44,8 +44,8 @@ def complement_jams(linker: linking.Align,
                     jams_process: JAMSProcessor,
                     df_list: list,
                     jams_file: Path,
-                    isrc: str = None,
-                    spotify_id: str = None) -> list:
+                    isrc: str | None = None,
+                    spotify_id: str | None = None) -> list:
     """
     Complements the JAMS file with the retrieved links.
     Parameters
@@ -152,7 +152,11 @@ def retrieve_links(partitions_path: Path,
 
             track_title = jams_process.track_name
             artist_name = jams_process.artist_name
+            musicbrainz_id = jams_process.musicbrainz_id
+            musicbrainz_id_release = None
             # filter partitions that have some peculiarities
+            if partition.name == "schubert-winterreise":
+                musicbrainz_id_release = jams_process.musicbrainz_id
             if partition.name == "billboard":
                 spotify_id, isrc = clean_billboard.clean_billboard(track_title,
                                                                    artist_name)
@@ -166,11 +170,14 @@ def retrieve_links(partitions_path: Path,
                     track_title = track_title.split('[')[0].strip()
             # retrieve the links
             linker = linking.Align(
+                mbid_track=musicbrainz_id,
+                mbid_release=musicbrainz_id_release,
                 artist=artist_name,
                 album=jams_process.album_name,
                 track=track_title,
                 track_number=jams_process.track_number,
                 duration=jams_process.duration if partition_type == "audio" else None,
+                isrc=isrc,
                 strict=False,
             )
 
