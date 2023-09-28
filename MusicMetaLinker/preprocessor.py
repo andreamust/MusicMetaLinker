@@ -109,6 +109,6 @@ class JAMSProcessor:
 if __name__ == '__main__':
     # test the class
     jams_file = Path('../partitions/isophonics/choco/jams/isophonics_77.jams')
-    output_dir = Path('../partitions/isophonics/choco/jams_aligned/')
+    # output_dir = Path('../partitions/isophonics/choco/jams_aligned/')
     jams_process = JAMSProcessor(jams_file)
     print(jams_process.track_name)
