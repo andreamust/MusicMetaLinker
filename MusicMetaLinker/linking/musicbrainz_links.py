@@ -6,8 +6,6 @@ from the JAMS files.
 import musicbrainzngs as mb
 
 
-
-
 class MusicBrainzLinker:
     """
     A class for linking music metadata to MusicBrainz database.
@@ -36,14 +34,14 @@ class MusicBrainzLinker:
 
     def __init__(
             self,
-            mbid_track: str = None,
-            mbid_release: str = None,
-            artist: str = None,
-            album: str = None,
-            track: str = None,
-            track_number: int = None,
-            duration: float = None,
-            isrc: str = None,
+            mbid_track: str | None = None,
+            mbid_release: str | None = None,
+            artist: str | None = None,
+            album: str | None = None,
+            track: str | None = None,
+            track_number: int | None = None,
+            duration: float | None = None,
+            isrc: str | None = None,
             strict: bool = False,
             ):
         
@@ -53,11 +51,13 @@ class MusicBrainzLinker:
         self.album = album
         self.track = track
         self.track_number = track_number
-        self.duration = duration
+        self.duration = duration * 1000 if isinstance(duration, float) else duration
         self.isrc = isrc
         self.strict = strict
 
         mb.set_useragent("elka", "0.1", "https://elka.com")
+
+        self.best_match = self.get_best_match
 
     def _search_by_isrc(self) -> dict:
         """
@@ -108,11 +108,13 @@ class MusicBrainzLinker:
             strict=self.strict,
             rid=self.mbid_release,
         )
-        recording = mbid_results["recording-list"][0]
-        release_list_ids = [release["id"] for release in recording["release-list"]]
-        if self.mbid_release in release_list_ids:
-            return recording["id"]
-        raise ValueError("The track is not part of the release.")
+        if mbid_results['recording-list']:
+            recording = mbid_results["recording-list"][0]
+            release_list_ids = [release["id"] for release in recording["release-list"]]
+            if self.mbid_release in release_list_ids:
+                return recording["id"]
+            raise ValueError("The track is not part of the release.")
+        return None
 
     def _search(self):
         """
@@ -148,7 +150,7 @@ class MusicBrainzLinker:
         """
         return [res for res in results if "isrc-list" in res.keys()]
 
-    def get_recording(self) -> dict:
+    def get_recording(self) -> dict | list:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -190,7 +192,8 @@ class MusicBrainzLinker:
         search_results : str
             Dictionary containing the search results.
         """
-        return self.get_best_match.get("title", None)
+        if self.best_match:
+            return self.best_match.get("title", None)
 
     def get_artist(self) -> str | None:
         """
@@ -200,7 +203,8 @@ class MusicBrainzLinker:
         search_results : str
             Dictionary containing the search results.
         """
-        return self.get_best_match.get("artist-credit-phrase", None)
+        if self.best_match:
+            return self.best_match.get("artist-credit-phrase", None)
 
     def get_album(self) -> str | None:
         """
@@ -211,7 +215,7 @@ class MusicBrainzLinker:
             Dictionary containing the search results.
         """
         try:
-            return self.get_best_match["release-list"][0]["title"]
+            return self.best_match["release-list"][0]["title"]  # type: ignore
         except (TypeError, KeyError):
             return None
 
@@ -224,7 +228,7 @@ class MusicBrainzLinker:
             Dictionary containing the search results.
         """
         try:
-            return float(self.get_best_match["length"]) / 1000
+            return float(self.best_match["length"]) / 1000  # type: ignore
         except (TypeError, KeyError):
             return None
 
@@ -236,7 +240,8 @@ class MusicBrainzLinker:
         search_results : str
             Dictionary containing the search results.
         """
-        return self.get_best_match.get("id", None)
+        if self.best_match:
+            return self.best_match.get("id", None)
         
     def get_iswc(self) -> list[str] | None:
         """
@@ -248,7 +253,8 @@ class MusicBrainzLinker:
         None
             If no ISWC code is found.
         """
-        return self.get_best_match.get("iswc-list", None)
+        if self.best_match:
+            return self.best_match.get("iswc-list", None)
 
     def get_isrc(self) -> list[str] | None:
         """
@@ -260,7 +266,8 @@ class MusicBrainzLinker:
         None
             If no ISRC code is found.
         """
-        return self.get_best_match.get("isrc-list", None)
+        if self.best_match:
+            return self.best_match.get("isrc-list", None)
 
     def get_release_date(self) -> str | None:
         """
@@ -271,7 +278,7 @@ class MusicBrainzLinker:
             Dictionary containing the search results.
         """
         try:
-            return self.get_best_match["release-list"][0]["date"]
+            return self.best_match["release-list"][0]["date"]  # type: ignore
         except (TypeError, KeyError):
             return None
 
@@ -284,7 +291,7 @@ class MusicBrainzLinker:
             Dictionary containing the search results.
         """
         try:
-            return self.get_best_match["release-list"][0]["medium-list"][0][
+            return self.best_match["release-list"][0]["medium-list"][0][  # type: ignore
                 "track-list"][0]["number"]
         except (TypeError, KeyError):
             return None
@@ -301,9 +308,10 @@ if __name__ == "__main__":
         duration=None,
         mbid_track=None,
         mbid_release="9e2fcbe4-e7f3-45c2-b24e-eb304f261fa9",
-        strict=False,
+        strict=True,
     )
     search_results = mb_align.get_recording()
+    print(search_results)
     print(mb_align.get_track())
     print(mb_align.get_artist())
     print(mb_align.get_album())
