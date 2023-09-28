@@ -6,49 +6,49 @@ from the JAMS files.
 import musicbrainzngs as mb
 
 
-class MusicBrainzAlign:
+
+
+class MusicBrainzLinker:
     """
-    Class for creating links between MusicBrainz given the extracted information
-    from the JAMS files.
+    A class for linking music metadata to MusicBrainz database.
+
+    Args:
+        mbid_track (str): The MusicBrainz ID of the track.
+        mbid_release (str): The MusicBrainz ID of the release.
+        artist (str): The name of the artist.
+        album (str): The name of the album.
+        track (str): The name of the track.
+        track_number (int): The track number.
+        duration (float): The duration of the track.
+        isrc (str): The ISRC of the track.
+        strict (bool): Whether to use strict matching or not.
+
+    Attributes:
+        mbid (str): The MusicBrainz ID of the track.
+        artist (str): The name of the artist.
+        album (str): The name of the album.
+        track (str): The name of the track.
+        track_number (int): The track number.
+        duration (float): The duration of the track.
+        isrc (str): The ISRC of the track.
+        strict (bool): Whether to use strict matching or not.
     """
 
     def __init__(
-        self,
-        mbid: str = None,
-        artist: str = None,
-        album: str = None,
-        track: str = None,
-        track_number: int = None,
-        duration: float = None,
-        isrc: str = None,
-        strict: bool = False,
-    ):
-        """
-        Initializes the class by taking the metadata of the track and the
-        parameters for the search.
-        Parameters
-        ----------
-        mbid : str
-            MusicBrainz ID.
-        artist : str
-            Artist name.
-        album : str
-            Album name.
-        track : str
-            Track name.
-        track_number : int
-            Track number.
-        duration : float
-            Track duration.
-        isrc : str
-            ISRC code.
-        strict : bool
-            Whether to use strict search or not.
-        Returns
-        -------
-        None
-        """
-        self.mbid = mbid
+            self,
+            mbid_track: str = None,
+            mbid_release: str = None,
+            artist: str = None,
+            album: str = None,
+            track: str = None,
+            track_number: int = None,
+            duration: float = None,
+            isrc: str = None,
+            strict: bool = False,
+            ):
+        
+        self.mbid_track = mbid_track
+        self.mbid_release = mbid_release
         self.artist = artist
         self.album = album
         self.track = track
@@ -83,12 +83,36 @@ class MusicBrainzAlign:
             Dictionary containing the search results.
         """
         mbid_results = mb.get_recording_by_id(
-            id=self.mbid,
+            id=self.mbid_track,
             includes=["artists", "releases", "isrcs", "discids", "url-rels"],
             release_status=["official"],
             release_type=["album", "ep", "single"],
         )
         return mbid_results
+
+    def _get_track_mbid_from_release(self) -> str | None:
+        """
+        Searches for the track in the MusicBrainz database by MBID.
+        Returns
+        -------
+        search_results : dict
+            Dictionary containing the search results.
+        """
+        # check if the id is a link, in case 
+        mbid_results = mb.search_recordings(
+            recording=self.track,
+            artist=self.artist,
+            release=self.album,
+            dur=self.duration,
+            tnum=self.track_number,
+            strict=self.strict,
+            rid=self.mbid_release,
+        )
+        recording = mbid_results["recording-list"][0]
+        release_list_ids = [release["id"] for release in recording["release-list"]]
+        if self.mbid_release in release_list_ids:
+            return recording["id"]
+        raise ValueError("The track is not part of the release.")
 
     def _search(self):
         """
@@ -132,7 +156,9 @@ class MusicBrainzAlign:
         search_results : dict
             Dictionary containing the search results.
         """
-        if self.mbid:
+        if self.mbid_release:
+            self.mbid_track = self._get_track_mbid_from_release()
+        if self.mbid_track:
             return self._search_by_mbid()
         elif self.isrc:
             return self._search_by_isrc()
@@ -164,10 +190,7 @@ class MusicBrainzAlign:
         search_results : str
             Dictionary containing the search results.
         """
-        try:
-            return self.get_best_match["title"]
-        except (TypeError, KeyError):
-            return None
+        return self.get_best_match.get("title", None)
 
     def get_artist(self) -> str | None:
         """
@@ -177,10 +200,7 @@ class MusicBrainzAlign:
         search_results : str
             Dictionary containing the search results.
         """
-        try:
-            return self.get_best_match["artist-credit-phrase"]
-        except (TypeError, KeyError):
-            return None
+        return self.get_best_match.get("artist-credit-phrase", None)
 
     def get_album(self) -> str | None:
         """
@@ -216,10 +236,19 @@ class MusicBrainzAlign:
         search_results : str
             Dictionary containing the search results.
         """
-        try:
-            return self.get_best_match["id"]
-        except (TypeError, KeyError):
-            return None
+        return self.get_best_match.get("id", None)
+        
+    def get_iswc(self) -> list[str] | None:
+        """
+        Searches for the track in the MusicBrainz database.
+        Returns
+        -------
+        iswc_list : list[str]
+            Dictionary containing the search results.
+        None
+            If no ISWC code is found.
+        """
+        return self.get_best_match.get("iswc-list", None)
 
     def get_isrc(self) -> list[str] | None:
         """
@@ -231,10 +260,7 @@ class MusicBrainzAlign:
         None
             If no ISRC code is found.
         """
-        try:
-            return self.get_best_match["isrc-list"]
-        except (TypeError, KeyError):
-            return None
+        return self.get_best_match.get("isrc-list", None)
 
     def get_release_date(self) -> str | None:
         """
@@ -267,17 +293,17 @@ class MusicBrainzAlign:
 if __name__ == "__main__":
     # test the class
 
-    mb_align = MusicBrainzAlign(
-        artist="Louis Armstrong and His Hot Five",
+    mb_align = MusicBrainzLinker(
+        artist="Hanns-Udo Muller and Gerhard Husch",
         album="",
-        track="Hotter Than That",
+        track="Einsamkeit",
         track_number=None,
-        duration=181.49,
-        mbid="5478f78d-3cbc-4940-ab18-c605dd67b236",
+        duration=None,
+        mbid_track=None,
+        mbid_release="9e2fcbe4-e7f3-45c2-b24e-eb304f261fa9",
         strict=False,
     )
     search_results = mb_align.get_recording()
-    print(mb_align.get_best_match)
     print(mb_align.get_track())
     print(mb_align.get_artist())
     print(mb_align.get_album())
@@ -286,3 +312,4 @@ if __name__ == "__main__":
     print(mb_align.get_isrc())
     print(mb_align.get_release_date())
     print(mb_align.get_track_number())
+    print(mb_align.get_iswc())
