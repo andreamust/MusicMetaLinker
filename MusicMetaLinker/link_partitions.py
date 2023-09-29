@@ -158,6 +158,7 @@ def retrieve_links(partitions_path: Path,
             # filter partitions that have some peculiarities
             if partition.name == "schubert-winterreise":
                 musicbrainz_id_release = jams_process.musicbrainz_id
+                musicbrainz_id = None
                 if musicbrainz_id_release and \
                 '://musicbrainz.org' in musicbrainz_id_release: 
                     musicbrainz_id_release = musicbrainz_id_release.split('/')[-1]
