@@ -119,7 +119,6 @@ class MusicBrainzAlign:
                 release_list_ids = [release["id"] for release in recording["release-list"]]
                 if self.mbid_release in release_list_ids:
                     return recording["id"]
-            raise ValueError("The track is not part of the release.")
         return None
 
     def _search(self):
