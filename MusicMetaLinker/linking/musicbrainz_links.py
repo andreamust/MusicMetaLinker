@@ -71,12 +71,15 @@ class MusicBrainzAlign:
         """
         if self.isrc:
             for isrc in self.isrc:
-                isrc_result = mb.get_recordings_by_isrc(
-                    isrc=isrc,
-                    includes=["artists", "releases", "isrcs"],
-                    release_status=["official"],
-                )
-                return isrc_result
+                try:
+                    isrc_result = mb.get_recordings_by_isrc(
+                        isrc=isrc,
+                        includes=["artists", "releases", "isrcs"],
+                        release_status=["official"],
+                    )
+                    return isrc_result
+                except mb.ResponseError:
+                    return None
 
     def _search_by_mbid(self) -> dict:
         """
@@ -307,13 +310,14 @@ if __name__ == "__main__":
     # test the class
 
     mb_align = MusicBrainzAlign(
-        artist="Hanns-Udo Muller",
+        #artist="Hanns-Udo Muller",
         album="",
-        track="Einsamkeit",
+        #track="Einsamkeit",
         track_number=None,
         duration=None,
         mbid_track=None,
-        mbid_release="9e2fcbe4-e7f3-45c2-b24e-eb304f261fa9",
+        isrc='USMC161463279',
+        #mbid_release="9e2fcbe4-e7f3-45c2-b24e-eb304f261fa9",
         strict=False,
     )
     search_results = mb_align.get_recording()

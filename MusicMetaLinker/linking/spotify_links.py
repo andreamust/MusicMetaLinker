@@ -2,6 +2,10 @@
 Scripts for retrieving the ISRC code from a Spotify ID.
 """
 import os
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+
 import mml_secrets as constants
 
 import spotipy
@@ -28,7 +32,7 @@ def get_isrc(spotify_id: str) -> str | None:
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
     track = sp.track(str(spotify_id))
     try:
-        return track["external_ids"]["isrc"]
+        return track["external_ids"]["isrc"]  # type: ignore
     except spotipy.exceptions.SpotifyException:
         return None
 

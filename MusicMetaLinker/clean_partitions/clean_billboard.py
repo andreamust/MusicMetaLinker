@@ -7,11 +7,11 @@ import pandas as pd
 
 from linking.spotify_links import get_isrc
 
-BILLBOARD_PATH = "/Users/andreapoltronieri/PycharmProjects/ELKA/MusicMetaLinker/audio_references/billboard_full_features.xlsx"
+BILLBOARD_PATH = "MusicMetaLinker/audio_references/billboard_full_features.xlsx"
 
 
 def clean_billboard(track_title: str,
-                    artist_name: str) -> tuple[str, str]:
+                    artist_name: str) -> tuple:
     """
     Cleans the billboard data set by retrieving missing metadata from the full
     database dump.

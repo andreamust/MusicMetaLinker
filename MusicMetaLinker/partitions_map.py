@@ -6,9 +6,9 @@ AUDIO_PARTITIONS = [
     "billboard",
     # "isophonics",
     # "chordify",
-    "schubert-winterreise",
+    # "schubert-winterreise",
     # "robbie-williams",
-    "uspop2002",
+    # "uspop2002",
     "weimar",
 ]
 
