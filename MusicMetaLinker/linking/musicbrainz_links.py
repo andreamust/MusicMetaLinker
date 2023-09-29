@@ -53,13 +53,15 @@ class MusicBrainzAlign:
         self.track_number = track_number
         self.duration = duration * 1000 if isinstance(duration, float) else duration
         self.isrc = isrc
+        if isinstance(self.isrc, str):
+            self.isrc = [self.isrc]
         self.strict = strict
 
         mb.set_useragent("elka", "0.1", "https://elka.com")
 
         self.best_match = self.get_best_match
 
-    def _search_by_isrc(self) -> dict:
+    def _search_by_isrc(self) -> dict | None:
         """
         Searches for the track in the MusicBrainz database by ISRC code.
         Returns
@@ -67,12 +69,14 @@ class MusicBrainzAlign:
         search_results : dict
             Dictionary containing the search results.
         """
-        isrc_result = mb.get_recordings_by_isrc(
-            isrc=self.isrc,
-            includes=["artists", "releases", "isrcs"],
-            release_status=["official"],
-        )
-        return isrc_result
+        if self.isrc:
+            for isrc in self.isrc:
+                isrc_result = mb.get_recordings_by_isrc(
+                    isrc=isrc,
+                    includes=["artists", "releases", "isrcs"],
+                    release_status=["official"],
+                )
+                return isrc_result
 
     def _search_by_mbid(self) -> dict:
         """
@@ -151,7 +155,7 @@ class MusicBrainzAlign:
         """
         return [res for res in results if "isrc-list" in res.keys()]
 
-    def get_recording(self) -> dict | list:
+    def get_recording(self) -> dict | list | None:
         """
         Searches for the track in the MusicBrainz database.
         Returns
@@ -182,7 +186,8 @@ class MusicBrainzAlign:
         if isinstance(results, list) and len(results) > 0:
             return results[0]
         elif isinstance(results, dict):
-            return results["recording"]
+            if "recording" in results.keys():
+                return results["recording"]
         return None
 
     def get_track(self) -> str | None:

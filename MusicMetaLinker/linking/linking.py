@@ -16,10 +16,10 @@ as Spotify, YouTube, etc.
 """
 import musicbrainzngs.musicbrainz
 
-from acousticbrainz_links import acousticbrainz_link
-from deezer_links import DeezerAlign
-from musicbrainz_links import MusicBrainzAlign
-from youtube_links import YouTubeAlign
+from .acousticbrainz_links import acousticbrainz_link
+from .deezer_links import DeezerAlign
+from .musicbrainz_links import MusicBrainzAlign
+from .youtube_links import YouTubeAlign
 
 
 class Align:
@@ -113,6 +113,18 @@ class Align:
         if isinstance(self.isrc, str):
             self.isrc = [self.isrc]
 
+        self.mb_link = MusicBrainzAlign(
+            mbid_track=self.mbid_track,
+            mbid_release=self.mbid_release,
+            artist=self.artist,
+            album=self.album,
+            track=self.track,
+            track_number=self.track_number,
+            duration=self.duration,
+            isrc=self.isrc,
+            strict=self.strict,
+        )
+
         # check that the MusicBrainz ID is valid
         if self.mbid_track:
             try:
@@ -124,51 +136,24 @@ class Align:
             except musicbrainzngs.musicbrainz.ResponseError:
                 self.mbid_track = None
 
-    @property
-    def mb_link(self):
-        """
-        Initializes the MusicBrainz link.
-        """
-        return MusicBrainzAlign(
-            mbid_track=self.mbid_track,
-            mbid_release=self.mbid_release,
+        self.dz_link = DeezerAlign(
             artist=self.artist,
             album=self.album,
             track=self.track,
             track_number=self.track_number,
             duration=self.duration,
             isrc=self.isrc,
-            strict=self.strict,
-        )
-    
-    @property
-    def dz_link(self):
-        """
-        Initializes the Deezer link.
-        """
-        return DeezerAlign(
-            artist=self.artist,
-            album=self.album,
-            track=self.track,
-            track_number=self.track_number,
-            duration=self.duration,
-            isrc=self.isrc,
-            strict=self.strict,
+            strict=False,
         )
 
-    @property
-    def yt_link(self):
-        """
-        Initializes the YouTube link.
-        """
-        return YouTubeAlign(
+        self.yt_link = YouTubeAlign(
             artist=self.artist,
             album=self.album,
             track=self.track,
             track_number=self.track_number,
             duration=self.duration,
             isrc=self.isrc,
-            strict=self.strict,
+            strict=False,
         )
 
     def get_artist(self) -> str | None:
@@ -314,8 +299,6 @@ class Align:
             isrc = self.dz_link.get_isrc()
             if isrc is None:
                 isrc = self.mb_link.get_isrc()
-
-        self.isrc = isrc
         return isrc
 
     def get_release_date(self) -> str | None:
