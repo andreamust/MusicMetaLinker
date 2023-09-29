@@ -131,14 +131,15 @@ def retrieve_links(partitions_path: Path,
     """
     # iterate over the partitions
     for partition in tqdm(partitions_path.iterdir()):
-        # log partition information
-        logger.info(f"Processing partition {partition.name}")
         # initialize data to be stored in a dataframe
         df_list = []
         # get the path to the JAMS files for the partition
         partition_type, jams_path = filter_partition(partition, limit=limit)
         if jams_path is None or partition_type is None:
             continue
+
+        # log partition information
+        logger.info(f"Processing partition {partition.name}")
 
         # iterate over the JAMS files
         for jams_file in tqdm(jams_path.glob("*.jams"), leave=False):
@@ -153,10 +154,13 @@ def retrieve_links(partitions_path: Path,
             track_title = jams_process.track_name
             artist_name = jams_process.artist_name
             musicbrainz_id = jams_process.musicbrainz_id
-            musicbrainz_id_release = None
+            musicbrainz_id_release: str | None = None
             # filter partitions that have some peculiarities
             if partition.name == "schubert-winterreise":
                 musicbrainz_id_release = jams_process.musicbrainz_id
+                if musicbrainz_id_release and \
+                '://musicbrainz.org' in musicbrainz_id_release: 
+                    musicbrainz_id_release = musicbrainz_id_release.split('/')[-1]
             if partition.name == "billboard":
                 spotify_id, isrc = clean_billboard.clean_billboard(track_title,
                                                                    artist_name)

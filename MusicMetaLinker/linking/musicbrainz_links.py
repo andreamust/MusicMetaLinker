@@ -114,10 +114,11 @@ class MusicBrainzAlign:
         )
         
         if mbid_results['recording-list']:
-            recording = mbid_results["recording-list"][0]
-            release_list_ids = [release["id"] for release in recording["release-list"]]
-            if self.mbid_release in release_list_ids:
-                return recording["id"]
+            recordings = mbid_results["recording-list"]
+            for recording in recordings:
+                release_list_ids = [release["id"] for release in recording["release-list"]]
+                if self.mbid_release in release_list_ids:
+                    return recording["id"]
             raise ValueError("The track is not part of the release.")
         return None
 

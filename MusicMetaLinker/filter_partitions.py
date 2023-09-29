@@ -8,7 +8,8 @@ from partitions_map import AUDIO_PARTITIONS, SCORE_PARTITIONS
 
 
 def filter_partition(partition: Path,
-                     limit: str | None) -> tuple[str, Path | None]:
+                     limit: str | None) -> tuple[str | None, 
+                                                 Path | None]:
     """
     Filter for the audio partitions.
     Parameters
