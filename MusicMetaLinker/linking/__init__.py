@@ -5,6 +5,9 @@ So far, the web services implemented are:
     - Deezer
     - YouTube Music
 """
+import sys
+
+sys.path.append("..")
 
 from .deezer_links import DeezerAlign
 from .musicbrainz_links import MusicBrainzAlign

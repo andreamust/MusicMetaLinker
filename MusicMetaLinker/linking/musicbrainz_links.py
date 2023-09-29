@@ -69,7 +69,7 @@ class MusicBrainzAlign:
         """
         isrc_result = mb.get_recordings_by_isrc(
             isrc=self.isrc,
-            includes=["artists", "releases", "isrcs", "url-rels"],
+            includes=["artists", "releases", "isrcs"],
             release_status=["official"],
         )
         return isrc_result
