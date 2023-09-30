@@ -450,12 +450,12 @@
     "release": "\"Leise flehen meine Lieder...\"",
     "duration": 195.65,
     "identifiers": {
-      "musicbrainz": "https://musicbrainz.org/release/9e2fcbe4-e7f3-45c2-b24e-eb304f261fa9",
+      "musicbrainz": "eb5cf0d0-6562-44fa-a1a1-e0fffbec42a5",
       "acousticbrainz": null,
       "isrc": null,
       "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=5NCjyIPENHI",
+      "youtube_url": "https://music.youtube.com/watch?v=VBO_uRVBOvU",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

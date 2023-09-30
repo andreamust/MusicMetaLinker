@@ -3,23 +3,23 @@ Map of partitions, divided by score and audio.
 """
 
 AUDIO_PARTITIONS = [
-    "billboard",
+    #"billboard",
     # "isophonics",
     # "chordify",
     # "schubert-winterreise",
     # "robbie-williams",
     # "uspop2002",
-    "weimar",
+    # "weimar",
 ]
 
 SCORE_PARTITIONS = [
-    # "biab-internet-corpus",
-    # "ireal-pro",
+    "biab-internet-corpus",
+    "ireal-pro",
     # "jazz-corpus",
-    # "rock-corpus",
-    # "mozart-piano-sonatas",
-    # "nottingham",
-    # "real-book",
-    # "when-in-rome",
-    # "wikifonia",
+    "rock-corpus",
+    "mozart-piano-sonatas",
+    "nottingham",
+    "real-book",
+    "when-in-rome",
+    "wikifonia",
 ]

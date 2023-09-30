@@ -774,13 +774,13 @@
     "release": "Winterreise",
     "duration": 127.79,
     "identifiers": {
-      "musicbrainz": "https://musicbrainz.org/release/06d71795-0a28-4c95-b802-d7525239c946",
+      "musicbrainz": "10cefbc6-e72c-4790-aa39-a66f073b4601",
       "acousticbrainz": null,
       "isrc": [
         "DEF057130115"
       ],
-      "deezer_id": 5973274,
-      "deezer_url": "https://www.deezer.com/track/5973274",
+      "deezer_id": null,
+      "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=1EDO4eXvE9g",
       "spotify_id": null
     },
@@ -790,7 +790,7 @@
     "type": "audio",
     "genre": "classical",
     "track_number": "C3",
-    "release_year": "1955",
+    "release_year": null,
     "composers": [
       "Franz Schubert"
     ],

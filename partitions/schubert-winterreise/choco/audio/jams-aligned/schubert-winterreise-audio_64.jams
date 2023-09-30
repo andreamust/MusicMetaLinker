@@ -408,7 +408,7 @@
     "release": "Winterreise",
     "duration": 216.04,
     "identifiers": {
-      "musicbrainz": "https://musicbrainz.org/release/083c9ee1-77d7-4dea-9985-40f872607f59",
+      "musicbrainz": "d33b7b81-0894-48e4-9883-d6fe1b739e39",
       "acousticbrainz": null,
       "isrc": null,
       "deezer_id": null,
@@ -422,7 +422,7 @@
     "type": "audio",
     "genre": "classical",
     "track_number": "17",
-    "release_year": "1994-11-01",
+    "release_year": null,
     "composers": [
       "Franz Schubert"
     ],

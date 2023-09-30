@@ -558,7 +558,7 @@
     "release": "Winterreise",
     "duration": 146.2,
     "identifiers": {
-      "musicbrainz": "https://musicbrainz.org/release/26323984-c7d6-4ddb-ba46-5301254ddbca",
+      "musicbrainz": "4a0da44e-833b-4504-848d-32a3c09ba549",
       "acousticbrainz": null,
       "isrc": null,
       "deezer_id": null,
@@ -572,7 +572,7 @@
     "type": "audio",
     "genre": "classical",
     "track_number": "13",
-    "release_year": "1999",
+    "release_year": null,
     "composers": [
       "Franz Schubert"
     ],

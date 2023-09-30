@@ -558,14 +558,14 @@
     "release": "Winterreise",
     "duration": 141.66,
     "identifiers": {
-      "musicbrainz": "https://musicbrainz.org/release/06d71795-0a28-4c95-b802-d7525239c946",
+      "musicbrainz": "40caed34-9095-44de-8398-91565fc3c6c5",
       "acousticbrainz": null,
       "isrc": [
         "DEF057130113"
       ],
-      "deezer_id": 5973272,
-      "deezer_url": "https://www.deezer.com/track/5973272",
-      "youtube_url": "https://music.youtube.com/watch?v=q5BJd59VPL0",
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=-uS6Ge8m0hE",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
@@ -574,7 +574,7 @@
     "type": "audio",
     "genre": "classical",
     "track_number": "C1",
-    "release_year": "1955",
+    "release_year": null,
     "composers": [
       "Franz Schubert"
     ],

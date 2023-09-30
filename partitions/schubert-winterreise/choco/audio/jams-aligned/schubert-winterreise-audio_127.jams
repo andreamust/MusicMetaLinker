@@ -642,7 +642,7 @@
     "release": "Winterreise",
     "duration": 149.21,
     "identifiers": {
-      "musicbrainz": "https://musicbrainz.org/release/56a0e3e8-9c80-43ec-bd4e-4bcf599f9b2c",
+      "musicbrainz": "67ba502d-aed1-42c8-850a-06fb7c5e205b",
       "acousticbrainz": null,
       "isrc": null,
       "deezer_id": null,
@@ -656,7 +656,7 @@
     "type": "audio",
     "genre": "classical",
     "track_number": "8",
-    "release_year": "1993",
+    "release_year": null,
     "composers": [
       "Franz Schubert"
     ],

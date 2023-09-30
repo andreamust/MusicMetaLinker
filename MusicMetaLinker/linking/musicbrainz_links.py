@@ -81,7 +81,7 @@ class MusicBrainzAlign:
                 except mb.ResponseError:
                     return None
 
-    def _search_by_mbid(self) -> dict:
+    def _search_by_mbid(self) -> dict | None:
         """
         Searches for the track in the MusicBrainz database by MBID.
         Returns
@@ -89,13 +89,16 @@ class MusicBrainzAlign:
         search_results : dict
             Dictionary containing the search results.
         """
-        mbid_results = mb.get_recording_by_id(
-            id=self.mbid_track,
-            includes=["artists", "releases", "isrcs", "discids", "url-rels"],
-            release_status=["official"],
-            release_type=["album", "ep", "single"],
-        )
-        return mbid_results
+        try:
+            mbid_results = mb.get_recording_by_id(
+                id=self.mbid_track,
+                includes=["artists", "releases", "isrcs", "discids", "url-rels"],
+                release_status=["official"],
+                release_type=["album", "ep", "single"],
+            )
+            return mbid_results
+        except mb.ResponseError:
+            return None
 
     def _get_track_mbid_from_release(self) -> str | None:
         """
