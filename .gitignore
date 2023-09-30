@@ -183,3 +183,6 @@ audio_files.csv
 
 # exclude the idea folder
 .idea/
+
+.DS_Store
+partitions/rwc-pop/row/jams/*.jams
