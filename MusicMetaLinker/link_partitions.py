@@ -189,9 +189,11 @@ def retrieve_links(partitions_path: Path,
             # complement the JAMS file with the retrieved links
             df_list = complement_jams(linker, jams_process, df_list, jams_file,
                                       isrc, spotify_id)
+            print(df_list[-1])
 
             if save:
                 save_path = jams_path.parent / "jams-aligned"
+                print(f"Saving JAMS file to {save_path}")
                 jams_process.write_jams(save_path)
 
         # save the dataframe
@@ -210,6 +212,7 @@ def main():
     parser.add_argument("partitions_path", type=Path,
                         help="Path to the partitions.")
     parser.add_argument("--save", action="store_true",
+                        default=True,
                         help="Whether to save the retrieved information in a "
                              "new JAMS file or not.")
     parser.add_argument("--limit", type=str, default=None,
