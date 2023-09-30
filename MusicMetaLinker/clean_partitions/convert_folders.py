@@ -34,6 +34,35 @@ def convert_folder_to_flac(input_folder: Path, output_folder: Path) -> None:
             subprocess.call(['ffmpeg', '-i', file,
                              '-c:a', 'flac', output_file,])
 
+def create_jaah_metadata(jams_folder: Path, audio_folder: Path) -> None:
+    """
+    Creates the metadata for the JAAH partition.
+    Returns
+    -------
+    None
+    """
+    meta = []
+    # iterate over jams files
+    for jams_file in jams_folder.iterdir():
+        jams_name = jams_file.name
+        flac_name = jams_file.stem + ".flac"
+        # get the audio file
+        audio_file = audio_folder / flac_name
+        # check if the audio file exists
+        audio_file = audio_file if audio_file.exists() else None
+        # append to the list
+        meta.append({
+            'jams_file': jams_name,
+            'audio_file': flac_name,
+        })
+    # create the dataframe
+    df = pd.DataFrame(meta, columns=['jams_file', 'audio_file'])
+    # sort the dataframe
+    df.sort_values(by=['jams_file'], inplace=True)
+    # save the dataframe
+    df.to_csv(jams_folder.parent / "audio_files.csv", index=False)
+
+
 
 def convert_schubert() -> None:
     """
@@ -69,6 +98,9 @@ def convert_rwc(output_folder: str | Path) -> None:
     metadata = pd.read_csv(metadata_path)
     row_metadata = pd.read_csv(row_metadata, sep="\t")
 
+    # initialize the list of files
+    file_list = []
+
     # find correspondences between artist and track names between metadata and
     # row metadata
     for _, row in row_metadata.iterrows():
@@ -91,13 +123,23 @@ def convert_rwc(output_folder: str | Path) -> None:
 
         # original file path
         original_file_path = row_audio / f"RM-P{piece_no}.wav"
-        print(original_file_path, original_file_path.exists())
         if original_file_path.exists():
             # convert the file to FLAC
             subprocess.call(['ffmpeg', '-i', original_file_path,
-                            '-c:a', 'flac', converted_path,])
+                            '-c:a', 'flac', converted_path, '-n'])
+            file_list.append({
+                'jams_file': original_file_path.name,
+                'audio_file': converted_path.name,
+            })
         else:
             raise FileNotFoundError(f"{original_file_path} does not exist")
+        
+    # create the dataframe
+    df = pd.DataFrame(file_list, columns=['jams_file', 'audio_file'])
+    # sort the dataframe
+    df.sort_values(by=['jams_file'], inplace=True)
+    # save the dataframe
+    df.to_csv(output_folder.parent / "audio_files.csv", index=False)
 
 
 if __name__ == '__main__':
@@ -105,4 +147,9 @@ if __name__ == '__main__':
     # convert_schubert()
 
     # convert the RWC partition
-    convert_rwc('./partitions/rwc-pop/choco/audio')
+    # convert_rwc('./partitions/rwc-pop/choco/audio')
+
+    # create the metadata for the JAAH partition
+    jams_folder = Path("./partitions/jaah/choco/jams")
+    audio_folder = Path("./partitions/jaah/choco/audio")
+    create_jaah_metadata(jams_folder, audio_folder)
