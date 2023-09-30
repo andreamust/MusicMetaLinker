@@ -380,9 +380,9 @@ class Align:
 if __name__ == "__main__":
     # test the class
     aligner = Align(
-        artist="The Beatles",
-        album="The Beatles CD1",
-        track="Black Bird",
+        artist="Power (Choralerna)",
+        album=None,
+        track=None,
         track_number=None,
         duration=None,
         isrc=None,

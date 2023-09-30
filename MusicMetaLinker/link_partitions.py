@@ -190,9 +190,6 @@ def retrieve_links(partitions_path: Path,
             df_list = complement_jams(linker, jams_process, df_list, jams_file,
                                       isrc, spotify_id)
 
-            # save the JAMS file
-            jams_process.write_jams(jams_path.parent / "jams-aligned")
-
             if save:
                 save_path = jams_path.parent / "jams-aligned"
                 jams_process.write_jams(save_path)
