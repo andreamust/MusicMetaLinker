@@ -1,0 +1,65 @@
+###########################################################################
+# [RWC Music Database]
+#		Copyright (C) 2001 Real World Computing Partnership
+#		WARNING: All Rights Reserved.
+#		Unauthorized duplication is a violation of applicable laws.
+#		Made in Japan.
+#		(contact: Masataka GOTO <m.goto@aist.go.jp>)
+###########################################################################
+RM-P008.TXT
+
+人生こんなもの
+
+Intro       B  A  B  A  B
+
+E                  Bm             E       Bm
+なんでまた朝が来るの？
+E           Bm            E      Bm
+面倒で仕方ないの
+
+A                     C/E                 F#m     B         E         E7
+おひさまに愚痴ったって　何もしてくれない
+A                     C/E            C#7     F#m      F#7                B
+照らすだけ照らしちゃって　無責任なんて思わない？
+
+　　            E                        B      　　　　　C#m               F#7
+　　食べまくって　飲みまくって　苦しくって　また悶えて
+　　   F#m        C/E            B
+　　わたしたち生きてるの
+　　          E                      B　                     C#m                    F#7
+　　うれしくって　さみしくって　「もう一度」って　欲しくなって
+　　   F#m           B            Esus4    E
+　　明日もまた生きてくの
+
+
+E               Bm            E       Bm
+今朝は赤信号だらけ
+E          Bm                  E      Bm
+何か悪いことしたっけ？
+
+A          C/E  　　          F#m       B            E         E7
+他人を羨んだって　何も変わりゃしない
+A                     C/E             C#7　 F#m      F#7                  B　
+さらに惨めになっちゃって　出口から遠くなるばかり
+
+　　          E                        B                        C#m                 F#7
+　　財布持った　カギも持った　持てるもんは　全部持った
+　　   F#m      C/E           B
+　　でも何か足りないの
+　　        E                    B                    C#m               F#7
+　　年もとった　恥も知った　振り返った　怖くなった
+　　   F#m          B            Esus4    E
+　　そしてまた生きてくの
+
+
+C#m  F#7  |  C#m  F#7  |  C#m  F#7  |  Bsus4  B
+
+
+　　            E                        B      　　　　　C#m               F#7
+　　食べまくって　飲みまくって　苦しくって　また悶えて
+　　   F#m        C/E            B
+　　わたしたち生きてるの
+　　          E                      B　                     C#m                    F#7
+　　うれしくって　さみしくって　「もう一度」って　欲しくなって
+　　   F#m           B            Esus4    E
+　　明日もまた生きてくの
