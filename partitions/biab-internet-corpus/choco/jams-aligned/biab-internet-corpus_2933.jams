@@ -1,0 +1,256 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Bas de Haas",
+          "email": "bas@chordify.net"
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 0.95,
+        "corpus": "BiaB Internet Corpus",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 3.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 3.0,
+          "value": "Ab:(4,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 2.0,
+          "value": "Ab:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 8.0,
+          "value": "Db:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 3.0,
+          "value": "C:min(b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 3.0,
+          "value": "F:(3,#5,b7,#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.3,
+          "duration": 2.0,
+          "value": "F:(3,#5,b7,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 3.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 3.0,
+          "value": "Ab:(4,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.3,
+          "duration": 2.0,
+          "value": "Ab:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "Db:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 3.0,
+          "value": "C:min(b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 3.0,
+          "value": "F:(3,#5,b7,#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.3,
+          "duration": 2.0,
+          "value": "F:(3,#5,b7,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 2.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.3,
+          "duration": 2.0,
+          "value": "Db:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 2.0,
+          "value": "C:min(b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.3,
+          "duration": 2.0,
+          "value": "F:(3,5,b7,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 4.0,
+          "value": "Eb:min(b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 4.0,
+          "value": "Ab:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "Db:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "Eb:min(b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "Ab:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "Db:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 4.0,
+          "value": "F:(3,5,b7,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 3.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.0,
+          "duration": 3.0,
+          "value": "Ab:(4,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.3,
+          "duration": 2.0,
+          "value": "Ab:(3,5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 8.0,
+          "value": "Db:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 3.0,
+          "value": "C:min(b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.0,
+          "duration": 3.0,
+          "value": "F:(3,#5,b7,#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.3,
+          "duration": 2.0,
+          "value": "F:(3,#5,b7,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 4.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Slippers",
+    "artist": "Cloudchord feat. Karavelo",
+    "release": "Reverence",
+    "duration": 111,
+    "identifiers": {
+      "musicbrainz": "50670894-849d-406b-90af-40e0be5833b0",
+      "acousticbrainz": null,
+      "isrc": "QZTAZ2308740",
+      "deezer_id": 2457276715,
+      "deezer_url": "https://www.deezer.com/track/2457276715",
+      "youtube_url": "https://music.youtube.com/watch?v=kq2tpLhGzUc",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 6,
+    "release_year": "2023",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}
