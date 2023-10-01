@@ -1,0 +1,162 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 16.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 16.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 16.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 16.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 20.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 8.0,
+          "value": "Bb:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 8.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 16.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 8.0,
+          "value": "Bb:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 8.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 16.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 38.1,
+          "duration": 16.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 42.1,
+          "duration": 20.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 47.1,
+          "duration": 8.0,
+          "value": "Bb:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 49.1,
+          "duration": 8.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 51.1,
+          "duration": 20.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 56.1,
+          "duration": 8.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 58.1,
+          "duration": 12.0,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Jive Samba",
+    "artist": "Nat Adderley",
+    "release": "Jazz Six Pack",
+    "duration": 662,
+    "identifiers": {
+      "musicbrainz": "319ac740-5b67-4ff7-8aba-582e76bbcb34",
+      "acousticbrainz": null,
+      "isrc": "FR59R1643475",
+      "deezer_id": 129319960,
+      "deezer_url": "https://www.deezer.com/track/129319960",
+      "youtube_url": "https://music.youtube.com/watch?v=d3GGWqXQ278",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 2,
+    "release_year": "2016",
+    "composers": [
+      "Nat Adderley"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

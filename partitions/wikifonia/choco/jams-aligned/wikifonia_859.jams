@@ -1,0 +1,222 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 2.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.3,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 36.5,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.15,
+          "duration": 7.5,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 8.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 39.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 40.1,
+          "duration": 4.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 41.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 42.1,
+          "duration": 2.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 42.3,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 43.1,
+          "duration": 36.5,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 52.15,
+          "duration": 7.5,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 54.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "The Wayward Wind",
+    "artist": "Stanley Lebowsky",
+    "release": "Songs of the Wild West",
+    "duration": 235,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=eCAYWG0ZiFY",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": null,
+    "release_year": null,
+    "composers": [
+      "Stanley Lebowsky"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

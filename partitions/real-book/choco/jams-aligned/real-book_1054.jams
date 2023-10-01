@@ -1,0 +1,88 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 32.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 16.0,
+          "value": "F:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 16.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "Db:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 16.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Footprints",
+    "artist": "Wayne Shorter",
+    "release": "Blue Note Perfect Takes",
+    "duration": 449,
+    "identifiers": {
+      "musicbrainz": "4426e9ee-2dba-41d6-a5e9-f88c611ec547",
+      "acousticbrainz": null,
+      "isrc": "USBN20000449",
+      "deezer_id": 3092716,
+      "deezer_url": "https://www.deezer.com/track/3092716",
+      "youtube_url": "https://music.youtube.com/watch?v=LgaIUqH0w6c",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 4,
+    "release_year": "2007",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

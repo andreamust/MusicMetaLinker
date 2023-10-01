@@ -1,0 +1,110 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.2,
+          "duration": 11.5,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.15,
+          "duration": 16.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.15,
+          "duration": 7.5,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.5,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.15,
+          "duration": 4.5,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.2,
+          "duration": 3.0,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 4.5,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.15,
+          "duration": 3.5,
+          "value": "C:min",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Ott fogsz majd s\u00edrni",
+    "artist": "Unknown",
+    "release": "Hossz\u00fa az a nap",
+    "duration": 308.0,
+    "identifiers": {
+      "musicbrainz": "9356694b-1707-490a-9ce9-55334d1108dc",
+      "acousticbrainz": null,
+      "isrc": [
+        "HUA871000012"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=Dj0QEIqCtmI",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "11",
+    "release_year": null,
+    "composers": [
+      "Unknown"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

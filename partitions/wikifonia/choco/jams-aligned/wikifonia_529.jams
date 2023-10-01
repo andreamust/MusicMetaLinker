@@ -1,0 +1,225 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 2.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.3,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 2.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.3,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 2.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.3,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 2.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.3,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 2.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Just A-wearying For You",
+    "artist": "Carrie Jacobs-Bond",
+    "release": "Carnival Ride",
+    "duration": 284.159,
+    "identifiers": {
+      "musicbrainz": "ff857beb-19bd-4ec7-9fbe-ea110d228731",
+      "acousticbrainz": null,
+      "isrc": [
+        "GBCTA1400030",
+        "GBCTA0700256"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=U5RRowqXlq4",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "4",
+    "release_year": null,
+    "composers": [
+      "Carrie Jacobs-Bond"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

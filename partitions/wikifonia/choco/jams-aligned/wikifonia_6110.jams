@@ -1,0 +1,150 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.3,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3,
+          "duration": 2.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 8.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 16.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 8.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 12.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 20.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 16.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 16.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 12.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 38.1,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 39.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Help Me Make It Through The Night",
+    "artist": "Kris Kristofferson",
+    "release": "Radio Wien - Feelings",
+    "duration": 142,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "USSM10016815",
+      "deezer_id": 1074781,
+      "deezer_url": "https://www.deezer.com/track/1074781",
+      "youtube_url": "https://music.youtube.com/watch?v=UNALQpTrtVA",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 5,
+    "release_year": "1999",
+    "composers": [
+      "Kris Kristofferson"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

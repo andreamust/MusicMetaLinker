@@ -1,0 +1,244 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 2.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.3,
+          "duration": 2.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 2.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 2.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 2.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3,
+          "duration": 2.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 2.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.3,
+          "duration": 2.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 8.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 8.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 4.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 8.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 12.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 4.0,
+          "value": "Db:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 4.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 4.0,
+          "value": "C:hdim",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 4.0,
+          "value": "F:maj(b7,9,11,13)",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 4.0,
+          "value": "C:hdim",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 4.0,
+          "value": "F:maj(b7,9,11,13)",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 4.0,
+          "value": "C:hdim",
+          "confidence": 1.0
+        },
+        {
+          "time": 38.1,
+          "duration": 4.0,
+          "value": "F:maj(b7,9,11,13)",
+          "confidence": 1.0
+        },
+        {
+          "time": 39.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 41.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "All Of Me",
+    "artist": "Billie Holiday",
+    "release": "The Complete Billie Holiday on Verve 1945\u20131959",
+    "duration": 269,
+    "identifiers": {
+      "musicbrainz": "84078320-161b-4aa9-b478-0a1f5b2f118b",
+      "acousticbrainz": null,
+      "isrc": "USSM11303954",
+      "deezer_id": 70079770,
+      "deezer_url": "https://www.deezer.com/track/70079770",
+      "youtube_url": "https://music.youtube.com/watch?v=sQtnhwU2R9Y",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 6,
+    "release_year": "2013",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

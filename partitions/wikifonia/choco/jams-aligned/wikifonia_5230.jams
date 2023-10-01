@@ -1,0 +1,236 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.3,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 6.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.3,
+          "duration": 2.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 6.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.3,
+          "duration": 2.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 6.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.3,
+          "duration": 2.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 8.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 38.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 38.3,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 40.1,
+          "duration": 6.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 41.3,
+          "duration": 2.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 42.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "What Now, My Love?",
+    "artist": "Gilbert B\u00e9caud 1961",
+    "release": "1980 - 1985 : Les 45 tours + Raret\u00e9s",
+    "duration": 242.487,
+    "identifiers": {
+      "musicbrainz": "54b783ce-c5a3-4968-8e78-e095003bd007",
+      "acousticbrainz": null,
+      "isrc": [
+        "FRZ111500269"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=f28jIbREJQ0",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "8",
+    "release_year": null,
+    "composers": [
+      "Gilbert B\u00e9caud 1961"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

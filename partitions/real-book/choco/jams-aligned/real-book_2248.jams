@@ -1,0 +1,106 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 16.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "D:sus4(b7,9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Zoot Swings The Blues",
+    "artist": "Zoot Sims",
+    "release": "The Encyclopedia of Jazz, Part 4/5: Bebop Story \u2013 A Musical Revolution That Radically Changed the Road of Jazz",
+    "duration": 519,
+    "identifiers": {
+      "musicbrainz": "e6142c8e-6e31-4316-9911-bb2aac9055c6",
+      "acousticbrainz": null,
+      "isrc": "GBHQC0563280",
+      "deezer_id": 10155971,
+      "deezer_url": "https://www.deezer.com/track/10155971",
+      "youtube_url": "https://music.youtube.com/watch?v=XgfGOA8OtSw",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 21,
+    "release_year": "2011",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

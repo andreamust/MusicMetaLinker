@@ -1,0 +1,308 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 0.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.15,
+          "duration": 0.5,
+          "value": "B:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 1.0,
+          "value": "Ab:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 3.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.25,
+          "duration": 0.5,
+          "value": "Ab:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 3.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.2,
+          "duration": 1.0,
+          "value": "C:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.15,
+          "duration": 0.5,
+          "value": "B:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.2,
+          "duration": 1.0,
+          "value": "Ab:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 3.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.25,
+          "duration": 0.5,
+          "value": "Ab:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 1.75,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.275,
+          "duration": 1.25,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.2,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 1.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.2,
+          "duration": 1.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 4.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 1.5,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.25,
+          "duration": 2.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 0.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.15,
+          "duration": 0.5,
+          "value": "B:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.2,
+          "duration": 1.0,
+          "value": "Ab:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 3.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.25,
+          "duration": 0.5,
+          "value": "Ab:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 1.75,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.275,
+          "duration": 1.25,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.2,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 1.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.2,
+          "duration": 1.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 2.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 0.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.15,
+          "duration": 0.5,
+          "value": "Ab:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.2,
+          "duration": 0.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.25,
+          "duration": 0.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "A Precious Little Thing Called Love",
+    "artist": "Lou Davis & J. Fred Coots",
+    "release": "The Encyclopedia of Jazz, Part 1/5: Classic Jazz \u2013 From New Orleans to Harlem",
+    "duration": 168.0,
+    "identifiers": {
+      "musicbrainz": "3b3665cb-9998-461f-b12a-1cf03241e8ae",
+      "acousticbrainz": null,
+      "isrc": [
+        "DEU240801646"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=LNVIL4vNdkY",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "18",
+    "release_year": null,
+    "composers": [
+      "Lou Davis & J. Fred Coots"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

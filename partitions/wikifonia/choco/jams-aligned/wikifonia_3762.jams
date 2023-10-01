@@ -1,0 +1,186 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 8.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 8.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 10.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 2.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 12.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 8.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 8.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 10.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.3,
+          "duration": 2.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 8.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Walking The Floor Over You",
+    "artist": "Ernest Tubb",
+    "release": "The Country Music Hall of Fame Series",
+    "duration": 158,
+    "identifiers": {
+      "musicbrainz": "509b6d9f-7b25-4ed4-a4c2-4a33910d8b63",
+      "acousticbrainz": null,
+      "isrc": "GB8XC1427509",
+      "deezer_id": 615926252,
+      "deezer_url": "https://www.deezer.com/track/615926252",
+      "youtube_url": "https://music.youtube.com/watch?v=0graOj19ti0",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 11,
+    "release_year": "2009",
+    "composers": [
+      "Ernest Tubb"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

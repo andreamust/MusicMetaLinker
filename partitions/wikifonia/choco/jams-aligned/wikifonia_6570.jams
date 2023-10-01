@@ -1,0 +1,186 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 12.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 16.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Cool Water",
+    "artist": "Bob Nolan",
+    "release": "The Bootleg Series, Vol. 11: The Basement Tapes Complete",
+    "duration": 176,
+    "identifiers": {
+      "musicbrainz": "e7c8c5d0-6a62-4df4-af7c-8f4c57a506cf",
+      "acousticbrainz": null,
+      "isrc": "FRS181480421",
+      "deezer_id": 145073320,
+      "deezer_url": "https://www.deezer.com/track/145073320",
+      "youtube_url": "https://music.youtube.com/watch?v=nsTtQLFCwa8",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 1,
+    "release_year": "2017",
+    "composers": [
+      "Bob Nolan"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

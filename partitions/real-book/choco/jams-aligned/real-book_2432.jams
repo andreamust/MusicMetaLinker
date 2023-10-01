@@ -1,0 +1,178 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Goldrush",
+    "artist": "Dance or Die",
+    "release": "Everspring",
+    "duration": 369,
+    "identifiers": {
+      "musicbrainz": "8f084215-a243-4a91-96d9-fee60cd095b5",
+      "acousticbrainz": null,
+      "isrc": "GBCFB9900360",
+      "deezer_id": 10238610,
+      "deezer_url": "https://www.deezer.com/track/10238610",
+      "youtube_url": "https://music.youtube.com/watch?v=7BYR9u7RJ1k",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 5,
+    "release_year": "1999",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "F#:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Just Dropped In (To See What Condition My Condition Was In)",
+    "artist": "Mickey Newbury",
+    "release": "Winter Winds",
+    "duration": 255.467,
+    "identifiers": {
+      "musicbrainz": "fbfae73f-f6fa-4c04-b39b-ba6da026f21b",
+      "acousticbrainz": null,
+      "isrc": [
+        "USHM80883556"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=C-UjTueNoLY",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "5",
+    "release_year": null,
+    "composers": [
+      "Mickey Newbury"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

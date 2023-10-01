@@ -1,0 +1,112 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 8.0,
+          "value": "F:(1,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "F:(1,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "F:(1,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "F:(1,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "F:(1,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 8.0,
+          "value": "F:(1,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 8.0,
+          "value": "F:(1,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "F:(1,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "F:(1,5)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "A Call For All Demons",
+    "artist": "Sun Ra",
+    "release": "Jazz: The Smithsonian Anthology",
+    "duration": 260,
+    "identifiers": {
+      "musicbrainz": "dbd8da11-cab1-4b67-bc05-9826e4140459",
+      "acousticbrainz": null,
+      "isrc": "USCXG1400197",
+      "deezer_id": 99057530,
+      "deezer_url": "https://www.deezer.com/track/99057530",
+      "youtube_url": "https://music.youtube.com/watch?v=vuz8noSQ3dk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 7,
+    "release_year": "2014",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 16.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 2.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.3,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 16.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 8.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 8.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 2.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.3,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 16.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 3.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.4,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 16.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 40.1,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 41.1,
+          "duration": 2.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 41.3,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 42.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 44.1,
+          "duration": 16.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 48.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 50.1,
+          "duration": 8.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 52.1,
+          "duration": 8.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 54.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 55.1,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 56.1,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 57.1,
+          "duration": 2.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 57.3,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 58.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 60.1,
+          "duration": 16.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 64.1,
+          "duration": 8.0,
+          "value": "A:min",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Comes Love (simpler version)",
+    "artist": "Sam H. Stept",
+    "release": "The Man Who Invented Soul",
+    "duration": 150.573,
+    "identifiers": {
+      "musicbrainz": "9aa12de9-def8-4214-9245-25eace5279c3",
+      "acousticbrainz": null,
+      "isrc": [
+        "USRC10000383"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=iyPcmjBv1Xk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "15",
+    "release_year": null,
+    "composers": [
+      "Sam H. Stept"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

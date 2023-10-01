@@ -1,0 +1,228 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 3.0,
+          "value": "D:7/3",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.2,
+          "duration": 1.0,
+          "value": "F#:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 1.0,
+          "value": "E:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 2.0,
+          "value": "D:7/3",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "F#:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 1.0,
+          "value": "E:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.2,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 4.0,
+          "value": "D:7/3",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 1.0,
+          "value": "E:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.2,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 2.0,
+          "value": "D:7/3",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 2.0,
+          "value": "F#:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 1.0,
+          "value": "E:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.2,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "I'll Fly Away",
+    "artist": "Albert E. Brumley",
+    "release": "Let Me Live in Your Life",
+    "duration": 120,
+    "identifiers": {
+      "musicbrainz": "78c9bb08-b9f2-417f-af09-13cd38397819",
+      "acousticbrainz": null,
+      "isrc": "USCGJ1003780",
+      "deezer_id": 66193832,
+      "deezer_url": "https://www.deezer.com/track/66193832",
+      "youtube_url": "https://music.youtube.com/watch?v=hjmkuVlNh0g",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 1,
+    "release_year": "2013",
+    "composers": [
+      "Albert E. Brumley"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

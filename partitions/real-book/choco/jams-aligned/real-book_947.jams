@@ -1,0 +1,124 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 8.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.3,
+          "duration": 2.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 2.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.3,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 2.0,
+          "value": "A:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Going Back Home",
+    "artist": "The Priests",
+    "release": "SXSW 2005 Showcasing Artists",
+    "duration": 229,
+    "identifiers": {
+      "musicbrainz": "f841feda-98fc-45c0-8065-50528c503746",
+      "acousticbrainz": null,
+      "isrc": "GBAYE7600288",
+      "deezer_id": 3123495,
+      "deezer_url": "https://www.deezer.com/track/3123495",
+      "youtube_url": "https://music.youtube.com/watch?v=t93M9iEnoKM",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 8,
+    "release_year": "2003",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

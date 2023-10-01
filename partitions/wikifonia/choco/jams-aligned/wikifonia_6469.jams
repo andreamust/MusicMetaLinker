@@ -1,0 +1,188 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 24.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 16.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 7.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.4,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 8.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 16.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 22.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.3,
+          "duration": 2.0,
+          "value": "G:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 24.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 8.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 2.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.3,
+          "duration": 6.0,
+          "value": "A:(*3,5)/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 16.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 40.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 42.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 44.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 45.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 46.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 47.1,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 48.1,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 49.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 50.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Bar Room Polka",
+    "artist": "Vaughn Horton",
+    "release": "The Best of Frankie Yankovic",
+    "duration": 173.533,
+    "identifiers": {
+      "musicbrainz": "5c0eab4c-0a36-41d1-aed0-fdc0fc2088ee",
+      "acousticbrainz": null,
+      "isrc": [
+        "USSM10404083"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=1xXDl5V2heg",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "7",
+    "release_year": null,
+    "composers": [
+      "Vaughn Horton"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

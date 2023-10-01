@@ -1,0 +1,120 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.2,
+          "duration": 12.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.2,
+          "duration": 9.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.3,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.2,
+          "duration": 12.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.2,
+          "duration": 9.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 16.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 13.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.2,
+          "duration": 11.0,
+          "value": "G:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Good morning",
+    "artist": "Nacio Herb Brown",
+    "release": "Singin' in the Rain - Original Cast Recording",
+    "duration": 131,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "FR7Y71000010",
+      "deezer_id": 535861102,
+      "deezer_url": "https://www.deezer.com/track/535861102",
+      "youtube_url": "https://music.youtube.com/watch?v=xsNC8y2G3cI",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 10,
+    "release_year": "2016",
+    "composers": [
+      "Nacio Herb Brown"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 18.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 24.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 12.0,
+          "value": "A:(3,5,b7,9,11,13)",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 12.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 114.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 65.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 69.1,
+          "duration": 24.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 77.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 81.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 85.1,
+          "duration": 12.0,
+          "value": "G:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 89.1,
+          "duration": 6.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 91.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 93.1,
+          "duration": 3.0,
+          "value": "G:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 94.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 95.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 97.1,
+          "duration": 12.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 101.1,
+          "duration": 12.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 105.1,
+          "duration": 12.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 109.1,
+          "duration": 3.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 110.1,
+          "duration": 3.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 111.1,
+          "duration": 6.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 113.1,
+          "duration": 12.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 117.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 121.1,
+          "duration": 834.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 399.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 403.1,
+          "duration": 24.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 411.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 415.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 419.1,
+          "duration": 12.0,
+          "value": "G:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 423.1,
+          "duration": 6.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 425.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 427.1,
+          "duration": 3.0,
+          "value": "G:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 428.1,
+          "duration": 141.0,
+          "value": "A:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Blue Danube by  Jon Anderson",
+    "artist": "Johann Strauss",
+    "release": "Harold and Maude",
+    "duration": 36.106,
+    "identifiers": {
+      "musicbrainz": "1276da04-ce01-44e3-a99b-877b2333a979",
+      "acousticbrainz": null,
+      "isrc": [
+        "USKLP2100643"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=YvFyM1r1v-E",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "14",
+    "release_year": null,
+    "composers": [
+      "Johann Strauss"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

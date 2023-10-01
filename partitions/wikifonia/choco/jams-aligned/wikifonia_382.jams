@@ -1,0 +1,72 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 64.0,
+          "value": "D:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 32.0,
+          "value": "Eb:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 32.0,
+          "value": "D:min9",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Impressions",
+    "artist": "John Coltrane",
+    "release": "The Very Best of John Coltrane",
+    "duration": 246,
+    "identifiers": {
+      "musicbrainz": "ad6cb36a-ebde-44dc-861b-4427f0cc0ec7",
+      "acousticbrainz": null,
+      "isrc": "USUM71807148",
+      "deezer_id": 518458022,
+      "deezer_url": "https://www.deezer.com/track/518458022",
+      "youtube_url": "https://music.youtube.com/watch?v=7RRxiUw6bkk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 2,
+    "release_year": "2018",
+    "composers": [
+      "John Coltrane"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

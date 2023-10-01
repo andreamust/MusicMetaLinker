@@ -1,0 +1,100 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 16.0,
+          "value": "A:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 16.0,
+          "value": "C:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 16.0,
+          "value": "A:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 16.0,
+          "value": "C:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 16.0,
+          "value": "Bb:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 16.0,
+          "value": "Ab:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 16.0,
+          "value": "A:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 16.0,
+          "value": "C:min7/4",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Maiden Voyage",
+    "artist": "Herbie Hancock",
+    "release": "Blue Note Trip, Volume 4: Lookin' Back / Movin' On",
+    "duration": 477,
+    "identifiers": {
+      "musicbrainz": "4e2e3a2f-30d1-4f54-8e4e-fcc04909f337",
+      "acousticbrainz": null,
+      "isrc": "USBN29801061",
+      "deezer_id": 3105348,
+      "deezer_url": "https://www.deezer.com/track/3105348",
+      "youtube_url": "https://music.youtube.com/watch?v=EWC5x9G45yo",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 1,
+    "release_year": "2012",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

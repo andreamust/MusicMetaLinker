@@ -1,0 +1,264 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 5.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 1.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 6.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.3,
+          "duration": 2.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.2,
+          "duration": 1.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.3,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 6.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 5.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.3,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 3.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 1.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 3.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.2,
+          "duration": 1.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.3,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 9.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 3.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 2.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.3,
+          "duration": 1.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 9.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 5.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.3,
+          "duration": 1.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 5.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.3,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 3.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.3,
+          "duration": 1.0,
+          "value": "Db:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 3.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.2,
+          "duration": 1.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.3,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 6.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "When I Grow Too Old To Dream",
+    "artist": "Sigmund Romberg",
+    "release": "Living in the USA",
+    "duration": 184,
+    "identifiers": {
+      "musicbrainz": "2d82e975-5da2-431c-9de3-21e0f950d08a",
+      "acousticbrainz": null,
+      "isrc": "HKI190248513",
+      "deezer_id": 16752497,
+      "deezer_url": "https://www.deezer.com/track/16752497",
+      "youtube_url": "https://music.youtube.com/watch?v=AJGzx-mbaig",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 13,
+    "release_year": "2014",
+    "composers": [
+      "Sigmund Romberg"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

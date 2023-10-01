@@ -1,0 +1,198 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Dona Nobis Pacem",
+    "artist": "Traditional",
+    "release": "The Golden Years of Dutch Pop Music (A&B Sides and More)",
+    "duration": 177,
+    "identifiers": {
+      "musicbrainz": "ebd9ed82-b17b-4826-a362-d6343c74434e",
+      "acousticbrainz": null,
+      "isrc": "PLL431494233",
+      "deezer_id": 106420402,
+      "deezer_url": "https://www.deezer.com/track/106420402",
+      "youtube_url": "https://music.youtube.com/watch?v=gU1QjehL-XQ",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 3,
+    "release_year": "2015",
+    "composers": [
+      "Traditional"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

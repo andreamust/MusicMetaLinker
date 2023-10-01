@@ -1,0 +1,58 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 288.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "The Fives",
+    "artist": "Count Basie",
+    "release": "The Complete Decca Recordings",
+    "duration": 231,
+    "identifiers": {
+      "musicbrainz": "e68e92cd-3b33-4520-a683-d2921bc20fc8",
+      "acousticbrainz": null,
+      "isrc": "USHM82023498",
+      "deezer_id": 1005141132,
+      "deezer_url": "https://www.deezer.com/track/1005141132",
+      "youtube_url": "https://music.youtube.com/watch?v=47Zo4nJ5WB0",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 1,
+    "release_year": "2020",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.3,
+          "duration": 4.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.3,
+          "duration": 4.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "ABBA FATHER",
+    "artist": "Carey",
+    "release": "Mission Praise: 50 Songs To Accompany The 25th Anniversary Edition Songbook",
+    "duration": 291,
+    "identifiers": {
+      "musicbrainz": "a17d132b-1e85-4dfd-a792-962edabac19f",
+      "acousticbrainz": null,
+      "isrc": "USA4N1301669",
+      "deezer_id": 1042644472,
+      "deezer_url": "https://www.deezer.com/track/1042644472",
+      "youtube_url": "https://music.youtube.com/watch?v=JUpdL4vELm8",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 18,
+    "release_year": "2012",
+    "composers": [
+      "Carey"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

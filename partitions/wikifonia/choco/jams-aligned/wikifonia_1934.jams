@@ -1,0 +1,102 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 16.0,
+          "value": "A:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 16.0,
+          "value": "C:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 16.0,
+          "value": "A:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 16.0,
+          "value": "C:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 16.0,
+          "value": "Bb:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 16.0,
+          "value": "C#:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 16.0,
+          "value": "A:min7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 16.0,
+          "value": "C:min7/4",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Maiden Voyage",
+    "artist": "Herbie Hancock",
+    "release": "Blue Note Trip, Volume 4: Lookin' Back / Movin' On",
+    "duration": 477,
+    "identifiers": {
+      "musicbrainz": "4e2e3a2f-30d1-4f54-8e4e-fcc04909f337",
+      "acousticbrainz": null,
+      "isrc": "USBN29801061",
+      "deezer_id": 3105348,
+      "deezer_url": "https://www.deezer.com/track/3105348",
+      "youtube_url": "https://music.youtube.com/watch?v=EWC5x9G45yo",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 1,
+    "release_year": "2012",
+    "composers": [
+      "Herbie Hancock"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

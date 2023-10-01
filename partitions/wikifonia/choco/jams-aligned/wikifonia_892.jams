@@ -1,0 +1,102 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Five Long Years",
+    "artist": "Eddie Boyd",
+    "release": "100 Years of the Blues",
+    "duration": 163,
+    "identifiers": {
+      "musicbrainz": "0a1e4014-6ae0-422b-b211-f07a166f805e",
+      "acousticbrainz": null,
+      "isrc": "FR6V85100261",
+      "deezer_id": 284585,
+      "deezer_url": "https://www.deezer.com/track/284585",
+      "youtube_url": "https://music.youtube.com/watch?v=j3gfYlFV9bk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 1,
+    "release_year": "2006",
+    "composers": [
+      "Eddie Boyd"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

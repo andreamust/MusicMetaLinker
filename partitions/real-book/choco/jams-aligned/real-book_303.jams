@@ -1,0 +1,94 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 16.0,
+          "value": "C:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 16.0,
+          "value": "C:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "Ab:maj(b7,9,#11,13)",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "C:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "B:maj9(#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 4.0,
+          "value": "A:maj9(#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 8.0,
+          "value": "C:min9",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Povo",
+    "artist": "BWB",
+    "release": "Groovin'",
+    "duration": 231,
+    "identifiers": {
+      "musicbrainz": "3211149e-7689-4a63-8132-79d9d57872fa",
+      "acousticbrainz": null,
+      "isrc": "BRAFB2300003",
+      "deezer_id": 2254317937,
+      "deezer_url": "https://www.deezer.com/track/2254317937",
+      "youtube_url": "https://music.youtube.com/watch?v=_I28xw0i-T0",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 3,
+    "release_year": "2023",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

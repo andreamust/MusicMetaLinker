@@ -1,0 +1,64 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 200.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 51.1,
+          "duration": 196.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Humoresque Boogie",
+    "artist": "Hadda Brooks",
+    "release": "I've Got News For You",
+    "duration": 129,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "GBN8H2040530",
+      "deezer_id": 1163211592,
+      "deezer_url": "https://www.deezer.com/track/1163211592",
+      "youtube_url": "https://music.youtube.com/watch?v=ZszkitYiq1o",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 12,
+    "release_year": "2020",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.2,
+          "duration": 7.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 16.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 12.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Satin Sheets",
+    "artist": "John E. Volinkaty",
+    "release": "Timeless",
+    "duration": 200.386,
+    "identifiers": {
+      "musicbrainz": "9b33a05a-bee1-4e74-b9da-293276f6314b",
+      "acousticbrainz": null,
+      "isrc": [
+        "USRN10500026"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=CppbYkQ7vzQ",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "14",
+    "release_year": null,
+    "composers": [
+      "John E. Volinkaty"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

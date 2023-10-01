@@ -1,0 +1,138 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 9.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 9.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 9.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 9.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 9.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 9.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 9.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 12.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 6.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 9.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 3.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 3.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 9.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Beautiful Dreamer",
+    "artist": "Stephen Foster",
+    "release": "Beautiful Dreamer: The Songs of Stephen Foster",
+    "duration": 173,
+    "identifiers": {
+      "musicbrainz": "d6cd3aac-2471-4602-9d1d-5ec78e5b770e",
+      "acousticbrainz": null,
+      "isrc": "FR6PM2002410",
+      "deezer_id": 1030368692,
+      "deezer_url": "https://www.deezer.com/track/1030368692",
+      "youtube_url": "https://music.youtube.com/watch?v=SENxN_khaDE",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 1,
+    "release_year": "2020",
+    "composers": [
+      "Stephen Foster"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

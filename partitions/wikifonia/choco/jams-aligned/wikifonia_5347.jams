@@ -1,0 +1,138 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 6.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 9.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 9.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 6.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 9.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 6.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 9.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 9.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 6.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 9.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 12.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "A Pub With No Beer",
+    "artist": "Gordon Parsons",
+    "release": "The Very Best of Slim Dusty",
+    "duration": 205,
+    "identifiers": {
+      "musicbrainz": "944b419a-f793-4621-bd65-73da8af82129",
+      "acousticbrainz": null,
+      "isrc": "AUEM00200255",
+      "deezer_id": 1065541112,
+      "deezer_url": "https://www.deezer.com/track/1065541112",
+      "youtube_url": "https://music.youtube.com/watch?v=9NMaGtCpT5A",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 21,
+    "release_year": "2020",
+    "composers": [
+      "Gordon Parsons"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

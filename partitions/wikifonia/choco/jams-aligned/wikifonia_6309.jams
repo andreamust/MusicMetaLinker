@@ -1,0 +1,168 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 9.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 3.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 3.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 6.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 12.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 6.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 6.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 9.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 3.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 3.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 6.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 6.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 3.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 3.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 3.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 6.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Let Me Call You Sweetheart",
+    "artist": "Leo Friedman",
+    "release": "The Rose: The Original Soundtrack Recording",
+    "duration": 119,
+    "identifiers": {
+      "musicbrainz": "6bb8f306-f93f-40cb-8d31-e755e339de28",
+      "acousticbrainz": null,
+      "isrc": "QMGXA1989256",
+      "deezer_id": 754205582,
+      "deezer_url": "https://www.deezer.com/track/754205582",
+      "youtube_url": "https://music.youtube.com/watch?v=yh0q5KYSrvk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 6,
+    "release_year": "2019",
+    "composers": [
+      "Leo Friedman"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

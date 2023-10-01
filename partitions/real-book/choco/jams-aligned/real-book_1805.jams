@@ -1,0 +1,100 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 16.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 4.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 16.0,
+          "value": "A:min",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Blues In A",
+    "artist": "Bobby Previte & Charlie Hunter",
+    "release": "12 Galaxies",
+    "duration": 274,
+    "identifiers": {
+      "musicbrainz": "7eb97ef7-d3bb-4dd4-bbeb-28e843fb1760",
+      "acousticbrainz": null,
+      "isrc": "ITP191300015",
+      "deezer_id": 63391304,
+      "deezer_url": "https://www.deezer.com/track/63391304",
+      "youtube_url": "https://music.youtube.com/watch?v=-XWYxQWY8TM",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 3,
+    "release_year": "2013",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 8.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 8.0,
+          "value": "Gb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "Gb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 4.0,
+          "value": "Gb:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 2.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.3,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 2.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.3,
+          "duration": 2.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "Gb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 4.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 8.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 4.0,
+          "value": "Gb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 4.0,
+          "value": "Gb:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 2.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.3,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 2.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.3,
+          "duration": 2.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 4.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 4.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "I Like Pie I Like Cake",
+    "artist": "Little, Shay, Sizemore",
+    "release": "Vocal Groups: Classic Doo-Wop Remastered",
+    "duration": 171.0,
+    "identifiers": {
+      "musicbrainz": "28fa8f6b-a169-4c2f-a6f7-0706622f458e",
+      "acousticbrainz": null,
+      "isrc": [
+        "GBAJD0675012"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=-9T8wES9v7o",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "12",
+    "release_year": null,
+    "composers": [
+      "Little, Shay, Sizemore"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

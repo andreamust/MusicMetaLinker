@@ -1,0 +1,82 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 16.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 16.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 16.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 16.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "The Third Man Theme",
+    "artist": "Anton Karas",
+    "release": "The Third Man -Anton Karas The Art of Zither-",
+    "duration": 150,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "USRDG0410226",
+      "deezer_id": 1241821,
+      "deezer_url": "https://www.deezer.com/track/1241821",
+      "youtube_url": "https://music.youtube.com/watch?v=2v6oqGPxtmc",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 9,
+    "release_year": "2008",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

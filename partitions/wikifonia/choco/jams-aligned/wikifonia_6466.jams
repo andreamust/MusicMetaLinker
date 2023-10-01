@@ -1,0 +1,194 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.3,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.3,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.3,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.3,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Christ The Lord Is Risen Today",
+    "artist": "Composter Unknown",
+    "release": "Modern Hymnal 2.0",
+    "duration": 264.306,
+    "identifiers": {
+      "musicbrainz": "2b82035c-827d-42c7-afda-0d73c96bd69d",
+      "acousticbrainz": null,
+      "isrc": [
+        "USBWZ1002188"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=p0DzBEQNb4U",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "11",
+    "release_year": null,
+    "composers": [
+      "Composter Unknown"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 8.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 2.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.3,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 12.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 4.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 4.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.3,
+          "duration": 2.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.3,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 12.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 4.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 4.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.3,
+          "duration": 2.0,
+          "value": "Ab:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Tin Roof Blues",
+    "artist": "New Orleans Rhythym Kings",
+    "release": "The Encyclopedia of Jazz, Part 1/5: Classic Jazz \u2013 From New Orleans to Harlem",
+    "duration": 180.506,
+    "identifiers": {
+      "musicbrainz": "594d86aa-9f20-465c-bbe9-61e1c361747f",
+      "acousticbrainz": null,
+      "isrc": [
+        "DEU240800261"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=vM9KN7QmtgE",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "20",
+    "release_year": null,
+    "composers": [
+      "New Orleans Rhythym Kings"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

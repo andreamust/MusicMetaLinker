@@ -1,0 +1,68 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 24.1,
+          "duration": 72.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 48.1,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Ennie's Waltz",
+    "artist": "Paul Wiltse",
+    "release": "Sugar Lump",
+    "duration": 114.058,
+    "identifiers": {
+      "musicbrainz": "5e6f23a0-b8bf-4194-8d76-ac7dcb6c355f",
+      "acousticbrainz": null,
+      "isrc": [
+        "DEF979755644"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=TzKhHmngWzA",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "21",
+    "release_year": null,
+    "composers": [
+      "Paul Wiltse"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

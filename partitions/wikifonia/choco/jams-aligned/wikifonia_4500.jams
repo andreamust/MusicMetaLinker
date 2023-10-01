@@ -1,0 +1,174 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 1.5,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.25,
+          "duration": 2.5,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 1.5,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.25,
+          "duration": 2.5,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 1.5,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.25,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.35,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.15,
+          "duration": 1.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.25,
+          "duration": 2.0,
+          "value": "F:maj/7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.45,
+          "duration": 1.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.15,
+          "duration": 3.5,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 8.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 16.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Proud Mary",
+    "artist": "John Fogerty",
+    "release": "50 Year Trip: Live at Red Rocks",
+    "duration": 236,
+    "identifiers": {
+      "musicbrainz": "c7106a47-4635-4f0b-8ecf-a975164a1dd2",
+      "acousticbrainz": null,
+      "isrc": "USFI80600132",
+      "deezer_id": 1583704,
+      "deezer_url": "https://www.deezer.com/track/1583704",
+      "youtube_url": "https://music.youtube.com/watch?v=lfkFDUTJI0A",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 13,
+    "release_year": "2006",
+    "composers": [
+      "John Fogerty"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

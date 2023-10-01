@@ -1,0 +1,234 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.3,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.3,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.3,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.3,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.3,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.3,
+          "duration": 1.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.4,
+          "duration": 1.0,
+          "value": "Eb:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.3,
+          "duration": 2.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.3,
+          "duration": 2.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.3,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 1.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.4,
+          "duration": 1.0,
+          "value": "G:min6",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "G:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 4.0,
+          "value": "Ab:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "A:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "Bb:7(#9)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Follow Jumps",
+    "artist": "Pixie Dust & Drxnk",
+    "release": "Jumps",
+    "duration": 140.359,
+    "identifiers": {
+      "musicbrainz": "70d469f5-6851-423b-877a-0b0b8ac981cc",
+      "acousticbrainz": null,
+      "isrc": [
+        "NL4YD2100217"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=vOEfO07AZtU",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": "1",
+    "release_year": null,
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 24.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.3,
+          "duration": 2.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Things",
+    "artist": "Bobby Darin",
+    "release": "The Definitive Pop Collection",
+    "duration": 149,
+    "identifiers": {
+      "musicbrainz": "0b642f49-3df6-482e-beeb-f44449ea0f29",
+      "acousticbrainz": null,
+      "isrc": "QZYGC2307052",
+      "deezer_id": 2471438211,
+      "deezer_url": "https://www.deezer.com/track/2471438211",
+      "youtube_url": "https://music.youtube.com/watch?v=btN_ge9S9No",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 3,
+    "release_year": "2023",
+    "composers": [
+      "Bobby Darin"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

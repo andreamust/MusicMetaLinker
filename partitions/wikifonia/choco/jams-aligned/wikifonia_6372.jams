@@ -1,0 +1,60 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 66.0,
+          "value": "E:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Back Door Man",
+    "artist": "Willie Dixon",
+    "release": "I Am the Blues",
+    "duration": 371,
+    "identifiers": {
+      "musicbrainz": "275dcac8-6c1d-4596-a8b1-73a8e55da8f2",
+      "acousticbrainz": null,
+      "isrc": "USSM19912389",
+      "deezer_id": 1030060,
+      "deezer_url": "https://www.deezer.com/track/1030060",
+      "youtube_url": "https://music.youtube.com/watch?v=I17sIMCYXSM",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 1,
+    "release_year": "1993",
+    "composers": [
+      "Willie Dixon"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

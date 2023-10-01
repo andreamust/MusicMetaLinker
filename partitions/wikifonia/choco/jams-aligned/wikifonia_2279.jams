@@ -1,0 +1,164 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 16.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 24.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 16.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 24.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 42.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 44.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 46.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 48.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "See You Later, Alligator",
+    "artist": "Robert Guidry",
+    "release": "Million Dollar Quartet (Original Cast Recording)",
+    "duration": 151.0,
+    "identifiers": {
+      "musicbrainz": "fa933faf-096b-46c2-9578-ced3107b1783",
+      "acousticbrainz": null,
+      "isrc": [
+        "USS3E1020020"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=KQoPFhP27-Q",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "20",
+    "release_year": null,
+    "composers": [
+      "Robert Guidry"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

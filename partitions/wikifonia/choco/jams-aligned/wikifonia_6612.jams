@@ -1,0 +1,390 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 0.5,
+          "value": "Bb:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.15,
+          "duration": 1.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.2,
+          "duration": 1.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 1.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.25,
+          "duration": 0.5,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 1.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.2,
+          "duration": 1.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 0.6666666666666643,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.166666666666666,
+          "duration": 0.6666666666666643,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.233333333333333,
+          "duration": 0.6666666666666714,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 0.5,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.15,
+          "duration": 1.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 2.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 0.5,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.15,
+          "duration": 1.5,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 1.5,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.25,
+          "duration": 0.5,
+          "value": "Db:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 1.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.15,
+          "duration": 1.5,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.2,
+          "duration": 0.5,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 1.5,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.25,
+          "duration": 0.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 1.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.2,
+          "duration": 0.5,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.25,
+          "duration": 0.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 0.5,
+          "value": "Bb:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.15,
+          "duration": 1.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.2,
+          "duration": 1.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 1.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.25,
+          "duration": 0.5,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 1.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.2,
+          "duration": 1.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 0.6666666666666643,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.166666666666668,
+          "duration": 0.6666666666666714,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.233333333333334,
+          "duration": 0.6666666666666643,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 0.5,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.15,
+          "duration": 1.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 2.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 0.5,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.15,
+          "duration": 1.5,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 1.5,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.25,
+          "duration": 0.5,
+          "value": "Db:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 1.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.15,
+          "duration": 1.5,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.2,
+          "duration": 0.5,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 1.5,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.25,
+          "duration": 0.5,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Honey",
+    "artist": "Seymour Simons",
+    "release": "blur 21 box",
+    "duration": 165,
+    "identifiers": {
+      "musicbrainz": "6ce937a1-654e-408a-82c6-c920387e20a0",
+      "acousticbrainz": null,
+      "isrc": "HKI190107414",
+      "deezer_id": 16760958,
+      "deezer_url": "https://www.deezer.com/track/16760958",
+      "youtube_url": "https://music.youtube.com/watch?v=yVcvCpUpZW8",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 14,
+    "release_year": "2012",
+    "composers": [
+      "Seymour Simons"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

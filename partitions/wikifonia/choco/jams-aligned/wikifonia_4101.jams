@@ -1,0 +1,194 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.2,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 8.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.2,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.2,
+          "duration": 3.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 5.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.2,
+          "duration": 7.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 4.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Bobby's Girl",
+    "artist": "Gary Klein, Hank Hoffman",
+    "release": "The Next Small Thing",
+    "duration": 228.133,
+    "identifiers": {
+      "musicbrainz": "08de4672-1c59-4c58-be36-e5057d60a1ca",
+      "acousticbrainz": null,
+      "isrc": [
+        "DET720600283"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=lLZVtTePJ9Y",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "11",
+    "release_year": null,
+    "composers": [
+      "Gary Klein, Hank Hoffman"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

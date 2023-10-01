@@ -1,0 +1,304 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 6.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 6.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.3,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Hot Asphalt",
+    "artist": "Damien Dempsey",
+    "release": "The Rocky Road",
+    "duration": 222,
+    "identifiers": {
+      "musicbrainz": "99d30e56-a235-43aa-a3ec-7033d120fe75",
+      "acousticbrainz": null,
+      "isrc": "IEAAR9600038",
+      "deezer_id": 75026365,
+      "deezer_url": "https://www.deezer.com/track/75026365",
+      "youtube_url": "https://music.youtube.com/watch?v=cdByi3qSiZk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 12,
+    "release_year": "2014",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

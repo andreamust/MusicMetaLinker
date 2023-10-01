@@ -1,0 +1,124 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 32.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 12.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 16.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 4.0,
+          "value": "F:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 4.0,
+          "value": "F:maj6",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "All Day Long",
+    "artist": "tropes",
+    "release": "Day Long",
+    "duration": 208,
+    "identifiers": {
+      "musicbrainz": "5a16c2e9-a73d-4478-9f6b-2a40f54f12f1",
+      "acousticbrainz": null,
+      "isrc": "NOHLX1527020",
+      "deezer_id": 584592712,
+      "deezer_url": "https://www.deezer.com/track/584592712",
+      "youtube_url": "https://music.youtube.com/watch?v=xDfOhM_kmDM",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 3,
+    "release_year": "2017",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

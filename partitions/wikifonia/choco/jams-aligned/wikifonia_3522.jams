@@ -1,0 +1,108 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 7.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.4,
+          "duration": 1.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 3.0,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.4,
+          "duration": 1.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 3.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.4,
+          "duration": 1.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 7.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.4,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.4,
+          "duration": 1.0,
+          "value": "C:min",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Szomor\u00fa vas\u00e1rnap",
+    "artist": "Seress Rezs\u0151",
+    "release": "Hungarian Retro Music / Kar\u00e1dy Katalin, Volume 4",
+    "duration": 56,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "HUA251686020",
+      "deezer_id": 1659889652,
+      "deezer_url": "https://www.deezer.com/track/1659889652",
+      "youtube_url": "https://music.youtube.com/watch?v=1JqPU2JI8ks",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 20,
+    "release_year": "2015",
+    "composers": [
+      "Seress Rezs\u0151"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

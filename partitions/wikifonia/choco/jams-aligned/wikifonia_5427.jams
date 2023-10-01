@@ -1,0 +1,204 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 16.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 16.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 16.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 32.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 16.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 32.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 28.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 44.1,
+          "duration": 32.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 52.1,
+          "duration": 28.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 59.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 61.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 63.1,
+          "duration": 12.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 66.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 67.1,
+          "duration": 12.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 70.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 71.1,
+          "duration": 18.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 75.3,
+          "duration": 14.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 79.1,
+          "duration": 16.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 83.1,
+          "duration": 32.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 91.1,
+          "duration": 16.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 95.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 97.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 99.1,
+          "duration": 16.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "I am....I said",
+    "artist": "Neil Diamond",
+    "release": "The Greatest Hits 1966-1992",
+    "duration": 212,
+    "identifiers": {
+      "musicbrainz": "e1e19878-c737-4174-b62b-29eb884c9f06",
+      "acousticbrainz": null,
+      "isrc": "USMC17146646",
+      "deezer_id": 537961012,
+      "deezer_url": "https://www.deezer.com/track/537961012",
+      "youtube_url": "https://music.youtube.com/watch?v=2gKi8TWlpvo",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 11,
+    "release_year": "2018",
+    "composers": [
+      "Neil Diamond"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

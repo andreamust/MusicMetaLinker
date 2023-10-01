@@ -1,0 +1,202 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 8.0,
+          "value": "F:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "F:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 8.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 2.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.3,
+          "duration": 2.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 2.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.3,
+          "duration": 2.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 4.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.0,
+          "value": "D:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 2.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.3,
+          "duration": 2.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 2.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.3,
+          "duration": 2.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.3,
+          "duration": 2.0,
+          "value": "Ab:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 8.0,
+          "value": "F:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 8.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Gt's Theme",
+    "artist": "\u30af\u30ec\u30a4\u30b8\u30fc\u30b1\u30f3\u30d0\u30f3\u30c9",
+    "release": "SUMMER SUNSHINE",
+    "duration": 269,
+    "identifiers": {
+      "musicbrainz": "19f3e17e-2eac-47c9-a703-98f781086f47",
+      "acousticbrainz": null,
+      "isrc": "QM4TX1767688",
+      "deezer_id": 349717841,
+      "deezer_url": "https://www.deezer.com/track/349717841",
+      "youtube_url": "https://music.youtube.com/watch?v=ytcu5Fmnfsk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 1,
+    "release_year": "1962",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

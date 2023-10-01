@@ -1,0 +1,152 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 6.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 6.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 6.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 6.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 6.0,
+          "value": "B:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 12.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 3.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Apple Blossom Time",
+    "artist": "Albert von Tilzer, Neville Fleeson",
+    "release": "From Where I Stand: The Black Experience in Country Music",
+    "duration": 140.0,
+    "identifiers": {
+      "musicbrainz": "3e1a8f4d-9d41-40b7-bccc-dc284bb71b3c",
+      "acousticbrainz": null,
+      "isrc": [
+        "USWB19701425"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=WVd_Vp2Pfy0",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "17",
+    "release_year": null,
+    "composers": [
+      "Albert von Tilzer, Neville Fleeson"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

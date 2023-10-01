@@ -1,0 +1,164 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.45,
+          "duration": 6.5,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 10.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 6.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.3,
+          "duration": 2.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 4.5,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.15,
+          "duration": 3.5,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 6.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.3,
+          "duration": 2.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 8.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Country Bumpkin",
+    "artist": "Don Wayne",
+    "release": "Spoons",
+    "duration": 186.64,
+    "identifiers": {
+      "musicbrainz": "4d3d5ce8-69f0-4e58-8827-d9e3a167e186",
+      "acousticbrainz": null,
+      "isrc": [
+        "GBUM70703788"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=uUNx4rZrmQ8",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "8",
+    "release_year": null,
+    "composers": [
+      "Don Wayne"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

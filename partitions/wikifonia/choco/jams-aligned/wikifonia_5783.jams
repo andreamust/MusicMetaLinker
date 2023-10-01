@@ -1,0 +1,374 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 8.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 16.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 8.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 8.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 12.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 8.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 39.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 41.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 42.1,
+          "duration": 16.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 46.1,
+          "duration": 8.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 48.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 50.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 51.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 53.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 55.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 57.1,
+          "duration": 8.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 59.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 60.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 61.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 63.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 65.1,
+          "duration": 8.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 67.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 69.1,
+          "duration": 4.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 70.1,
+          "duration": 4.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 71.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 73.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 74.1,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 75.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 77.1,
+          "duration": 4.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 78.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 79.1,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 80.1,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 81.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 83.1,
+          "duration": 8.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 85.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 87.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 89.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 91.1,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 93.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Take Me Home, Country Roads",
+    "artist": "Bill Danoff, Taffy Nivert & John Denver",
+    "release": "Christmas in Concert",
+    "duration": 281.0,
+    "identifiers": {
+      "musicbrainz": "ad430d3a-8da6-419d-b3c3-05c3868f4662",
+      "acousticbrainz": null,
+      "isrc": [
+        "QMWGP2000030"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=tpyqie-2bqA",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "20",
+    "release_year": null,
+    "composers": [
+      "Bill Danoff, Taffy Nivert & John Denver"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

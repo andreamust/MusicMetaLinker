@@ -1,0 +1,178 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Real Book",
+        "annotation_tools": "Band-in-a-Box",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "crowdsource"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 12.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 16.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 8.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Drink Up Thy Zider",
+    "artist": "Adge Cutler & The Wurzels",
+    "release": "Adge Cutler & The Wurzels: Recorded Live at the Royal Oak, Nailsea, Zummerzet",
+    "duration": 148,
+    "identifiers": {
+      "musicbrainz": "2a0e100d-dbd1-46bb-b499-5ffafa509e1e",
+      "acousticbrainz": null,
+      "isrc": "USHM92281671",
+      "deezer_id": 1975852837,
+      "deezer_url": "https://www.deezer.com/track/1975852837",
+      "youtube_url": "https://music.youtube.com/watch?v=P9-n73m7WGc",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "jazz",
+    "track_number": 1,
+    "release_year": "2022",
+    "composers": [],
+    "performers": [],
+    "tuning": null
+  }
+}

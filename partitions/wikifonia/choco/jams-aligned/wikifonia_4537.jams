@@ -1,0 +1,312 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 2.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.3,
+          "duration": 2.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.3,
+          "duration": 2.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.3,
+          "duration": 2.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 8.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 2.0,
+          "value": "Bb:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.3,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 10.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.3,
+          "duration": 2.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.3,
+          "duration": 2.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.3,
+          "duration": 2.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.3,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.3,
+          "duration": 2.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Count Your Blessings",
+    "artist": "Irving Berlin",
+    "release": "Jazzmatazz Volume II: The New Reality",
+    "duration": 251,
+    "identifiers": {
+      "musicbrainz": "9d6daa8c-b2f8-4de7-8996-76f78a5c1e75",
+      "acousticbrainz": null,
+      "isrc": "QMADM1540349",
+      "deezer_id": 1381706052,
+      "deezer_url": "https://www.deezer.com/track/1381706052",
+      "youtube_url": "https://music.youtube.com/watch?v=xlEtUIDDFw8",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 2,
+    "release_year": "2021",
+    "composers": [
+      "Irving Berlin"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

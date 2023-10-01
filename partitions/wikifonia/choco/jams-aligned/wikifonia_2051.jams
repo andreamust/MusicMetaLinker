@@ -1,0 +1,332 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 2.0,
+          "value": "E:aug/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 1.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.2,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 2.0,
+          "value": "A:aug/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 2.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 1.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 2.0,
+          "value": "F:min6",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 1.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.2,
+          "duration": 1.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 2.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 6.0,
+          "value": "D:min/6",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 2.0,
+          "value": "E:aug/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 1.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.2,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 2.0,
+          "value": "A:aug/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 2.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 1.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.2,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 2.0,
+          "value": "F:min6",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 1.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.2,
+          "duration": 1.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 2.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 2.0,
+          "value": "D:min/6",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 2.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 1.0,
+          "value": "E:(3,#5,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.2,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 2.0,
+          "value": "E:aug/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 2.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 1.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.2,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 2.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 38.1,
+          "duration": 2.0,
+          "value": "A:aug/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 39.1,
+          "duration": 2.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 40.1,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Michael's Theme",
+    "artist": "Nino Rota",
+    "release": "Entspannt einschlafen\u2026 fit aufwachen",
+    "duration": 259.56,
+    "identifiers": {
+      "musicbrainz": "e81f8b3b-ff6f-468c-9996-5fc92858867f",
+      "acousticbrainz": null,
+      "isrc": [
+        "DEN960230205"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=sCaJ8VDRwmc",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "4",
+    "release_year": null,
+    "composers": [
+      "Nino Rota"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

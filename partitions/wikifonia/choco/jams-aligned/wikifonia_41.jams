@@ -1,0 +1,114 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 8.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 12.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 32.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 16.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 16.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 16.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Carol",
+    "artist": "Chuck Berry",
+    "release": "Deluxe: Johnny B. Goode",
+    "duration": 170,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "GX9B32300508",
+      "deezer_id": 2476803501,
+      "deezer_url": "https://www.deezer.com/track/2476803501",
+      "youtube_url": "https://music.youtube.com/watch?v=VNG0eq8qdD0",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 13,
+    "release_year": "2023",
+    "composers": [
+      "Chuck Berry"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

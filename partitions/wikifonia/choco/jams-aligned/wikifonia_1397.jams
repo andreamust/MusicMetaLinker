@@ -1,0 +1,78 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 21.45,
+          "duration": 0.5,
+          "value": "C:(b3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.25,
+          "value": "Eb:(*3,*5,7)/7",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.125,
+          "duration": 10.75,
+          "value": "C:(*3,*5,b7)/b7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.4,
+          "duration": 13.0,
+          "value": "Eb:(*3,*5,7)/7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Four Part Choralforwikifoniapart01Quant",
+    "artist": "Bach?",
+    "release": "Stokowski's Symphonic Bach",
+    "duration": 235,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=6nfR99lgXKw",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": null,
+    "release_year": null,
+    "composers": [
+      "Bach?"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

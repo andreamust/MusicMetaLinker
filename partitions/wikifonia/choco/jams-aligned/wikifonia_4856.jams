@@ -1,0 +1,60 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 69.1,
+          "duration": 4.0,
+          "value": "Eb:(1,*3,*5)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Holy Ground",
+    "artist": "Geron Davis",
+    "release": "Holy Ground (Live)",
+    "duration": 254,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "US25L0801152",
+      "deezer_id": 109865254,
+      "deezer_url": "https://www.deezer.com/track/109865254",
+      "youtube_url": "https://music.youtube.com/watch?v=HgglG5JigCk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 2,
+    "release_year": "2000",
+    "composers": [
+      "Geron Davis"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

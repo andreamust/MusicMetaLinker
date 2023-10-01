@@ -1,0 +1,176 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 9.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 6.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 3.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 9.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 6.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 3.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 9.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 6.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 3.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 6.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 9.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 6.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 3.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Clementine",
+    "artist": "Percy Montrose (1884)",
+    "release": "70s Rock Ballads",
+    "duration": 344.066,
+    "identifiers": {
+      "musicbrainz": "b09be12c-e57d-4a1f-b7db-ef10385bcee3",
+      "acousticbrainz": null,
+      "isrc": [
+        "USWB10100819"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=L_aKfDwOCic",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "2",
+    "release_year": null,
+    "composers": [
+      "Percy Montrose (1884)"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

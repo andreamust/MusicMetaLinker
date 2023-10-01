@@ -1,0 +1,108 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 4.3,
+          "duration": 8.0,
+          "value": "A:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.3,
+          "duration": 4.0,
+          "value": "A:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.3,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.3,
+          "duration": 1.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.4,
+          "duration": 15.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 8.0,
+          "value": "A:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.3,
+          "duration": 4.0,
+          "value": "A:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.3,
+          "duration": 2.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 8.0,
+          "value": "F:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Buddy Bolden Blues",
+    "artist": "Jelly Roll Morton",
+    "release": "Sidewalk Blues",
+    "duration": 169,
+    "identifiers": {
+      "musicbrainz": "474de80a-4ba1-4b1e-aa1e-d1d5e67586b9",
+      "acousticbrainz": null,
+      "isrc": "FRS181215723",
+      "deezer_id": 72900872,
+      "deezer_url": "https://www.deezer.com/track/72900872",
+      "youtube_url": "https://music.youtube.com/watch?v=LimN41oJT0s",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 3,
+    "release_year": "2014",
+    "composers": [
+      "Jelly Roll Morton"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

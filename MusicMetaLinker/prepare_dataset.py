@@ -87,16 +87,16 @@ def prepare_dataset(output_path: str | Path,
             continue
         logger.info(f"Processing {partition_path}")
         jams_files = partition_path.glob("*.jams")
-        audio_files = partition_path.parent.glob("*.flac")
+        audio_files = (partition_path.parent / "audio").glob("*.flac")
         metadata_file = partition_path.parent / "audio_files.csv"
 
         # copy all the jams_files to the jams folder
         for jams_file in jams_files:
             os.system(f"cp {jams_file} {jams_path}")
 
-        
         # copy all the audio files to the audio folder
         for audio_file in audio_files:
+            print(audio_file)
             os.system(f"cp {audio_file} {audio_path}")
 
         # add the metadata to the metadata file
@@ -107,7 +107,5 @@ def prepare_dataset(output_path: str | Path,
     metadata.to_csv(metadata_path)
         
         
-
-
 if __name__ == "__main__":
-    prepare_dataset("./audio_partition", limit="audio")
+    prepare_dataset("./audio_partitions", limit="audio")

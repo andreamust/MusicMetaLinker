@@ -1,0 +1,128 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.4,
+          "duration": 2.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 1.0,
+          "value": "Eb:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 2.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 1.0,
+          "value": "F:sus4(7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 7.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 3.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.4,
+          "duration": 1.0,
+          "value": "E:dim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 2.0,
+          "value": "Bb:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.3,
+          "duration": 2.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Oh, Lord I Am Not Worthy",
+    "artist": "'Non Dignus' Traditional before 1871",
+    "release": "Love Comin' Down",
+    "duration": 174.093,
+    "identifiers": {
+      "musicbrainz": "b9851a72-f526-46e2-bf07-6f781ff9bc8e",
+      "acousticbrainz": null,
+      "isrc": [
+        "USA560550030"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=xW-hdevBQyo",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "10",
+    "release_year": null,
+    "composers": [
+      "'Non Dignus' Traditional before 1871"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}
