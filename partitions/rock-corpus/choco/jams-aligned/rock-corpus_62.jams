@@ -1,0 +1,186 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Trevor de Clercq",
+          "email": "trevor.declercq@gmail.com"
+        },
+        "annotator": {
+          "name": "Trevor de Clercq"
+        },
+        "version": 2.1,
+        "corpus": "A Corpus Study of Rock Music",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_roman",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 12.0,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 12.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 12.0,
+          "value": "E:IVd7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 12.0,
+          "value": "E:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 12.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 12.0,
+          "value": "E:IVd7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 12.0,
+          "value": "E:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 12.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 12.0,
+          "value": "E:IVd7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 12.0,
+          "value": "E:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 12.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 12.0,
+          "value": "E:IVd7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 12.0,
+          "value": "E:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 12.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 12.0,
+          "value": "E:IVd7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 12.0,
+          "value": "E:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 12.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 12.0,
+          "value": "E:IVd7",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 12.0,
+          "value": "E:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 15.0,
+          "value": "E:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.4,
+          "duration": 3.0,
+          "value": "E:bII7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.7,
+          "duration": 6.0,
+          "value": "E:I7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Heartbreak Hotel",
+    "artist": "Frijid Pink",
+    "release": "Flower Power",
+    "duration": 100,
+    "identifiers": {
+      "musicbrainz": "7813ff19-3d85-4ff5-9add-5dfbb2e34205",
+      "acousticbrainz": null,
+      "isrc": "GPHJP2300144",
+      "deezer_id": 2390400925,
+      "deezer_url": "https://www.deezer.com/track/2390400925",
+      "youtube_url": "https://music.youtube.com/watch?v=LGwO2BaDJQc",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "rock",
+    "track_number": 12,
+    "release_year": "2023",
+    "composers": [],
+    "performers": [
+      "Elvis Presley"
+    ],
+    "tuning": null
+  }
+}

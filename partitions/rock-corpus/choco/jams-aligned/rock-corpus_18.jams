@@ -1,0 +1,354 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Trevor de Clercq",
+          "email": "trevor.declercq@gmail.com"
+        },
+        "annotator": {
+          "name": "Trevor de Clercq"
+        },
+        "version": 2.1,
+        "corpus": "A Corpus Study of Rock Music",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_roman",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 12.0,
+          "value": "B:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 12.0,
+          "value": "B:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 12.0,
+          "value": "B:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 6.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.7,
+          "duration": 6.0,
+          "value": "B:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 12.0,
+          "value": "B:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 12.0,
+          "value": "B:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 6.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.7,
+          "duration": 6.0,
+          "value": "B:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 6.0,
+          "value": "B:ii7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.7,
+          "duration": 6.0,
+          "value": "B:V",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 6.0,
+          "value": "B:V7/IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.7,
+          "duration": 6.0,
+          "value": "B:V7/iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 6.0,
+          "value": "B:iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.7,
+          "duration": 6.0,
+          "value": "B:V7/iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 6.0,
+          "value": "B:iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.7,
+          "duration": 6.0,
+          "value": "B:V7/iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 12.0,
+          "value": "B:iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 6.0,
+          "value": "B:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.7,
+          "duration": 6.0,
+          "value": "B:V7/IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 12.0,
+          "value": "B:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 12.0,
+          "value": "B:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 6.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.7,
+          "duration": 6.0,
+          "value": "B:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 6.0,
+          "value": "B:ii7",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.7,
+          "duration": 6.0,
+          "value": "B:V",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 6.0,
+          "value": "B:V7/IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.7,
+          "duration": 6.0,
+          "value": "B:V7/iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 6.0,
+          "value": "B:iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.7,
+          "duration": 6.0,
+          "value": "B:V7/iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 6.0,
+          "value": "B:iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.7,
+          "duration": 6.0,
+          "value": "B:V7/iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 12.0,
+          "value": "B:iii",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 6.0,
+          "value": "B:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.7,
+          "duration": 6.0,
+          "value": "B:V7/IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 12.0,
+          "value": "B:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.1,
+          "duration": 12.0,
+          "value": "B:V7",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.1,
+          "duration": 6.0,
+          "value": "B:I",
+          "confidence": 1.0
+        },
+        {
+          "time": 35.7,
+          "duration": 6.0,
+          "value": "B:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 12.0,
+          "value": "B:I",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Blueberry Hill",
+    "artist": "Bruce Cockburn",
+    "release": "Breakfast in New Orleans, Dinner in Timbuktu",
+    "duration": 101,
+    "identifiers": {
+      "musicbrainz": "3e20d667-6c03-4065-beff-fe2981617bfb",
+      "acousticbrainz": null,
+      "isrc": "GPHJP2300169",
+      "deezer_id": 2390401175,
+      "deezer_url": "https://www.deezer.com/track/2390401175",
+      "youtube_url": "https://music.youtube.com/watch?v=1bPjFfdAL7w",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "rock",
+    "track_number": 37,
+    "release_year": "2023",
+    "composers": [],
+    "performers": [
+      "Fats Domino"
+    ],
+    "tuning": null
+  }
+}

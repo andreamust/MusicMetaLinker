@@ -1,0 +1,228 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Trevor de Clercq",
+          "email": "trevor.declercq@gmail.com"
+        },
+        "annotator": {
+          "name": "Trevor de Clercq"
+        },
+        "version": 2.1,
+        "corpus": "A Corpus Study of Rock Music",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_roman",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 4.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 2.0,
+          "value": "F#:bVII",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 4.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 2.0,
+          "value": "F#:bVII",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 4.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 2.0,
+          "value": "F#:bVII",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 4.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 2.0,
+          "value": "F#:bVII",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 4.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 2.0,
+          "value": "F#:bVII",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 4.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 2.0,
+          "value": "F#:bVII",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 4.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 2.0,
+          "value": "F#:bVII",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 2.0,
+          "value": "F#:bVII",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 4.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 2.0,
+          "value": "F#:bVII",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 6.0,
+          "value": "F#:i",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.3,
+          "duration": 2.0,
+          "value": "F#:IV",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Foxey Lady",
+    "artist": "Jimi Hendrix",
+    "release": "Message to Love: The Isle of Wight Festival 1970",
+    "duration": 198,
+    "identifiers": {
+      "musicbrainz": "4d958a45-ea40-4a58-a46d-181694bfdd1b",
+      "acousticbrainz": null,
+      "isrc": "USQX90900774",
+      "deezer_id": 4969010,
+      "deezer_url": "https://www.deezer.com/track/4969010",
+      "youtube_url": "https://music.youtube.com/watch?v=8BzFtEp0of8",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "rock",
+    "track_number": 10,
+    "release_year": "2010",
+    "composers": [],
+    "performers": [
+      "The Jimi Hendrix Experience"
+    ],
+    "tuning": null
+  }
+}
