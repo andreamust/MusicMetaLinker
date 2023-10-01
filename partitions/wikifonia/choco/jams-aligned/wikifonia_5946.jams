@@ -369,13 +369,13 @@
   "file_metadata": {
     "title": "THE MAN WITH THE BAG",
     "artist": "Harold Stanley, Irving Taylor",
-    "release": "The Pianoman at Christmas (the complete edition)",
-    "duration": 174.09,
+    "release": "The Best Christmas Album In The World...Ever! 2021",
+    "duration": 162.0,
     "identifiers": {
-      "musicbrainz": "6c6f5fdd-b179-478e-a88c-8a5f85eb549b",
+      "musicbrainz": "6580902e-5953-4d44-bdd4-781cc35c9377",
       "acousticbrainz": null,
       "isrc": [
-        "GBUM72106050"
+        "USUM71517734"
       ],
       "deezer_id": null,
       "deezer_url": null,
@@ -387,7 +387,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "3",
+    "track_number": "18",
     "release_year": null,
     "composers": [
       "Harold Stanley, Irving Taylor"

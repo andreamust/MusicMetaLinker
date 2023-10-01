@@ -1,0 +1,132 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 8.0,
+          "value": "F:min6",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 16.0,
+          "value": "F:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 16.0,
+          "value": "Bb:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 16.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 8.0,
+          "value": "Ab:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 41.1,
+          "duration": 8.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 45.1,
+          "duration": 8.0,
+          "value": "F:min6",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Caravan",
+    "artist": "Duke Ellington",
+    "release": "Original Best of Jazz",
+    "duration": 296,
+    "identifiers": {
+      "musicbrainz": "8828f58a-7065-404c-9563-6704669c1917",
+      "acousticbrainz": null,
+      "isrc": "USRC11500450",
+      "deezer_id": 109702428,
+      "deezer_url": "https://www.deezer.com/track/109702428",
+      "youtube_url": "https://music.youtube.com/watch?v=05ebCvRX3-I",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 1,
+    "release_year": "2015",
+    "composers": [
+      "Duke Ellington"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

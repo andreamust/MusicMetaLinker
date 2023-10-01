@@ -729,12 +729,14 @@
   "file_metadata": {
     "title": "Sunshine on my shoulders",
     "artist": "John Denver, Mike Taylor, Dick Kniss",
-    "release": "Poems, Prayers and Promises",
-    "duration": 312,
+    "release": "The RCA Albums Collection",
+    "duration": 313.44,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "1a0e187b-ca10-4938-9ff7-ce952165d8d6",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "USRC10501257"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=E_i6h8_07mA",
@@ -745,7 +747,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "8",
     "release_year": null,
     "composers": [
       "John Denver, Mike Taylor, Dick Kniss"

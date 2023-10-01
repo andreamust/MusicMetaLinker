@@ -286,14 +286,14 @@
     "title": "My Man",
     "artist": "Maurice Yvain",
     "release": "My Man",
-    "duration": 177,
+    "duration": 203,
     "identifiers": {
       "musicbrainz": null,
       "acousticbrainz": null,
       "isrc": null,
       "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=G09RDd54wjw",
+      "youtube_url": "https://music.youtube.com/watch?v=smbQw1acdOI",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

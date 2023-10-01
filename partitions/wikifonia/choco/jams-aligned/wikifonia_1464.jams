@@ -441,12 +441,15 @@
   "file_metadata": {
     "title": "If Every Day Was Like Christmas",
     "artist": "Red West",
-    "release": "Elvis Sings the Wonderful World of Christmas",
-    "duration": 189,
+    "release": "Elvis' Christmas Album",
+    "duration": 174.386,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "2c4c728e-37eb-438e-b093-a3becaf73b66",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "USRC19901499",
+        "USRC16601163"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=tz5g_2z26Jw",
@@ -457,7 +460,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "6",
     "release_year": null,
     "composers": [
       "Red West"

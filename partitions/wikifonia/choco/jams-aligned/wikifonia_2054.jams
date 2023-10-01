@@ -1,0 +1,108 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 3.1,
+          "duration": 16.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 24.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 24.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 8.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 32.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 48.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 43.1,
+          "duration": 7.5,
+          "value": "Gb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 44.45,
+          "duration": 4.5,
+          "value": "F:maj7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Bye Bye",
+    "artist": "Henry Mancini",
+    "release": "Henry Brun & The Latin Playerz 20th Anniversary",
+    "duration": 181,
+    "identifiers": {
+      "musicbrainz": "e1c5f761-02f6-4303-99dc-73fed5f4b1b6",
+      "acousticbrainz": null,
+      "isrc": "DEPZ60989578",
+      "deezer_id": 100425980,
+      "deezer_url": "https://www.deezer.com/track/100425980",
+      "youtube_url": "https://music.youtube.com/watch?v=QcCndiX25H4",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 1,
+    "release_year": "2015",
+    "composers": [
+      "Henry Mancini"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

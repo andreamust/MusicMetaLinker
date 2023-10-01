@@ -129,15 +129,15 @@
   "file_metadata": {
     "title": "Megszentelt keny\u00e9r",
     "artist": "Unknown",
-    "release": "\u00daton az ismeretlenbe",
-    "duration": 265,
+    "release": "Keny\u00e9r",
+    "duration": 224,
     "identifiers": {
       "musicbrainz": null,
       "acousticbrainz": null,
       "isrc": null,
       "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=cIwGIOSQpF8",
+      "youtube_url": "https://music.youtube.com/watch?v=064SK_hz7Jg",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

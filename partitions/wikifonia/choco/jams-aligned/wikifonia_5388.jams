@@ -255,12 +255,14 @@
   "file_metadata": {
     "title": "Every Breath You Take",
     "artist": "Sting, The Police",
-    "release": "Synchronicity (Remastered 2003)",
-    "duration": 254,
+    "release": "Greatest Hits",
+    "duration": 254.0,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "65231108-0f5c-40af-b67a-171bafe56ec7",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "GBUM72207773"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=-SaUrDhp034",
@@ -271,7 +273,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "13",
     "release_year": null,
     "composers": [
       "Sting, The Police"

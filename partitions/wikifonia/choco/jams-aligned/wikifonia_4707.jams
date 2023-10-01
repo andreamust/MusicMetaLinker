@@ -1,0 +1,86 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.3,
+          "duration": 8.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3,
+          "duration": 8.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.3,
+          "duration": 8.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.3,
+          "duration": 4.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.3,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Az bajom van v\u00e9led",
+    "artist": "Hungarian folk song",
+    "release": "F\u00e9ny\u00e9vekre",
+    "duration": 217.0,
+    "identifiers": {
+      "musicbrainz": "93bf0902-49b2-404a-afaf-fe1ea92004f3",
+      "acousticbrainz": null,
+      "isrc": [
+        "TCADR1898679"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=pJXJqHS0XA4",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "4",
+    "release_year": null,
+    "composers": [
+      "Hungarian folk song"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

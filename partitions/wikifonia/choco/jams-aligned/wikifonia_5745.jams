@@ -1,0 +1,150 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.3,
+          "duration": 0.5,
+          "value": "C:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.35,
+          "duration": 20.5,
+          "value": "D:(b3,#5)/b3",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.4,
+          "duration": 0.5,
+          "value": "D:(1,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.45,
+          "duration": 0.5,
+          "value": "D:(1,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 1.0,
+          "value": "E:(*3,5)/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 0.5,
+          "value": "D:(1,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.25,
+          "duration": 0.5,
+          "value": "D:(1,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.3,
+          "duration": 1.0,
+          "value": "E:(*3,5)/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.4,
+          "duration": 0.5,
+          "value": "E:(1,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.45,
+          "duration": 0.5,
+          "value": "E:(1,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 0.5,
+          "value": "F#:(*3,5)/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.15,
+          "duration": 0.5,
+          "value": "E:(1,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.2,
+          "duration": 0.5,
+          "value": "E:(1,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.25,
+          "duration": 0.5,
+          "value": "F#:(*3,5)/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.3,
+          "duration": 0.5,
+          "value": "E:(1,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.35,
+          "duration": 69.5,
+          "value": "E:(1,*3,5)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Incident At Neshabur",
+    "artist": "Santana",
+    "release": "Abraxas",
+    "duration": 297,
+    "identifiers": {
+      "musicbrainz": "0ac8e7fa-930e-4b0a-9c8a-f27951ac6f0d",
+      "acousticbrainz": null,
+      "isrc": "USSM17000292",
+      "deezer_id": 77879662,
+      "deezer_url": "https://www.deezer.com/track/77879662",
+      "youtube_url": "https://music.youtube.com/watch?v=338TDhTN7HQ",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 4,
+    "release_year": "1970",
+    "composers": [
+      "Santana"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

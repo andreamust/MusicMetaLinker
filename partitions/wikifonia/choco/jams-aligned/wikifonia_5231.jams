@@ -315,12 +315,14 @@
   "file_metadata": {
     "title": "Once in a Lifetime",
     "artist": "Leslie Bricusse and Anthony Newley",
-    "release": "Anthology: The Deluxe Collection",
-    "duration": 122,
+    "release": "Stop the World \u2013 I Want to Get Off: Original Broadway Cast",
+    "duration": 130.173,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "ac4d6cf7-393e-4626-b806-37b226c6e88d",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "USUMC0110138"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=JrYLmNC2NJw",
@@ -331,7 +333,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "B3",
     "release_year": null,
     "composers": [
       "Leslie Bricusse and Anthony Newley"

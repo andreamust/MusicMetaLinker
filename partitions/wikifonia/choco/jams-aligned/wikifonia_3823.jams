@@ -393,15 +393,15 @@
   "file_metadata": {
     "title": "Sad Movies (Make Me Cry)",
     "artist": "John D. Loudermilk",
-    "release": "Love Is All I Bring",
+    "release": "The John D Loudermilk Collection",
     "duration": 197,
     "identifiers": {
-      "musicbrainz": "e1341e26-192c-4f52-8ea3-7b7f38557bf7",
+      "musicbrainz": null,
       "acousticbrainz": null,
       "isrc": "USA561212047",
       "deezer_id": 40067631,
       "deezer_url": "https://www.deezer.com/track/40067631",
-      "youtube_url": "https://music.youtube.com/watch?v=e6IzAn6ffxY",
+      "youtube_url": "https://music.youtube.com/watch?v=J7zhYJhc_Q8",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

@@ -345,10 +345,10 @@
   "file_metadata": {
     "title": "The Greatest Love Of All",
     "artist": "Michael Masser",
-    "release": "Muhammed Ali in \"The Greatest\"",
+    "release": "Muhammed Ali in \u201cThe Greatest\u201d",
     "duration": 193,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "b2a1b72d-8015-49aa-bc06-6341c512d232",
       "acousticbrainz": null,
       "isrc": "USAR10400400",
       "deezer_id": 126495705,

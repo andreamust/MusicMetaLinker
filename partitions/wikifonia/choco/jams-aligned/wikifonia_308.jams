@@ -159,14 +159,12 @@
   "file_metadata": {
     "title": "This Is The Time I Must Sing",
     "artist": "William J & Gloria Gaither 1975",
-    "release": "I like it when you sleep, for you are so beautiful yet so unaware of it",
-    "duration": 252.0,
+    "release": "The King Is Coming",
+    "duration": 240,
     "identifiers": {
-      "musicbrainz": "54175c12-5fac-4c2a-8852-da4ae9b10713",
+      "musicbrainz": null,
       "acousticbrainz": null,
-      "isrc": [
-        "GBK3W1500430"
-      ],
+      "isrc": null,
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=z6qiiozbVdY",
@@ -177,7 +175,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "14",
+    "track_number": null,
     "release_year": null,
     "composers": [
       "William J & Gloria Gaither 1975"

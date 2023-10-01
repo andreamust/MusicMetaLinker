@@ -243,10 +243,10 @@
   "file_metadata": {
     "title": "Che Bandoneon",
     "artist": "Anibal Troilo",
-    "release": "Obra Completa En RCA Vol. 12",
+    "release": "Popularmusik im Kontext",
     "duration": 206,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "444f2267-fb6d-4d55-a02f-061bd5d521bf",
       "acousticbrainz": null,
       "isrc": "FRX762013855",
       "deezer_id": 1062800382,

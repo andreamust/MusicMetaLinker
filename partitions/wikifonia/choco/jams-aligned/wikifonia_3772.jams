@@ -225,13 +225,13 @@
   "file_metadata": {
     "title": "Same old Saturday night",
     "artist": "Frank Reardon",
-    "release": "Saturday Songs",
-    "duration": 149.893,
+    "release": "The Sinatra Biography, Volume 1\u20139",
+    "duration": 149.0,
     "identifiers": {
-      "musicbrainz": "0fbdd4b2-7ad9-42c9-993a-78cfdbf165c9",
+      "musicbrainz": "fbc892b8-a076-409a-a4fa-284e0045a2f3",
       "acousticbrainz": null,
       "isrc": [
-        "USCA28900239"
+        "DEHB51304088"
       ],
       "deezer_id": null,
       "deezer_url": null,
@@ -243,7 +243,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "23",
+    "track_number": "79",
     "release_year": null,
     "composers": [
       "Frank Reardon"

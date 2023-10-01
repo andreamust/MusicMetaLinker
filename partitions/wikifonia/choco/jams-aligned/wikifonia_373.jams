@@ -405,14 +405,14 @@
   "file_metadata": {
     "title": "My Little Suede Shoes",
     "artist": "Charlie Parker",
-    "release": "And Friends",
-    "duration": 184,
+    "release": null,
+    "duration": 190,
     "identifiers": {
       "musicbrainz": null,
       "acousticbrainz": null,
-      "isrc": "USF095125010",
-      "deezer_id": 2470902171,
-      "deezer_url": "https://www.deezer.com/track/2470902171",
+      "isrc": "DE1D32355503",
+      "deezer_id": 2380804585,
+      "deezer_url": "https://www.deezer.com/track/2380804585",
       "youtube_url": "https://music.youtube.com/watch?v=b0LkxVchIcM",
       "spotify_id": null
     },

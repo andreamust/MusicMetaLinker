@@ -129,15 +129,17 @@
   "file_metadata": {
     "title": "Cuanto Le Gusta",
     "artist": "Gabriel Ruiz",
-    "release": "The Hits Collection, Vol. 11",
-    "duration": 168,
+    "release": "Jukebox Favourites: Hits of the 30s & 40s",
+    "duration": 185.0,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "94ad7e98-39b0-486c-ba99-a378b37f85dc",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "GB8XC1049548"
+      ],
       "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=IoLnwhqk6wc",
+      "youtube_url": "https://music.youtube.com/watch?v=kWuQmw3I8Pw",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
@@ -145,7 +147,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "7",
     "release_year": null,
     "composers": [
       "Gabriel Ruiz"

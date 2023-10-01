@@ -711,14 +711,12 @@
   "file_metadata": {
     "title": "My Heart Tells Me",
     "artist": "Harry Warren",
-    "release": "My Mood Is You",
-    "duration": 390.182,
+    "release": "All of Me",
+    "duration": 186,
     "identifiers": {
-      "musicbrainz": "7e78a907-68bd-4ad5-a42b-1bae8b63c540",
+      "musicbrainz": null,
       "acousticbrainz": null,
-      "isrc": [
-        "USHNR1831207"
-      ],
+      "isrc": null,
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=B7xnR7TsI78",
@@ -729,7 +727,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "7",
+    "track_number": null,
     "release_year": null,
     "composers": [
       "Harry Warren"

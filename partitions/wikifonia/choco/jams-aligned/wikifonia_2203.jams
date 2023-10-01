@@ -489,12 +489,14 @@
   "file_metadata": {
     "title": "Yesterday",
     "artist": "John Lennon, Paul McCartney",
-    "release": "1",
-    "duration": 126,
+    "release": "100 Best Relaxing Classics",
+    "duration": 202.0,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "adf19827-1c67-41fa-a7c5-0b9f71ea02e4",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "GBAYE0000329"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=fCV9oqtwyVA",
@@ -505,7 +507,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "98",
     "release_year": null,
     "composers": [
       "John Lennon, Paul McCartney"

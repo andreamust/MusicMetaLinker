@@ -147,13 +147,13 @@
   "file_metadata": {
     "title": "The Barrow Boy Song",
     "artist": "Art Noel,Frank Walsh,Joe Burley & Harry Bull",
-    "release": "The Warriors Original Motion Picture Soundtrack",
-    "duration": 235.266,
+    "release": "The Confessor",
+    "duration": 423.0,
     "identifiers": {
-      "musicbrainz": "7774b1d0-1c1d-4fba-8796-9513c4e9a449",
+      "musicbrainz": "a502bb3f-452f-4169-bd0a-d56b2bcd2252",
       "acousticbrainz": null,
       "isrc": [
-        "USUM70502850"
+        "WBCCA8502957"
       ],
       "deezer_id": null,
       "deezer_url": null,
@@ -165,7 +165,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "6",
+    "track_number": "B1",
     "release_year": null,
     "composers": [
       "Art Noel,Frank Walsh,Joe Burley & Harry Bull"

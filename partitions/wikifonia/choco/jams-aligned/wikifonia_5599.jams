@@ -1,0 +1,62 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 16.1,
+          "duration": 8.0,
+          "value": "F:(*3,5)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Funky Dragonfly",
+    "artist": "Sean Barrett Jr",
+    "release": "Star Turtle / She",
+    "duration": 382.906,
+    "identifiers": {
+      "musicbrainz": "7637770b-5725-42f4-9400-03d8d907def4",
+      "acousticbrainz": null,
+      "isrc": [
+        "USSM19400959"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=W8L3hmzsMPY",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "11",
+    "release_year": null,
+    "composers": [
+      "Sean Barrett Jr"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

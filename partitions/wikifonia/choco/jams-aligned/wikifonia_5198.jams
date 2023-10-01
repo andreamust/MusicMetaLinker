@@ -189,17 +189,15 @@
   "file_metadata": {
     "title": "ONE GOD",
     "artist": "James Shirley",
-    "release": "Shirley Bassey Live at Carnegie Hall",
-    "duration": 141.0,
+    "release": "It\u2019s A New Day",
+    "duration": 407,
     "identifiers": {
-      "musicbrainz": "bfdf94fe-07d4-464b-bcf6-cba953df352c",
+      "musicbrainz": null,
       "acousticbrainz": null,
-      "isrc": [
-        "GBACC1518505"
-      ],
+      "isrc": null,
       "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=rBXbkgLnKCQ",
+      "youtube_url": "https://music.youtube.com/watch?v=q6Rb5u2r_ic",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
@@ -207,7 +205,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "5",
+    "track_number": null,
     "release_year": null,
     "composers": [
       "James Shirley"

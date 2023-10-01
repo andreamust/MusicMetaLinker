@@ -567,14 +567,14 @@
   "file_metadata": {
     "title": "Don't you love her Madly?",
     "artist": "The Doors",
-    "release": "The Singles",
-    "duration": 171.007,
+    "release": "L.A. Woman",
+    "duration": 199.333,
     "identifiers": {
-      "musicbrainz": "649d73cd-3102-4453-a10f-30a8b576750b",
+      "musicbrainz": "9eb2e378-1d9c-43c7-b108-8003f9756c7f",
       "acousticbrainz": null,
       "isrc": [
-        "USRH11702057",
-        "USEE11700107"
+        "USRH12101317",
+        "USEE19900765"
       ],
       "deezer_id": null,
       "deezer_url": null,
@@ -586,7 +586,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "23",
+    "track_number": "2",
     "release_year": null,
     "composers": [
       "The Doors"

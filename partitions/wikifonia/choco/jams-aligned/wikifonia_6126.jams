@@ -387,15 +387,15 @@
   "file_metadata": {
     "title": "Lover",
     "artist": "Richard Rodgers",
-    "release": "101 Songs From the Musicals",
+    "release": "Ella Fitzgerald Sings The Rodgers And Hart Song Book",
     "duration": 190,
     "identifiers": {
-      "musicbrainz": "fe2af139-0b3c-4341-990b-ce8698e2303b",
+      "musicbrainz": null,
       "acousticbrainz": null,
       "isrc": "GBLPF0270004",
       "deezer_id": 1024527212,
       "deezer_url": "https://www.deezer.com/track/1024527212",
-      "youtube_url": "https://music.youtube.com/watch?v=San7ZMIRbx4",
+      "youtube_url": "https://music.youtube.com/watch?v=QGatvicRc-I",
       "spotify_id": null
     },
     "jams_version": "0.3.4"

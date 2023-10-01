@@ -1,0 +1,165 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 2.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 2.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 1.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.2,
+          "duration": 1.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 1.0,
+          "value": "F:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.2,
+          "duration": 1.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 1.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.2,
+          "duration": 1.0,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 2.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Acapulco 1922",
+    "artist": "Dave Alpert",
+    "release": "Easy Listening in the \u201960s",
+    "duration": 161.0,
+    "identifiers": {
+      "musicbrainz": "d3621377-7bf8-4895-855d-ba2a89e21672",
+      "acousticbrainz": null,
+      "isrc": [
+        "QM4221500110",
+        "QM4221500098"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=e6bA86bKncY",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "44",
+    "release_year": null,
+    "composers": [
+      "Dave Alpert"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

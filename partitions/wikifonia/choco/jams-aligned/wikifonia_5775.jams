@@ -1,0 +1,224 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.2,
+          "duration": 7.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 8.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 8.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 8.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 8.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 8.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 8.0,
+          "value": "G:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 8.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 16.0,
+          "value": "G:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 8.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 8.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.3,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.3,
+          "duration": 3.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 34.2,
+          "duration": 7.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 36.1,
+          "duration": 8.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 38.1,
+          "duration": 8.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 40.1,
+          "duration": 8.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 42.1,
+          "duration": 8.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 44.1,
+          "duration": 8.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 46.1,
+          "duration": 8.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 48.1,
+          "duration": 4.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 49.1,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Sleeping Single In A Double Bed",
+    "artist": "Dennis Morgan, Kye Fleming",
+    "release": "She Was Country When Country Wasn\u2019t Cool: A Tribute to Barbara Mandrell",
+    "duration": 166.493,
+    "identifiers": {
+      "musicbrainz": "f17b5826-cfb7-40af-bc5f-f22219b67058",
+      "acousticbrainz": null,
+      "isrc": [
+        "USBN10600096"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=akrnhXl_U4M",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "2",
+    "release_year": null,
+    "composers": [
+      "Dennis Morgan, Kye Fleming"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

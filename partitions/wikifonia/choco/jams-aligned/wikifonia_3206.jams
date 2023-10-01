@@ -1,0 +1,72 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 72.1,
+          "duration": 8.0,
+          "value": "F:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 74.1,
+          "duration": 4.0,
+          "value": "E:min7(b5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 75.1,
+          "duration": 4.0,
+          "value": "A:7(b9)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "A Night In Tunisia",
+    "artist": "Dizzy Gillespie",
+    "release": "Legends Masterpieces (Best Tracks Remastered)",
+    "duration": 407,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "USGR19905426",
+      "deezer_id": 121597874,
+      "deezer_url": "https://www.deezer.com/track/121597874",
+      "youtube_url": "https://music.youtube.com/watch?v=ZkHUX93XZVI",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 9,
+    "release_year": "2016",
+    "composers": [
+      "Dizzy Gillespie"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

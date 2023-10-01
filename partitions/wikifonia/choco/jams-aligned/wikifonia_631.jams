@@ -82,13 +82,13 @@
     "title": "Pistol packin Mama",
     "artist": "Al Dexter",
     "release": "#1 Country Hits",
-    "duration": 171,
+    "duration": 166,
     "identifiers": {
       "musicbrainz": "70c936bd-fd93-4a53-a7ab-4deb78a65c84",
       "acousticbrainz": null,
-      "isrc": "GBLGL0922867",
-      "deezer_id": 517416152,
-      "deezer_url": "https://www.deezer.com/track/517416152",
+      "isrc": "USSM10703346",
+      "deezer_id": 71953036,
+      "deezer_url": "https://www.deezer.com/track/71953036",
       "youtube_url": "https://music.youtube.com/watch?v=64D5u0ycf1s",
       "spotify_id": null
     },
@@ -97,8 +97,8 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": 13,
-    "release_year": "2000",
+    "track_number": 7,
+    "release_year": "2007",
     "composers": [
       "Al Dexter"
     ],

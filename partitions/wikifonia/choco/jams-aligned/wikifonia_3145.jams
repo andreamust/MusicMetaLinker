@@ -969,12 +969,14 @@
   "file_metadata": {
     "title": "Thank You For The Music",
     "artist": "Benny Andersson and Bjorn Ulvaeus",
-    "release": "The Album (Digitally Remastered)",
-    "duration": 230,
+    "release": "Piano",
+    "duration": 223.0,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "ad5fe3a0-caaa-43ea-84e5-2d90f18df37b",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "SEAUA1700104"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=MjKUy_dw0Tk",
@@ -985,7 +987,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "4",
     "release_year": null,
     "composers": [
       "Benny Andersson and Bjorn Ulvaeus"

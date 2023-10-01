@@ -531,15 +531,13 @@
   "file_metadata": {
     "title": "OUR LIPS ARE SEALED",
     "artist": "GO-GOs",
-    "release": "Sounds of the Eighties: The Early \u201980s, Take Two",
-    "duration": 166.166,
+    "release": "Beauty and the Beat (deluxe 30th anniversary edition)",
+    "duration": 197.0,
     "identifiers": {
-      "musicbrainz": "981e20a5-0dd4-4846-9e6e-97deeabb7da6",
+      "musicbrainz": "ad23dce1-26cb-4b2d-95ce-743a766f7359",
       "acousticbrainz": null,
       "isrc": [
-        "USCA21100767",
-        "USIR39000055",
-        "USWWW0128893"
+        "USCA21100789"
       ],
       "deezer_id": null,
       "deezer_url": null,
@@ -551,7 +549,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "10",
+    "track_number": "12",
     "release_year": null,
     "composers": [
       "GO-GOs"

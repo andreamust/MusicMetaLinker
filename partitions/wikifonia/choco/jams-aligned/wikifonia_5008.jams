@@ -477,12 +477,14 @@
   "file_metadata": {
     "title": "Always look on the bright side of kive",
     "artist": "Monty Python",
-    "release": "Monty Python Sings",
-    "duration": 216,
+    "release": "Alle 40 goed - 90's",
+    "duration": 209.186,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "35df9e6c-c13b-4b92-a705-0f58bb212cb3",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "GBAAA9100421"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=GvIjNpFZQtE",
@@ -493,7 +495,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "20",
     "release_year": null,
     "composers": [
       "Monty Python"

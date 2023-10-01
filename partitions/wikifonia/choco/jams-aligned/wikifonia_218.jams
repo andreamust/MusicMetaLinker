@@ -1,0 +1,182 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 9.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 12.0,
+          "value": "G:7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 3.0,
+          "value": "F:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 3.0,
+          "value": "G:7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.1,
+          "duration": 3.0,
+          "value": "F:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 3.0,
+          "value": "G:7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.1,
+          "duration": 12.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 12.0,
+          "value": "G:7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 3.0,
+          "value": "F:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.1,
+          "duration": 3.0,
+          "value": "G:7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 3.0,
+          "value": "F:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 32.1,
+          "duration": 3.0,
+          "value": "G:7/4",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Lullaby (Wiegenlied)",
+    "artist": "J. Brahms",
+    "release": "Classic Sleepies",
+    "duration": 68.16,
+    "identifiers": {
+      "musicbrainz": "1325d5a3-dd82-427d-b8ca-de3088f7098f",
+      "acousticbrainz": null,
+      "isrc": [
+        "DEA808900101"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=8XChl7D6-es",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "1",
+    "release_year": null,
+    "composers": [
+      "J. Brahms"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

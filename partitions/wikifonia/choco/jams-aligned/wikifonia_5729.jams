@@ -291,12 +291,14 @@
   "file_metadata": {
     "title": "Time After Time",
     "artist": "Jule Styne",
-    "release": "Whisper Not",
-    "duration": 212,
+    "release": "Funny Girl (Original Broadway Cast)",
+    "duration": 244.0,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "719b056e-5c1a-4a9f-8670-f673fc1c7ba8",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "USCA28700205"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=t4JBxnQRgiM",
@@ -307,7 +309,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "1",
     "release_year": null,
     "composers": [
       "Jule Styne"

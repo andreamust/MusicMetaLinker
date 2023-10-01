@@ -1,0 +1,218 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 2.1,
+          "duration": 1.75,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.275,
+          "duration": 2.25,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 2.25,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.325,
+          "duration": 1.75,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 1.75,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.275,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.475,
+          "duration": 0.75,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.15,
+          "duration": 3.5,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 1.75,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.275,
+          "duration": 2.25,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 2.25,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.325,
+          "duration": 1.75,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 1.75,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.275,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.475,
+          "duration": 0.75,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.15,
+          "duration": 4.0,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.15,
+          "duration": 3.5,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 27.75,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.475,
+          "duration": 4.25,
+          "value": "G:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.1,
+          "duration": 1.75,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.275,
+          "duration": 2.25,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 2.25,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.325,
+          "duration": 1.75,
+          "value": "F:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.1,
+          "duration": 1.75,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.275,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.475,
+          "duration": 0.75,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.15,
+          "duration": 3.5,
+          "value": "C:7(#9)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Question Mark",
+    "artist": "Mark Zanter",
+    "release": "Normal Tea",
+    "duration": 87.415,
+    "identifiers": {
+      "musicbrainz": "2c6f83be-81a3-40b5-951c-dd74bbee2975",
+      "acousticbrainz": null,
+      "isrc": [
+        "GBWDA1800384"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=C_Da5jqWgTw",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": "9",
+    "release_year": null,
+    "composers": [
+      "Mark Zanter"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

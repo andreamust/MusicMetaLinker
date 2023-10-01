@@ -327,15 +327,17 @@
   "file_metadata": {
     "title": "The Way It Used To Be (Transcribed)",
     "artist": "Francesco Cassano and Corrado Conti, Gianni Argenio, Roger Cook, Roger Greenaway",
-    "release": "The Fightin' texas Aggie Song",
-    "duration": 271,
+    "release": "100 Greatest Soft Rock Anthems Ever..",
+    "duration": 180.266,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "425ac795-7785-4149-880c-fd0eb86894bd",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "USWB10001537"
+      ],
       "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=lCD-Mb7UopE",
+      "youtube_url": "https://music.youtube.com/watch?v=E58Kcvnhg_c",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
@@ -343,7 +345,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "83",
     "release_year": null,
     "composers": [
       "Francesco Cassano and Corrado Conti, Gianni Argenio, Roger Cook, Roger Greenaway"

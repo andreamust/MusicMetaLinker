@@ -231,12 +231,14 @@
   "file_metadata": {
     "title": "Honeysuckle And The Bee",
     "artist": "Albert H. Fitz & William H. Penn",
-    "release": "At His Very Best",
-    "duration": 218,
+    "release": "Unearthed",
+    "duration": 107.4,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "c624d897-0d11-4b57-853f-ce6f2f3ccea8",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "USHM92091761"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=wMKIXJ1iPrM",
@@ -247,7 +249,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "4",
     "release_year": null,
     "composers": [
       "Albert H. Fitz & William H. Penn"

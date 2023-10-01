@@ -387,14 +387,12 @@
   "file_metadata": {
     "title": "You're My World",
     "artist": "Umberto Bindi",
-    "release": "Nostalgia italiana 1960",
-    "duration": 326.06,
+    "release": "The Valley Of The Dolls",
+    "duration": 187,
     "identifiers": {
-      "musicbrainz": "25add278-9831-4a0f-96d6-c84ea9ac343a",
+      "musicbrainz": null,
       "acousticbrainz": null,
-      "isrc": [
-        "ITB006070567"
-      ],
+      "isrc": null,
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=4y5WyDNtrL4",
@@ -405,7 +403,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "4",
+    "track_number": null,
     "release_year": null,
     "composers": [
       "Umberto Bindi"

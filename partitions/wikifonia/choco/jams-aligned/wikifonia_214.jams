@@ -507,15 +507,17 @@
   "file_metadata": {
     "title": "IK WIL JE ELKE DAG EEN BEETJE MEER",
     "artist": "arr. H. Laukens",
-    "release": "Elke dag",
-    "duration": 190,
+    "release": "Alle 40 goed - Hollandse hits",
+    "duration": 199.0,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "ec535e68-be6a-4097-a6e7-ffcdb44f6e3b",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "NLA240503174"
+      ],
       "deezer_id": null,
       "deezer_url": null,
-      "youtube_url": "https://music.youtube.com/watch?v=I1VBJaZIIqE",
+      "youtube_url": "https://music.youtube.com/watch?v=bnNc4PQY4pk",
       "spotify_id": null
     },
     "jams_version": "0.3.4"
@@ -523,7 +525,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "4",
     "release_year": null,
     "composers": [
       "arr. H. Laukens"

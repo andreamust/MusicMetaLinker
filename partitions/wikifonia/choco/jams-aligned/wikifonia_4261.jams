@@ -748,13 +748,13 @@
     "title": "We'll Sing In The Sunshine",
     "artist": "Gale Garnett",
     "release": "Pure\u2026 Summer",
-    "duration": 179,
+    "duration": 177,
     "identifiers": {
       "musicbrainz": "53294a1c-1f2a-4c5e-b3fb-b76eb9bb937c",
       "acousticbrainz": null,
-      "isrc": "USRC11401583",
-      "deezer_id": 88677663,
-      "deezer_url": "https://www.deezer.com/track/88677663",
+      "isrc": "USRC19901093",
+      "deezer_id": 13140239,
+      "deezer_url": "https://www.deezer.com/track/13140239",
       "youtube_url": "https://music.youtube.com/watch?v=IF6X8uetiDY",
       "spotify_id": null
     },
@@ -763,8 +763,8 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": 10,
-    "release_year": "1964",
+    "track_number": 6,
+    "release_year": "2006",
     "composers": [
       "Gale Garnett"
     ],

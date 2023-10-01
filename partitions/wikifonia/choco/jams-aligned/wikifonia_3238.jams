@@ -1,0 +1,162 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 12.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 16.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 16.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.1,
+          "duration": 16.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 16.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.1,
+          "duration": 16.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 8.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 12.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.1,
+          "duration": 16.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 33.1,
+          "duration": 16.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 37.1,
+          "duration": 16.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 41.1,
+          "duration": 16.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 45.1,
+          "duration": 16.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 49.1,
+          "duration": 24.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 55.1,
+          "duration": 16.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 59.1,
+          "duration": 16.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 63.1,
+          "duration": 16.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 67.1,
+          "duration": 20.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Achy Breaky Heart",
+    "artist": "Don von Tress",
+    "release": "Some Gave All",
+    "duration": 204,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": null,
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=tgbYAdmb8WM",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": null,
+    "release_year": null,
+    "composers": [
+      "Don von Tress"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

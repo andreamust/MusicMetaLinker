@@ -1,0 +1,126 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 25.3,
+          "duration": 1.0,
+          "value": "B:(b3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.4,
+          "duration": 1.0,
+          "value": "D:(b3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 130.0,
+          "value": "Eb:(3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 58.3,
+          "duration": 1.0,
+          "value": "B:(b3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 58.4,
+          "duration": 1.0,
+          "value": "D:(b3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 59.1,
+          "duration": 114.0,
+          "value": "Eb:(3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 87.3,
+          "duration": 1.0,
+          "value": "B:(b3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 87.4,
+          "duration": 1.0,
+          "value": "D:(b3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 88.1,
+          "duration": 62.0,
+          "value": "Eb:(3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 103.3,
+          "duration": 1.0,
+          "value": "B:(b3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 103.4,
+          "duration": 1.0,
+          "value": "D:(b3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 104.1,
+          "duration": 36.0,
+          "value": "Eb:(3,*5)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "It's My Life",
+    "artist": "Bon Jovi",
+    "release": "Crush",
+    "duration": 224,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "USIR20000145",
+      "deezer_id": 577487252,
+      "deezer_url": "https://www.deezer.com/track/577487252",
+      "youtube_url": "https://music.youtube.com/watch?v=bY3vXr7fm8k",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 3,
+    "release_year": "2018",
+    "composers": [
+      "Bon Jovi"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

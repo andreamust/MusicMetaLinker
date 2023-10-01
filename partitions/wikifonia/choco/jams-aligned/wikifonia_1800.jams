@@ -399,14 +399,12 @@
   "file_metadata": {
     "title": "Call Me Darling",
     "artist": "Bert Reisfield, Mart Fryberg, Rolf  Marbot",
-    "release": "\u30d7\u30ea\u30f3\u30bb\u30b9\u30b3\u30cd\u30af\u30c8! Re:Dive PRICONNE CHARACTER SONG 14",
-    "duration": 202.0,
+    "release": "Presenting Tennessee Ernie Ford",
+    "duration": 155,
     "identifiers": {
-      "musicbrainz": "387f0717-a8bb-49ef-b2e3-8247319fbaa6",
+      "musicbrainz": null,
       "acousticbrainz": null,
-      "isrc": [
-        "JPCO02009930"
-      ],
+      "isrc": null,
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=KHO0znBt7SU",
@@ -417,7 +415,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "2",
+    "track_number": null,
     "release_year": null,
     "composers": [
       "Bert Reisfield, Mart Fryberg, Rolf  Marbot"

@@ -285,14 +285,12 @@
   "file_metadata": {
     "title": "Little Curly Hair In A High Chair",
     "artist": "Charles Tobias & Nat Simon",
-    "release": "Melodrom",
-    "duration": 197.013,
+    "release": "African Ripples",
+    "duration": 193,
     "identifiers": {
-      "musicbrainz": "65f27f49-66b7-486e-b0aa-335421eb27d0",
+      "musicbrainz": null,
       "acousticbrainz": null,
-      "isrc": [
-        "DEL051340006"
-      ],
+      "isrc": null,
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=8xMRQ_TNW2w",
@@ -303,7 +301,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": "6",
+    "track_number": null,
     "release_year": null,
     "composers": [
       "Charles Tobias & Nat Simon"

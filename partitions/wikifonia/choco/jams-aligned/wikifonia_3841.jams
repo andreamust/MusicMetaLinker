@@ -1,0 +1,186 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "Ghent University Association",
+          "email": ""
+        },
+        "annotator": {
+          "name": ""
+        },
+        "version": 1.0,
+        "corpus": "Wikifonia",
+        "annotation_tools": "",
+        "annotation_rules": "Chord annotations converted using the ChoCo library ",
+        "validation": "",
+        "data_source": "expert_human"
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 1.1,
+          "duration": 3.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.4,
+          "duration": 1.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 16.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 5.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 3.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.1,
+          "duration": 3.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.4,
+          "duration": 1.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.1,
+          "duration": 3.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.4,
+          "duration": 1.0,
+          "value": "Gb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.1,
+          "duration": 16.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.1,
+          "duration": 7.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.4,
+          "duration": 1.0,
+          "value": "Gb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.1,
+          "duration": 15.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.4,
+          "duration": 1.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.1,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.1,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.1,
+          "duration": 8.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.1,
+          "duration": 16.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.1,
+          "duration": 3.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.4,
+          "duration": 5.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Play A Simple Melody",
+    "artist": "Irving Berlin",
+    "release": "The Ultimate Jo Stafford",
+    "duration": 171,
+    "identifiers": {
+      "musicbrainz": "67563b00-b25d-4b77-9166-ba608b6dec41",
+      "acousticbrainz": null,
+      "isrc": "US3M59891203",
+      "deezer_id": 124192118,
+      "deezer_url": "https://www.deezer.com/track/124192118",
+      "youtube_url": "https://music.youtube.com/watch?v=uaczOl8dC3I",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "",
+    "track_number": 3,
+    "release_year": "2014",
+    "composers": [
+      "Irving Berlin"
+    ],
+    "performers": [],
+    "tuning": null
+  }
+}

@@ -249,12 +249,14 @@
   "file_metadata": {
     "title": "Where Will the Dimple Be?",
     "artist": "Bob Merrill & Al Hoffman",
-    "release": "At The London Palladium",
-    "duration": 82,
+    "release": "CSN",
+    "duration": 201.853,
     "identifiers": {
-      "musicbrainz": null,
+      "musicbrainz": "d7d55a46-22fa-4111-921d-79ae52aba6fe",
       "acousticbrainz": null,
-      "isrc": null,
+      "isrc": [
+        "USAT20000078"
+      ],
       "deezer_id": null,
       "deezer_url": null,
       "youtube_url": "https://music.youtube.com/watch?v=7z5huq0IOs0",
@@ -265,7 +267,7 @@
   "sandbox": {
     "type": "score",
     "genre": "",
-    "track_number": null,
+    "track_number": "6",
     "release_year": null,
     "composers": [
       "Bob Merrill & Al Hoffman"
