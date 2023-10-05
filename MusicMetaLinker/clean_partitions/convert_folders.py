@@ -63,6 +63,39 @@ def create_jaah_metadata(jams_folder: Path, audio_folder: Path) -> None:
     df.to_csv(jams_folder.parent / "audio_files.csv", index=False)
 
 
+def rename_schubert():
+    """
+    Renames the schubert files according to the choco naming system.
+    Returns 
+    -------
+    None
+    """
+    meta_path = Path("./partitions/schubert-winterreise/choco/audio/meta.csv")
+    meta = pd.read_csv(meta_path)
+
+    base_path = Path("./partitions/schubert-winterreise/")
+    out_path = Path("./audio_partitions/audio")
+    
+    for _, row in meta.iterrows():
+        # get the track_file and the associated id
+        track_file = row["track_file"]
+        track_file_path = base_path / "row" / "audio_wav" / (track_file + ".wav")
+        # check if the file exists
+        if track_file_path.exists():
+            # get the id
+            id = row["id"]
+            # get the new file name
+            new_file_name = f"{id}.flac"
+            # convert the file and rename it
+            print(f"Converting {track_file_path} to {new_file_name}")
+            subprocess.call(['ffmpeg', '-i', track_file_path,
+                            '-c:a', 'flac', 
+                            out_path / new_file_name, 
+                            '-y'])
+        else:
+            print(f"{track_file_path} does not exist")
+
+
 
 def convert_schubert() -> None:
     """
@@ -150,6 +183,9 @@ if __name__ == '__main__':
     # convert_rwc('./partitions/rwc-pop/choco/audio')
 
     # create the metadata for the JAAH partition
-    jams_folder = Path("./partitions/jaah/choco/jams")
-    audio_folder = Path("./partitions/jaah/choco/audio")
-    create_jaah_metadata(jams_folder, audio_folder)
+    # jams_folder = Path("./partitions/jaah/choco/jams")
+    # audio_folder = Path("./partitions/jaah/choco/audio")
+    # create_jaah_metadata(jams_folder, audio_folder)
+
+    # rename the schubert files
+    rename_schubert()
