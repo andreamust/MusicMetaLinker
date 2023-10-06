@@ -186,3 +186,6 @@ audio_files.csv
 
 .DS_Store
 partitions/rwc-pop/row/jams/*.jams
+
+# exclude the .vscode folder
+.vscode/

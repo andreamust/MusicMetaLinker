@@ -17,9 +17,8 @@ AUDIO_PARTITIONS = [
 SCORE_PARTITIONS = [
     # "biab-internet-corpus",
     # "ireal-pro-playlist",
-    "ireal-pro-forum",
+    "ireal-pro-forum",  # for ireal-pro, you need to use both ireal-pro and ireal-pro-forum or/and ireal-pro-playlist
     "ireal-pro",
-
     # "jazz-corpus",
     # "rock-corpus",
     # "mozart-piano-sonatas",
