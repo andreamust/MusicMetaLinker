@@ -16,12 +16,15 @@ AUDIO_PARTITIONS = [
 
 SCORE_PARTITIONS = [
     # "biab-internet-corpus",
-    # "ireal-pro",
+    # "ireal-pro-playlist",
+    "ireal-pro-forum",
+    "ireal-pro",
+
     # "jazz-corpus",
     # "rock-corpus",
     # "mozart-piano-sonatas",
     # "nottingham",
     # "real-book",
     # "when-in-rome",
-    "wikifonia",
+    # "wikifonia",
 ]

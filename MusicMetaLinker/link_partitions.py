@@ -135,6 +135,7 @@ def retrieve_links(partitions_path: Path,
         df_list = []
         # get the path to the JAMS files for the partition
         partition_type, jams_path = filter_partition(partition, limit=limit)
+        print(partition_type, jams_path)
         if jams_path is None or partition_type is None:
             continue
 

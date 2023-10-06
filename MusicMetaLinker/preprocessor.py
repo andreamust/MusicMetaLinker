@@ -18,6 +18,7 @@ class JAMSProcessor:
     used for aligning the data with the external resources, as well as for
     writing them in a new JAMS file.
     """
+
     def __init__(self, jams_file: Path) -> None:
         """
         Initializes the class by taking the path to the JAMS file and the output
@@ -55,20 +56,29 @@ class JAMSProcessor:
             self.musicbrainz_id = self.metadata.identifiers['musicbrainz']
 
         # get individual sandbox
-        self.type = self.sandbox['type']
+        try:
+            self.type = self.sandbox['type']
+        except KeyError:
+            self.type = 'score'
         self.genre = self.sandbox['genre']
-        self.track_number = self.sandbox.track_number  # type: ignore
-        self.release_year = self.sandbox.release_year  # type: ignore
-        self.composers = self.sandbox.composers  # type: ignore
-        self.performers = self.sandbox.performers  # type: ignore
+        try:
+            self.track_number = self.sandbox.track_number  # type: ignore
+            self.release_year = self.sandbox.release_year  # type: ignore
+            self.composers = self.sandbox.composers  # type: ignore
+            self.performers = self.sandbox.performers  # type: ignore
+        except AttributeError:
+            self.track_number = None
+            self.release_year = None
+            self.composers = None
+            self.performers = None
         self.tuning = None
         if 'tuning' in self.sandbox.keys():
             self.tuning = self.sandbox.tuning  # type: ignore
-        if not self.artist_name:
+        if not self.artist_name and (self.composers or self.performers):
             if self.type == 'score':
-                self.artist_name = 'and'.join(self.composers)
+                self.artist_name = 'and'.join(self.composers)  # type: ignore
             elif self.type == 'audio':
-                self.artist_name = 'and'.join(self.performers)
+                self.artist_name = 'and'.join(self.performers)  # type: ignore
 
     def write_jams(self, output_path: Path) -> None:
         """

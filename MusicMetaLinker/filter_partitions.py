@@ -38,8 +38,12 @@ def filter_partition(partition: Path,
         if limit == "audio":
             return partition_type, None
         if partition.name == "ireal-pro":
-            return (partition_type,
-                    partition / "choco" / "playlists" / "jams-converted")
+            if "ireal-pro-forum" in SCORE_PARTITIONS:
+                return (partition_type,
+                        partition / "choco" / "forum" / "jams-converted")
+            if "ireal-pro-playlist" in SCORE_PARTITIONS:
+                return (partition_type,
+                        partition / "choco" / "playlists" / "jams")
 
     jams_path = partition / "choco" / "jams-converted"
     if jams_path.exists():
