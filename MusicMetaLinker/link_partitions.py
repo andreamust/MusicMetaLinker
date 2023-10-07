@@ -210,9 +210,21 @@ def retrieve_links(partitions_path: Path,
         log_downloaded_data(df, partition / "choco" / "linking.csv")
 
 
-def main():
+def main() -> None:
     """
     Main function for retrieving the links.
+    Command line arguments are:
+        - partitions_path: Path to the partitions.
+        - save: Whether to save the retrieved information in a new JAMS file or
+            not.
+        - limit: Limit for the partition, accepts "audio", "score" or None.
+
+    Example of usage:
+        python link_partitions.py /path/to/partitions --save --limit audio --overwrite
+        
+    Returns
+    -------
+    None
     """
     parser = argparse.ArgumentParser(
         description="Retrieve links for the partitions.",
@@ -228,6 +240,9 @@ def main():
                         help="Limit for the partition, accepts 'audio', "
                              "'score' or None.",
                         choices=["audio", "score"])
+    parser.add_argument("--overwrite", action="store_true",
+                        default=True,
+                        help="Whether to overwrite existing files or not.")
     args = parser.parse_args()
 
     retrieve_links(args.partitions_path, args.save, args.limit)
