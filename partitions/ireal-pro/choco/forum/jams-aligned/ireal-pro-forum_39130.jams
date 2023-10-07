@@ -1,0 +1,76 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Comping ex1",
+    "artist": "Composer Unknown",
+    "release": "\u7a7a\u306e\u5883\u754c \u300c\u5fd8\u5374\u9332\u97f3\u300d Original Soundtrack",
+    "duration": 37.613,
+    "identifiers": {
+      "musicbrainz": "d2d8b642-e9dc-44ba-a287-6d6a71eafb85",
+      "acousticbrainz": null,
+      "isrc": [
+        "JPE300901136"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=lUXcCLk26aE",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Slow Rock",
+    "track_number": "16",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

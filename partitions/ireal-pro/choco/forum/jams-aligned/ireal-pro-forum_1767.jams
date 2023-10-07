@@ -1,0 +1,148 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "C#:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 4.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Mighty Mississippi - Flinner",
+    "artist": "Sparks Randy",
+    "release": "Big Beat",
+    "duration": 151.226,
+    "identifiers": {
+      "musicbrainz": "fea30b7b-dda5-4ce1-94c6-73d0573a17bb",
+      "acousticbrainz": null,
+      "isrc": [
+        "GBAAN7600011"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=aS098ts_1Aw",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Pop - Bluegrass",
+    "track_number": "4",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

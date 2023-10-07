@@ -1,0 +1,58 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "13 Jazz Chords - 1 2 3 5  8 7 6 5 Bass",
+    "artist": "JHC after Robert Rawlins",
+    "release": "Daddy-O Daddy!: Rare Family Songs of Woody Guthrie",
+    "duration": 194.0,
+    "identifiers": {
+      "musicbrainz": "b440fd9b-5bfb-44f0-85a9-9d96a1a496ed",
+      "acousticbrainz": null,
+      "isrc": [
+        "USRO20108711"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=t-xeMn8D53o",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Swing",
+    "track_number": "11",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

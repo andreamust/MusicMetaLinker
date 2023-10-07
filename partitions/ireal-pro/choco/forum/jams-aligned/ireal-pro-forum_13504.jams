@@ -1,0 +1,70 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 1.3333333333333333,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.13333333333333333,
+          "duration": 1.3333333333333333,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.26666666666666666,
+          "duration": 1.3333333333333333,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Careless Love",
+    "artist": "be2sharp ARR:",
+    "release": "Eternal Gratitude",
+    "duration": 225.173,
+    "identifiers": {
+      "musicbrainz": "96fdad31-ae33-4c59-a031-169d04c60146",
+      "acousticbrainz": null,
+      "isrc": [
+        "QZH661900013"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=fQwX8o0079A",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Zz Select An iReal Style ",
+    "track_number": "13",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "E:hdim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "E:hdim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "A:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Chan Chan (Gig)",
+    "artist": "Buena Vista Social Club",
+    "release": "Buena Vista Social Club at Carnegie Hall (live)",
+    "duration": 285.506,
+    "identifiers": {
+      "musicbrainz": "de0b9a2a-1d1c-468c-ad2f-0173d01174d8",
+      "acousticbrainz": null,
+      "isrc": [
+        "GBBGU0880001"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=V0FoYUcq9FQ",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Salsa",
+    "track_number": "1",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

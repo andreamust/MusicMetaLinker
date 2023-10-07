@@ -1,0 +1,146 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "What Have They Done to My Song Ma",
+    "artist": "Safka Melanie",
+    "release": "Hot Hits of the 70s \u2013 Volume Four",
+    "duration": 245,
+    "identifiers": {
+      "musicbrainz": "e5546980-7af4-47a1-861b-b12f658f0788",
+      "acousticbrainz": null,
+      "isrc": "USA371125435",
+      "deezer_id": 7796847,
+      "deezer_url": "https://www.deezer.com/track/7796847",
+      "youtube_url": "https://music.youtube.com/watch?v=iL9APRcYTGE",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "N.O. Second Line",
+    "track_number": 2,
+    "release_year": "2010",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

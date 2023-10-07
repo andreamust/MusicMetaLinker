@@ -1,0 +1,256 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 4.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.0,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.0,
+          "duration": 4.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 24.0,
+          "duration": 4.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.0,
+          "duration": 2.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 25.2,
+          "duration": 2.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.0,
+          "duration": 2.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 26.2,
+          "duration": 2.0,
+          "value": "F:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 27.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 28.0,
+          "duration": 4.0,
+          "value": "F:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 29.0,
+          "duration": 4.0,
+          "value": "Bb:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 30.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 31.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "\u91cc\u306e\u79cb",
+    "artist": "Composer Unknown",
+    "release": "\u30cb\u30e5\u30fc \u30af\u30e9\u30b7\u30ab\u30eb \u30b3\u30f3\u30b5\u30fc\u30c8vol.3\u301c\u7236\u3068\u5b50\u306e\u5504\u301c",
+    "duration": 214,
+    "identifiers": {
+      "musicbrainz": "61dfd40c-ee71-47bc-9940-b56b4bbb88fd",
+      "acousticbrainz": null,
+      "isrc": [
+        "JPPO00720860"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=2rE-h5u5OVQ",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Pop Ballad",
+    "track_number": "7",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "C#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "C#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.2,
+          "duration": 2.0,
+          "value": "C#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.2,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Lucecitas",
+    "artist": "Montreal",
+    "release": "Ondatr\u00f3pica",
+    "duration": 190,
+    "identifiers": {
+      "musicbrainz": "affc4e25-e2e8-411e-a746-8421169f46f2",
+      "acousticbrainz": null,
+      "isrc": "USCG61600125",
+      "deezer_id": 136659278,
+      "deezer_url": "https://www.deezer.com/track/136659278",
+      "youtube_url": "https://music.youtube.com/watch?v=ze63AvblsyI",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Pop",
+    "track_number": 1,
+    "release_year": "2016",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

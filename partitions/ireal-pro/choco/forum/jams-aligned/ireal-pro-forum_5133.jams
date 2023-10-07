@@ -1,0 +1,98 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 3.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 3.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 3.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 3.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 3.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 3.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 3.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 3.0,
+          "value": "G:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Alma Llanera",
+    "artist": "Rivera Paquito",
+    "release": "RCA: 100 a\u00f1os de m\u00fasica, segunda parte: Mariachi Vargas de Tecalitl\u00e1n",
+    "duration": 378,
+    "identifiers": {
+      "musicbrainz": "85338ce9-c41b-4033-9ff4-03d23e9e6ccf",
+      "acousticbrainz": null,
+      "isrc": "DEE790516670",
+      "deezer_id": 10996960,
+      "deezer_url": "https://www.deezer.com/track/10996960",
+      "youtube_url": "https://music.youtube.com/watch?v=JNp-iakYpO4",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Afro",
+    "track_number": 2,
+    "release_year": "2008",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

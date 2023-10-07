@@ -1,0 +1,124 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 3.0,
+          "value": "C:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 3.0,
+          "value": "F:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 3.0,
+          "value": "Bb:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 3.0,
+          "value": "Eb:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 3.0,
+          "value": "Ab:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 3.0,
+          "value": "Db:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 3.0,
+          "value": "F#:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 3.0,
+          "value": "B:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 3.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 3.0,
+          "value": "A:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 3.0,
+          "value": "D:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 3.0,
+          "value": "G:aug",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Augmented Triad Improvisation",
+    "artist": "Schumacher David",
+    "release": "Global Underground: Afterhours",
+    "duration": 352.0,
+    "identifiers": {
+      "musicbrainz": "7a2568ff-aa5b-4c50-8f75-35cdc65248cf",
+      "acousticbrainz": null,
+      "isrc": [
+        "US2J71504502"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=qpQ6c0NotCY",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": "28",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

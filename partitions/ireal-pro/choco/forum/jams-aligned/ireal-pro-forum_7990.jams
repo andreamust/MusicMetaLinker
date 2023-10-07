@@ -1,0 +1,51 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Todo A Cristo",
+    "artist": "Composer Unknown",
+    "release": "Mas all\u00e1 del sol",
+    "duration": 118.0,
+    "identifiers": {
+      "musicbrainz": "be4b2a12-7bd3-462e-bc4b-1b6ae4a7bf6a",
+      "acousticbrainz": null,
+      "isrc": [
+        "TCABW1451513"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=QSrl8GgggGY",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": "7",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

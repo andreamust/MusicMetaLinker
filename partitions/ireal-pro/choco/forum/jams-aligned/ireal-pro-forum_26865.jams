@@ -1,0 +1,196 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 1.0,
+          "value": "D:min9(11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 1.0,
+          "value": "D:min9(11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 1.0,
+          "value": "F:min9(11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 1.0,
+          "value": "F:min9(11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 1.0,
+          "value": "Db:maj/#4",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 1.0,
+          "value": "Db:maj/#4",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 1.0,
+          "value": "C:maj9(#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 1.0,
+          "value": "C:maj9(#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 1.0,
+          "value": "C:min9(11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 1.0,
+          "value": "C:min9(11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 1.0,
+          "value": "Eb:min9(11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 1.0,
+          "value": "Eb:min9(11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 1.0,
+          "value": "Cb:maj/#4",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 1.0,
+          "value": "Cb:maj/#4",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 1.0,
+          "value": "Bb:maj9(#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 1.0,
+          "value": "Bb:maj9(#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.0,
+          "duration": 1.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.0,
+          "duration": 1.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.0,
+          "duration": 1.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.0,
+          "duration": 1.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.0,
+          "duration": 1.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.0,
+          "duration": 1.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 22.0,
+          "duration": 1.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 23.0,
+          "duration": 1.0,
+          "value": "D:9",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Canter N. 1",
+    "artist": "Wheeler Kenny",
+    "release": "Songs for Quintet",
+    "duration": 400.0,
+    "identifiers": {
+      "musicbrainz": "c578ac59-56fe-4826-984b-7aa6d1918773",
+      "acousticbrainz": null,
+      "isrc": [
+        "DEB331338804"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=Y65yRhm6_So",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": "4",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

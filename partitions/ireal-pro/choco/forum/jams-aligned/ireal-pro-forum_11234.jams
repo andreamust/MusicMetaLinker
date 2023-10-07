@@ -1,0 +1,124 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 3.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 3.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 3.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 3.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 3.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 3.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 3.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 3.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 3.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 3.0,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 3.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 3.0,
+          "value": "A:min",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Khaham Har Rouz Ba To Roah Rawam",
+    "artist": "New Life Church",
+    "release": "Popular Music",
+    "duration": 154.0,
+    "identifiers": {
+      "musicbrainz": "c9d94860-b4f1-4b49-ab4d-aa960d262fb2",
+      "acousticbrainz": null,
+      "isrc": [
+        "UK54N1600015"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=Lqh64MVcb84",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": "B4",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

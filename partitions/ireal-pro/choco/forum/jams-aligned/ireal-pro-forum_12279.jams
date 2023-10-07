@@ -1,0 +1,92 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 2.0,
+          "value": "D:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 2.0,
+          "value": "G:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 2.0,
+          "value": "D:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 2.0,
+          "value": "G:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Sunday Morning",
+    "artist": "Maroon 5",
+    "release": "Dinner Party Summer",
+    "duration": 244,
+    "identifiers": {
+      "musicbrainz": "791bd141-48c2-4500-9eb9-a344bb13ede2",
+      "acousticbrainz": null,
+      "isrc": "USJAY0300086",
+      "deezer_id": 1165307,
+      "deezer_url": "https://www.deezer.com/track/1165307",
+      "youtube_url": "https://music.youtube.com/watch?v=U9-f4Mosb_A",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Pop",
+    "track_number": 8,
+    "release_year": "2007",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

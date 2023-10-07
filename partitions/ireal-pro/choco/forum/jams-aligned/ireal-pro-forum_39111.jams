@@ -1,0 +1,100 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 3.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 3.0,
+          "value": "A#:dim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 3.0,
+          "value": "B:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 3.0,
+          "value": "E:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 3.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 3.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 3.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 3.0,
+          "value": "E:aug",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "RGT Bass G6 Jazz",
+    "artist": "RGT",
+    "release": "Rich Off Pints",
+    "duration": 140.0,
+    "identifiers": {
+      "musicbrainz": "19f8aa81-87e0-48ad-a699-994e0c81e58b",
+      "acousticbrainz": null,
+      "isrc": [
+        "USLD91732609"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=fZ1pcOenxoo",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Reggae Pop",
+    "track_number": "17",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

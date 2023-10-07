@@ -1,0 +1,58 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Water Is Wide, The",
+    "artist": "be2sharp ARR:",
+    "release": "Lilith Fair: A Celebration of Women in Music, Vol. 1 (live)",
+    "duration": 258.266,
+    "identifiers": {
+      "musicbrainz": "5e63c1e9-c942-46e6-b0d7-13fc986adeff",
+      "acousticbrainz": null,
+      "isrc": [
+        "CAN119800165"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=nPNgbaNh81o",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Zz Experiment With Styles",
+    "track_number": "14",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

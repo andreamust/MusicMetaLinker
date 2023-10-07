@@ -1,0 +1,148 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "G:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "G:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "Eb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 2.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.2,
+          "duration": 2.0,
+          "value": "F:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 2.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.2,
+          "duration": 2.0,
+          "value": "Eb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 2.0,
+          "value": "Ab:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 2.0,
+          "value": "Db:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 2.0,
+          "value": "G:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.2,
+          "duration": 2.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "G:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 4.0,
+          "value": "G:maj7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Exercise 9 - Chord Progression with Major7-Chords",
+    "artist": "The Jazz Chord Base",
+    "release": "Chocolate Chords",
+    "duration": 430.893,
+    "identifiers": {
+      "musicbrainz": "23ab70aa-1cb3-4d35-9a70-e8b078aa7442",
+      "acousticbrainz": null,
+      "isrc": [
+        "DEE829700100"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=LrulKPjiDZQ",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Jazz",
+    "track_number": "6",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

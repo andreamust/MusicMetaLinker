@@ -1,0 +1,104 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "F#:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 0.5714285714285714,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.057142857142857,
+          "duration": 0.5714285714285714,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1142857142857143,
+          "duration": 0.5714285714285714,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1714285714285713,
+          "duration": 0.5714285714285714,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2285714285714286,
+          "duration": 0.5714285714285714,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2857142857142856,
+          "duration": 0.5714285714285714,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.342857142857143,
+          "duration": 0.5714285714285714,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Scentless Apprentice",
+    "artist": "Nirvana Nirvana",
+    "release": "In Utero",
+    "duration": 228,
+    "identifiers": {
+      "musicbrainz": "9da07a77-637b-4e73-abeb-ccbdc31f7016",
+      "acousticbrainz": null,
+      "isrc": "USGF19960702",
+      "deezer_id": 70466226,
+      "deezer_url": "https://www.deezer.com/track/70466226",
+      "youtube_url": "https://music.youtube.com/watch?v=cpwTKqAq_Dk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": 2,
+    "release_year": "2013",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

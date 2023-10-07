@@ -1,0 +1,100 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 0.5,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.05,
+          "duration": 0.5,
+          "value": "A:(*3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.1,
+          "duration": 0.5,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.15,
+          "duration": 0.5,
+          "value": "G:(*3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 0.5,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.25,
+          "duration": 0.5,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.3,
+          "duration": 0.5,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.35,
+          "duration": 0.5,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "House Of The Rising Sun, The (in 3-4 Time)   [#]",
+    "artist": "be2sharp ARR:",
+    "release": "Solino",
+    "duration": 162.0,
+    "identifiers": {
+      "musicbrainz": "4a170b8e-c0bd-4eb3-964e-853ca9c95987",
+      "acousticbrainz": null,
+      "isrc": [
+        "DEC730200312"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=yGTmouM4vEg",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Zz Find A Style You Like",
+    "track_number": "15",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

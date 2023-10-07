@@ -1,0 +1,194 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.2,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.2,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.2,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.2,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.2,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Mon ancre et ma voile",
+    "artist": "Durham David",
+    "release": "L'instant d'apr\u00e8s",
+    "duration": 216,
+    "identifiers": {
+      "musicbrainz": "4cc44a7b-07da-4ea4-8999-5458d6e8813e",
+      "acousticbrainz": null,
+      "isrc": "CH7940300032",
+      "deezer_id": 68450070,
+      "deezer_url": "https://www.deezer.com/track/68450070",
+      "youtube_url": "https://music.youtube.com/watch?v=20LsXqb_ut0",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Gospel Ballad",
+    "track_number": 8,
+    "release_year": "2014",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

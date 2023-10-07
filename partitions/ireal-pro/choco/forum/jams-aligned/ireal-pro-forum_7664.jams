@@ -1,0 +1,49 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Quiero Vivir Para Ti",
+    "artist": "Vissep\u00f3 Vanessa",
+    "release": "Mala sangre",
+    "duration": 350,
+    "identifiers": {
+      "musicbrainz": "8d143c1f-72db-4fa4-a76c-80f05034b0ad",
+      "acousticbrainz": null,
+      "isrc": "TCAAY1107447",
+      "deezer_id": 98563928,
+      "deezer_url": "https://www.deezer.com/track/98563928",
+      "youtube_url": "https://music.youtube.com/watch?v=po548d5d2Ps",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": 9,
+    "release_year": "2011",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "C:min(b6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "C:min6",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "C:min(b6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "C:min(b6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "C:min6",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "C:min(b6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 2.0,
+          "value": "G:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 2.0,
+          "value": "Gb:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 2.0,
+          "value": "F:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.2,
+          "duration": 2.0,
+          "value": "E:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "Eb:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 4.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 4.0,
+          "value": "C:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 4.0,
+          "value": "C:min(b6)",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 4.0,
+          "value": "C:min6",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.0,
+          "duration": 4.0,
+          "value": "C:min(b6)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "\u6240\u3055\u3093\u306e\u307e\u3082\u308b\u3082\u305b\u3081\u308b\u3082",
+    "artist": "\u30b8\u30e7\u30fc\u30b8 \u6240",
+    "release": "\u902e\u6355\u3057\u3061\u3083\u3046\u305e\u30aa\u30ea\u30b8\u30ca\u30eb\u30b5\u30a6\u30f3\u30c9\u30c8\u30e9\u30c3\u30af 1 1/2",
+    "duration": 72.0,
+    "identifiers": {
+      "musicbrainz": "9b8ce369-e593-4acc-be39-a5891028cee5",
+      "acousticbrainz": null,
+      "isrc": [
+        "JPVI09532910"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=zqblg1wRtIg",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Rock",
+    "track_number": "5",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

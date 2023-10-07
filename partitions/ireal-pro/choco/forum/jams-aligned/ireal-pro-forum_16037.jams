@@ -1,0 +1,262 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.2,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 2.0,
+          "value": "E:dim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 2.0,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.2,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.2,
+          "duration": 2.0,
+          "value": "E:dim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 2.0,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.2,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.2,
+          "duration": 2.0,
+          "value": "E:dim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 2.0,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.2,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.2,
+          "duration": 2.0,
+          "value": "E:dim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 2.0,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.2,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.0,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.2,
+          "duration": 2.0,
+          "value": "B:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.0,
+          "duration": 1.3333333333333333,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.133333333333333,
+          "duration": 1.3333333333333333,
+          "value": "A:dim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.266666666666666,
+          "duration": 1.3333333333333333,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.0,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.2,
+          "duration": 2.0,
+          "value": "B:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.0,
+          "duration": 1.3333333333333333,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.133333333333333,
+          "duration": 1.3333333333333333,
+          "value": "A:dim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.266666666666666,
+          "duration": 1.3333333333333333,
+          "value": "B:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Chrono Trigger - Underground Sewer",
+    "artist": "Uematsu Nobuo",
+    "release": "Volume 1&2 Combo Pack",
+    "duration": 297.826,
+    "identifiers": {
+      "musicbrainz": "44a38e10-0c61-44ad-9ba6-7c6de46f9173",
+      "acousticbrainz": null,
+      "isrc": [
+        "USHM80870236"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=7XCsmWn-a5w",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": "16",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

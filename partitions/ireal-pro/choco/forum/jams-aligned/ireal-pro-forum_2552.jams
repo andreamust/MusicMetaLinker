@@ -1,0 +1,154 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.1,
+          "duration": 1.0,
+          "value": "A:9/3",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 1.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.1,
+          "duration": 1.0,
+          "value": "D#:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 0.6666666666666666,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.066666666666667,
+          "duration": 0.6666666666666666,
+          "value": "A:maj/3",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1333333333333333,
+          "duration": 0.6666666666666666,
+          "value": "A:maj/b3",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 1.0,
+          "value": "E:7/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 1.0,
+          "value": "E:7/3",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.1,
+          "duration": 1.0,
+          "value": "A:9/3",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 1.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1,
+          "duration": 1.0,
+          "value": "D#:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 1.0,
+          "value": "E:7/3",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.1,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Grey Eagle",
+    "artist": "Traditional",
+    "release": "Classic Bluegrass: From Smithsonian Folkways",
+    "duration": 170.693,
+    "identifiers": {
+      "musicbrainz": "97b2bb65-a3ab-48bd-8101-944a95d35145",
+      "acousticbrainz": null,
+      "isrc": [
+        "USSF10209219"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=JEY5aKgw8qE",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Fiddle Tune",
+    "track_number": "19",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

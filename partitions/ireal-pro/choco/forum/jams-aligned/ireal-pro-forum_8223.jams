@@ -1,0 +1,86 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 2.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 2.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Break Every Chain",
+    "artist": "Culture Jesus",
+    "release": "Top 50 Modern Worship Songs 2017",
+    "duration": 487,
+    "identifiers": {
+      "musicbrainz": "f3ef6eb9-a658-45a0-8611-bcad82240672",
+      "acousticbrainz": null,
+      "isrc": "USTCF1100004",
+      "deezer_id": 97233208,
+      "deezer_url": "https://www.deezer.com/track/97233208",
+      "youtube_url": "https://music.youtube.com/watch?v=4jHm4Ykig2g",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Pop - Slow Rock",
+    "track_number": 4,
+    "release_year": "2015",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

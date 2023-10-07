@@ -1,0 +1,110 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 1.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.1,
+          "duration": 1.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 1.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.3,
+          "duration": 1.0,
+          "value": "G:maj(9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 1.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.1,
+          "duration": 1.0,
+          "value": "D:(2,*3,5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.3,
+          "duration": 1.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "E:min",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Hey Joe",
+    "artist": "Hendrix Jimi",
+    "release": "Are You Experienced",
+    "duration": 210,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "USQX90900767",
+      "deezer_id": 4969003,
+      "deezer_url": "https://www.deezer.com/track/4969003",
+      "youtube_url": "https://music.youtube.com/watch?v=Smp6AepJIhM",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Rock",
+    "track_number": 3,
+    "release_year": "2010",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

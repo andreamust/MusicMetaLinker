@@ -1,0 +1,212 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "C#:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "B:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "E:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 2.0,
+          "value": "D#:hdim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 2.0,
+          "value": "G#:7(b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "C#:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "B:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "E:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 2.0,
+          "value": "D#:hdim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.2,
+          "duration": 2.0,
+          "value": "G#:7(b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "C#:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "B:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "E:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 2.0,
+          "value": "D#:hdim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.2,
+          "duration": 2.0,
+          "value": "G#:7(b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 4.0,
+          "value": "C#:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 4.0,
+          "value": "B:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 4.0,
+          "value": "E:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 2.0,
+          "value": "D#:hdim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.2,
+          "duration": 2.0,
+          "value": "G#:7(b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.0,
+          "duration": 4.0,
+          "value": "C#:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.0,
+          "duration": 4.0,
+          "value": "F#:9(113)",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.0,
+          "duration": 4.0,
+          "value": "C#:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.0,
+          "duration": 4.0,
+          "value": "F#:9(113)",
+          "confidence": 1.0
+        },
+        {
+          "time": 20.0,
+          "duration": 4.0,
+          "value": "B:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.0,
+          "duration": 2.0,
+          "value": "E:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 21.2,
+          "duration": 2.0,
+          "value": "G#:7(b9)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Cigano",
+    "artist": "Djavan",
+    "release": "Ao vivo no Montreux Jazz Festival 1997",
+    "duration": 307,
+    "identifiers": {
+      "musicbrainz": "1b2e60d1-8fe6-4673-8138-bf7c26851e3b",
+      "acousticbrainz": null,
+      "isrc": "BRSME9900367",
+      "deezer_id": 74636759,
+      "deezer_url": "https://www.deezer.com/track/74636759",
+      "youtube_url": "https://music.youtube.com/watch?v=1t2qZ3_JBOI",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Reggea",
+    "track_number": 6,
+    "release_year": "1999",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 1.0,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.1,
+          "duration": 1.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2,
+          "duration": 1.0,
+          "value": "Bb:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.3,
+          "duration": 1.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Spoonful of Sugar_, A",
+    "artist": "Richard M. Sherman-Robert B. Sherman",
+    "release": "Bedknobs and Broomsticks",
+    "duration": 154.533,
+    "identifiers": {
+      "musicbrainz": "08dfaba2-5e49-4269-9a5f-e33e3f609ccb",
+      "acousticbrainz": null,
+      "isrc": [
+        "USWD10220256"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=pHIHiDV_s_E",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Film",
+    "track_number": "3",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

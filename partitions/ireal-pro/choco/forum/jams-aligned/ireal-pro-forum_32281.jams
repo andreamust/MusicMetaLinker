@@ -1,0 +1,112 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 2.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2,
+          "duration": 2.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 2.0,
+          "value": "C:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.2,
+          "duration": 2.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "Bb:maj7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "I-i-IV7-bVII",
+    "artist": "Composer Unknown",
+    "release": "Churchical Chants of the Nyabingi",
+    "duration": 207.0,
+    "identifiers": {
+      "musicbrainz": "5052ff49-c6fd-40a5-9ff8-9d60b7fe9e91",
+      "acousticbrainz": null,
+      "isrc": [
+        "USHB18302004"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=j4asUD0Ip5c",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": "A4",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

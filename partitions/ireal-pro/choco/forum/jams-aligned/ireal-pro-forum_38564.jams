@@ -1,0 +1,51 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Whatever It Takes",
+    "artist": "Walkupmusic.com Arr. of Anita Baker",
+    "release": "Compositions",
+    "duration": 335.4,
+    "identifiers": {
+      "musicbrainz": "55f61914-a90b-43a3-92b9-e1a5f218c168",
+      "acousticbrainz": null,
+      "isrc": [
+        "USAT20104384"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=nwP2r0U4Bbc",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Soul",
+    "track_number": "3",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

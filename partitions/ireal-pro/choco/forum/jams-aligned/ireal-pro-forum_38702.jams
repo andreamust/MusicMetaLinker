@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "D:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "B:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "E:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "A:sus4(b7)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Breezin'",
+    "artist": "Benson George",
+    "release": "The Best of George Benson Live (MSN exclusive)",
+    "duration": 341,
+    "identifiers": {
+      "musicbrainz": "6ce91918-a525-43f7-ac37-ed3b31536a7b",
+      "acousticbrainz": null,
+      "isrc": "USWB10201610",
+      "deezer_id": 710681,
+      "deezer_url": "https://www.deezer.com/track/710681",
+      "youtube_url": "https://music.youtube.com/watch?v=G1QjyskJ9jw",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": 1,
+    "release_year": "2007",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

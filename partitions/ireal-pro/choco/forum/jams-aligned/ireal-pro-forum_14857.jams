@@ -1,0 +1,208 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 1.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.1,
+          "duration": 1.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 1.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 1.5,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.15,
+          "duration": 1.5,
+          "value": "B:7/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 3.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 1.5,
+          "value": "G:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.15,
+          "duration": 1.5,
+          "value": "D#:dim7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 3.0,
+          "value": "E:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 1.5,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.15,
+          "duration": 1.5,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 3.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 1.5,
+          "value": "G:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.15,
+          "duration": 1.5,
+          "value": "C#:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 3.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 1.5,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.15,
+          "duration": 1.5,
+          "value": "B:7/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 1.5,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.15,
+          "duration": 1.5,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 1.5,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.15,
+          "duration": 1.5,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 1.5,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.15,
+          "duration": 1.5,
+          "value": "C#:dim",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 3.0,
+          "value": "G:maj/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 3.0,
+          "value": "D:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Lift Every Voice And Sing",
+    "artist": "James Weldon Johnson-J. Rosamond Johnson",
+    "release": "Legends of Acid Jazz",
+    "duration": 339.52,
+    "identifiers": {
+      "musicbrainz": "b581d3de-0c60-4040-8b05-e14685ce0c52",
+      "acousticbrainz": null,
+      "isrc": [
+        "USFI87100128"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=0d1p-JMqc94",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Ballad",
+    "track_number": "13",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

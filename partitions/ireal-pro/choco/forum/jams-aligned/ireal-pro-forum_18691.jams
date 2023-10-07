@@ -1,0 +1,68 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 2.0,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 2.0,
+          "value": "C:(*3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Tobacco Road",
+    "artist": "John D. Loudermilk",
+    "release": "Hillbilly Fever Rockabilly Hits '55 to '62",
+    "duration": 165,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "UKDNQ1575289",
+      "deezer_id": 1071127542,
+      "deezer_url": "https://www.deezer.com/track/1071127542",
+      "youtube_url": "https://music.youtube.com/watch?v=RhVbIz10LII",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Swing Two-Four",
+    "track_number": 19,
+    "release_year": "2014",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

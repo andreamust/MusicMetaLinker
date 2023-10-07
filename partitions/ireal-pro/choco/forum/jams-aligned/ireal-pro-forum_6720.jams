@@ -1,0 +1,58 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "I Ride An Old Paint                  [#]",
+    "artist": "be2sharp ARR:",
+    "release": "Super Chief: Music for the Silver Screen",
+    "duration": 131.013,
+    "identifiers": {
+      "musicbrainz": "96480733-fb53-4b39-a76d-b7135b08af96",
+      "acousticbrainz": null,
+      "isrc": [
+        "GB9TP1200233"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=1KZT0c4YGG8",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Zz Pick A Style You Like",
+    "track_number": "13",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

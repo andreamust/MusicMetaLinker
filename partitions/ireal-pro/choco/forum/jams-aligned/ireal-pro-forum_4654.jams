@@ -1,0 +1,208 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 2.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 2.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 2.0,
+          "value": "Gb:9(#11)",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 2.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.2,
+          "duration": 2.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "F#:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "B:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "F#:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 4.0,
+          "value": "D:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 4.0,
+          "value": "G:min9",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 4.0,
+          "value": "Eb:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 2.0,
+          "value": "A:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.2,
+          "duration": 2.0,
+          "value": "D:7(#11,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 2.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.2,
+          "duration": 2.0,
+          "value": "C:7(#11,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.0,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.0,
+          "duration": 2.0,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 18.2,
+          "duration": 2.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 19.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Garota de Ipanema F",
+    "artist": "Jobim Antonio-Carlos",
+    "release": "The Unknown",
+    "duration": 242.306,
+    "identifiers": {
+      "musicbrainz": "1683dea0-05b2-4d68-b494-79699339c9f9",
+      "acousticbrainz": null,
+      "isrc": [
+        "BRJ9B0500005"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=N-TKOh0zsvU",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Bossa Nova",
+    "track_number": "5",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

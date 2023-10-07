@@ -1,0 +1,146 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 1.3333333333333333,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.133333333333334,
+          "duration": 1.3333333333333333,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.266666666666667,
+          "duration": 1.3333333333333333,
+          "value": "A:7(b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 1.3333333333333333,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.133333333333333,
+          "duration": 1.3333333333333333,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.266666666666667,
+          "duration": 1.3333333333333333,
+          "value": "G:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Bea's Flat",
+    "artist": "Freeman Russ",
+    "release": "Legendary Recordings: Chet Baker",
+    "duration": 180,
+    "identifiers": {
+      "musicbrainz": "231e19ba-5d46-4b84-96b0-67eb13f377bf",
+      "acousticbrainz": null,
+      "isrc": "GBBMH1518104",
+      "deezer_id": 113351104,
+      "deezer_url": "https://www.deezer.com/track/113351104",
+      "youtube_url": "https://music.youtube.com/watch?v=9eVDWyIkLaQ",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Up Be-Bop",
+    "track_number": 4,
+    "release_year": "2015",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

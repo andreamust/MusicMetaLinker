@@ -1,0 +1,74 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 2.0,
+          "value": "F#:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 2.0,
+          "value": "E:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2,
+          "duration": 2.0,
+          "value": "B:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Move On Up",
+    "artist": "Mayfield Curtis",
+    "release": "The Best of Charly Groove",
+    "duration": 535,
+    "identifiers": {
+      "musicbrainz": "87498f93-86e6-483f-8262-da5878ed22d8",
+      "acousticbrainz": null,
+      "isrc": "USRH10401528",
+      "deezer_id": 903466,
+      "deezer_url": "https://www.deezer.com/track/903466",
+      "youtube_url": "https://music.youtube.com/watch?v=iN3KsbnQZxU",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Funk",
+    "track_number": 5,
+    "release_year": "1970",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

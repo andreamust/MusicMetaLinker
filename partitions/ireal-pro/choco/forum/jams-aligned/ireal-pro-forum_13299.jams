@@ -1,0 +1,56 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Un Homme Et Une Femme",
+    "artist": "Lai Francis",
+    "release": "Die Hit\u2010Giganten: Best of French Classics",
+    "duration": 161,
+    "identifiers": {
+      "musicbrainz": "587f18cc-f321-483c-b51e-4d4a4a825ca2",
+      "acousticbrainz": null,
+      "isrc": "FRP366600040",
+      "deezer_id": 49634641,
+      "deezer_url": "https://www.deezer.com/track/49634641",
+      "youtube_url": "https://music.youtube.com/watch?v=6E5mKpdLQlw",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Pop",
+    "track_number": 1,
+    "release_year": "2012",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

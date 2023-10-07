@@ -1,0 +1,152 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.2,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 2.0,
+          "value": "B:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.2,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 2.0,
+          "value": "F#:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.2,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Goin Blind",
+    "artist": "Kiss",
+    "release": "KISS Rocks Vegas",
+    "duration": 207,
+    "identifiers": {
+      "musicbrainz": "7b8de495-9aa6-42b4-b956-9bf818177998",
+      "acousticbrainz": null,
+      "isrc": "USPR39609080",
+      "deezer_id": 87916997,
+      "deezer_url": "https://www.deezer.com/track/87916997",
+      "youtube_url": "https://music.youtube.com/watch?v=FU0eUGu2wSU",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Pop Ballad",
+    "track_number": 3,
+    "release_year": "2014",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

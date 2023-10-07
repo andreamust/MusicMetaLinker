@@ -1,0 +1,58 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "How Ya Gonna Keep 'Em Down On the Farm  [#]",
+    "artist": "be2sharp ARR:",
+    "release": "We\u2019re Listening to Judy Garland, Vol. 1",
+    "duration": 104.0,
+    "identifiers": {
+      "musicbrainz": "72a2a0ba-9a16-40a3-8cc6-68ca3c9010f6",
+      "acousticbrainz": null,
+      "isrc": [
+        "UK4YS1358997"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=RssJZBCJRQo",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Zz Find a Style you prefer",
+    "track_number": "5",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

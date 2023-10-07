@@ -1,0 +1,149 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 3.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 3.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 3.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 3.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 3.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 3.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Brautiful Isle O'er The Sea - Flinner",
+    "artist": "A. P. Carter",
+    "release": "Early Country Classics",
+    "duration": 139.952,
+    "identifiers": {
+      "musicbrainz": "47afaecd-9a12-485a-9fd0-cb0c1b70f57e",
+      "acousticbrainz": null,
+      "isrc": [
+        "USA371182669",
+        "UKR791825882"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=a97fN3lGQUM",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Pop - Country",
+    "track_number": "14",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

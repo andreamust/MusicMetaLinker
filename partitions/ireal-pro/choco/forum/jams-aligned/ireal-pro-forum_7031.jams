@@ -1,0 +1,51 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "PLAY BY EAR - Three Blind Mice     [pbe]",
+    "artist": "be2# ARR:",
+    "release": "Mind: The Perpetual Intercourse",
+    "duration": 188.866,
+    "identifiers": {
+      "musicbrainz": "f3296a25-ffbb-4af2-ac27-776cde14f5a5",
+      "acousticbrainz": null,
+      "isrc": [
+        "CAN110400077"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=3smyE5hPN6A",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "ZX Choose A Style You Like",
+    "track_number": "A3",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 2.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 2.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.133333333333334,
+          "duration": 1.3333333333333333,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.266666666666667,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 2.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 2.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 2.0,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 2.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.133333333333333,
+          "duration": 1.3333333333333333,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.266666666666667,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Anamn\u00e8se d'Alliances",
+    "artist": "Alliances",
+    "release": "Missa Cantate / Cold Song / Sancta Maria / Christ Hall Blues",
+    "duration": 184.973,
+    "identifiers": {
+      "musicbrainz": "29d2e2c3-2931-4fe8-bc58-6892bf3d1fd3",
+      "acousticbrainz": null,
+      "isrc": [
+        "HKI191001107"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=9ah7Wb6Ty8Y",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": "7",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

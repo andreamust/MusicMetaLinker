@@ -1,0 +1,79 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 1.0,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.1,
+          "duration": 1.0,
+          "value": "Eb:maj/9",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 1.0,
+          "value": "F:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.3,
+          "duration": 1.0,
+          "value": "Eb:maj/9",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Hit Me With your Rhythm Stick bass practice",
+    "artist": "Ian Drury and The Blockheads",
+    "release": "Now That\u2019s What I Call HMV",
+    "duration": 223.2,
+    "identifiers": {
+      "musicbrainz": "c463ab5c-8547-4990-beec-05718a32dc33",
+      "acousticbrainz": null,
+      "isrc": [
+        "GB5KW2002687",
+        "USUG10700664",
+        "GBAFR7910095",
+        "GBBCP9800259"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=RUnQnIrJ3XE",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Rock Pop",
+    "track_number": "12",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

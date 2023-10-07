@@ -1,0 +1,146 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "C:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 2.0,
+          "value": "C:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "F:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "F:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "C:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 2.0,
+          "value": "E:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.2,
+          "duration": 2.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "C:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 2.0,
+          "value": "D:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.2,
+          "duration": 2.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 4.0,
+          "value": "C:9",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Back Home Blues",
+    "artist": "Parker Charlie",
+    "release": "The Encyclopedia of Jazz, Part 4/5: Bebop Story \u2013 A Musical Revolution That Radically Changed the Road of Jazz",
+    "duration": 166,
+    "identifiers": {
+      "musicbrainz": "6d6a6947-2654-46d5-991a-57565fbe8857",
+      "acousticbrainz": null,
+      "isrc": "USGR10200483",
+      "deezer_id": 1062866552,
+      "deezer_url": "https://www.deezer.com/track/1062866552",
+      "youtube_url": "https://music.youtube.com/watch?v=kDqrwK5dTjk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Up Swing",
+    "track_number": 83,
+    "release_year": "2020",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

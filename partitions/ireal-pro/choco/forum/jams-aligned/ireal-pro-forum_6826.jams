@@ -1,0 +1,106 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 0.4444444444444444,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.04444444444444444,
+          "duration": 0.4444444444444444,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.08888888888888888,
+          "duration": 0.4444444444444444,
+          "value": "E:(*3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.13333333333333333,
+          "duration": 0.4444444444444444,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.17777777777777776,
+          "duration": 0.4444444444444444,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.22222222222222224,
+          "duration": 0.4444444444444444,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2666666666666667,
+          "duration": 0.4444444444444444,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.31111111111111117,
+          "duration": 0.4444444444444444,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.3555555555555556,
+          "duration": 0.4444444444444444,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "My Bonnie Lies Over The Ocean  [#]",
+    "artist": "be2sharp ARR:",
+    "release": "Les Marins d'Iroise",
+    "duration": 180.026,
+    "identifiers": {
+      "musicbrainz": "1d08bef1-2093-4546-a51c-bdf1e52fec40",
+      "acousticbrainz": null,
+      "isrc": [
+        "FRUM71101071"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=_ht0dAy78mw",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Zz Choose A Style",
+    "track_number": "13",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}
