@@ -1,0 +1,49 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Correr\u00e9",
+    "artist": "Rodriguez Freddy",
+    "release": "Destino escrito",
+    "duration": 386,
+    "identifiers": {
+      "musicbrainz": "640b0bb9-4ba5-4e27-a4e9-992d4dd6fb37",
+      "acousticbrainz": null,
+      "isrc": "US25L0801790",
+      "deezer_id": 101238642,
+      "deezer_url": "https://www.deezer.com/track/101238642",
+      "youtube_url": "https://music.youtube.com/watch?v=eohcCEYBvLo",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "gospell",
+    "track_number": 5,
+    "release_year": "2013",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

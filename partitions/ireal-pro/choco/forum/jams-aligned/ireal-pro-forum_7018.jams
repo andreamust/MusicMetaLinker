@@ -1,0 +1,208 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.05714285714285714,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.11428571428571428,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.17142857142857143,
+          "duration": 0.5714285714285714,
+          "value": "E:(*3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.22857142857142856,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2857142857142857,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.3428571428571428,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0666666666666667,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.1333333333333333,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2666666666666666,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.3333333333333333,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.057142857142857,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1142857142857143,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1714285714285713,
+          "duration": 0.5714285714285714,
+          "value": "E:(*3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2285714285714286,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2857142857142856,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.342857142857143,
+          "duration": 0.5714285714285714,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.066666666666667,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1333333333333333,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2666666666666666,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3333333333333335,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "PLAY BY EAR - A Discussion Of The Lessons.  [pbe]",
+    "artist": "be2sharp",
+    "release": "Acme 143",
+    "duration": 145.266,
+    "identifiers": {
+      "musicbrainz": "76710586-1b2a-4f92-bc5e-2bc834d2f000",
+      "acousticbrainz": null,
+      "isrc": [
+        "US5269702604"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=CeHZAC_Ahx4",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "ZX Choose A Style ",
+    "track_number": "4",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

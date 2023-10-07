@@ -1,0 +1,188 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 2.0,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2,
+          "duration": 2.0,
+          "value": "Ab:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 2.0,
+          "value": "G:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2,
+          "duration": 2.0,
+          "value": "C:aug(b9,7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 1.0,
+          "value": "B:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 1.0,
+          "value": "B:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 1.0,
+          "value": "Cb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 1.0,
+          "value": "F:aug(b7,#9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "Bb:maj9(113)",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 2.0,
+          "value": "B:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.2,
+          "duration": 2.0,
+          "value": "E:9",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 2.0,
+          "value": "A:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.2,
+          "duration": 2.0,
+          "value": "F#:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 1.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.1,
+          "duration": 1.0,
+          "value": "Eb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.2,
+          "duration": 1.0,
+          "value": "Ab:sus4(9,113,b7)",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.3,
+          "duration": 1.0,
+          "value": "Ab:aug",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "Db:maj9(113)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 1.0,
+          "value": "C:(3,b5,b7,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.1,
+          "duration": 1.0,
+          "value": "C:(3,b5,b7,9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.2,
+          "duration": 1.0,
+          "value": "B:(3,b5,b7,b9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.3,
+          "duration": 1.0,
+          "value": "B:(3,b5,b7,9)",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "Bb:maj9(113)",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Peace",
+    "artist": "Silver Horace",
+    "release": "Retrospective",
+    "duration": 358,
+    "identifiers": {
+      "musicbrainz": "8dd0d756-3cd4-4a9a-b7b3-1b6489d2fcad",
+      "acousticbrainz": null,
+      "isrc": "USBN29800938",
+      "deezer_id": 10330985,
+      "deezer_url": "https://www.deezer.com/track/10330985",
+      "youtube_url": "https://music.youtube.com/watch?v=ieaAHwvqljg",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Ballad",
+    "track_number": 7,
+    "release_year": "2015",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

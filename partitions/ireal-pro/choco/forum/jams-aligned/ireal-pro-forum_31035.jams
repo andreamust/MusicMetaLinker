@@ -1,0 +1,88 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 0.5,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.05,
+          "duration": 0.5,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 1.0,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 1.0,
+          "value": "C:maj6",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 0.5,
+          "value": "C:maj7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.05,
+          "duration": 0.5,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "IRp_12-8",
+    "artist": "Charts Practice",
+    "release": "Le Disque du routard",
+    "duration": 257.333,
+    "identifiers": {
+      "musicbrainz": "f520c0f6-a7d4-4727-b578-44027eec74fe",
+      "acousticbrainz": null,
+      "isrc": [
+        "FRT623380010"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=79vxRvYqeT4",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Afro",
+    "track_number": "12",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

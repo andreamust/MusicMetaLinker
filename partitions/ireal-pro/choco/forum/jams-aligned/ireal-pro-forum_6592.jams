@@ -1,0 +1,82 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 0.8,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.08,
+          "duration": 0.8,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.16,
+          "duration": 0.8,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.24000000000000005,
+          "duration": 0.8,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.32,
+          "duration": 0.8,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Camptown Races     [#]",
+    "artist": "be2sharp ARR:",
+    "release": "The Very Best",
+    "duration": 116.56,
+    "identifiers": {
+      "musicbrainz": "a48bab62-409b-4f5d-b038-05810da5a390",
+      "acousticbrainz": null,
+      "isrc": [
+        "USSM16600285"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=KSN5SdL_ohY",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Zz Choose A Style",
+    "track_number": "7",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

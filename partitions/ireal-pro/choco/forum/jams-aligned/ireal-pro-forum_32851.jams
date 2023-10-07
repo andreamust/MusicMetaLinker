@@ -1,0 +1,158 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.1,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 1.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.3,
+          "duration": 1.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 1.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1,
+          "duration": 1.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 1.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3,
+          "duration": 1.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "B:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "E:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "A:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 4.0,
+          "value": "B:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Earthworm",
+    "artist": "Bridgman Nicholas",
+    "release": "Blue Horizon",
+    "duration": 238,
+    "identifiers": {
+      "musicbrainz": null,
+      "acousticbrainz": null,
+      "isrc": "USCGH2218122",
+      "deezer_id": 1621401682,
+      "deezer_url": "https://www.deezer.com/track/1621401682",
+      "youtube_url": "https://music.youtube.com/watch?v=4d5dKITilMk",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": 6,
+    "release_year": "2022",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

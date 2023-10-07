@@ -1,0 +1,200 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "E:min/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 0.6666666666666666,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.066666666666667,
+          "duration": 0.6666666666666666,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.1333333333333333,
+          "duration": 0.6666666666666666,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2,
+          "duration": 0.6666666666666666,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2666666666666666,
+          "duration": 0.6666666666666666,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.3333333333333335,
+          "duration": 0.6666666666666666,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 4.0,
+          "value": "E:min/5",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 4.0,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 8.0,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 9.0,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 10.0,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 11.0,
+          "duration": 4.0,
+          "value": "G:7",
+          "confidence": 1.0
+        },
+        {
+          "time": 12.0,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 13.0,
+          "duration": 4.0,
+          "value": "A:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 14.0,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.0,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.133333333333333,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 15.266666666666667,
+          "duration": 1.3333333333333333,
+          "value": "F:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 16.0,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 17.0,
+          "duration": 4.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Forever Young",
+    "artist": "Dylan Bob",
+    "release": "Limited Edition Catalog Box Set",
+    "duration": 195,
+    "identifiers": {
+      "musicbrainz": "a3ddb4e3-ed23-4c12-8c1b-424d211cfa14",
+      "acousticbrainz": null,
+      "isrc": "USSM12211110",
+      "deezer_id": 2294726595,
+      "deezer_url": "https://www.deezer.com/track/2294726595",
+      "youtube_url": "https://music.youtube.com/watch?v=dLU4jlR18UQ",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Medium Swing",
+    "track_number": 9,
+    "release_year": "2023",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

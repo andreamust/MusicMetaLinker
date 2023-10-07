@@ -1,0 +1,124 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 0.3333333333333333,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.03333333333333333,
+          "duration": 0.3333333333333333,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.06666666666666667,
+          "duration": 0.3333333333333333,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.1,
+          "duration": 0.3333333333333333,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.13333333333333333,
+          "duration": 0.3333333333333333,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.16666666666666666,
+          "duration": 0.3333333333333333,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.19999999999999998,
+          "duration": 0.3333333333333333,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.2333333333333333,
+          "duration": 0.3333333333333333,
+          "value": "D:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.26666666666666666,
+          "duration": 0.3333333333333333,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.3,
+          "duration": 0.3333333333333333,
+          "value": "Bb:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.33333333333333337,
+          "duration": 0.3333333333333333,
+          "value": "G:min",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.3666666666666667,
+          "duration": 0.3333333333333333,
+          "value": "A:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Un Encuentro Sobrenatural ( Alex)",
+    "artist": "Wine New",
+    "release": "20+",
+    "duration": 339.453,
+    "identifiers": {
+      "musicbrainz": "a4db7db9-1890-4dad-9de9-5e7e0263d8c9",
+      "acousticbrainz": null,
+      "isrc": [
+        "ESAAI0187763"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=-B5iAuIioTw",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Ballad",
+    "track_number": "8",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

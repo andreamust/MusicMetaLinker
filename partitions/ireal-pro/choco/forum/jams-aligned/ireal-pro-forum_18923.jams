@@ -1,0 +1,80 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 1.3333333333333333,
+          "value": "Ab:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.13333333333333333,
+          "duration": 1.3333333333333333,
+          "value": "Db:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.26666666666666666,
+          "duration": 1.3333333333333333,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 2.0,
+          "value": "Bb:min7",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.2,
+          "duration": 2.0,
+          "value": "Eb:7",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Ignition",
+    "artist": "Kelly R.",
+    "release": "Totally R&B",
+    "duration": 187,
+    "identifiers": {
+      "musicbrainz": "0339abc6-f965-4567-ba8d-29b72ea69e4f",
+      "acousticbrainz": null,
+      "isrc": "USJI10300018",
+      "deezer_id": 65440751,
+      "deezer_url": "https://www.deezer.com/track/65440751",
+      "youtube_url": "https://music.youtube.com/watch?v=m6d03iQhU3g",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "R n B",
+    "track_number": 1,
+    "release_year": "2013",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Cambi\u00e9 Por Ti",
+    "artist": "Gosen",
+    "release": "\u00c9xitos",
+    "duration": 403,
+    "identifiers": {
+      "musicbrainz": "93564e0b-7793-4fde-a739-17c2aed23954",
+      "acousticbrainz": null,
+      "isrc": "USHM81175652",
+      "deezer_id": 72122226,
+      "deezer_url": "https://www.deezer.com/track/72122226",
+      "youtube_url": "https://music.youtube.com/watch?v=L9_6i9ZIsjo",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Rock",
+    "track_number": 5,
+    "release_year": "2014",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

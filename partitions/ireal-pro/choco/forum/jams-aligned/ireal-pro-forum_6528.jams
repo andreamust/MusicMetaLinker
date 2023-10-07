@@ -1,0 +1,70 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.06666666666666667,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.13333333333333333,
+          "duration": 0.6666666666666666,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Alouette                 [#]",
+    "artist": "be2sharp ARR:",
+    "release": "80 comptines \u00e0 mimer et jeux de doigts",
+    "duration": 108.373,
+    "identifiers": {
+      "musicbrainz": "b105a664-b866-429a-b35a-247be2c82127",
+      "acousticbrainz": null,
+      "isrc": [
+        "FRY680700261"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=zaqqLsfqkRA",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Zz Set An iReal Style",
+    "track_number": "37",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

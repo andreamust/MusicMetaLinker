@@ -1,0 +1,70 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 1.3333333333333333,
+          "value": "Ab:(*3,*5)",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.13333333333333333,
+          "duration": 1.3333333333333333,
+          "value": "N",
+          "confidence": 1.0
+        },
+        {
+          "time": 0.26666666666666666,
+          "duration": 1.3333333333333333,
+          "value": "N",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Let Me Call You Sweetheart (8-bar intro and coda) [#]",
+    "artist": "be2sharp ARR:",
+    "release": "The Rose: The Original Soundtrack Recording",
+    "duration": 95.8,
+    "identifiers": {
+      "musicbrainz": "6bb8f306-f93f-40cb-8d31-e755e339de28",
+      "acousticbrainz": null,
+      "isrc": [
+        "USAT29901581"
+      ],
+      "deezer_id": null,
+      "deezer_url": null,
+      "youtube_url": "https://music.youtube.com/watch?v=Ls9Aov8S19c",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "Zz Choose A Style",
+    "track_number": "11",
+    "release_year": null,
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}

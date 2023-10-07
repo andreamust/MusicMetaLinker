@@ -1,0 +1,140 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "chord_harte",
+      "data": [
+        {
+          "time": 0.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 1.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.0,
+          "duration": 2.0,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2,
+          "duration": 2.0,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 3.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.0,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.133333333333334,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 4.266666666666667,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.133333333333334,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 5.266666666666667,
+          "duration": 1.3333333333333333,
+          "value": "G:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.0,
+          "duration": 1.3333333333333333,
+          "value": "C:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.133333333333334,
+          "duration": 1.3333333333333333,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 6.266666666666667,
+          "duration": 1.3333333333333333,
+          "value": "D:maj",
+          "confidence": 1.0
+        },
+        {
+          "time": 7.0,
+          "duration": 4.0,
+          "value": "G:maj",
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "file_metadata": {
+    "title": "Monkey Man",
+    "artist": "Specials The",
+    "release": "The Specials",
+    "duration": 156,
+    "identifiers": {
+      "musicbrainz": "c01e16e3-08d0-43d1-bcb0-e087d9725cb1",
+      "acousticbrainz": null,
+      "isrc": "GBAYK1200020",
+      "deezer_id": 1798822587,
+      "deezer_url": "https://www.deezer.com/track/1798822587",
+      "youtube_url": "https://music.youtube.com/watch?v=6qgfsr3Jnfo",
+      "spotify_id": null
+    },
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {
+    "type": "score",
+    "genre": "R'n'B",
+    "track_number": 8,
+    "release_year": "2012",
+    "composers": null,
+    "performers": null,
+    "tuning": null
+  }
+}
