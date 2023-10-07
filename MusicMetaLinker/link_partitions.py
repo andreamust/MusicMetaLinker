@@ -114,7 +114,9 @@ def complement_jams(linker: linking.Align,
 
 def retrieve_links(partitions_path: Path,
                    save: bool = True,
-                   limit: str | None = None) -> None:
+                   limit: str | None = None,
+                   overwrite: bool = False,
+                   ) -> None:
     """
     Iterates over the partitions and retrieves the links for each one of them.
     Parameters
@@ -144,6 +146,11 @@ def retrieve_links(partitions_path: Path,
 
         # iterate over the JAMS files
         for jams_file in tqdm(jams_path.glob("*.jams"), leave=False):
+            # if file exists, skip
+            if overwrite and (jams_file.parent.parent / "jams-aligned" / jams_file.name).exists():
+                logger.info(
+                    f"JAMS file {jams_file.name} already exists, skipping")
+                continue
             # log track information
             logger.info(f"Processing JAMS file {jams_file.name}")
             # process the JAMS file
@@ -161,8 +168,9 @@ def retrieve_links(partitions_path: Path,
                 musicbrainz_id_release = jams_process.musicbrainz_id
                 musicbrainz_id = None
                 if musicbrainz_id_release and \
-                '://musicbrainz.org' in musicbrainz_id_release: 
-                    musicbrainz_id_release = musicbrainz_id_release.split('/')[-1]
+                        '://musicbrainz.org' in musicbrainz_id_release:
+                    musicbrainz_id_release = musicbrainz_id_release.split(
+                        '/')[-1]
             if partition.name == "billboard":
                 spotify_id, isrc = clean_billboard.clean_billboard(track_title,
                                                                    artist_name)
