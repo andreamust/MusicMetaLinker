@@ -7,9 +7,7 @@ MusicMetaLinker is a Python library designed to seamlessly link music tracks to 
 You can install the latest version of MusicMetaLinker by cloning this repository and running the following command:
 
 ```bash
-git clone https://github.com/andreamust/MusicMetaLinker.git
-cd MusicMetaLinker
-pip install -r requirements.txt
+pip install git+https://github.com/andreamust/MusicMetaLinker.git
 ```
 
 ## Usage
