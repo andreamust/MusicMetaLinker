@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "MusicMetaLinker"
+version = "0.0.1"
+authors = [
+  { name="Andrea Poltronieri", email="andrea.poltronieri21@gmail.com" },
+]
+description = "MusicMetaLinker is a Python library designed to seamlessly link music tracks to external sources, enhancing your music collection with rich and accurate metadata."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "cryptography~=41.0.2",
+  "deezer-python~=5.8.1",
+  "musicbrainzngs~=0.7.1",
+  "tqdm~=4.65.0",
+  "jams~=0.3.4",
+  "spotipy~=2.23.0",
+  "ytmusicapi~=1.2.1",
+  "requests~=2.28.1",
+  "pandas~=2.0.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/andreamust/MusicMetaLinker"
+Issues = "https://github.com/andreamust/MusicMetaLinker/issues"
