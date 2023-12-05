@@ -30,6 +30,7 @@ class MusicBrainzAlign:
         duration (float): The duration of the track.
         isrc (str): The ISRC of the track.
         strict (bool): Whether to use strict matching or not.
+        limit (int): Whether to limit the search to a smaller set of candidates for faster querying.
     """
 
     def __init__(
@@ -43,6 +44,7 @@ class MusicBrainzAlign:
             duration: float | None = None,
             isrc: list | str | None = None,
             strict: bool = False,
+            limit: int | None = None
             ):
         
         self.mbid_track = mbid_track
@@ -56,6 +58,7 @@ class MusicBrainzAlign:
         if isinstance(self.isrc, str):
             self.isrc = [self.isrc]
         self.strict = strict
+        self.limit = limit
 
         mb.set_useragent("elka", "0.1", "https://elka.com")
 
@@ -75,7 +78,7 @@ class MusicBrainzAlign:
                     isrc_result = mb.get_recordings_by_isrc(
                         isrc=isrc,
                         includes=["artists", "releases", "isrcs"],
-                        release_status=["official"],
+                        release_status=["official"]
                     )
                     return isrc_result
                 except mb.ResponseError:
@@ -142,6 +145,7 @@ class MusicBrainzAlign:
             dur=self.duration,
             tnum=self.track_number,
             strict=self.strict,
+            limit=self.limit,
         )
         return search_results["recording-list"]
 
